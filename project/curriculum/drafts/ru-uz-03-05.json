@@ -1,0 +1,122 @@
+{
+  "status": "draft_unreviewed",
+  "editorial_notes": [
+    "Original demonstration draft. Educator review of wording and progression is required.",
+    "Written practice only; pronunciation and native-speaker audio are not yet reviewed.",
+    "The linked outline may cover more than this short sample."
+  ],
+  "content": {
+    "course": "ru-uz",
+    "title": "Как вас зовут?",
+    "objective": "Различать уважительный и неформальный вопрос об имени.",
+    "minutes": 8,
+    "module_number": 3,
+    "lesson_number": 5,
+    "words": [
+      {
+        "target": "Ismingiz nima?",
+        "meaning": "Как вас зовут?"
+      },
+      {
+        "target": "Isming nima?",
+        "meaning": "Как тебя зовут?"
+      },
+      {
+        "target": "Mening ismim Anya.",
+        "meaning": "Меня зовут Аня."
+      },
+      {
+        "target": "Tanishganimdan xursandman.",
+        "meaning": "Рад знакомству."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "q1",
+        "type": "choice",
+        "prompt": "Как по-узбекски: «Как вас зовут?»?",
+        "options": [
+          "Ismingiz nima?",
+          "Isming nima?",
+          "Mening ismim Anya."
+        ],
+        "answers": [
+          "Ismingiz nima?"
+        ],
+        "explanation": "Ismingiz nima? — Как вас зовут?"
+      },
+      {
+        "id": "q2",
+        "type": "choice",
+        "prompt": "Что означает «Isming nima?»?",
+        "options": [
+          "Меня зовут Аня.",
+          "Как тебя зовут?",
+          "Как вас зовут?"
+        ],
+        "answers": [
+          "Как тебя зовут?"
+        ],
+        "explanation": "Isming nima? — Как тебя зовут?"
+      },
+      {
+        "id": "q3",
+        "type": "text",
+        "prompt": "Напишите по-узбекски: «Меня зовут Аня.»",
+        "options": [],
+        "answers": [
+          "Mening ismim Anya."
+        ],
+        "explanation": "Mening ismim Anya. — Меня зовут Аня.",
+        "normalization": {
+          "case_sensitive": false,
+          "punctuation_tolerant": true,
+          "apostrophe_variants": true
+        }
+      },
+      {
+        "id": "q4",
+        "type": "choice",
+        "prompt": "Выберите перевод: «Рад знакомству.»",
+        "options": [
+          "Isming nima?",
+          "Tanishganimdan xursandman.",
+          "Ismingiz nima?"
+        ],
+        "answers": [
+          "Tanishganimdan xursandman."
+        ],
+        "explanation": "Tanishganimdan xursandman. — Рад знакомству."
+      },
+      {
+        "id": "q5",
+        "type": "match",
+        "prompt": "Соедините фразы и их значения.",
+        "options": [],
+        "answers": [],
+        "explanation": "Сопоставьте слова и переводы.",
+        "match_pairs": [
+          {
+            "left": "Ismingiz nima?",
+            "right": "Как вас зовут?"
+          },
+          {
+            "left": "Isming nima?",
+            "right": "Как тебя зовут?"
+          },
+          {
+            "left": "Mening ismim Anya.",
+            "right": "Меня зовут Аня."
+          }
+        ]
+      }
+    ],
+    "outline_ref": {
+      "course": "ru-uz",
+      "module_number": 3,
+      "lesson_number": 5,
+      "source_sha256": "58a33c4a8c89c57886dface7064fff0c5ef413940fc4c0018c8f7acb87b59cf8"
+    },
+    "teaching_note": "Siz обычно используют при уважительном обращении или обращении к нескольким людям; sen — при неформальном обращении к одному знакомому человеку."
+  }
+}

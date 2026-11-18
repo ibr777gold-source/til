@@ -1,0 +1,91 @@
+{
+  "status": "draft_unreviewed",
+  "editorial_notes": [
+    "Original sample for the local MVP demo. Requires language educator review.",
+    "No audio is included.",
+    "Linked outline: Как дела?. This sample may cover only part of its objective; verify scope during review."
+  ],
+  "content": {
+    "title": "Знакомство: короткий диалог",
+    "objective": "Потренируйте приветствие и знакомство на узбекском языке.",
+    "words": [
+      {
+        "target": "Salom!",
+        "meaning": "Привет!"
+      },
+      {
+        "target": "Mening ismim Anya.",
+        "meaning": "Меня зовут Аня."
+      },
+      {
+        "target": "Ismingiz nima?",
+        "meaning": "Как вас зовут?"
+      },
+      {
+        "target": "Xayr!",
+        "meaning": "Пока!"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "q1",
+        "type": "dialogue",
+        "prompt": "Выберите ответ на приветствие.",
+        "dialogue": [
+          {
+            "speaker": "Anya",
+            "text": "Salom!"
+          }
+        ],
+        "options": [
+          "Salom!",
+          "Xayr!",
+          "Rahmat!"
+        ],
+        "answers": [
+          "Salom!"
+        ],
+        "explanation": "Salom — приветствие."
+      },
+      {
+        "id": "q2",
+        "type": "order",
+        "prompt": "Составьте фразу «Меня зовут Аня».",
+        "options": [
+          "Anya",
+          "ismim",
+          "Mening"
+        ],
+        "answers": [
+          "Mening ismim Anya"
+        ],
+        "explanation": "Mening ismim Anya означает «Меня зовут Аня»."
+      },
+      {
+        "id": "q3",
+        "type": "choice",
+        "prompt": "Что означает «Xayr!»?",
+        "options": [
+          "До свидания!",
+          "Здравствуйте!",
+          "Спасибо!"
+        ],
+        "answers": [
+          "До свидания!"
+        ],
+        "explanation": "Xayr — прощание."
+      }
+    ],
+    "course": "ru-uz",
+    "minutes": 6,
+    "module_number": 3,
+    "lesson_number": 2,
+    "outline_ref": {
+      "course": "ru-uz",
+      "module_number": 3,
+      "lesson_number": 2,
+      "source_sha256": "58a33c4a8c89c57886dface7064fff0c5ef413940fc4c0018c8f7acb87b59cf8"
+    },
+    "teaching_note": "В диалоге поприветствуйте собеседника, назовите своё имя и ответьте на его реплику. Следите за тем, кто говорит."
+  }
+}

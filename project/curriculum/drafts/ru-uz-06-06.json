@@ -1,0 +1,122 @@
+{
+  "status": "draft_unreviewed",
+  "editorial_notes": [
+    "Original demonstration draft. Educator review of wording and progression is required.",
+    "Written practice only; pronunciation and native-speaker audio are not yet reviewed.",
+    "The linked outline may cover more than this short sample."
+  ],
+  "content": {
+    "course": "ru-uz",
+    "title": "Короткое описание",
+    "objective": "Читать короткие фразы о людях и вещах.",
+    "minutes": 8,
+    "module_number": 6,
+    "lesson_number": 6,
+    "words": [
+      {
+        "target": "Bu mening onam.",
+        "meaning": "Это моя мама."
+      },
+      {
+        "target": "U mehribon.",
+        "meaning": "Она или он добрый человек."
+      },
+      {
+        "target": "Bu yangi kitob.",
+        "meaning": "Это новая книга."
+      },
+      {
+        "target": "Bu katta uy.",
+        "meaning": "Это большой дом."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "q1",
+        "type": "choice",
+        "prompt": "Как по-узбекски: «Это моя мама.»?",
+        "options": [
+          "Bu mening onam.",
+          "U mehribon.",
+          "Bu yangi kitob."
+        ],
+        "answers": [
+          "Bu mening onam."
+        ],
+        "explanation": "Bu mening onam. — Это моя мама."
+      },
+      {
+        "id": "q2",
+        "type": "choice",
+        "prompt": "Что означает «U mehribon.»?",
+        "options": [
+          "Это новая книга.",
+          "Она или он добрый человек.",
+          "Это моя мама."
+        ],
+        "answers": [
+          "Она или он добрый человек."
+        ],
+        "explanation": "U mehribon. — Она или он добрый человек."
+      },
+      {
+        "id": "q3",
+        "type": "text",
+        "prompt": "Напишите по-узбекски: «Это новая книга.»",
+        "options": [],
+        "answers": [
+          "Bu yangi kitob."
+        ],
+        "explanation": "Bu yangi kitob. — Это новая книга.",
+        "normalization": {
+          "case_sensitive": false,
+          "punctuation_tolerant": true,
+          "apostrophe_variants": true
+        }
+      },
+      {
+        "id": "q4",
+        "type": "choice",
+        "prompt": "Выберите перевод: «Это большой дом.»",
+        "options": [
+          "U mehribon.",
+          "Bu katta uy.",
+          "Bu mening onam."
+        ],
+        "answers": [
+          "Bu katta uy."
+        ],
+        "explanation": "Bu katta uy. — Это большой дом."
+      },
+      {
+        "id": "q5",
+        "type": "match",
+        "prompt": "Соедините фразы и их значения.",
+        "options": [],
+        "answers": [],
+        "explanation": "Сопоставьте слова и переводы.",
+        "match_pairs": [
+          {
+            "left": "Bu mening onam.",
+            "right": "Это моя мама."
+          },
+          {
+            "left": "U mehribon.",
+            "right": "Она или он добрый человек."
+          },
+          {
+            "left": "Bu yangi kitob.",
+            "right": "Это новая книга."
+          }
+        ]
+      }
+    ],
+    "outline_ref": {
+      "course": "ru-uz",
+      "module_number": 6,
+      "lesson_number": 6,
+      "source_sha256": "58a33c4a8c89c57886dface7064fff0c5ef413940fc4c0018c8f7acb87b59cf8"
+    },
+    "teaching_note": "Bu помогает указать на человека или предмет. U может относиться к мужчине или женщине; русский перевод выбирают по контексту."
+  }
+}

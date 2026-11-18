@@ -1,0 +1,122 @@
+{
+  "status": "draft_unreviewed",
+  "editorial_notes": [
+    "Original demonstration draft. Educator review of wording and progression is required.",
+    "Written practice only; pronunciation and native-speaker audio are not yet reviewed.",
+    "The linked outline may cover more than this short sample."
+  ],
+  "content": {
+    "course": "ru-uz",
+    "title": "Описываем человека",
+    "objective": "Узнавать простые фразы о человеке.",
+    "minutes": 8,
+    "module_number": 6,
+    "lesson_number": 5,
+    "words": [
+      {
+        "target": "U mehribon.",
+        "meaning": "Он или она добрый человек."
+      },
+      {
+        "target": "U baland bo‘yli.",
+        "meaning": "Он или она высокого роста."
+      },
+      {
+        "target": "U yosh.",
+        "meaning": "Он или она молодого возраста."
+      },
+      {
+        "target": "U talaba.",
+        "meaning": "Он или она студент."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "q1",
+        "type": "choice",
+        "prompt": "Как по-узбекски: «Он или она добрый человек.»?",
+        "options": [
+          "U mehribon.",
+          "U baland bo‘yli.",
+          "U yosh."
+        ],
+        "answers": [
+          "U mehribon."
+        ],
+        "explanation": "U mehribon. — Он или она добрый человек."
+      },
+      {
+        "id": "q2",
+        "type": "choice",
+        "prompt": "Что означает «U baland bo‘yli.»?",
+        "options": [
+          "Он или она молодого возраста.",
+          "Он или она высокого роста.",
+          "Он или она добрый человек."
+        ],
+        "answers": [
+          "Он или она высокого роста."
+        ],
+        "explanation": "U baland bo‘yli. — Он или она высокого роста."
+      },
+      {
+        "id": "q3",
+        "type": "text",
+        "prompt": "Напишите по-узбекски: «Он или она молодого возраста.»",
+        "options": [],
+        "answers": [
+          "U yosh."
+        ],
+        "explanation": "U yosh. — Он или она молодого возраста.",
+        "normalization": {
+          "case_sensitive": false,
+          "punctuation_tolerant": true,
+          "apostrophe_variants": true
+        }
+      },
+      {
+        "id": "q4",
+        "type": "choice",
+        "prompt": "Выберите перевод: «Он или она студент.»",
+        "options": [
+          "U baland bo‘yli.",
+          "U talaba.",
+          "U mehribon."
+        ],
+        "answers": [
+          "U talaba."
+        ],
+        "explanation": "U talaba. — Он или она студент."
+      },
+      {
+        "id": "q5",
+        "type": "match",
+        "prompt": "Соедините фразы и их значения.",
+        "options": [],
+        "answers": [],
+        "explanation": "Сопоставьте слова и переводы.",
+        "match_pairs": [
+          {
+            "left": "U mehribon.",
+            "right": "Он или она добрый человек."
+          },
+          {
+            "left": "U baland bo‘yli.",
+            "right": "Он или она высокого роста."
+          },
+          {
+            "left": "U yosh.",
+            "right": "Он или она молодого возраста."
+          }
+        ]
+      }
+    ],
+    "outline_ref": {
+      "course": "ru-uz",
+      "module_number": 6,
+      "lesson_number": 5,
+      "source_sha256": "58a33c4a8c89c57886dface7064fff0c5ef413940fc4c0018c8f7acb87b59cf8"
+    },
+    "teaching_note": "U может относиться к мужчине или женщине: узбекское местоимение не указывает пол. Русский перевод выбирают по контексту."
+  }
+}

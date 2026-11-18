@@ -1,0 +1,122 @@
+{
+  "status": "draft_unreviewed",
+  "editorial_notes": [
+    "Original demonstration draft. Educator review of wording and progression is required.",
+    "Written practice only; pronunciation and native-speaker audio are not yet reviewed.",
+    "The linked outline may cover more than this short sample."
+  ],
+  "content": {
+    "course": "ru-uz",
+    "title": "Повседневные действия",
+    "objective": "Узнавать простые фразы о повседневных действиях.",
+    "minutes": 8,
+    "module_number": 7,
+    "lesson_number": 5,
+    "words": [
+      {
+        "target": "Men o‘qiyapman.",
+        "meaning": "Я читаю."
+      },
+      {
+        "target": "Men ishlayapman.",
+        "meaning": "Я работаю."
+      },
+      {
+        "target": "Men dam olyapman.",
+        "meaning": "Я отдыхаю."
+      },
+      {
+        "target": "Men uxlayapman.",
+        "meaning": "Я сплю."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "q1",
+        "type": "choice",
+        "prompt": "Как по-узбекски: «Я читаю.»?",
+        "options": [
+          "Men o‘qiyapman.",
+          "Men ishlayapman.",
+          "Men dam olyapman."
+        ],
+        "answers": [
+          "Men o‘qiyapman."
+        ],
+        "explanation": "Men o‘qiyapman. — Я читаю."
+      },
+      {
+        "id": "q2",
+        "type": "choice",
+        "prompt": "Что означает «Men ishlayapman.»?",
+        "options": [
+          "Я отдыхаю.",
+          "Я работаю.",
+          "Я читаю."
+        ],
+        "answers": [
+          "Я работаю."
+        ],
+        "explanation": "Men ishlayapman. — Я работаю."
+      },
+      {
+        "id": "q3",
+        "type": "text",
+        "prompt": "Напишите по-узбекски: «Я отдыхаю.»",
+        "options": [],
+        "answers": [
+          "Men dam olyapman."
+        ],
+        "explanation": "Men dam olyapman. — Я отдыхаю.",
+        "normalization": {
+          "case_sensitive": false,
+          "punctuation_tolerant": true,
+          "apostrophe_variants": true
+        }
+      },
+      {
+        "id": "q4",
+        "type": "choice",
+        "prompt": "Выберите перевод: «Я сплю.»",
+        "options": [
+          "Men ishlayapman.",
+          "Men uxlayapman.",
+          "Men o‘qiyapman."
+        ],
+        "answers": [
+          "Men uxlayapman."
+        ],
+        "explanation": "Men uxlayapman. — Я сплю."
+      },
+      {
+        "id": "q5",
+        "type": "match",
+        "prompt": "Соедините фразы и их значения.",
+        "options": [],
+        "answers": [],
+        "explanation": "Сопоставьте слова и переводы.",
+        "match_pairs": [
+          {
+            "left": "Men o‘qiyapman.",
+            "right": "Я читаю."
+          },
+          {
+            "left": "Men ishlayapman.",
+            "right": "Я работаю."
+          },
+          {
+            "left": "Men dam olyapman.",
+            "right": "Я отдыхаю."
+          }
+        ]
+      }
+    ],
+    "outline_ref": {
+      "course": "ru-uz",
+      "module_number": 7,
+      "lesson_number": 5,
+      "source_sha256": "58a33c4a8c89c57886dface7064fff0c5ef413940fc4c0018c8f7acb87b59cf8"
+    },
+    "teaching_note": "В этих примерах формы на -yapman описывают действие говорящего сейчас: Men ishlayapman — «Я работаю»."
+  }
+}

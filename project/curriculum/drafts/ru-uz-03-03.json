@@ -1,0 +1,122 @@
+{
+  "status": "draft_unreviewed",
+  "editorial_notes": [
+    "Original demonstration draft. Educator review of wording and progression is required.",
+    "Written practice only; pronunciation and native-speaker audio are not yet reviewed.",
+    "The linked outline may cover more than this short sample."
+  ],
+  "content": {
+    "course": "ru-uz",
+    "title": "Благодарность и прощание",
+    "objective": "Узнавать слова благодарности и прощания.",
+    "minutes": 8,
+    "module_number": 3,
+    "lesson_number": 3,
+    "words": [
+      {
+        "target": "Rahmat",
+        "meaning": "Спасибо"
+      },
+      {
+        "target": "Xayr",
+        "meaning": "До свидания"
+      },
+      {
+        "target": "Marhamat",
+        "meaning": "Пожалуйста, когда предлагаете"
+      },
+      {
+        "target": "Iltimos",
+        "meaning": "Пожалуйста, в просьбе"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "q1",
+        "type": "choice",
+        "prompt": "Как по-узбекски: «Спасибо»?",
+        "options": [
+          "Rahmat",
+          "Xayr",
+          "Marhamat"
+        ],
+        "answers": [
+          "Rahmat"
+        ],
+        "explanation": "Rahmat — Спасибо"
+      },
+      {
+        "id": "q2",
+        "type": "choice",
+        "prompt": "Что означает «Xayr»?",
+        "options": [
+          "Пожалуйста, когда предлагаете",
+          "До свидания",
+          "Спасибо"
+        ],
+        "answers": [
+          "До свидания"
+        ],
+        "explanation": "Xayr — До свидания"
+      },
+      {
+        "id": "q3",
+        "type": "text",
+        "prompt": "Напишите по-узбекски: «Пожалуйста, когда предлагаете»",
+        "options": [],
+        "answers": [
+          "Marhamat"
+        ],
+        "explanation": "Marhamat — Пожалуйста, когда предлагаете",
+        "normalization": {
+          "case_sensitive": false,
+          "punctuation_tolerant": true,
+          "apostrophe_variants": true
+        }
+      },
+      {
+        "id": "q4",
+        "type": "choice",
+        "prompt": "Выберите перевод: «Пожалуйста, в просьбе»",
+        "options": [
+          "Xayr",
+          "Iltimos",
+          "Rahmat"
+        ],
+        "answers": [
+          "Iltimos"
+        ],
+        "explanation": "Iltimos — Пожалуйста, в просьбе"
+      },
+      {
+        "id": "q5",
+        "type": "match",
+        "prompt": "Соедините фразы и их значения.",
+        "options": [],
+        "answers": [],
+        "explanation": "Сопоставьте слова и переводы.",
+        "match_pairs": [
+          {
+            "left": "Rahmat",
+            "right": "Спасибо"
+          },
+          {
+            "left": "Xayr",
+            "right": "До свидания"
+          },
+          {
+            "left": "Marhamat",
+            "right": "Пожалуйста, когда предлагаете"
+          }
+        ]
+      }
+    ],
+    "outline_ref": {
+      "course": "ru-uz",
+      "module_number": 3,
+      "lesson_number": 3,
+      "source_sha256": "58a33c4a8c89c57886dface7064fff0c5ef413940fc4c0018c8f7acb87b59cf8"
+    },
+    "teaching_note": "Rahmat выражает благодарность. Iltimos используют в просьбе; marhamat может звучать при предложении или приглашении."
+  }
+}

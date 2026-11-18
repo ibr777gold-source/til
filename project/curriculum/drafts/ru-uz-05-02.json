@@ -1,0 +1,146 @@
+{
+  "status": "draft_unreviewed",
+  "editorial_notes": [
+    "Original demonstration draft; educator review of language and sequencing is required.",
+    "Written practice only; no reviewed listening or pronunciation recording.",
+    "The outline may cover more than this draft; verify before publication."
+  ],
+  "content": {
+    "course": "ru-uz",
+    "title": "Числа от 11 до 20",
+    "objective": "Узнавать узбекскую запись чисел от 11 до 20.",
+    "minutes": 8,
+    "module_number": 5,
+    "lesson_number": 2,
+    "words": [
+      {
+        "target": "o‘n bir",
+        "meaning": "11"
+      },
+      {
+        "target": "o‘n ikki",
+        "meaning": "12"
+      },
+      {
+        "target": "o‘n uch",
+        "meaning": "13"
+      },
+      {
+        "target": "o‘n to‘rt",
+        "meaning": "14"
+      },
+      {
+        "target": "o‘n besh",
+        "meaning": "15"
+      },
+      {
+        "target": "o‘n olti",
+        "meaning": "16"
+      },
+      {
+        "target": "o‘n yetti",
+        "meaning": "17"
+      },
+      {
+        "target": "o‘n sakkiz",
+        "meaning": "18"
+      },
+      {
+        "target": "o‘n to‘qqiz",
+        "meaning": "19"
+      },
+      {
+        "target": "yigirma",
+        "meaning": "20"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "q1",
+        "type": "choice",
+        "prompt": "Как по-узбекски записать 11?",
+        "options": [
+          "o‘n bir",
+          "o‘n ikki",
+          "yigirma"
+        ],
+        "answers": [
+          "o‘n bir"
+        ],
+        "explanation": "O‘n bir — 11."
+      },
+      {
+        "id": "q2",
+        "type": "choice",
+        "prompt": "Какое число означает «o‘n besh»?",
+        "options": [
+          "13",
+          "15",
+          "20"
+        ],
+        "answers": [
+          "15"
+        ],
+        "explanation": "O‘n besh — 15."
+      },
+      {
+        "id": "q3",
+        "type": "text",
+        "prompt": "Напишите по-узбекски число 20.",
+        "options": [],
+        "answers": [
+          "yigirma"
+        ],
+        "explanation": "Yigirma — 20.",
+        "normalization": {
+          "case_sensitive": false,
+          "punctuation_tolerant": true,
+          "apostrophe_variants": true
+        }
+      },
+      {
+        "id": "q4",
+        "type": "choice",
+        "prompt": "Как записать 18 по-узбекски?",
+        "options": [
+          "o‘n yetti",
+          "o‘n sakkiz",
+          "o‘n to‘qqiz"
+        ],
+        "answers": [
+          "o‘n sakkiz"
+        ],
+        "explanation": "O‘n sakkiz — 18."
+      },
+      {
+        "id": "q5",
+        "type": "match",
+        "prompt": "Соедините числа с узбекской записью.",
+        "options": [],
+        "answers": [],
+        "explanation": "Сопоставьте каждое число с его записью.",
+        "match_pairs": [
+          {
+            "left": "12",
+            "right": "o‘n ikki"
+          },
+          {
+            "left": "14",
+            "right": "o‘n to‘rt"
+          },
+          {
+            "left": "19",
+            "right": "o‘n to‘qqiz"
+          }
+        ]
+      }
+    ],
+    "outline_ref": {
+      "course": "ru-uz",
+      "module_number": 5,
+      "lesson_number": 2,
+      "source_sha256": "58a33c4a8c89c57886dface7064fff0c5ef413940fc4c0018c8f7acb87b59cf8"
+    },
+    "teaching_note": "Числа 11–19 в этих примерах состоят из o‘n и второго числительного; 20 — отдельное слово yigirma."
+  }
+}

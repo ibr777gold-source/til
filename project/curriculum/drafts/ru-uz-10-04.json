@@ -1,0 +1,122 @@
+{
+  "status": "draft_unreviewed",
+  "editorial_notes": [
+    "Original demonstration draft. Educator review of wording and progression is required.",
+    "Written practice only; pronunciation and native-speaker audio are not yet reviewed.",
+    "The linked outline may cover more than this short sample."
+  ],
+  "content": {
+    "course": "ru-uz",
+    "title": "Завтра",
+    "objective": "Узнавать слово «завтра» и несколько готовых фраз.",
+    "minutes": 8,
+    "module_number": 10,
+    "lesson_number": 4,
+    "words": [
+      {
+        "target": "ertaga",
+        "meaning": "завтра"
+      },
+      {
+        "target": "Ertaga ko‘rishamiz.",
+        "meaning": "Увидимся завтра."
+      },
+      {
+        "target": "Ertaga men ishlayman.",
+        "meaning": "Завтра я работаю."
+      },
+      {
+        "target": "Ertaga dam olaman.",
+        "meaning": "Завтра я отдыхаю."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "q1",
+        "type": "choice",
+        "prompt": "Как по-узбекски: «завтра»?",
+        "options": [
+          "ertaga",
+          "Ertaga ko‘rishamiz.",
+          "Ertaga men ishlayman."
+        ],
+        "answers": [
+          "ertaga"
+        ],
+        "explanation": "ertaga — завтра"
+      },
+      {
+        "id": "q2",
+        "type": "choice",
+        "prompt": "Что означает «Ertaga ko‘rishamiz.»?",
+        "options": [
+          "Завтра я работаю.",
+          "Увидимся завтра.",
+          "завтра"
+        ],
+        "answers": [
+          "Увидимся завтра."
+        ],
+        "explanation": "Ertaga ko‘rishamiz. — Увидимся завтра."
+      },
+      {
+        "id": "q3",
+        "type": "text",
+        "prompt": "Напишите по-узбекски: «Завтра я работаю.»",
+        "options": [],
+        "answers": [
+          "Ertaga men ishlayman."
+        ],
+        "explanation": "Ertaga men ishlayman. — Завтра я работаю.",
+        "normalization": {
+          "case_sensitive": false,
+          "punctuation_tolerant": true,
+          "apostrophe_variants": true
+        }
+      },
+      {
+        "id": "q4",
+        "type": "choice",
+        "prompt": "Выберите перевод: «Завтра я отдыхаю.»",
+        "options": [
+          "Ertaga ko‘rishamiz.",
+          "Ertaga dam olaman.",
+          "ertaga"
+        ],
+        "answers": [
+          "Ertaga dam olaman."
+        ],
+        "explanation": "Ertaga dam olaman. — Завтра я отдыхаю."
+      },
+      {
+        "id": "q5",
+        "type": "match",
+        "prompt": "Соедините фразы и их значения.",
+        "options": [],
+        "answers": [],
+        "explanation": "Сопоставьте слова и переводы.",
+        "match_pairs": [
+          {
+            "left": "ertaga",
+            "right": "завтра"
+          },
+          {
+            "left": "Ertaga ko‘rishamiz.",
+            "right": "Увидимся завтра."
+          },
+          {
+            "left": "Ertaga men ishlayman.",
+            "right": "Завтра я работаю."
+          }
+        ]
+      }
+    ],
+    "outline_ref": {
+      "course": "ru-uz",
+      "module_number": 10,
+      "lesson_number": 4,
+      "source_sha256": "58a33c4a8c89c57886dface7064fff0c5ef413940fc4c0018c8f7acb87b59cf8"
+    },
+    "teaching_note": "Ertaga означает «завтра». В примерах это слово помогает говорить о будущем или договариваться о встрече."
+  }
+}

@@ -1,0 +1,13 @@
+.venv/
+node_modules/
+dist/
+__pycache__/
+*.pyc
+*.db
+.env
+.pytest_cache/
+.media/
+.env.*
+materials/
+project/staging/
+project/WORKING-NOTES.md

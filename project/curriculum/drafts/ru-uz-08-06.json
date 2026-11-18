@@ -1,0 +1,122 @@
+{
+  "status": "draft_unreviewed",
+  "editorial_notes": [
+    "Original demonstration draft. Educator review of wording and progression is required.",
+    "Written practice only; pronunciation and native-speaker audio are not yet reviewed.",
+    "The linked outline may cover more than this short sample."
+  ],
+  "content": {
+    "course": "ru-uz",
+    "title": "В магазине",
+    "objective": "Узнавать короткие выражения для покупки в магазине.",
+    "minutes": 8,
+    "module_number": 8,
+    "lesson_number": 6,
+    "words": [
+      {
+        "target": "Menga non kerak.",
+        "meaning": "Мне нужен хлеб."
+      },
+      {
+        "target": "Non qancha turadi?",
+        "meaning": "Сколько стоит хлеб?"
+      },
+      {
+        "target": "Rahmat.",
+        "meaning": "Спасибо."
+      },
+      {
+        "target": "Xayr.",
+        "meaning": "До свидания."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "q1",
+        "type": "choice",
+        "prompt": "Как по-узбекски: «Мне нужен хлеб.»?",
+        "options": [
+          "Menga non kerak.",
+          "Non qancha turadi?",
+          "Rahmat."
+        ],
+        "answers": [
+          "Menga non kerak."
+        ],
+        "explanation": "Menga non kerak. — Мне нужен хлеб."
+      },
+      {
+        "id": "q2",
+        "type": "choice",
+        "prompt": "Что означает «Non qancha turadi?»?",
+        "options": [
+          "Спасибо.",
+          "Сколько стоит хлеб?",
+          "Мне нужен хлеб."
+        ],
+        "answers": [
+          "Сколько стоит хлеб?"
+        ],
+        "explanation": "Non qancha turadi? — Сколько стоит хлеб?"
+      },
+      {
+        "id": "q3",
+        "type": "text",
+        "prompt": "Напишите по-узбекски: «Спасибо.»",
+        "options": [],
+        "answers": [
+          "Rahmat."
+        ],
+        "explanation": "Rahmat. — Спасибо.",
+        "normalization": {
+          "case_sensitive": false,
+          "punctuation_tolerant": true,
+          "apostrophe_variants": true
+        }
+      },
+      {
+        "id": "q4",
+        "type": "choice",
+        "prompt": "Выберите перевод: «До свидания.»",
+        "options": [
+          "Non qancha turadi?",
+          "Xayr.",
+          "Menga non kerak."
+        ],
+        "answers": [
+          "Xayr."
+        ],
+        "explanation": "Xayr. — До свидания."
+      },
+      {
+        "id": "q5",
+        "type": "match",
+        "prompt": "Соедините фразы и их значения.",
+        "options": [],
+        "answers": [],
+        "explanation": "Сопоставьте слова и переводы.",
+        "match_pairs": [
+          {
+            "left": "Menga non kerak.",
+            "right": "Мне нужен хлеб."
+          },
+          {
+            "left": "Non qancha turadi?",
+            "right": "Сколько стоит хлеб?"
+          },
+          {
+            "left": "Rahmat.",
+            "right": "Спасибо."
+          }
+        ]
+      }
+    ],
+    "outline_ref": {
+      "course": "ru-uz",
+      "module_number": 8,
+      "lesson_number": 6,
+      "source_sha256": "58a33c4a8c89c57886dface7064fff0c5ef413940fc4c0018c8f7acb87b59cf8"
+    },
+    "teaching_note": "Menga non kerak выражает потребность в хлебе; Non qancha turadi? — вопрос о его цене."
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "status": "draft_unreviewed",
+  "editorial_notes": [
+    "Original demonstration draft. Educator review of wording and progression is required.",
+    "Written practice only; pronunciation and native-speaker audio are not yet reviewed.",
+    "The linked outline may cover more than this short sample."
+  ],
+  "content": {
+    "course": "uz-ru",
+    "title": "Sifat va ot",
+    "objective": "«Yangi» sifatini bir necha ot bilan yozuvda tanish.",
+    "minutes": 8,
+    "module_number": 6,
+    "lesson_number": 5,
+    "words": [
+      {
+        "target": "новый стол",
+        "meaning": "yangi stol"
+      },
+      {
+        "target": "новая книга",
+        "meaning": "yangi kitob"
+      },
+      {
+        "target": "новое окно",
+        "meaning": "yangi deraza"
+      },
+      {
+        "target": "новые книги",
+        "meaning": "yangi kitoblar"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "q1",
+        "type": "choice",
+        "prompt": "«yangi stol» rus tilida qanday?",
+        "options": [
+          "новый стол",
+          "новая книга",
+          "новое окно"
+        ],
+        "answers": [
+          "новый стол"
+        ],
+        "explanation": "новый стол — yangi stol"
+      },
+      {
+        "id": "q2",
+        "type": "choice",
+        "prompt": "«новая книга» nimani bildiradi?",
+        "options": [
+          "yangi deraza",
+          "yangi kitob",
+          "yangi stol"
+        ],
+        "answers": [
+          "yangi kitob"
+        ],
+        "explanation": "новая книга — yangi kitob"
+      },
+      {
+        "id": "q3",
+        "type": "text",
+        "prompt": "«yangi deraza» iborasini ruscha yozing.",
+        "options": [],
+        "answers": [
+          "новое окно"
+        ],
+        "explanation": "новое окно — yangi deraza",
+        "normalization": {
+          "case_sensitive": false,
+          "punctuation_tolerant": true,
+          "apostrophe_variants": true
+        }
+      },
+      {
+        "id": "q4",
+        "type": "choice",
+        "prompt": "«yangi kitoblar» tarjimasini tanlang.",
+        "options": [
+          "новая книга",
+          "новые книги",
+          "новый стол"
+        ],
+        "answers": [
+          "новые книги"
+        ],
+        "explanation": "новые книги — yangi kitoblar"
+      },
+      {
+        "id": "q5",
+        "type": "match",
+        "prompt": "Iboralarni ma’nosi bilan moslang.",
+        "options": [],
+        "answers": [],
+        "explanation": "Iboralarni tarjimalari bilan bog‘lang.",
+        "match_pairs": [
+          {
+            "left": "новый стол",
+            "right": "yangi stol"
+          },
+          {
+            "left": "новая книга",
+            "right": "yangi kitob"
+          },
+          {
+            "left": "новое окно",
+            "right": "yangi deraza"
+          }
+        ]
+      }
+    ],
+    "outline_ref": {
+      "course": "uz-ru",
+      "module_number": 6,
+      "lesson_number": 5,
+      "source_sha256": "4de4fd39956b36c650185ec93ce419b83d8659632dc690d21003a2748eeeee09"
+    },
+    "teaching_note": "Ruscha «новый» sifati otga moslashadi: новый стол, новая книга, новое окно, новые книги. Shu misollarda oxirgi qism qanday o‘zgarganini kuzating."
+  }
+}

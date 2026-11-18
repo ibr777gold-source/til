@@ -1,0 +1,126 @@
+{
+  "status": "draft_unreviewed",
+  "editorial_notes": [
+    "Original sample. Requires qualified educator review of translation, register, and context.",
+    "Written recognition practice only; not a full lesson on the outline objective.",
+    "Linked outline: Asosiy ranglar. Audio and pronunciation are not yet reviewed."
+  ],
+  "content": {
+    "course": "uz-ru",
+    "title": "Asosiy ranglar",
+    "objective": "Mavzuga oid bir necha foydali so‘z yoki iborani tanish.",
+    "minutes": 8,
+    "module_number": 6,
+    "lesson_number": 3,
+    "words": [
+      {
+        "target": "красный",
+        "meaning": "qizil"
+      },
+      {
+        "target": "синий",
+        "meaning": "ko‘k"
+      },
+      {
+        "target": "белый",
+        "meaning": "oq"
+      },
+      {
+        "target": "чёрный",
+        "meaning": "qora"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "q1",
+        "type": "choice",
+        "prompt": "«qizil» uchun mos javobni tanlang.",
+        "options": [
+          "красный",
+          "синий",
+          "белый"
+        ],
+        "answers": [
+          "красный"
+        ],
+        "explanation": "красный — qizil."
+      },
+      {
+        "id": "q2",
+        "type": "choice",
+        "prompt": "«синий» nimani bildiradi?",
+        "options": [
+          "oq",
+          "ko‘k",
+          "qora"
+        ],
+        "answers": [
+          "ko‘k"
+        ],
+        "explanation": "синий — ko‘k."
+      },
+      {
+        "id": "q3",
+        "type": "text",
+        "prompt": "Rus tilida yozing: «oq».",
+        "options": [],
+        "answers": [
+          "белый"
+        ],
+        "explanation": "белый — oq.",
+        "normalization": {
+          "case_sensitive": false,
+          "punctuation_tolerant": true,
+          "apostrophe_variants": true
+        }
+      },
+      {
+        "id": "q4",
+        "type": "choice",
+        "prompt": "«чёрный» nimani bildiradi?",
+        "options": [
+          "qizil",
+          "qora",
+          "oq"
+        ],
+        "answers": [
+          "qora"
+        ],
+        "explanation": "чёрный — qora."
+      },
+      {
+        "id": "q5",
+        "type": "match",
+        "prompt": "So‘z yoki iboralarni ma’nosi bilan moslang.",
+        "options": [],
+        "answers": [],
+        "explanation": "Misollar va ularning ma’nolarini solishtiring.",
+        "match_pairs": [
+          {
+            "left": "красный",
+            "right": "qizil"
+          },
+          {
+            "left": "синий",
+            "right": "ko‘k"
+          },
+          {
+            "left": "белый",
+            "right": "oq"
+          },
+          {
+            "left": "чёрный",
+            "right": "qora"
+          }
+        ]
+      }
+    ],
+    "outline_ref": {
+      "course": "uz-ru",
+      "module_number": 6,
+      "lesson_number": 3,
+      "source_sha256": "4de4fd39956b36c650185ec93ce419b83d8659632dc690d21003a2748eeeee09"
+    },
+    "teaching_note": "Bu ranglar erkak jinsidagi birlik ot bilan ishlatiladigan shaklda berilgan. Sifat shakli otga qarab o‘zgarishi mumkin."
+  }
+}

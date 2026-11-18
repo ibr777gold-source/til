@@ -1,0 +1,146 @@
+{
+  "status": "draft_unreviewed",
+  "editorial_notes": [
+    "Original demonstration draft; educator review of language and sequencing is required.",
+    "Written practice only; no reviewed listening or pronunciation recording.",
+    "The outline may cover more than this draft; verify before publication."
+  ],
+  "content": {
+    "course": "uz-ru",
+    "title": "O‘n birdan yigirmagacha",
+    "objective": "11 dan 20 gacha bo‘lgan ruscha sonlarni yozuvda tanish.",
+    "minutes": 8,
+    "module_number": 5,
+    "lesson_number": 2,
+    "words": [
+      {
+        "target": "одиннадцать",
+        "meaning": "11"
+      },
+      {
+        "target": "двенадцать",
+        "meaning": "12"
+      },
+      {
+        "target": "тринадцать",
+        "meaning": "13"
+      },
+      {
+        "target": "четырнадцать",
+        "meaning": "14"
+      },
+      {
+        "target": "пятнадцать",
+        "meaning": "15"
+      },
+      {
+        "target": "шестнадцать",
+        "meaning": "16"
+      },
+      {
+        "target": "семнадцать",
+        "meaning": "17"
+      },
+      {
+        "target": "восемнадцать",
+        "meaning": "18"
+      },
+      {
+        "target": "девятнадцать",
+        "meaning": "19"
+      },
+      {
+        "target": "двадцать",
+        "meaning": "20"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "q1",
+        "type": "choice",
+        "prompt": "11 ruscha qanday yoziladi?",
+        "options": [
+          "одиннадцать",
+          "двенадцать",
+          "двадцать"
+        ],
+        "answers": [
+          "одиннадцать"
+        ],
+        "explanation": "Одиннадцать — 11."
+      },
+      {
+        "id": "q2",
+        "type": "choice",
+        "prompt": "«Пятнадцать» qaysi son?",
+        "options": [
+          "13",
+          "15",
+          "20"
+        ],
+        "answers": [
+          "15"
+        ],
+        "explanation": "Пятнадцать — 15."
+      },
+      {
+        "id": "q3",
+        "type": "text",
+        "prompt": "20 sonini ruscha yozing.",
+        "options": [],
+        "answers": [
+          "двадцать"
+        ],
+        "explanation": "Двадцать — 20.",
+        "normalization": {
+          "case_sensitive": false,
+          "punctuation_tolerant": true,
+          "apostrophe_variants": true
+        }
+      },
+      {
+        "id": "q4",
+        "type": "choice",
+        "prompt": "18 ruscha qanday yoziladi?",
+        "options": [
+          "семнадцать",
+          "восемнадцать",
+          "девятнадцать"
+        ],
+        "answers": [
+          "восемнадцать"
+        ],
+        "explanation": "Восемнадцать — 18."
+      },
+      {
+        "id": "q5",
+        "type": "match",
+        "prompt": "Sonlarni ruscha yozuvi bilan moslang.",
+        "options": [],
+        "answers": [],
+        "explanation": "Har bir sonni yozuvi bilan bog‘lang.",
+        "match_pairs": [
+          {
+            "left": "12",
+            "right": "двенадцать"
+          },
+          {
+            "left": "14",
+            "right": "четырнадцать"
+          },
+          {
+            "left": "19",
+            "right": "девятнадцать"
+          }
+        ]
+      }
+    ],
+    "outline_ref": {
+      "course": "uz-ru",
+      "module_number": 5,
+      "lesson_number": 2,
+      "source_sha256": "4de4fd39956b36c650185ec93ce419b83d8659632dc690d21003a2748eeeee09"
+    },
+    "teaching_note": "11–19 sonlarining yozilishi o‘xshash ko‘rinadi. Har birini butun so‘z sifatida o‘qing; «двадцать» esa 20 ni bildiradi."
+  }
+}

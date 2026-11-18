@@ -1,0 +1,122 @@
+{
+  "status": "draft_unreviewed",
+  "editorial_notes": [
+    "Original demonstration draft. Educator review of wording and progression is required.",
+    "Written practice only; pronunciation and native-speaker audio are not yet reviewed.",
+    "The linked outline may cover more than this short sample."
+  ],
+  "content": {
+    "course": "ru-uz",
+    "title": "Люди и вещи",
+    "objective": "Различать простые вопросы о людях и вещах.",
+    "minutes": 8,
+    "module_number": 4,
+    "lesson_number": 6,
+    "words": [
+      {
+        "target": "Bu kim?",
+        "meaning": "Кто это?"
+      },
+      {
+        "target": "Bu nima?",
+        "meaning": "Что это?"
+      },
+      {
+        "target": "Bu ona.",
+        "meaning": "Это мама."
+      },
+      {
+        "target": "Bu kitob.",
+        "meaning": "Это книга."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "q1",
+        "type": "choice",
+        "prompt": "Как по-узбекски: «Кто это?»?",
+        "options": [
+          "Bu kim?",
+          "Bu nima?",
+          "Bu ona."
+        ],
+        "answers": [
+          "Bu kim?"
+        ],
+        "explanation": "Bu kim? — Кто это?"
+      },
+      {
+        "id": "q2",
+        "type": "choice",
+        "prompt": "Что означает «Bu nima?»?",
+        "options": [
+          "Это мама.",
+          "Что это?",
+          "Кто это?"
+        ],
+        "answers": [
+          "Что это?"
+        ],
+        "explanation": "Bu nima? — Что это?"
+      },
+      {
+        "id": "q3",
+        "type": "text",
+        "prompt": "Напишите по-узбекски: «Это мама.»",
+        "options": [],
+        "answers": [
+          "Bu ona."
+        ],
+        "explanation": "Bu ona. — Это мама.",
+        "normalization": {
+          "case_sensitive": false,
+          "punctuation_tolerant": true,
+          "apostrophe_variants": true
+        }
+      },
+      {
+        "id": "q4",
+        "type": "choice",
+        "prompt": "Выберите перевод: «Это книга.»",
+        "options": [
+          "Bu nima?",
+          "Bu kitob.",
+          "Bu kim?"
+        ],
+        "answers": [
+          "Bu kitob."
+        ],
+        "explanation": "Bu kitob. — Это книга."
+      },
+      {
+        "id": "q5",
+        "type": "match",
+        "prompt": "Соедините фразы и их значения.",
+        "options": [],
+        "answers": [],
+        "explanation": "Сопоставьте слова и переводы.",
+        "match_pairs": [
+          {
+            "left": "Bu kim?",
+            "right": "Кто это?"
+          },
+          {
+            "left": "Bu nima?",
+            "right": "Что это?"
+          },
+          {
+            "left": "Bu ona.",
+            "right": "Это мама."
+          }
+        ]
+      }
+    ],
+    "outline_ref": {
+      "course": "ru-uz",
+      "module_number": 4,
+      "lesson_number": 6,
+      "source_sha256": "58a33c4a8c89c57886dface7064fff0c5ef413940fc4c0018c8f7acb87b59cf8"
+    },
+    "teaching_note": "Bu kim? спрашивает о человеке, а Bu nima? — о предмете."
+  }
+}

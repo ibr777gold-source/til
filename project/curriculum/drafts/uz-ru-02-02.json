@@ -1,0 +1,122 @@
+{
+  "status": "draft_unreviewed",
+  "editorial_notes": [
+    "Original demonstration draft. Educator review of wording and progression is required.",
+    "Written practice only; pronunciation and native-speaker audio are not yet reviewed.",
+    "The linked outline may cover more than this short sample."
+  ],
+  "content": {
+    "course": "uz-ru",
+    "title": "O‘xshash ko‘rinishdagi harflar",
+    "objective": "Shakli lotin harfiga o‘xshagan ayrim kirill harflarini tanish.",
+    "minutes": 8,
+    "module_number": 2,
+    "lesson_number": 2,
+    "words": [
+      {
+        "target": "В в",
+        "meaning": "V tovushini bildiruvchi harf"
+      },
+      {
+        "target": "Н н",
+        "meaning": "N tovushini bildiruvchi harf"
+      },
+      {
+        "target": "Р р",
+        "meaning": "R tovushini bildiruvchi harf"
+      },
+      {
+        "target": "С с",
+        "meaning": "S tovushini bildiruvchi harf"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "q1",
+        "type": "choice",
+        "prompt": "Qaysi belgi yoki harf «V tovushini bildiruvchi harf»?",
+        "options": [
+          "В в",
+          "Н н",
+          "Р р"
+        ],
+        "answers": [
+          "В в"
+        ],
+        "explanation": "В в — V tovushini bildiruvchi harf"
+      },
+      {
+        "id": "q2",
+        "type": "choice",
+        "prompt": "«Н н» nimani bildiradi?",
+        "options": [
+          "R tovushini bildiruvchi harf",
+          "N tovushini bildiruvchi harf",
+          "V tovushini bildiruvchi harf"
+        ],
+        "answers": [
+          "N tovushini bildiruvchi harf"
+        ],
+        "explanation": "Н н — N tovushini bildiruvchi harf"
+      },
+      {
+        "id": "q3",
+        "type": "text",
+        "prompt": "«R tovushini bildiruvchi harf»ni katta va kichik shaklda, orasida bo‘sh joy bilan yozing.",
+        "options": [],
+        "answers": [
+          "Р р"
+        ],
+        "explanation": "Р р — R tovushini bildiruvchi harf",
+        "normalization": {
+          "case_sensitive": false,
+          "punctuation_tolerant": true,
+          "apostrophe_variants": true
+        }
+      },
+      {
+        "id": "q4",
+        "type": "choice",
+        "prompt": "Qaysi belgi yoki harf «S tovushini bildiruvchi harf»?",
+        "options": [
+          "Н н",
+          "С с",
+          "В в"
+        ],
+        "answers": [
+          "С с"
+        ],
+        "explanation": "С с — S tovushini bildiruvchi harf"
+      },
+      {
+        "id": "q5",
+        "type": "match",
+        "prompt": "Iboralarni ma’nosi bilan moslang.",
+        "options": [],
+        "answers": [],
+        "explanation": "Iboralarni tarjimalari bilan bog‘lang.",
+        "match_pairs": [
+          {
+            "left": "В в",
+            "right": "V tovushini bildiruvchi harf"
+          },
+          {
+            "left": "Н н",
+            "right": "N tovushini bildiruvchi harf"
+          },
+          {
+            "left": "Р р",
+            "right": "R tovushini bildiruvchi harf"
+          }
+        ]
+      }
+    ],
+    "outline_ref": {
+      "course": "uz-ru",
+      "module_number": 2,
+      "lesson_number": 2,
+      "source_sha256": "4de4fd39956b36c650185ec93ce419b83d8659632dc690d21003a2748eeeee09"
+    },
+    "teaching_note": "Ba’zi kirill harflari lotin harflariga o‘xshab ko‘rinadi, lekin boshqa tovushni bildiradi: В — v, Н — n, Р — r, С — s. Shaklga emas, ruscha harfga e’tibor bering."
+  }
+}

@@ -1,0 +1,6 @@
+[build]
+  command = "bash app/deploy/netlify-build.sh"
+  publish = "app/frontend/dist"
+
+[build.environment]
+  NODE_VERSION = "22"

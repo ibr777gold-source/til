@@ -1,0 +1,122 @@
+{
+  "status": "draft_unreviewed",
+  "editorial_notes": [
+    "Original demonstration draft. Educator review of wording and progression is required.",
+    "Written practice only; pronunciation and native-speaker audio are not yet reviewed.",
+    "The linked outline may cover more than this short sample."
+  ],
+  "content": {
+    "course": "uz-ru",
+    "title": "Narsa qanday?",
+    "objective": "Buyumni sodda sifat bilan tasvirlash.",
+    "minutes": 8,
+    "module_number": 6,
+    "lesson_number": 6,
+    "words": [
+      {
+        "target": "Какой дом?",
+        "meaning": "Uy qanday?"
+      },
+      {
+        "target": "Дом большой.",
+        "meaning": "Uy katta."
+      },
+      {
+        "target": "Книга новая.",
+        "meaning": "Kitob yangi."
+      },
+      {
+        "target": "Чай горячий.",
+        "meaning": "Choy issiq."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "q1",
+        "type": "choice",
+        "prompt": "«Uy qanday?» rus tilida qanday?",
+        "options": [
+          "Какой дом?",
+          "Дом большой.",
+          "Книга новая."
+        ],
+        "answers": [
+          "Какой дом?"
+        ],
+        "explanation": "Какой дом? — Uy qanday?"
+      },
+      {
+        "id": "q2",
+        "type": "choice",
+        "prompt": "«Дом большой.» nimani bildiradi?",
+        "options": [
+          "Kitob yangi.",
+          "Uy katta.",
+          "Uy qanday?"
+        ],
+        "answers": [
+          "Uy katta."
+        ],
+        "explanation": "Дом большой. — Uy katta."
+      },
+      {
+        "id": "q3",
+        "type": "text",
+        "prompt": "«Kitob yangi.» iborasini ruscha yozing.",
+        "options": [],
+        "answers": [
+          "Книга новая."
+        ],
+        "explanation": "Книга новая. — Kitob yangi.",
+        "normalization": {
+          "case_sensitive": false,
+          "punctuation_tolerant": true,
+          "apostrophe_variants": true
+        }
+      },
+      {
+        "id": "q4",
+        "type": "choice",
+        "prompt": "«Choy issiq.» tarjimasini tanlang.",
+        "options": [
+          "Дом большой.",
+          "Чай горячий.",
+          "Какой дом?"
+        ],
+        "answers": [
+          "Чай горячий."
+        ],
+        "explanation": "Чай горячий. — Choy issiq."
+      },
+      {
+        "id": "q5",
+        "type": "match",
+        "prompt": "Iboralarni ma’nosi bilan moslang.",
+        "options": [],
+        "answers": [],
+        "explanation": "Iboralarni tarjimalari bilan bog‘lang.",
+        "match_pairs": [
+          {
+            "left": "Какой дом?",
+            "right": "Uy qanday?"
+          },
+          {
+            "left": "Дом большой.",
+            "right": "Uy katta."
+          },
+          {
+            "left": "Книга новая.",
+            "right": "Kitob yangi."
+          }
+        ]
+      }
+    ],
+    "outline_ref": {
+      "course": "uz-ru",
+      "module_number": 6,
+      "lesson_number": 6,
+      "source_sha256": "4de4fd39956b36c650185ec93ce419b83d8659632dc690d21003a2748eeeee09"
+    },
+    "teaching_note": "«Какой дом?» uy qandayligini so‘raydi. «Дом большой» kabi qisqa javobda uy va uning sifati aytiladi."
+  }
+}

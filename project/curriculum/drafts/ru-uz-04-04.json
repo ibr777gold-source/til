@@ -1,0 +1,126 @@
+{
+  "status": "draft_unreviewed",
+  "editorial_notes": [
+    "Original sample. Requires qualified educator review of translation, register, and context.",
+    "Written recognition practice only; not a full lesson on the outline objective.",
+    "Linked outline: Предметы вокруг нас. Audio and pronunciation are not yet reviewed."
+  ],
+  "content": {
+    "course": "ru-uz",
+    "title": "Предметы вокруг нас",
+    "objective": "Узнавать несколько полезных слов или фраз по теме.",
+    "minutes": 8,
+    "module_number": 4,
+    "lesson_number": 4,
+    "words": [
+      {
+        "target": "kitob",
+        "meaning": "книга"
+      },
+      {
+        "target": "daftar",
+        "meaning": "тетрадь"
+      },
+      {
+        "target": "stol",
+        "meaning": "стол"
+      },
+      {
+        "target": "qalam",
+        "meaning": "карандаш"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "q1",
+        "type": "choice",
+        "prompt": "Какая фраза соответствует «книга»?",
+        "options": [
+          "kitob",
+          "daftar",
+          "stol"
+        ],
+        "answers": [
+          "kitob"
+        ],
+        "explanation": "kitob — книга."
+      },
+      {
+        "id": "q2",
+        "type": "choice",
+        "prompt": "Что означает «daftar»?",
+        "options": [
+          "стол",
+          "тетрадь",
+          "карандаш"
+        ],
+        "answers": [
+          "тетрадь"
+        ],
+        "explanation": "daftar — тетрадь."
+      },
+      {
+        "id": "q3",
+        "type": "text",
+        "prompt": "Напишите по-узбекски: «стол».",
+        "options": [],
+        "answers": [
+          "stol"
+        ],
+        "explanation": "stol — стол.",
+        "normalization": {
+          "case_sensitive": false,
+          "punctuation_tolerant": true,
+          "apostrophe_variants": true
+        }
+      },
+      {
+        "id": "q4",
+        "type": "choice",
+        "prompt": "Что означает «qalam»?",
+        "options": [
+          "книга",
+          "карандаш",
+          "стол"
+        ],
+        "answers": [
+          "карандаш"
+        ],
+        "explanation": "qalam — карандаш."
+      },
+      {
+        "id": "q5",
+        "type": "match",
+        "prompt": "Соедините слова или фразы с их значениями.",
+        "options": [],
+        "answers": [],
+        "explanation": "Сопоставьте примеры и переводы.",
+        "match_pairs": [
+          {
+            "left": "kitob",
+            "right": "книга"
+          },
+          {
+            "left": "daftar",
+            "right": "тетрадь"
+          },
+          {
+            "left": "stol",
+            "right": "стол"
+          },
+          {
+            "left": "qalam",
+            "right": "карандаш"
+          }
+        ]
+      }
+    ],
+    "outline_ref": {
+      "course": "ru-uz",
+      "module_number": 4,
+      "lesson_number": 4,
+      "source_sha256": "58a33c4a8c89c57886dface7064fff0c5ef413940fc4c0018c8f7acb87b59cf8"
+    },
+    "teaching_note": "Эти слова называют предметы вокруг нас. Прочитайте каждое слово вместе с переводом."
+  }
+}

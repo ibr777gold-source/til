@@ -1,0 +1,126 @@
+{
+  "status": "draft_unreviewed",
+  "editorial_notes": [
+    "Original sample; needs educator review.",
+    "Written practice only; reviewed listening and pronunciation material is still needed.",
+    "Linked outline: Буква O‘. This sample may cover only part of its objective; verify scope during review."
+  ],
+  "content": {
+    "course": "ru-uz",
+    "title": "Буква O‘ в словах",
+    "objective": "Узнавать написание буквы o‘ в нескольких словах.",
+    "minutes": 8,
+    "module_number": 2,
+    "lesson_number": 1,
+    "words": [
+      {
+        "target": "o‘rik",
+        "meaning": "абрикос"
+      },
+      {
+        "target": "o‘rmon",
+        "meaning": "лес"
+      },
+      {
+        "target": "o‘n",
+        "meaning": "десять"
+      },
+      {
+        "target": "o‘q",
+        "meaning": "стрела"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "q1",
+        "type": "choice",
+        "prompt": "Какая буква стоит в начале слова o‘rik?",
+        "options": [
+          "o‘",
+          "a",
+          "u"
+        ],
+        "answers": [
+          "o‘"
+        ],
+        "explanation": "Слово o‘rik начинается с o‘."
+      },
+      {
+        "id": "q2",
+        "type": "choice",
+        "prompt": "Какое слово означает «лес»?",
+        "options": [
+          "o‘rmon",
+          "o‘rik",
+          "o‘n"
+        ],
+        "answers": [
+          "o‘rmon"
+        ],
+        "explanation": "O‘rmon — лес."
+      },
+      {
+        "id": "q3",
+        "type": "choice",
+        "prompt": "Какое слово означает «десять»?",
+        "options": [
+          "o‘rik",
+          "o‘n",
+          "o‘q"
+        ],
+        "answers": [
+          "o‘n"
+        ],
+        "explanation": "O‘n — десять."
+      },
+      {
+        "id": "q4",
+        "type": "text",
+        "prompt": "Напишите по-узбекски «абрикос».",
+        "options": [],
+        "answers": [
+          "o‘rik"
+        ],
+        "explanation": "O‘rik — абрикос.",
+        "normalization": {
+          "case_sensitive": false,
+          "punctuation_tolerant": true,
+          "apostrophe_variants": true
+        }
+      },
+      {
+        "id": "q5",
+        "type": "match",
+        "prompt": "Соедините слова и значения.",
+        "options": [],
+        "answers": [],
+        "explanation": "Все эти примеры начинаются с буквы o‘.",
+        "match_pairs": [
+          {
+            "left": "o‘rik",
+            "right": "абрикос"
+          },
+          {
+            "left": "o‘rmon",
+            "right": "лес"
+          },
+          {
+            "left": "o‘n",
+            "right": "десять"
+          },
+          {
+            "left": "o‘q",
+            "right": "стрела"
+          }
+        ]
+      }
+    ],
+    "outline_ref": {
+      "course": "ru-uz",
+      "module_number": 2,
+      "lesson_number": 1,
+      "source_sha256": "58a33c4a8c89c57886dface7064fff0c5ef413940fc4c0018c8f7acb87b59cf8"
+    },
+    "teaching_note": "O‘ — отдельная узбекская буква. Апостроф относится к букве; при наборе приложение принимает несколько распространённых вариантов апострофа."
+  }
+}

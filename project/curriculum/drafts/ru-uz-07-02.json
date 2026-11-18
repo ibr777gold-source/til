@@ -1,0 +1,126 @@
+{
+  "status": "draft_unreviewed",
+  "editorial_notes": [
+    "Original sample. Requires qualified educator review of translation, register, and context.",
+    "Written recognition practice only; not a full lesson on the outline objective.",
+    "Linked outline: Что я делаю. Audio and pronunciation are not yet reviewed."
+  ],
+  "content": {
+    "course": "ru-uz",
+    "title": "Что я делаю",
+    "objective": "Узнавать несколько полезных слов или фраз по теме.",
+    "minutes": 8,
+    "module_number": 7,
+    "lesson_number": 2,
+    "words": [
+      {
+        "target": "Men o‘qiyman",
+        "meaning": "Я читаю"
+      },
+      {
+        "target": "Men yozaman",
+        "meaning": "Я пишу"
+      },
+      {
+        "target": "Men ishlayman",
+        "meaning": "Я работаю"
+      },
+      {
+        "target": "Men yashayman",
+        "meaning": "Я живу"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "q1",
+        "type": "choice",
+        "prompt": "Какая фраза соответствует «Я читаю»?",
+        "options": [
+          "Men o‘qiyman",
+          "Men yozaman",
+          "Men ishlayman"
+        ],
+        "answers": [
+          "Men o‘qiyman"
+        ],
+        "explanation": "Men o‘qiyman — Я читаю."
+      },
+      {
+        "id": "q2",
+        "type": "choice",
+        "prompt": "Что означает «Men yozaman»?",
+        "options": [
+          "Я работаю",
+          "Я пишу",
+          "Я живу"
+        ],
+        "answers": [
+          "Я пишу"
+        ],
+        "explanation": "Men yozaman — Я пишу."
+      },
+      {
+        "id": "q3",
+        "type": "text",
+        "prompt": "Напишите по-узбекски: «Я работаю».",
+        "options": [],
+        "answers": [
+          "Men ishlayman"
+        ],
+        "explanation": "Men ishlayman — Я работаю.",
+        "normalization": {
+          "case_sensitive": false,
+          "punctuation_tolerant": true,
+          "apostrophe_variants": true
+        }
+      },
+      {
+        "id": "q4",
+        "type": "choice",
+        "prompt": "Что означает «Men yashayman»?",
+        "options": [
+          "Я читаю",
+          "Я живу",
+          "Я работаю"
+        ],
+        "answers": [
+          "Я живу"
+        ],
+        "explanation": "Men yashayman — Я живу."
+      },
+      {
+        "id": "q5",
+        "type": "match",
+        "prompt": "Соедините слова или фразы с их значениями.",
+        "options": [],
+        "answers": [],
+        "explanation": "Сопоставьте примеры и переводы.",
+        "match_pairs": [
+          {
+            "left": "Men o‘qiyman",
+            "right": "Я читаю"
+          },
+          {
+            "left": "Men yozaman",
+            "right": "Я пишу"
+          },
+          {
+            "left": "Men ishlayman",
+            "right": "Я работаю"
+          },
+          {
+            "left": "Men yashayman",
+            "right": "Я живу"
+          }
+        ]
+      }
+    ],
+    "outline_ref": {
+      "course": "ru-uz",
+      "module_number": 7,
+      "lesson_number": 2,
+      "source_sha256": "58a33c4a8c89c57886dface7064fff0c5ef413940fc4c0018c8f7acb87b59cf8"
+    },
+    "teaching_note": "Men означает «я». В готовых фразах Men o‘qiyman и Men yozaman форма глагола относится к говорящему."
+  }
+}

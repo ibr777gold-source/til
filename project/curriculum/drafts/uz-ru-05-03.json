@@ -1,0 +1,132 @@
+{
+  "status": "draft_unreviewed",
+  "editorial_notes": [
+    "Original demonstration draft. Educator review of wording, register and sequencing is required.",
+    "Written practice only. Native-speaker recordings and pronunciation review are needed.",
+    "The linked outline may cover more than this sample."
+  ],
+  "content": {
+    "course": "uz-ru",
+    "title": "Yoshni aytish",
+    "objective": "Yoshni so‘rash va namunadagi yoshni aytish.",
+    "minutes": 8,
+    "module_number": 5,
+    "lesson_number": 3,
+    "words": [
+      {
+        "target": "Сколько вам лет?",
+        "meaning": "Yoshingiz nechada?"
+      },
+      {
+        "target": "Мне двадцать лет.",
+        "meaning": "Men yigirma yoshdaman."
+      },
+      {
+        "target": "Мне восемнадцать лет.",
+        "meaning": "Men o‘n sakkiz yoshdaman."
+      },
+      {
+        "target": "Спасибо.",
+        "meaning": "Rahmat."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "q1",
+        "type": "choice",
+        "prompt": "«Yoshingiz nechada?» rus tilida qanday?",
+        "options": [
+          "Сколько вам лет?",
+          "Мне двадцать лет.",
+          "Мне восемнадцать лет."
+        ],
+        "answers": [
+          "Сколько вам лет?"
+        ],
+        "explanation": "Сколько вам лет? — Yoshingiz nechada?"
+      },
+      {
+        "id": "q2",
+        "type": "choice",
+        "prompt": "«Мне двадцать лет.» nimani bildiradi?",
+        "options": [
+          "Men o‘n sakkiz yoshdaman.",
+          "Men yigirma yoshdaman.",
+          "Yoshingiz nechada?"
+        ],
+        "answers": [
+          "Men yigirma yoshdaman."
+        ],
+        "explanation": "Мне двадцать лет. — Men yigirma yoshdaman."
+      },
+      {
+        "id": "q3",
+        "type": "text",
+        "prompt": "«Men o‘n sakkiz yoshdaman.» iborasini ruscha yozing.",
+        "options": [],
+        "answers": [
+          "Мне восемнадцать лет."
+        ],
+        "explanation": "Мне восемнадцать лет. — Men o‘n sakkiz yoshdaman.",
+        "normalization": {
+          "case_sensitive": false,
+          "punctuation_tolerant": true,
+          "apostrophe_variants": true
+        }
+      },
+      {
+        "id": "q4",
+        "type": "dialogue",
+        "prompt": "Suhbatdosh yoshingizni so‘radi. Namunadagi 20 yoshli odam qanday javob beradi?",
+        "options": [
+          "Мне двадцать лет.",
+          "Сколько вам лет?",
+          "Мне восемнадцать лет."
+        ],
+        "answers": [
+          "Мне двадцать лет."
+        ],
+        "explanation": "Мне двадцать лет. — Men yigirma yoshdaman.",
+        "dialogue": [
+          {
+            "speaker": "Собеседник",
+            "text": "Сколько вам лет?"
+          },
+          {
+            "speaker": "Вы",
+            "text": "…"
+          }
+        ]
+      },
+      {
+        "id": "q5",
+        "type": "match",
+        "prompt": "Iboralarni ma’nosi bilan moslang.",
+        "options": [],
+        "answers": [],
+        "explanation": "Iboralarni tarjimalari bilan bog‘lang.",
+        "match_pairs": [
+          {
+            "left": "Сколько вам лет?",
+            "right": "Yoshingiz nechada?"
+          },
+          {
+            "left": "Мне двадцать лет.",
+            "right": "Men yigirma yoshdaman."
+          },
+          {
+            "left": "Мне восемнадцать лет.",
+            "right": "Men o‘n sakkiz yoshdaman."
+          }
+        ]
+      }
+    ],
+    "outline_ref": {
+      "course": "uz-ru",
+      "module_number": 5,
+      "lesson_number": 3,
+      "source_sha256": "4de4fd39956b36c650185ec93ce419b83d8659632dc690d21003a2748eeeee09"
+    },
+    "teaching_note": "Yoshni so‘rash uchun «Сколько вам лет?» deyiladi. 18 va 20 bilan namunadagi «лет» shakliga e’tibor bering; boshqa sonlarda shakl o‘zgarishi mumkin."
+  }
+}

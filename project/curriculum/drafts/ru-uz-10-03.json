@@ -1,0 +1,122 @@
+{
+  "status": "draft_unreviewed",
+  "editorial_notes": [
+    "Original demonstration draft. Educator review of wording and progression is required.",
+    "Written practice only; pronunciation and native-speaker audio are not yet reviewed.",
+    "The linked outline may cover more than this short sample."
+  ],
+  "content": {
+    "course": "ru-uz",
+    "title": "Вчера: готовые фразы",
+    "objective": "Узнавать простые фразы о прошедшем дне.",
+    "minutes": 8,
+    "module_number": 10,
+    "lesson_number": 3,
+    "words": [
+      {
+        "target": "Kecha men ishladim.",
+        "meaning": "Вчера я работал или работала."
+      },
+      {
+        "target": "Kecha men o‘qidim.",
+        "meaning": "Вчера я учился или училась."
+      },
+      {
+        "target": "Kecha dam oldim.",
+        "meaning": "Вчера я отдыхал или отдыхала."
+      },
+      {
+        "target": "Kecha uyda edim.",
+        "meaning": "Вчера я был или была дома."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "q1",
+        "type": "choice",
+        "prompt": "Как по-узбекски: «Вчера я работал или работала.»?",
+        "options": [
+          "Kecha men ishladim.",
+          "Kecha men o‘qidim.",
+          "Kecha dam oldim."
+        ],
+        "answers": [
+          "Kecha men ishladim."
+        ],
+        "explanation": "Kecha men ishladim. — Вчера я работал или работала."
+      },
+      {
+        "id": "q2",
+        "type": "choice",
+        "prompt": "Что означает «Kecha men o‘qidim.»?",
+        "options": [
+          "Вчера я отдыхал или отдыхала.",
+          "Вчера я учился или училась.",
+          "Вчера я работал или работала."
+        ],
+        "answers": [
+          "Вчера я учился или училась."
+        ],
+        "explanation": "Kecha men o‘qidim. — Вчера я учился или училась."
+      },
+      {
+        "id": "q3",
+        "type": "text",
+        "prompt": "Напишите по-узбекски: «Вчера я отдыхал или отдыхала.»",
+        "options": [],
+        "answers": [
+          "Kecha dam oldim."
+        ],
+        "explanation": "Kecha dam oldim. — Вчера я отдыхал или отдыхала.",
+        "normalization": {
+          "case_sensitive": false,
+          "punctuation_tolerant": true,
+          "apostrophe_variants": true
+        }
+      },
+      {
+        "id": "q4",
+        "type": "choice",
+        "prompt": "Выберите перевод: «Вчера я был или была дома.»",
+        "options": [
+          "Kecha men o‘qidim.",
+          "Kecha uyda edim.",
+          "Kecha men ishladim."
+        ],
+        "answers": [
+          "Kecha uyda edim."
+        ],
+        "explanation": "Kecha uyda edim. — Вчера я был или была дома."
+      },
+      {
+        "id": "q5",
+        "type": "match",
+        "prompt": "Соедините фразы и их значения.",
+        "options": [],
+        "answers": [],
+        "explanation": "Сопоставьте слова и переводы.",
+        "match_pairs": [
+          {
+            "left": "Kecha men ishladim.",
+            "right": "Вчера я работал или работала."
+          },
+          {
+            "left": "Kecha men o‘qidim.",
+            "right": "Вчера я учился или училась."
+          },
+          {
+            "left": "Kecha dam oldim.",
+            "right": "Вчера я отдыхал или отдыхала."
+          }
+        ]
+      }
+    ],
+    "outline_ref": {
+      "course": "ru-uz",
+      "module_number": 10,
+      "lesson_number": 3,
+      "source_sha256": "58a33c4a8c89c57886dface7064fff0c5ef413940fc4c0018c8f7acb87b59cf8"
+    },
+    "teaching_note": "Kecha означает «вчера». В примерах формы с -dim относятся к действию говорящего в прошлом."
+  }
+}

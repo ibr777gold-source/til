@@ -1,0 +1,52 @@
+const {chromium}=require('playwright-core');
+const AxeBuilder=require('@axe-core/playwright').default;
+const base=process.env.TIL_E2E_BASE_URL,browserPath=process.env.TIL_BROWSER_PATH;
+if(process.env.TIL_E2E_ISOLATED!=='1'||!base||!browserPath)throw Error('Use an isolated test instance and set TIL_E2E_BASE_URL and TIL_BROWSER_PATH.');
+const url=new URL(base);if(url.protocol!=='http:'||!['127.0.0.1','localhost'].includes(url.hostname))throw Error('Test server must be local.');
+(async()=>{
+ const browser=await chromium.launch({executablePath:browserPath,headless:true,args:['--no-sandbox']});
+ const context=await browser.newContext({viewport:{width:390,height:844}});const page=await context.newPage();
+ async function scan(name){const r=await new AxeBuilder({page}).withTags(['wcag2a','wcag2aa','wcag21a','wcag21aa']).analyze();console.log(name+': '+r.violations.length+' automated violations');if(r.violations.length)throw Error(name+': '+r.violations.map(v=>v.id).join(', '))}
+ try{
+  await page.addInitScript(()=>{window.SpeechSynthesisUtterance=class {constructor(text){this.text=text}};const synth=window.speechSynthesis;synth.getVoices=()=>[{name:'Test Russian',lang:'ru-RU'}];synth.cancel=()=>{};synth.speak=u=>{window.__spoken=[u.text,u.lang,u.rate];u.onend()}});
+  await page.goto(base,{waitUntil:'networkidle'});
+  await page.getByRole('button',{name:/O‘rganishni boshlash/}).first().click();
+  await page.locator('input[name="name"]').fill('QA');
+  await page.locator('input[name="email"]').fill(`qa-${Date.now()}@example.com`);
+  await page.locator('input[name="password"]').fill('test-password-123');
+  await page.locator('form').getByRole('button',{name:/Hisob yaratish/}).click();
+  await page.getByRole('radio',{name:'O‘qish'}).check();
+  await page.locator('.onboarding-form').getByRole('button',{name:/O‘rganishni boshlash/}).click();
+  await page.getByRole('button',{name:/Tinglashni sinab ko‘rish/}).click();
+  await page.evaluate(()=>{speechSynthesis.getVoices=()=>[];speechSynthesis.dispatchEvent(new Event('voiceschanged'))});
+  await page.getByText('Bu qurilmada o‘rganilayotgan til uchun ovoz mavjud emas.',{exact:false}).waitFor();
+  await scan('voice unavailable');
+  await page.evaluate(()=>{speechSynthesis.getVoices=()=>[{name:'Test Russian',lang:'ru-RU'}];speechSynthesis.dispatchEvent(new Event('voiceschanged'))});
+  await scan('listening choice');
+  await page.getByLabel('Nutq tezligi').focus();
+  await page.keyboard.press('End');
+  if(await page.getByLabel('Nutq tezligi').inputValue()!=='0.75')throw Error('Keyboard speed selection failed');
+  await page.getByRole('button',{name:'▶ Tinglash'}).focus();
+  await page.keyboard.press('Enter');
+  const spoken=await page.evaluate(()=>window.__spoken);
+  if (!spoken || spoken[0]!=='Спасибо'||spoken[1]!=='ru-RU'||spoken[2]!==0.75) throw Error('Unexpected voice or word');
+  await page.getByRole('button',{name:'Rahmat',exact:true}).focus();
+  await page.keyboard.press('Enter');
+  await page.getByRole('button',{name:/Tekshirish/}).click();
+  await page.getByText('To‘g‘ri!',{exact:true}).waitFor();
+  await page.getByRole('button',{name:/Davom etish/}).click();
+  await scan('listening type');
+  await page.getByRole('button',{name:'▶ Tinglash'}).focus();
+  await page.keyboard.press('Enter');
+  const second=await page.evaluate(()=>window.__spoken);
+  if(second[0]!=='Привет'||second[2]!==0.75)throw Error('Second word or speed incorrect');
+  await page.getByLabel('Eshitgan so‘zni rus tilida yozing').focus();
+  await page.keyboard.insertText('привет!');
+  await page.getByRole('button',{name:/Tekshirish/}).click();
+  await page.getByText('To‘g‘ri!',{exact:true}).waitFor();
+  await page.getByRole('button',{name:/Davom etish/}).click();
+  await page.getByRole('heading',{name:'Mashq yakunlandi'}).waitFor();
+  await scan('listening finished');
+  console.log('Browser: listening choice, transcription and slow playback passed');
+ }finally{await browser.close()}
+})().catch(e=>{console.error(e.message);process.exitCode=1});

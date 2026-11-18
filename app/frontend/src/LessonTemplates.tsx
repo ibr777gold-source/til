@@ -1,0 +1,9 @@
+import {useState} from 'react';
+type Template={id:string;course:string;title:string;module_number:number;lesson_number:number;status:string};
+export type TemplateSelection={id:string;source_sha256:string;editorial_notes:string[];content:Record<string,unknown>};
+export default function LessonTemplates({onStart}:{onStart:(selection:TemplateSelection)=>void}){
+ const [templates,setTemplates]=useState<Template[]|null>(null),[error,setError]=useState(''),[busy,setBusy]=useState(false);
+ async function load(){setBusy(true);setError('');try{const r=await fetch('/api/admin/lesson-templates',{credentials:'include'});if(!r.ok)throw Error('Draft templates are unavailable.');setTemplates(await r.json())}catch(e){setError((e as Error).message)}finally{setBusy(false)}}
+ async function choose(id:string){setBusy(true);setError('');try{const r=await fetch('/api/admin/lesson-templates/'+id,{credentials:'include'});if(!r.ok)throw Error('This template is unavailable.');onStart(await r.json())}catch(e){setError((e as Error).message)}finally{setBusy(false)}}
+ return <section className="editor-form"><div className="overline">PRIVATE LESSON DRAFTS</div><h3>Original starter drafts</h3><p className="muted">These drafts are unreviewed and have no recordings. They are starting points for editors, not published lessons.</p>{error&&<p role="alert">{error}</p>}{templates===null?<button type="button" className="button outline" disabled={busy} onClick={load}>Show starter drafts</button>:templates.length===0?<p className="muted">No starter drafts available.</p>:templates.map(item=><div className="editor-group" key={item.id}><strong>{item.title}</strong><p className="muted">{item.course} · {item.module_number}.{item.lesson_number} · Unreviewed</p><button type="button" className="button outline" disabled={busy} onClick={()=>choose(item.id)}>Open as a new draft</button></div>)}</section>
+}

@@ -1,0 +1,134 @@
+{
+  "status": "draft_unreviewed",
+  "editorial_notes": [
+    "Original demonstration draft. Educator review of wording and progression is required.",
+    "Written practice only; pronunciation and native-speaker audio are not yet reviewed.",
+    "The linked outline may cover more than this short sample."
+  ],
+  "content": {
+    "course": "uz-ru",
+    "title": "Hafta kunlari",
+    "objective": "Hafta kunlarining ruscha nomlarini yozuvda tanish.",
+    "minutes": 8,
+    "module_number": 5,
+    "lesson_number": 4,
+    "words": [
+      {
+        "target": "понедельник",
+        "meaning": "dushanba"
+      },
+      {
+        "target": "вторник",
+        "meaning": "seshanba"
+      },
+      {
+        "target": "среда",
+        "meaning": "chorshanba"
+      },
+      {
+        "target": "четверг",
+        "meaning": "payshanba"
+      },
+      {
+        "target": "пятница",
+        "meaning": "juma"
+      },
+      {
+        "target": "суббота",
+        "meaning": "shanba"
+      },
+      {
+        "target": "воскресенье",
+        "meaning": "yakshanba"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "q1",
+        "type": "choice",
+        "prompt": "«dushanba» rus tilida qanday?",
+        "options": [
+          "понедельник",
+          "вторник",
+          "среда"
+        ],
+        "answers": [
+          "понедельник"
+        ],
+        "explanation": "понедельник — dushanba"
+      },
+      {
+        "id": "q2",
+        "type": "choice",
+        "prompt": "«вторник» nimani bildiradi?",
+        "options": [
+          "chorshanba",
+          "seshanba",
+          "dushanba"
+        ],
+        "answers": [
+          "seshanba"
+        ],
+        "explanation": "вторник — seshanba"
+      },
+      {
+        "id": "q3",
+        "type": "text",
+        "prompt": "«chorshanba» iborasini ruscha yozing.",
+        "options": [],
+        "answers": [
+          "среда"
+        ],
+        "explanation": "среда — chorshanba",
+        "normalization": {
+          "case_sensitive": false,
+          "punctuation_tolerant": true,
+          "apostrophe_variants": true
+        }
+      },
+      {
+        "id": "q4",
+        "type": "choice",
+        "prompt": "«payshanba» tarjimasini tanlang.",
+        "options": [
+          "вторник",
+          "четверг",
+          "понедельник"
+        ],
+        "answers": [
+          "четверг"
+        ],
+        "explanation": "четверг — payshanba"
+      },
+      {
+        "id": "q5",
+        "type": "match",
+        "prompt": "Iboralarni ma’nosi bilan moslang.",
+        "options": [],
+        "answers": [],
+        "explanation": "Iboralarni tarjimalari bilan bog‘lang.",
+        "match_pairs": [
+          {
+            "left": "понедельник",
+            "right": "dushanba"
+          },
+          {
+            "left": "вторник",
+            "right": "seshanba"
+          },
+          {
+            "left": "среда",
+            "right": "chorshanba"
+          }
+        ]
+      }
+    ],
+    "outline_ref": {
+      "course": "uz-ru",
+      "module_number": 5,
+      "lesson_number": 4,
+      "source_sha256": "4de4fd39956b36c650185ec93ce419b83d8659632dc690d21003a2748eeeee09"
+    },
+    "teaching_note": "Hafta kunlarini ketma-ket o‘qing: понедельник — dushanba, вторник — seshanba va hokazo."
+  }
+}

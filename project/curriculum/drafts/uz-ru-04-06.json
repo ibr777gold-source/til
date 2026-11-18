@@ -1,0 +1,122 @@
+{
+  "status": "draft_unreviewed",
+  "editorial_notes": [
+    "Original demonstration draft. Educator review of wording and progression is required.",
+    "Written practice only; pronunciation and native-speaker audio are not yet reviewed.",
+    "The linked outline may cover more than this short sample."
+  ],
+  "content": {
+    "course": "uz-ru",
+    "title": "Kim va nima?",
+    "objective": "Odamlar va buyumlar haqida sodda savollarni farqlash.",
+    "minutes": 8,
+    "module_number": 4,
+    "lesson_number": 6,
+    "words": [
+      {
+        "target": "Кто это?",
+        "meaning": "Bu kim?"
+      },
+      {
+        "target": "Что это?",
+        "meaning": "Bu nima?"
+      },
+      {
+        "target": "Это мама.",
+        "meaning": "Bu ona."
+      },
+      {
+        "target": "Это книга.",
+        "meaning": "Bu kitob."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "q1",
+        "type": "choice",
+        "prompt": "«Bu kim?» rus tilida qanday?",
+        "options": [
+          "Кто это?",
+          "Что это?",
+          "Это мама."
+        ],
+        "answers": [
+          "Кто это?"
+        ],
+        "explanation": "Кто это? — Bu kim?"
+      },
+      {
+        "id": "q2",
+        "type": "choice",
+        "prompt": "«Что это?» nimani bildiradi?",
+        "options": [
+          "Bu ona.",
+          "Bu nima?",
+          "Bu kim?"
+        ],
+        "answers": [
+          "Bu nima?"
+        ],
+        "explanation": "Что это? — Bu nima?"
+      },
+      {
+        "id": "q3",
+        "type": "text",
+        "prompt": "«Bu ona.» iborasini ruscha yozing.",
+        "options": [],
+        "answers": [
+          "Это мама."
+        ],
+        "explanation": "Это мама. — Bu ona.",
+        "normalization": {
+          "case_sensitive": false,
+          "punctuation_tolerant": true,
+          "apostrophe_variants": true
+        }
+      },
+      {
+        "id": "q4",
+        "type": "choice",
+        "prompt": "«Bu kitob.» tarjimasini tanlang.",
+        "options": [
+          "Что это?",
+          "Это книга.",
+          "Кто это?"
+        ],
+        "answers": [
+          "Это книга."
+        ],
+        "explanation": "Это книга. — Bu kitob."
+      },
+      {
+        "id": "q5",
+        "type": "match",
+        "prompt": "Iboralarni ma’nosi bilan moslang.",
+        "options": [],
+        "answers": [],
+        "explanation": "Iboralarni tarjimalari bilan bog‘lang.",
+        "match_pairs": [
+          {
+            "left": "Кто это?",
+            "right": "Bu kim?"
+          },
+          {
+            "left": "Что это?",
+            "right": "Bu nima?"
+          },
+          {
+            "left": "Это мама.",
+            "right": "Bu ona."
+          }
+        ]
+      }
+    ],
+    "outline_ref": {
+      "course": "uz-ru",
+      "module_number": 4,
+      "lesson_number": 6,
+      "source_sha256": "4de4fd39956b36c650185ec93ce419b83d8659632dc690d21003a2748eeeee09"
+    },
+    "teaching_note": "«Кто это?» odam haqida, «Что это?» esa narsa yoki buyum haqida so‘raydi."
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "status": "draft_unreviewed",
+  "editorial_notes": [
+    "Original sample; needs educator review.",
+    "Written practice only; reviewed listening and pronunciation material is still needed.",
+    "Linked outline: Undoshlar II. This sample may cover only part of its objective; verify scope during review."
+  ],
+  "content": {
+    "course": "uz-ru",
+    "title": "Kirill harflari: shakllar",
+    "objective": "Yana to‘rtta kirill harfining katta va kichik shaklini tanish.",
+    "minutes": 8,
+    "module_number": 2,
+    "lesson_number": 1,
+    "words": [
+      {
+        "target": "Ж ж",
+        "meaning": "katta va kichik kirill harfi"
+      },
+      {
+        "target": "Ш ш",
+        "meaning": "katta va kichik kirill harfi"
+      },
+      {
+        "target": "Ч ч",
+        "meaning": "katta va kichik kirill harfi"
+      },
+      {
+        "target": "Ц ц",
+        "meaning": "katta va kichik kirill harfi"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "q1",
+        "type": "choice",
+        "prompt": "Ж harfining kichik shaklini tanlang.",
+        "options": [
+          "ж",
+          "ш",
+          "ч"
+        ],
+        "answers": [
+          "ж"
+        ],
+        "explanation": "Ж va ж — bir harfning katta va kichik shakli.",
+        "normalization": {
+          "case_sensitive": true,
+          "punctuation_tolerant": false,
+          "apostrophe_variants": true
+        }
+      },
+      {
+        "id": "q2",
+        "type": "choice",
+        "prompt": "Ш harfining kichik shaklini tanlang.",
+        "options": [
+          "ц",
+          "ш",
+          "ж"
+        ],
+        "answers": [
+          "ш"
+        ],
+        "explanation": "Ш va ш — bir harfning ikki shakli.",
+        "normalization": {
+          "case_sensitive": true,
+          "punctuation_tolerant": false,
+          "apostrophe_variants": true
+        }
+      },
+      {
+        "id": "q3",
+        "type": "choice",
+        "prompt": "ч harfining katta shaklini tanlang.",
+        "options": [
+          "Ч",
+          "Ц",
+          "Ж"
+        ],
+        "answers": [
+          "Ч"
+        ],
+        "explanation": "Ч va ч — bir harfning ikki shakli.",
+        "normalization": {
+          "case_sensitive": true,
+          "punctuation_tolerant": false,
+          "apostrophe_variants": true
+        }
+      },
+      {
+        "id": "q4",
+        "type": "text",
+        "prompt": "Ц harfining kichik shaklini yozing.",
+        "options": [],
+        "answers": [
+          "ц"
+        ],
+        "explanation": "Ц harfining kichik shakli — ц.",
+        "normalization": {
+          "case_sensitive": true,
+          "punctuation_tolerant": false,
+          "apostrophe_variants": true
+        }
+      },
+      {
+        "id": "q5",
+        "type": "match",
+        "prompt": "Katta va kichik harflarni moslang.",
+        "options": [],
+        "answers": [],
+        "explanation": "Harflarning katta va kichik shakllarini solishtiring.",
+        "match_pairs": [
+          {
+            "left": "Ж",
+            "right": "ж"
+          },
+          {
+            "left": "Ш",
+            "right": "ш"
+          },
+          {
+            "left": "Ч",
+            "right": "ч"
+          },
+          {
+            "left": "Ц",
+            "right": "ц"
+          }
+        ]
+      }
+    ],
+    "outline_ref": {
+      "course": "uz-ru",
+      "module_number": 2,
+      "lesson_number": 1,
+      "source_sha256": "4de4fd39956b36c650185ec93ce419b83d8659632dc690d21003a2748eeeee09"
+    },
+    "teaching_note": "Ж, Ш va Ч ning katta va kichik yozma shakllarini solishtiring. Tovushlarini mashq qilish uchun alohida tinglash kerak."
+  }
+}

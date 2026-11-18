@@ -1,0 +1,122 @@
+{
+  "status": "draft_unreviewed",
+  "editorial_notes": [
+    "Original demonstration draft. Educator review of wording and progression is required.",
+    "Written practice only; pronunciation and native-speaker audio are not yet reviewed.",
+    "The linked outline may cover more than this short sample."
+  ],
+  "content": {
+    "course": "uz-ru",
+    "title": "Oddiy inkor",
+    "objective": "«Не» bilan bir nechta tayyor gapni tanish.",
+    "minutes": 8,
+    "module_number": 7,
+    "lesson_number": 4,
+    "words": [
+      {
+        "target": "Я не читаю.",
+        "meaning": "Men o‘qimayman."
+      },
+      {
+        "target": "Я не работаю.",
+        "meaning": "Men ishlamayman."
+      },
+      {
+        "target": "Я не говорю.",
+        "meaning": "Men gapirmayman."
+      },
+      {
+        "target": "Я не сплю.",
+        "meaning": "Men uxlamayman."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "q1",
+        "type": "choice",
+        "prompt": "«Men o‘qimayman.» rus tilida qanday?",
+        "options": [
+          "Я не читаю.",
+          "Я не работаю.",
+          "Я не говорю."
+        ],
+        "answers": [
+          "Я не читаю."
+        ],
+        "explanation": "Я не читаю. — Men o‘qimayman."
+      },
+      {
+        "id": "q2",
+        "type": "choice",
+        "prompt": "«Я не работаю.» nimani bildiradi?",
+        "options": [
+          "Men gapirmayman.",
+          "Men ishlamayman.",
+          "Men o‘qimayman."
+        ],
+        "answers": [
+          "Men ishlamayman."
+        ],
+        "explanation": "Я не работаю. — Men ishlamayman."
+      },
+      {
+        "id": "q3",
+        "type": "text",
+        "prompt": "«Men gapirmayman.» iborasini ruscha yozing.",
+        "options": [],
+        "answers": [
+          "Я не говорю."
+        ],
+        "explanation": "Я не говорю. — Men gapirmayman.",
+        "normalization": {
+          "case_sensitive": false,
+          "punctuation_tolerant": true,
+          "apostrophe_variants": true
+        }
+      },
+      {
+        "id": "q4",
+        "type": "choice",
+        "prompt": "«Men uxlamayman.» tarjimasini tanlang.",
+        "options": [
+          "Я не работаю.",
+          "Я не сплю.",
+          "Я не читаю."
+        ],
+        "answers": [
+          "Я не сплю."
+        ],
+        "explanation": "Я не сплю. — Men uxlamayman."
+      },
+      {
+        "id": "q5",
+        "type": "match",
+        "prompt": "Iboralarni ma’nosi bilan moslang.",
+        "options": [],
+        "answers": [],
+        "explanation": "Iboralarni tarjimalari bilan bog‘lang.",
+        "match_pairs": [
+          {
+            "left": "Я не читаю.",
+            "right": "Men o‘qimayman."
+          },
+          {
+            "left": "Я не работаю.",
+            "right": "Men ishlamayman."
+          },
+          {
+            "left": "Я не говорю.",
+            "right": "Men gapirmayman."
+          }
+        ]
+      }
+    ],
+    "outline_ref": {
+      "course": "uz-ru",
+      "module_number": 7,
+      "lesson_number": 4,
+      "source_sha256": "4de4fd39956b36c650185ec93ce419b83d8659632dc690d21003a2748eeeee09"
+    },
+    "teaching_note": "Rus tilida bu oddiy gaplarda inkor uchun fe’l oldiga alohida «не» qo‘yiladi: «Я не читаю»."
+  }
+}

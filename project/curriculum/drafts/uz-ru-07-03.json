@@ -1,0 +1,122 @@
+{
+  "status": "draft_unreviewed",
+  "editorial_notes": [
+    "Original demonstration draft. Educator review of wording and progression is required.",
+    "Written practice only; pronunciation and native-speaker audio are not yet reviewed.",
+    "The linked outline may cover more than this short sample."
+  ],
+  "content": {
+    "course": "uz-ru",
+    "title": "Siz nima qilyapsiz?",
+    "objective": "Harakat haqida so‘rash va sodda javobni tanish.",
+    "minutes": 8,
+    "module_number": 7,
+    "lesson_number": 3,
+    "words": [
+      {
+        "target": "Что вы делаете?",
+        "meaning": "Siz nima qilyapsiz?"
+      },
+      {
+        "target": "Я читаю.",
+        "meaning": "Men o‘qiyapman."
+      },
+      {
+        "target": "Я работаю.",
+        "meaning": "Men ishlayapman."
+      },
+      {
+        "target": "Я отдыхаю.",
+        "meaning": "Men dam olyapman."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "q1",
+        "type": "choice",
+        "prompt": "«Siz nima qilyapsiz?» rus tilida qanday?",
+        "options": [
+          "Что вы делаете?",
+          "Я читаю.",
+          "Я работаю."
+        ],
+        "answers": [
+          "Что вы делаете?"
+        ],
+        "explanation": "Что вы делаете? — Siz nima qilyapsiz?"
+      },
+      {
+        "id": "q2",
+        "type": "choice",
+        "prompt": "«Я читаю.» nimani bildiradi?",
+        "options": [
+          "Men ishlayapman.",
+          "Men o‘qiyapman.",
+          "Siz nima qilyapsiz?"
+        ],
+        "answers": [
+          "Men o‘qiyapman."
+        ],
+        "explanation": "Я читаю. — Men o‘qiyapman."
+      },
+      {
+        "id": "q3",
+        "type": "text",
+        "prompt": "«Men ishlayapman.» iborasini ruscha yozing.",
+        "options": [],
+        "answers": [
+          "Я работаю."
+        ],
+        "explanation": "Я работаю. — Men ishlayapman.",
+        "normalization": {
+          "case_sensitive": false,
+          "punctuation_tolerant": true,
+          "apostrophe_variants": true
+        }
+      },
+      {
+        "id": "q4",
+        "type": "choice",
+        "prompt": "«Men dam olyapman.» tarjimasini tanlang.",
+        "options": [
+          "Я читаю.",
+          "Я отдыхаю.",
+          "Что вы делаете?"
+        ],
+        "answers": [
+          "Я отдыхаю."
+        ],
+        "explanation": "Я отдыхаю. — Men dam olyapman."
+      },
+      {
+        "id": "q5",
+        "type": "match",
+        "prompt": "Iboralarni ma’nosi bilan moslang.",
+        "options": [],
+        "answers": [],
+        "explanation": "Iboralarni tarjimalari bilan bog‘lang.",
+        "match_pairs": [
+          {
+            "left": "Что вы делаете?",
+            "right": "Siz nima qilyapsiz?"
+          },
+          {
+            "left": "Я читаю.",
+            "right": "Men o‘qiyapman."
+          },
+          {
+            "left": "Я работаю.",
+            "right": "Men ishlayapman."
+          }
+        ]
+      }
+    ],
+    "outline_ref": {
+      "course": "uz-ru",
+      "module_number": 7,
+      "lesson_number": 3,
+      "source_sha256": "4de4fd39956b36c650185ec93ce419b83d8659632dc690d21003a2748eeeee09"
+    },
+    "teaching_note": "«Что вы делаете?» hurmat bilan bir kishidan yoki bir necha kishidan harakat haqida so‘raydi. Misoldagi «Я…» javobi bir kishining javobidir."
+  }
+}

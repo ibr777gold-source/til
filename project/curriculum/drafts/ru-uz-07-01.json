@@ -1,0 +1,135 @@
+{
+  "status": "draft_unreviewed",
+  "editorial_notes": [
+    "Original demonstration draft; language educator review is required.",
+    "Written vocabulary practice only; usage, pronunciation and recordings need review.",
+    "Linked outline: Действия каждый день. This sample may cover only part of its objective; verify scope during review.",
+    "Examples use first-person forms; review inflection and register with an educator."
+  ],
+  "content": {
+    "course": "ru-uz",
+    "title": "Действия каждый день",
+    "objective": "Узнавать несколько узбекских глаголов в начальной форме.",
+    "minutes": 8,
+    "module_number": 7,
+    "lesson_number": 1,
+    "words": [
+      {
+        "target": "o‘qimoq",
+        "meaning": "читать",
+        "example": "Men o‘qiyman.",
+        "example_translation": "Я читаю."
+      },
+      {
+        "target": "ishlamoq",
+        "meaning": "работать",
+        "example": "Men ishlayman.",
+        "example_translation": "Я работаю."
+      },
+      {
+        "target": "gapirmoq",
+        "meaning": "говорить",
+        "example": "Men gapiraman.",
+        "example_translation": "Я говорю."
+      },
+      {
+        "target": "yashamoq",
+        "meaning": "жить",
+        "example": "Men yashayman.",
+        "example_translation": "Я живу."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "q1",
+        "type": "choice",
+        "prompt": "Как по-узбекски «читать»?",
+        "options": [
+          "o‘qimoq",
+          "ishlamoq",
+          "gapirmoq"
+        ],
+        "answers": [
+          "o‘qimoq"
+        ],
+        "explanation": "o‘qimoq — читать."
+      },
+      {
+        "id": "q2",
+        "type": "choice",
+        "prompt": "Что означает «ishlamoq»?",
+        "options": [
+          "говорить",
+          "работать",
+          "жить"
+        ],
+        "answers": [
+          "работать"
+        ],
+        "explanation": "ishlamoq — работать."
+      },
+      {
+        "id": "q3",
+        "type": "text",
+        "prompt": "Напишите по-узбекски «говорить».",
+        "options": [],
+        "answers": [
+          "gapirmoq"
+        ],
+        "explanation": "gapirmoq — говорить.",
+        "normalization": {
+          "case_sensitive": false,
+          "punctuation_tolerant": true,
+          "apostrophe_variants": true
+        }
+      },
+      {
+        "id": "q4",
+        "type": "choice",
+        "prompt": "Как по-узбекски «жить»?",
+        "options": [
+          "o‘qimoq",
+          "yashamoq",
+          "gapirmoq"
+        ],
+        "answers": [
+          "yashamoq"
+        ],
+        "explanation": "yashamoq — жить."
+      },
+      {
+        "id": "q5",
+        "type": "match",
+        "prompt": "Соедините слова и их значения.",
+        "options": [],
+        "answers": [],
+        "explanation": "Сопоставьте слова с их значениями.",
+        "match_pairs": [
+          {
+            "left": "o‘qimoq",
+            "right": "читать"
+          },
+          {
+            "left": "ishlamoq",
+            "right": "работать"
+          },
+          {
+            "left": "gapirmoq",
+            "right": "говорить"
+          },
+          {
+            "left": "yashamoq",
+            "right": "жить"
+          }
+        ]
+      }
+    ],
+    "outline_ref": {
+      "course": "ru-uz",
+      "module_number": 7,
+      "lesson_number": 1,
+      "source_sha256": "58a33c4a8c89c57886dface7064fff0c5ef413940fc4c0018c8f7acb87b59cf8"
+    },
+    "teaching_note": "Слова o‘qimoq и ishlamoq даны в словарной форме. Далее вы увидите формы этих глаголов в предложениях."
+  }
+}

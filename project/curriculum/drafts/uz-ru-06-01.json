@@ -1,0 +1,122 @@
+{
+  "status": "draft_unreviewed",
+  "editorial_notes": [
+    "Original demonstration draft; language educator review is required.",
+    "Written practice only. Listening and pronunciation require reviewed recordings.",
+    "Linked outline: Oila a’zolari. This sample may cover only part of its objective; verify scope during review."
+  ],
+  "content": {
+    "course": "uz-ru",
+    "title": "Oila a’zolari",
+    "objective": "Yaqin oila a’zolarining bir necha nomini tanish.",
+    "minutes": 8,
+    "module_number": 6,
+    "lesson_number": 1,
+    "words": [
+      {
+        "target": "мама",
+        "meaning": "ona"
+      },
+      {
+        "target": "папа",
+        "meaning": "ota"
+      },
+      {
+        "target": "брат",
+        "meaning": "aka yoki uka"
+      },
+      {
+        "target": "сестра",
+        "meaning": "opa yoki singil"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "q1",
+        "type": "choice",
+        "prompt": "«Ona» qaysi ruscha so‘z?",
+        "options": [
+          "мама",
+          "папа",
+          "брат"
+        ],
+        "answers": [
+          "мама"
+        ],
+        "explanation": "Мама — ona."
+      },
+      {
+        "id": "q2",
+        "type": "choice",
+        "prompt": "«Сестра» nimani bildiradi?",
+        "options": [
+          "opa yoki singil",
+          "aka yoki uka",
+          "ota"
+        ],
+        "answers": [
+          "opa yoki singil"
+        ],
+        "explanation": "Сестра opa yoki singilni bildirishi mumkin."
+      },
+      {
+        "id": "q3",
+        "type": "text",
+        "prompt": "«Ota» so‘zini ruscha yozing.",
+        "options": [],
+        "answers": [
+          "папа"
+        ],
+        "explanation": "Папа — ota.",
+        "normalization": {
+          "case_sensitive": false,
+          "punctuation_tolerant": true,
+          "apostrophe_variants": true
+        }
+      },
+      {
+        "id": "q4",
+        "type": "choice",
+        "prompt": "«Брат» nimani bildiradi?",
+        "options": [
+          "aka yoki uka",
+          "opa yoki singil",
+          "ona"
+        ],
+        "answers": [
+          "aka yoki uka"
+        ],
+        "explanation": "Брат aka yoki ukani bildirishi mumkin."
+      },
+      {
+        "id": "q5",
+        "type": "match",
+        "prompt": "Oila a’zolarini moslang.",
+        "options": [],
+        "answers": [],
+        "explanation": "So‘zlarni oila a’zolarining ma’nolari bilan bog‘lang.",
+        "match_pairs": [
+          {
+            "left": "мама",
+            "right": "ona"
+          },
+          {
+            "left": "папа",
+            "right": "ota"
+          },
+          {
+            "left": "сестра",
+            "right": "opa yoki singil"
+          }
+        ]
+      }
+    ],
+    "outline_ref": {
+      "course": "uz-ru",
+      "module_number": 6,
+      "lesson_number": 1,
+      "source_sha256": "4de4fd39956b36c650185ec93ce419b83d8659632dc690d21003a2748eeeee09"
+    },
+    "teaching_note": "Ruscha «брат» aka yoki ukani, «сестра» esa opa yoki singilni bildirishi mumkin. Yosh farqi bu so‘zlarning o‘zida ko‘rsatilmaydi."
+  }
+}

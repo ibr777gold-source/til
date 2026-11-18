@@ -1,0 +1,130 @@
+{
+  "status": "draft_unreviewed",
+  "editorial_notes": [
+    "Original demonstration draft; language educator review is required.",
+    "Written practice only. Listening and pronunciation require reviewed recordings.",
+    "Linked outline: Члены семьи. This sample may cover only part of its objective; verify scope during review."
+  ],
+  "content": {
+    "course": "ru-uz",
+    "title": "Члены семьи",
+    "objective": "Узнавать несколько слов о близких членах семьи.",
+    "minutes": 8,
+    "module_number": 6,
+    "lesson_number": 1,
+    "words": [
+      {
+        "target": "ona",
+        "meaning": "мать"
+      },
+      {
+        "target": "ota",
+        "meaning": "отец"
+      },
+      {
+        "target": "aka",
+        "meaning": "старший брат"
+      },
+      {
+        "target": "uka",
+        "meaning": "младший брат"
+      },
+      {
+        "target": "opa",
+        "meaning": "старшая сестра"
+      },
+      {
+        "target": "singil",
+        "meaning": "младшая сестра"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "q1",
+        "type": "choice",
+        "prompt": "Как по-узбекски «мать»?",
+        "options": [
+          "ona",
+          "ota",
+          "aka"
+        ],
+        "answers": [
+          "ona"
+        ],
+        "explanation": "Ona — мать."
+      },
+      {
+        "id": "q2",
+        "type": "choice",
+        "prompt": "Что означает uka?",
+        "options": [
+          "младший брат",
+          "старший брат",
+          "отец"
+        ],
+        "answers": [
+          "младший брат"
+        ],
+        "explanation": "Uka — младший брат."
+      },
+      {
+        "id": "q3",
+        "type": "text",
+        "prompt": "Напишите по-узбекски «отец».",
+        "options": [],
+        "answers": [
+          "ota"
+        ],
+        "explanation": "Ota — отец.",
+        "normalization": {
+          "case_sensitive": false,
+          "punctuation_tolerant": true,
+          "apostrophe_variants": true
+        }
+      },
+      {
+        "id": "q4",
+        "type": "choice",
+        "prompt": "Как называют старшую сестру?",
+        "options": [
+          "opa",
+          "singil",
+          "uka"
+        ],
+        "answers": [
+          "opa"
+        ],
+        "explanation": "Opa — старшая сестра."
+      },
+      {
+        "id": "q5",
+        "type": "match",
+        "prompt": "Соедините слова и их значения.",
+        "options": [],
+        "answers": [],
+        "explanation": "Значения различают возраст и родство.",
+        "match_pairs": [
+          {
+            "left": "aka",
+            "right": "старший брат"
+          },
+          {
+            "left": "uka",
+            "right": "младший брат"
+          },
+          {
+            "left": "singil",
+            "right": "младшая сестра"
+          }
+        ]
+      }
+    ],
+    "outline_ref": {
+      "course": "ru-uz",
+      "module_number": 6,
+      "lesson_number": 1,
+      "source_sha256": "58a33c4a8c89c57886dface7064fff0c5ef413940fc4c0018c8f7acb87b59cf8"
+    },
+    "teaching_note": "Aka и uka различают старшего и младшего брата; opa и singil — старшую и младшую сестру."
+  }
+}

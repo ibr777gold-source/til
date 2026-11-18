@@ -1,0 +1,126 @@
+{
+  "status": "draft_unreviewed",
+  "editorial_notes": [
+    "Original sample. Requires qualified educator review of translation, register, and context.",
+    "Written recognition practice only; not a full lesson on the outline objective.",
+    "Linked outline: Iltimos, bering. Audio and pronunciation are not yet reviewed."
+  ],
+  "content": {
+    "course": "uz-ru",
+    "title": "Xushmuomala so‘rov",
+    "objective": "Mavzuga oid bir necha foydali so‘z yoki iborani tanish.",
+    "minutes": 8,
+    "module_number": 8,
+    "lesson_number": 2,
+    "words": [
+      {
+        "target": "Пожалуйста",
+        "meaning": "Iltimos"
+      },
+      {
+        "target": "Спасибо",
+        "meaning": "Rahmat"
+      },
+      {
+        "target": "Можно?",
+        "meaning": "Mumkinmi?"
+      },
+      {
+        "target": "Дайте, пожалуйста",
+        "meaning": "Iltimos, bering"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "q1",
+        "type": "choice",
+        "prompt": "«Iltimos» uchun mos javobni tanlang.",
+        "options": [
+          "Пожалуйста",
+          "Спасибо",
+          "Можно?"
+        ],
+        "answers": [
+          "Пожалуйста"
+        ],
+        "explanation": "Пожалуйста — Iltimos."
+      },
+      {
+        "id": "q2",
+        "type": "choice",
+        "prompt": "«Спасибо» nimani bildiradi?",
+        "options": [
+          "Mumkinmi?",
+          "Rahmat",
+          "Iltimos, bering"
+        ],
+        "answers": [
+          "Rahmat"
+        ],
+        "explanation": "Спасибо — Rahmat."
+      },
+      {
+        "id": "q3",
+        "type": "text",
+        "prompt": "Rus tilida yozing: «Mumkinmi?».",
+        "options": [],
+        "answers": [
+          "Можно?"
+        ],
+        "explanation": "Можно? — Mumkinmi?.",
+        "normalization": {
+          "case_sensitive": false,
+          "punctuation_tolerant": true,
+          "apostrophe_variants": true
+        }
+      },
+      {
+        "id": "q4",
+        "type": "choice",
+        "prompt": "«Дайте, пожалуйста» nimani bildiradi?",
+        "options": [
+          "Iltimos",
+          "Iltimos, bering",
+          "Mumkinmi?"
+        ],
+        "answers": [
+          "Iltimos, bering"
+        ],
+        "explanation": "Дайте, пожалуйста — Iltimos, bering."
+      },
+      {
+        "id": "q5",
+        "type": "match",
+        "prompt": "So‘z yoki iboralarni ma’nosi bilan moslang.",
+        "options": [],
+        "answers": [],
+        "explanation": "Misollar va ularning ma’nolarini solishtiring.",
+        "match_pairs": [
+          {
+            "left": "Пожалуйста",
+            "right": "Iltimos"
+          },
+          {
+            "left": "Спасибо",
+            "right": "Rahmat"
+          },
+          {
+            "left": "Можно?",
+            "right": "Mumkinmi?"
+          },
+          {
+            "left": "Дайте, пожалуйста",
+            "right": "Iltimos, bering"
+          }
+        ]
+      }
+    ],
+    "outline_ref": {
+      "course": "uz-ru",
+      "module_number": 8,
+      "lesson_number": 2,
+      "source_sha256": "4de4fd39956b36c650185ec93ce419b83d8659632dc690d21003a2748eeeee09"
+    },
+    "teaching_note": "«Пожалуйста» so‘rovni muloyim qiladi; «спасибо» bilan minnatdorchilik bildiriladi."
+  }
+}

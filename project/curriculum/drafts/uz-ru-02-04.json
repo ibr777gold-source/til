@@ -1,0 +1,124 @@
+{
+  "status": "draft_unreviewed",
+  "editorial_notes": [
+    "Original demonstration draft. Educator review of wording and progression is required.",
+    "Written practice only; pronunciation and native-speaker audio are not yet reviewed.",
+    "The linked outline may cover more than this short sample.",
+    "Accent marks are shown for learning; the typed answer also accepts ordinary unmarked spelling."
+  ],
+  "content": {
+    "course": "uz-ru",
+    "title": "Yozuvda urg‘u belgisi",
+    "objective": "Namunada urg‘u belgisining o‘rnini kuzatish.",
+    "minutes": 8,
+    "module_number": 2,
+    "lesson_number": 4,
+    "words": [
+      {
+        "target": "ма́ма",
+        "meaning": "ona (urg‘u birinchi bo‘g‘inda)"
+      },
+      {
+        "target": "па́па",
+        "meaning": "ota (urg‘u birinchi bo‘g‘inda)"
+      },
+      {
+        "target": "вода́",
+        "meaning": "suv (urg‘u oxirgi bo‘g‘inda)"
+      },
+      {
+        "target": "окно́",
+        "meaning": "deraza (urg‘u oxirgi bo‘g‘inda)"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "q1",
+        "type": "choice",
+        "prompt": "«ona (urg‘u birinchi bo‘g‘inda)» rus tilida qanday?",
+        "options": [
+          "ма́ма",
+          "па́па",
+          "вода́"
+        ],
+        "answers": [
+          "ма́ма"
+        ],
+        "explanation": "ма́ма — ona (urg‘u birinchi bo‘g‘inda)"
+      },
+      {
+        "id": "q2",
+        "type": "choice",
+        "prompt": "«па́па» nimani bildiradi?",
+        "options": [
+          "suv (urg‘u oxirgi bo‘g‘inda)",
+          "ota (urg‘u birinchi bo‘g‘inda)",
+          "ona (urg‘u birinchi bo‘g‘inda)"
+        ],
+        "answers": [
+          "ota (urg‘u birinchi bo‘g‘inda)"
+        ],
+        "explanation": "па́па — ota (urg‘u birinchi bo‘g‘inda)"
+      },
+      {
+        "id": "q3",
+        "type": "text",
+        "prompt": "«suv (urg‘u oxirgi bo‘g‘inda)» iborasini ruscha yozing.",
+        "options": [],
+        "answers": [
+          "вода́",
+          "вода"
+        ],
+        "explanation": "вода́ — suv (urg‘u oxirgi bo‘g‘inda)",
+        "normalization": {
+          "case_sensitive": false,
+          "punctuation_tolerant": true,
+          "apostrophe_variants": true
+        }
+      },
+      {
+        "id": "q4",
+        "type": "choice",
+        "prompt": "«deraza (urg‘u oxirgi bo‘g‘inda)» tarjimasini tanlang.",
+        "options": [
+          "па́па",
+          "окно́",
+          "ма́ма"
+        ],
+        "answers": [
+          "окно́"
+        ],
+        "explanation": "окно́ — deraza (urg‘u oxirgi bo‘g‘inda)"
+      },
+      {
+        "id": "q5",
+        "type": "match",
+        "prompt": "Iboralarni ma’nosi bilan moslang.",
+        "options": [],
+        "answers": [],
+        "explanation": "Iboralarni tarjimalari bilan bog‘lang.",
+        "match_pairs": [
+          {
+            "left": "ма́ма",
+            "right": "ona (urg‘u birinchi bo‘g‘inda)"
+          },
+          {
+            "left": "па́па",
+            "right": "ota (urg‘u birinchi bo‘g‘inda)"
+          },
+          {
+            "left": "вода́",
+            "right": "suv (urg‘u oxirgi bo‘g‘inda)"
+          }
+        ]
+      }
+    ],
+    "outline_ref": {
+      "course": "uz-ru",
+      "module_number": 2,
+      "lesson_number": 4,
+      "source_sha256": "4de4fd39956b36c650185ec93ce419b83d8659632dc690d21003a2748eeeee09"
+    },
+    "teaching_note": "Ruscha so‘zda bir bo‘g‘in urg‘uli bo‘ladi. Bu darsdagi urg‘u belgisi o‘rganish uchun qo‘yilgan; odatiy yozuvda u ko‘pincha ko‘rsatilmaydi."
+  }
+}

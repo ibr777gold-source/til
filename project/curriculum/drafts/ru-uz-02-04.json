@@ -1,0 +1,122 @@
+{
+  "status": "draft_unreviewed",
+  "editorial_notes": [
+    "Original demonstration draft. Educator review of wording and progression is required.",
+    "Written practice only; pronunciation and native-speaker audio are not yet reviewed.",
+    "The linked outline may cover more than this short sample."
+  ],
+  "content": {
+    "course": "ru-uz",
+    "title": "Сочетание Ng",
+    "objective": "Узнавать сочетание ng в нескольких словах.",
+    "minutes": 8,
+    "module_number": 2,
+    "lesson_number": 4,
+    "words": [
+      {
+        "target": "tong",
+        "meaning": "рассвет"
+      },
+      {
+        "target": "so‘ng",
+        "meaning": "потом"
+      },
+      {
+        "target": "yangi",
+        "meaning": "новый"
+      },
+      {
+        "target": "dengiz",
+        "meaning": "море"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "q1",
+        "type": "choice",
+        "prompt": "Как по-узбекски: «рассвет»?",
+        "options": [
+          "tong",
+          "so‘ng",
+          "yangi"
+        ],
+        "answers": [
+          "tong"
+        ],
+        "explanation": "tong — рассвет"
+      },
+      {
+        "id": "q2",
+        "type": "choice",
+        "prompt": "Что означает «so‘ng»?",
+        "options": [
+          "новый",
+          "потом",
+          "рассвет"
+        ],
+        "answers": [
+          "потом"
+        ],
+        "explanation": "so‘ng — потом"
+      },
+      {
+        "id": "q3",
+        "type": "text",
+        "prompt": "Напишите по-узбекски: «новый»",
+        "options": [],
+        "answers": [
+          "yangi"
+        ],
+        "explanation": "yangi — новый",
+        "normalization": {
+          "case_sensitive": false,
+          "punctuation_tolerant": true,
+          "apostrophe_variants": true
+        }
+      },
+      {
+        "id": "q4",
+        "type": "choice",
+        "prompt": "Выберите перевод: «море»",
+        "options": [
+          "so‘ng",
+          "dengiz",
+          "tong"
+        ],
+        "answers": [
+          "dengiz"
+        ],
+        "explanation": "dengiz — море"
+      },
+      {
+        "id": "q5",
+        "type": "match",
+        "prompt": "Соедините фразы и их значения.",
+        "options": [],
+        "answers": [],
+        "explanation": "Сопоставьте слова и переводы.",
+        "match_pairs": [
+          {
+            "left": "tong",
+            "right": "рассвет"
+          },
+          {
+            "left": "so‘ng",
+            "right": "потом"
+          },
+          {
+            "left": "yangi",
+            "right": "новый"
+          }
+        ]
+      }
+    ],
+    "outline_ref": {
+      "course": "ru-uz",
+      "module_number": 2,
+      "lesson_number": 4,
+      "source_sha256": "58a33c4a8c89c57886dface7064fff0c5ef413940fc4c0018c8f7acb87b59cf8"
+    },
+    "teaching_note": "Ng встречается в словах как сочетание букв. Сравните его положение в середине или в конце представленных примеров и отдельно проверьте произношение с преподавателем."
+  }
+}

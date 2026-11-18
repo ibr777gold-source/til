@@ -1,0 +1,122 @@
+{
+  "status": "draft_unreviewed",
+  "editorial_notes": [
+    "Original demonstration draft. Educator review of wording and progression is required.",
+    "Written practice only; pronunciation and native-speaker audio are not yet reviewed.",
+    "The linked outline may cover more than this short sample."
+  ],
+  "content": {
+    "course": "uz-ru",
+    "title": "Undosh harflar",
+    "objective": "Bir necha kirill undosh harfini yozuvda tanish.",
+    "minutes": 8,
+    "module_number": 1,
+    "lesson_number": 4,
+    "words": [
+      {
+        "target": "М м",
+        "meaning": "M undosh harfi"
+      },
+      {
+        "target": "Т т",
+        "meaning": "T undosh harfi"
+      },
+      {
+        "target": "К к",
+        "meaning": "K undosh harfi"
+      },
+      {
+        "target": "Н н",
+        "meaning": "N undosh harfi"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "q1",
+        "type": "choice",
+        "prompt": "Qaysi harf «M undosh harfi»?",
+        "options": [
+          "М м",
+          "Т т",
+          "К к"
+        ],
+        "answers": [
+          "М м"
+        ],
+        "explanation": "М м — M undosh harfi"
+      },
+      {
+        "id": "q2",
+        "type": "choice",
+        "prompt": "«Т т» nimani bildiradi?",
+        "options": [
+          "K undosh harfi",
+          "T undosh harfi",
+          "M undosh harfi"
+        ],
+        "answers": [
+          "T undosh harfi"
+        ],
+        "explanation": "Т т — T undosh harfi"
+      },
+      {
+        "id": "q3",
+        "type": "text",
+        "prompt": "«K undosh harfi»ni katta va kichik shaklda, orasida bo‘sh joy bilan yozing.",
+        "options": [],
+        "answers": [
+          "К к"
+        ],
+        "explanation": "К к — K undosh harfi",
+        "normalization": {
+          "case_sensitive": false,
+          "punctuation_tolerant": true,
+          "apostrophe_variants": true
+        }
+      },
+      {
+        "id": "q4",
+        "type": "choice",
+        "prompt": "Qaysi harf «N undosh harfi»?",
+        "options": [
+          "Т т",
+          "Н н",
+          "М м"
+        ],
+        "answers": [
+          "Н н"
+        ],
+        "explanation": "Н н — N undosh harfi"
+      },
+      {
+        "id": "q5",
+        "type": "match",
+        "prompt": "Iboralarni ma’nosi bilan moslang.",
+        "options": [],
+        "answers": [],
+        "explanation": "Iboralarni tarjimalari bilan bog‘lang.",
+        "match_pairs": [
+          {
+            "left": "М м",
+            "right": "M undosh harfi"
+          },
+          {
+            "left": "Т т",
+            "right": "T undosh harfi"
+          },
+          {
+            "left": "К к",
+            "right": "K undosh harfi"
+          }
+        ]
+      }
+    ],
+    "outline_ref": {
+      "course": "uz-ru",
+      "module_number": 1,
+      "lesson_number": 4,
+      "source_sha256": "4de4fd39956b36c650185ec93ce419b83d8659632dc690d21003a2748eeeee09"
+    },
+    "teaching_note": "М, Т, К va Н — undosh harflar. Katta va kichik shakllarini yonma-yon solishtiring."
+  }
+}

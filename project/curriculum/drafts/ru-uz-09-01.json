@@ -1,0 +1,126 @@
+{
+  "status": "draft_unreviewed",
+  "editorial_notes": [
+    "Original sample; needs educator review.",
+    "Written practice only; reviewed listening and pronunciation material is still needed.",
+    "Linked outline: Места в городе. This sample may cover only part of its objective; verify scope during review."
+  ],
+  "content": {
+    "course": "ru-uz",
+    "title": "Места в городе",
+    "objective": "Узнавать несколько названий мест в городе.",
+    "minutes": 8,
+    "module_number": 9,
+    "lesson_number": 1,
+    "words": [
+      {
+        "target": "maktab",
+        "meaning": "школа"
+      },
+      {
+        "target": "do‘kon",
+        "meaning": "магазин"
+      },
+      {
+        "target": "bozor",
+        "meaning": "рынок"
+      },
+      {
+        "target": "kutubxona",
+        "meaning": "библиотека"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "q1",
+        "type": "choice",
+        "prompt": "Как по-узбекски «школа»?",
+        "options": [
+          "maktab",
+          "do‘kon",
+          "bozor"
+        ],
+        "answers": [
+          "maktab"
+        ],
+        "explanation": "maktab — школа."
+      },
+      {
+        "id": "q2",
+        "type": "choice",
+        "prompt": "Что означает «do‘kon»?",
+        "options": [
+          "рынок",
+          "магазин",
+          "библиотека"
+        ],
+        "answers": [
+          "магазин"
+        ],
+        "explanation": "do‘kon — магазин."
+      },
+      {
+        "id": "q3",
+        "type": "text",
+        "prompt": "Напишите по-узбекски «рынок».",
+        "options": [],
+        "answers": [
+          "bozor"
+        ],
+        "explanation": "bozor — рынок.",
+        "normalization": {
+          "case_sensitive": false,
+          "punctuation_tolerant": true,
+          "apostrophe_variants": true
+        }
+      },
+      {
+        "id": "q4",
+        "type": "choice",
+        "prompt": "Как по-узбекски «библиотека»?",
+        "options": [
+          "do‘kon",
+          "maktab",
+          "kutubxona"
+        ],
+        "answers": [
+          "kutubxona"
+        ],
+        "explanation": "kutubxona — библиотека."
+      },
+      {
+        "id": "q5",
+        "type": "match",
+        "prompt": "Соедините места и их значения.",
+        "options": [],
+        "answers": [],
+        "explanation": "Сопоставьте слова и значения.",
+        "match_pairs": [
+          {
+            "left": "maktab",
+            "right": "школа"
+          },
+          {
+            "left": "do‘kon",
+            "right": "магазин"
+          },
+          {
+            "left": "bozor",
+            "right": "рынок"
+          },
+          {
+            "left": "kutubxona",
+            "right": "библиотека"
+          }
+        ]
+      }
+    ],
+    "outline_ref": {
+      "course": "ru-uz",
+      "module_number": 9,
+      "lesson_number": 1,
+      "source_sha256": "58a33c4a8c89c57886dface7064fff0c5ef413940fc4c0018c8f7acb87b59cf8"
+    },
+    "teaching_note": "Эти слова обозначают места в городе. Они встретятся далее в вопросах о местонахождении и направлении."
+  }
+}

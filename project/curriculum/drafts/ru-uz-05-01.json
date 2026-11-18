@@ -1,0 +1,130 @@
+{
+  "status": "draft_unreviewed",
+  "editorial_notes": [
+    "Original demonstration draft; language educator review is required.",
+    "Written practice only. Listening and pronunciation require reviewed recordings.",
+    "Linked outline: Числа 0–10. This sample may cover only part of its objective; verify scope during review."
+  ],
+  "content": {
+    "course": "ru-uz",
+    "title": "Первые числа",
+    "objective": "Узнавать на письме числа от нуля до пяти.",
+    "minutes": 8,
+    "module_number": 5,
+    "lesson_number": 1,
+    "words": [
+      {
+        "target": "nol",
+        "meaning": "ноль"
+      },
+      {
+        "target": "bir",
+        "meaning": "один"
+      },
+      {
+        "target": "ikki",
+        "meaning": "два"
+      },
+      {
+        "target": "uch",
+        "meaning": "три"
+      },
+      {
+        "target": "to‘rt",
+        "meaning": "четыре"
+      },
+      {
+        "target": "besh",
+        "meaning": "пять"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "q1",
+        "type": "choice",
+        "prompt": "Как по-узбекски «один»?",
+        "options": [
+          "bir",
+          "ikki",
+          "uch"
+        ],
+        "answers": [
+          "bir"
+        ],
+        "explanation": "Bir — один."
+      },
+      {
+        "id": "q2",
+        "type": "choice",
+        "prompt": "Какое число означает uch?",
+        "options": [
+          "три",
+          "два",
+          "пять"
+        ],
+        "answers": [
+          "три"
+        ],
+        "explanation": "Uch — три."
+      },
+      {
+        "id": "q3",
+        "type": "text",
+        "prompt": "Напишите по-узбекски «два».",
+        "options": [],
+        "answers": [
+          "ikki"
+        ],
+        "explanation": "Ikki — два.",
+        "normalization": {
+          "case_sensitive": false,
+          "punctuation_tolerant": true,
+          "apostrophe_variants": true
+        }
+      },
+      {
+        "id": "q4",
+        "type": "choice",
+        "prompt": "Как по-узбекски «ноль»?",
+        "options": [
+          "nol",
+          "bir",
+          "besh"
+        ],
+        "answers": [
+          "nol"
+        ],
+        "explanation": "Nol — ноль."
+      },
+      {
+        "id": "q5",
+        "type": "match",
+        "prompt": "Соедините числа и их значения.",
+        "options": [],
+        "answers": [],
+        "explanation": "Сопоставьте написание чисел и их значения.",
+        "match_pairs": [
+          {
+            "left": "to‘rt",
+            "right": "четыре"
+          },
+          {
+            "left": "besh",
+            "right": "пять"
+          },
+          {
+            "left": "bir",
+            "right": "один"
+          }
+        ]
+      }
+    ],
+    "outline_ref": {
+      "course": "ru-uz",
+      "module_number": 5,
+      "lesson_number": 1,
+      "source_sha256": "58a33c4a8c89c57886dface7064fff0c5ef413940fc4c0018c8f7acb87b59cf8"
+    },
+    "teaching_note": "Сопоставляйте узбекское написание чисел от нуля до пяти с цифрами."
+  }
+}

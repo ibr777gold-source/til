@@ -1,0 +1,122 @@
+{
+  "status": "draft_unreviewed",
+  "editorial_notes": [
+    "Original demonstration draft. Educator review of wording and progression is required.",
+    "Written practice only; pronunciation and native-speaker audio are not yet reviewed.",
+    "The linked outline may cover more than this short sample."
+  ],
+  "content": {
+    "course": "ru-uz",
+    "title": "Письмо и повторение",
+    "objective": "Повторить короткие слова узбекской латиницей.",
+    "minutes": 8,
+    "module_number": 1,
+    "lesson_number": 6,
+    "words": [
+      {
+        "target": "ona",
+        "meaning": "мама"
+      },
+      {
+        "target": "ota",
+        "meaning": "папа"
+      },
+      {
+        "target": "non",
+        "meaning": "хлеб"
+      },
+      {
+        "target": "suv",
+        "meaning": "вода"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "q1",
+        "type": "choice",
+        "prompt": "Как по-узбекски: «мама»?",
+        "options": [
+          "ona",
+          "ota",
+          "non"
+        ],
+        "answers": [
+          "ona"
+        ],
+        "explanation": "ona — мама"
+      },
+      {
+        "id": "q2",
+        "type": "choice",
+        "prompt": "Что означает «ota»?",
+        "options": [
+          "хлеб",
+          "папа",
+          "мама"
+        ],
+        "answers": [
+          "папа"
+        ],
+        "explanation": "ota — папа"
+      },
+      {
+        "id": "q3",
+        "type": "text",
+        "prompt": "Напишите по-узбекски: «хлеб»",
+        "options": [],
+        "answers": [
+          "non"
+        ],
+        "explanation": "non — хлеб",
+        "normalization": {
+          "case_sensitive": false,
+          "punctuation_tolerant": true,
+          "apostrophe_variants": true
+        }
+      },
+      {
+        "id": "q4",
+        "type": "choice",
+        "prompt": "Выберите перевод: «вода»",
+        "options": [
+          "ota",
+          "suv",
+          "ona"
+        ],
+        "answers": [
+          "suv"
+        ],
+        "explanation": "suv — вода"
+      },
+      {
+        "id": "q5",
+        "type": "match",
+        "prompt": "Соедините фразы и их значения.",
+        "options": [],
+        "answers": [],
+        "explanation": "Сопоставьте слова и переводы.",
+        "match_pairs": [
+          {
+            "left": "ona",
+            "right": "мама"
+          },
+          {
+            "left": "ota",
+            "right": "папа"
+          },
+          {
+            "left": "non",
+            "right": "хлеб"
+          }
+        ]
+      }
+    ],
+    "outline_ref": {
+      "course": "ru-uz",
+      "module_number": 1,
+      "lesson_number": 6,
+      "source_sha256": "58a33c4a8c89c57886dface7064fff0c5ef413940fc4c0018c8f7acb87b59cf8"
+    },
+    "teaching_note": "Повторите написание знакомых коротких слов и проверьте их значения."
+  }
+}

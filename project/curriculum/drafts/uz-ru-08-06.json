@@ -1,0 +1,132 @@
+{
+  "status": "draft_unreviewed",
+  "editorial_notes": [
+    "Original demonstration draft. Educator review of wording, register and sequencing is required.",
+    "Written practice only. Native-speaker recordings and pronunciation review are needed.",
+    "The linked outline may cover more than this sample."
+  ],
+  "content": {
+    "course": "uz-ru",
+    "title": "Kafeda ichimlik",
+    "objective": "Kafeda ichimlikni xushmuomalalik bilan so‘rash.",
+    "minutes": 8,
+    "module_number": 8,
+    "lesson_number": 6,
+    "words": [
+      {
+        "target": "Чай, пожалуйста.",
+        "meaning": "Choy, iltimos."
+      },
+      {
+        "target": "Воду, пожалуйста.",
+        "meaning": "Suv, iltimos."
+      },
+      {
+        "target": "Спасибо.",
+        "meaning": "Rahmat."
+      },
+      {
+        "target": "Пожалуйста.",
+        "meaning": "Marhamat."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "q1",
+        "type": "choice",
+        "prompt": "«Choy, iltimos.» rus tilida qanday?",
+        "options": [
+          "Чай, пожалуйста.",
+          "Воду, пожалуйста.",
+          "Спасибо."
+        ],
+        "answers": [
+          "Чай, пожалуйста."
+        ],
+        "explanation": "Чай, пожалуйста. — Choy, iltimos."
+      },
+      {
+        "id": "q2",
+        "type": "choice",
+        "prompt": "«Воду, пожалуйста.» nimani bildiradi?",
+        "options": [
+          "Rahmat.",
+          "Suv, iltimos.",
+          "Choy, iltimos."
+        ],
+        "answers": [
+          "Suv, iltimos."
+        ],
+        "explanation": "Воду, пожалуйста. — Suv, iltimos."
+      },
+      {
+        "id": "q3",
+        "type": "text",
+        "prompt": "«Rahmat.» iborasini ruscha yozing.",
+        "options": [],
+        "answers": [
+          "Спасибо."
+        ],
+        "explanation": "Спасибо. — Rahmat.",
+        "normalization": {
+          "case_sensitive": false,
+          "punctuation_tolerant": true,
+          "apostrophe_variants": true
+        }
+      },
+      {
+        "id": "q4",
+        "type": "dialogue",
+        "prompt": "Siz choy buyurtma qilmoqchisiz. Nima deysiz?",
+        "options": [
+          "Чай, пожалуйста.",
+          "Воду, пожалуйста.",
+          "Спасибо."
+        ],
+        "answers": [
+          "Чай, пожалуйста."
+        ],
+        "explanation": "Чай, пожалуйста. — Choy, iltimos.",
+        "dialogue": [
+          {
+            "speaker": "Собеседник",
+            "text": "Что вы хотите?"
+          },
+          {
+            "speaker": "Вы",
+            "text": "…"
+          }
+        ]
+      },
+      {
+        "id": "q5",
+        "type": "match",
+        "prompt": "Iboralarni ma’nosi bilan moslang.",
+        "options": [],
+        "answers": [],
+        "explanation": "Iboralarni tarjimalari bilan bog‘lang.",
+        "match_pairs": [
+          {
+            "left": "Чай, пожалуйста.",
+            "right": "Choy, iltimos."
+          },
+          {
+            "left": "Воду, пожалуйста.",
+            "right": "Suv, iltimos."
+          },
+          {
+            "left": "Спасибо.",
+            "right": "Rahmat."
+          }
+        ]
+      }
+    ],
+    "outline_ref": {
+      "course": "uz-ru",
+      "module_number": 8,
+      "lesson_number": 6,
+      "source_sha256": "4de4fd39956b36c650185ec93ce419b83d8659632dc690d21003a2748eeeee09"
+    },
+    "teaching_note": "Kafeda «Чай, пожалуйста» bilan choy so‘rashingiz mumkin. Ichimlik olingach, «Спасибо» deng."
+  }
+}

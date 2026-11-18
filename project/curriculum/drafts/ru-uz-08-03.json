@@ -1,0 +1,132 @@
+{
+  "status": "draft_unreviewed",
+  "editorial_notes": [
+    "Original demonstration draft; educator review of language and sequencing is required.",
+    "Written practice only; no reviewed listening or pronunciation recording.",
+    "The outline may cover more than this draft; verify before publication."
+  ],
+  "content": {
+    "course": "ru-uz",
+    "title": "Сколько стоит?",
+    "objective": "Спросить цену по-узбекски и узнать простой ответ.",
+    "minutes": 8,
+    "module_number": 8,
+    "lesson_number": 3,
+    "words": [
+      {
+        "target": "Bu qancha turadi?",
+        "meaning": "Сколько это стоит?"
+      },
+      {
+        "target": "O‘n ming so‘m.",
+        "meaning": "Десять тысяч сумов."
+      },
+      {
+        "target": "Rahmat.",
+        "meaning": "Спасибо."
+      },
+      {
+        "target": "Marhamat.",
+        "meaning": "Пожалуйста / вот, пожалуйста."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "q1",
+        "type": "choice",
+        "prompt": "Как спросить цену по-узбекски?",
+        "options": [
+          "Bu qancha turadi?",
+          "Ismingiz nima?",
+          "Maktab qayerda?"
+        ],
+        "answers": [
+          "Bu qancha turadi?"
+        ],
+        "explanation": "«Bu qancha turadi?» — «Сколько это стоит?»"
+      },
+      {
+        "id": "q2",
+        "type": "choice",
+        "prompt": "Что означает «O‘n ming so‘m.»?",
+        "options": [
+          "Одна тысяча сумов.",
+          "Десять тысяч сумов.",
+          "Двадцать тысяч сумов."
+        ],
+        "answers": [
+          "Десять тысяч сумов."
+        ],
+        "explanation": "O‘n ming — десять тысяч."
+      },
+      {
+        "id": "q3",
+        "type": "text",
+        "prompt": "Напишите «Спасибо.» по-узбекски.",
+        "options": [],
+        "answers": [
+          "Rahmat."
+        ],
+        "explanation": "Rahmat — спасибо.",
+        "normalization": {
+          "case_sensitive": false,
+          "punctuation_tolerant": true,
+          "apostrophe_variants": true
+        }
+      },
+      {
+        "id": "q4",
+        "type": "dialogue",
+        "prompt": "Продавец назвал цену. Как покупатель благодарит?",
+        "options": [
+          "Rahmat.",
+          "Bu qancha turadi?",
+          "Salom."
+        ],
+        "answers": [
+          "Rahmat."
+        ],
+        "explanation": "Rahmat — спасибо.",
+        "dialogue": [
+          {
+            "speaker": "Sotuvchi",
+            "text": "O‘n ming so‘m."
+          },
+          {
+            "speaker": "Xaridor",
+            "text": "…"
+          }
+        ]
+      },
+      {
+        "id": "q5",
+        "type": "match",
+        "prompt": "Соедините фразы с их значениями.",
+        "options": [],
+        "answers": [],
+        "explanation": "Сопоставьте узбекские фразы с переводами.",
+        "match_pairs": [
+          {
+            "left": "Bu qancha turadi?",
+            "right": "Сколько это стоит?"
+          },
+          {
+            "left": "Rahmat.",
+            "right": "Спасибо."
+          },
+          {
+            "left": "Marhamat.",
+            "right": "Пожалуйста."
+          }
+        ]
+      }
+    ],
+    "outline_ref": {
+      "course": "ru-uz",
+      "module_number": 8,
+      "lesson_number": 3,
+      "source_sha256": "58a33c4a8c89c57886dface7064fff0c5ef413940fc4c0018c8f7acb87b59cf8"
+    },
+    "teaching_note": "Bu qancha turadi? — вопрос о цене. O‘n ming so‘m означает десять тысяч сумов."
+  }
+}

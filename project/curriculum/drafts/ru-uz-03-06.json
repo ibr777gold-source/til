@@ -1,0 +1,122 @@
+{
+  "status": "draft_unreviewed",
+  "editorial_notes": [
+    "Original demonstration draft. Educator review of wording and progression is required.",
+    "Written practice only; pronunciation and native-speaker audio are not yet reviewed.",
+    "The linked outline may cover more than this short sample."
+  ],
+  "content": {
+    "course": "ru-uz",
+    "title": "Вежливое и неформальное обращение",
+    "objective": "Различать несколько вежливых и неформальных форм.",
+    "minutes": 8,
+    "module_number": 3,
+    "lesson_number": 6,
+    "words": [
+      {
+        "target": "siz",
+        "meaning": "вы, уважительно"
+      },
+      {
+        "target": "sen",
+        "meaning": "ты, неформально"
+      },
+      {
+        "target": "Assalomu alaykum",
+        "meaning": "здравствуйте, уважительно"
+      },
+      {
+        "target": "Salom",
+        "meaning": "привет, неформально"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "q1",
+        "type": "choice",
+        "prompt": "Как по-узбекски: «вы, уважительно»?",
+        "options": [
+          "siz",
+          "sen",
+          "Assalomu alaykum"
+        ],
+        "answers": [
+          "siz"
+        ],
+        "explanation": "siz — вы, уважительно"
+      },
+      {
+        "id": "q2",
+        "type": "choice",
+        "prompt": "Что означает «sen»?",
+        "options": [
+          "здравствуйте, уважительно",
+          "ты, неформально",
+          "вы, уважительно"
+        ],
+        "answers": [
+          "ты, неформально"
+        ],
+        "explanation": "sen — ты, неформально"
+      },
+      {
+        "id": "q3",
+        "type": "text",
+        "prompt": "Напишите по-узбекски: «здравствуйте, уважительно»",
+        "options": [],
+        "answers": [
+          "Assalomu alaykum"
+        ],
+        "explanation": "Assalomu alaykum — здравствуйте, уважительно",
+        "normalization": {
+          "case_sensitive": false,
+          "punctuation_tolerant": true,
+          "apostrophe_variants": true
+        }
+      },
+      {
+        "id": "q4",
+        "type": "choice",
+        "prompt": "Выберите перевод: «привет, неформально»",
+        "options": [
+          "sen",
+          "Salom",
+          "siz"
+        ],
+        "answers": [
+          "Salom"
+        ],
+        "explanation": "Salom — привет, неформально"
+      },
+      {
+        "id": "q5",
+        "type": "match",
+        "prompt": "Соедините фразы и их значения.",
+        "options": [],
+        "answers": [],
+        "explanation": "Сопоставьте слова и переводы.",
+        "match_pairs": [
+          {
+            "left": "siz",
+            "right": "вы, уважительно"
+          },
+          {
+            "left": "sen",
+            "right": "ты, неформально"
+          },
+          {
+            "left": "Assalomu alaykum",
+            "right": "здравствуйте, уважительно"
+          }
+        ]
+      }
+    ],
+    "outline_ref": {
+      "course": "ru-uz",
+      "module_number": 3,
+      "lesson_number": 6,
+      "source_sha256": "58a33c4a8c89c57886dface7064fff0c5ef413940fc4c0018c8f7acb87b59cf8"
+    },
+    "teaching_note": "Siz используют при уважительном обращении или к нескольким людям; sen обычно подходит для неформального обращения к одному знакомому человеку."
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "status": "draft_unreviewed",
+  "editorial_notes": [
+    "Original demonstration draft. Educator review of wording and progression is required.",
+    "Written practice only; pronunciation and native-speaker audio are not yet reviewed.",
+    "The linked outline may cover more than this short sample."
+  ],
+  "content": {
+    "course": "ru-uz",
+    "title": "Куда вы идёте?",
+    "objective": "Спросить о направлении и узнать короткие ответы.",
+    "minutes": 8,
+    "module_number": 9,
+    "lesson_number": 3,
+    "words": [
+      {
+        "target": "Qayerga ketyapsiz?",
+        "meaning": "Куда вы идёте?"
+      },
+      {
+        "target": "Men maktabga ketyapman.",
+        "meaning": "Я иду в школу."
+      },
+      {
+        "target": "Men do‘konga ketyapman.",
+        "meaning": "Я иду в магазин."
+      },
+      {
+        "target": "Men uyga ketyapman.",
+        "meaning": "Я иду домой."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "q1",
+        "type": "choice",
+        "prompt": "Как по-узбекски: «Куда вы идёте?»?",
+        "options": [
+          "Qayerga ketyapsiz?",
+          "Men maktabga ketyapman.",
+          "Men do‘konga ketyapman."
+        ],
+        "answers": [
+          "Qayerga ketyapsiz?"
+        ],
+        "explanation": "Qayerga ketyapsiz? — Куда вы идёте?"
+      },
+      {
+        "id": "q2",
+        "type": "choice",
+        "prompt": "Что означает «Men maktabga ketyapman.»?",
+        "options": [
+          "Я иду в магазин.",
+          "Я иду в школу.",
+          "Куда вы идёте?"
+        ],
+        "answers": [
+          "Я иду в школу."
+        ],
+        "explanation": "Men maktabga ketyapman. — Я иду в школу."
+      },
+      {
+        "id": "q3",
+        "type": "text",
+        "prompt": "Напишите по-узбекски: «Я иду в магазин.»",
+        "options": [],
+        "answers": [
+          "Men do‘konga ketyapman."
+        ],
+        "explanation": "Men do‘konga ketyapman. — Я иду в магазин.",
+        "normalization": {
+          "case_sensitive": false,
+          "punctuation_tolerant": true,
+          "apostrophe_variants": true
+        }
+      },
+      {
+        "id": "q4",
+        "type": "choice",
+        "prompt": "Выберите перевод: «Я иду домой.»",
+        "options": [
+          "Men maktabga ketyapman.",
+          "Men uyga ketyapman.",
+          "Qayerga ketyapsiz?"
+        ],
+        "answers": [
+          "Men uyga ketyapman."
+        ],
+        "explanation": "Men uyga ketyapman. — Я иду домой."
+      },
+      {
+        "id": "q5",
+        "type": "match",
+        "prompt": "Соедините фразы и их значения.",
+        "options": [],
+        "answers": [],
+        "explanation": "Сопоставьте слова и переводы.",
+        "match_pairs": [
+          {
+            "left": "Qayerga ketyapsiz?",
+            "right": "Куда вы идёте?"
+          },
+          {
+            "left": "Men maktabga ketyapman.",
+            "right": "Я иду в школу."
+          },
+          {
+            "left": "Men do‘konga ketyapman.",
+            "right": "Я иду в магазин."
+          }
+        ]
+      }
+    ],
+    "outline_ref": {
+      "course": "ru-uz",
+      "module_number": 9,
+      "lesson_number": 3,
+      "source_sha256": "58a33c4a8c89c57886dface7064fff0c5ef413940fc4c0018c8f7acb87b59cf8"
+    },
+    "teaching_note": "В этих примерах направление выражено окончанием -ga: maktabga — в школу, do‘konga — в магазин, uyga — домой."
+  }
+}

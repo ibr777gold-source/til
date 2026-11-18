@@ -1,0 +1,122 @@
+{
+  "status": "draft_unreviewed",
+  "editorial_notes": [
+    "Original demonstration draft. Educator review of wording and progression is required.",
+    "Written practice only; pronunciation and native-speaker audio are not yet reviewed.",
+    "The linked outline may cover more than this short sample."
+  ],
+  "content": {
+    "course": "uz-ru",
+    "title": "Birinchi qisqa so‘zlar",
+    "objective": "Tanish kirill harflaridan tuzilgan qisqa so‘zlarni o‘qish.",
+    "minutes": 8,
+    "module_number": 1,
+    "lesson_number": 6,
+    "words": [
+      {
+        "target": "мама",
+        "meaning": "ona"
+      },
+      {
+        "target": "папа",
+        "meaning": "ota"
+      },
+      {
+        "target": "дом",
+        "meaning": "uy"
+      },
+      {
+        "target": "кот",
+        "meaning": "erkak mushuk"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "q1",
+        "type": "choice",
+        "prompt": "«ona» rus tilida qanday?",
+        "options": [
+          "мама",
+          "папа",
+          "дом"
+        ],
+        "answers": [
+          "мама"
+        ],
+        "explanation": "мама — ona"
+      },
+      {
+        "id": "q2",
+        "type": "choice",
+        "prompt": "«папа» nimani bildiradi?",
+        "options": [
+          "uy",
+          "ota",
+          "ona"
+        ],
+        "answers": [
+          "ota"
+        ],
+        "explanation": "папа — ota"
+      },
+      {
+        "id": "q3",
+        "type": "text",
+        "prompt": "«uy» iborasini ruscha yozing.",
+        "options": [],
+        "answers": [
+          "дом"
+        ],
+        "explanation": "дом — uy",
+        "normalization": {
+          "case_sensitive": false,
+          "punctuation_tolerant": true,
+          "apostrophe_variants": true
+        }
+      },
+      {
+        "id": "q4",
+        "type": "choice",
+        "prompt": "«erkak mushuk» tarjimasini tanlang.",
+        "options": [
+          "папа",
+          "кот",
+          "мама"
+        ],
+        "answers": [
+          "кот"
+        ],
+        "explanation": "кот — erkak mushuk"
+      },
+      {
+        "id": "q5",
+        "type": "match",
+        "prompt": "Iboralarni ma’nosi bilan moslang.",
+        "options": [],
+        "answers": [],
+        "explanation": "Iboralarni tarjimalari bilan bog‘lang.",
+        "match_pairs": [
+          {
+            "left": "мама",
+            "right": "ona"
+          },
+          {
+            "left": "папа",
+            "right": "ota"
+          },
+          {
+            "left": "дом",
+            "right": "uy"
+          }
+        ]
+      }
+    ],
+    "outline_ref": {
+      "course": "uz-ru",
+      "module_number": 1,
+      "lesson_number": 6,
+      "source_sha256": "4de4fd39956b36c650185ec93ce419b83d8659632dc690d21003a2748eeeee09"
+    },
+    "teaching_note": "Qisqa so‘zlarni chapdan o‘ngga o‘qing. Har bir yozuvni uning ma’nosi bilan bog‘lang."
+  }
+}

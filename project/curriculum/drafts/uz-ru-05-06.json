@@ -1,0 +1,122 @@
+{
+  "status": "draft_unreviewed",
+  "editorial_notes": [
+    "Original demonstration draft. Educator review of wording and progression is required.",
+    "Written practice only; pronunciation and native-speaker audio are not yet reviewed.",
+    "The linked outline may cover more than this short sample."
+  ],
+  "content": {
+    "course": "uz-ru",
+    "title": "Kun va reja",
+    "objective": "Bugun va ertaga bilan sodda gaplarni tanish.",
+    "minutes": 8,
+    "module_number": 5,
+    "lesson_number": 6,
+    "words": [
+      {
+        "target": "Сегодня понедельник.",
+        "meaning": "Bugun dushanba."
+      },
+      {
+        "target": "Завтра вторник.",
+        "meaning": "Ertaga seshanba."
+      },
+      {
+        "target": "Встреча завтра.",
+        "meaning": "Uchrashuv ertaga."
+      },
+      {
+        "target": "До завтра.",
+        "meaning": "Ertagacha."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "q1",
+        "type": "choice",
+        "prompt": "«Bugun dushanba.» rus tilida qanday?",
+        "options": [
+          "Сегодня понедельник.",
+          "Завтра вторник.",
+          "Встреча завтра."
+        ],
+        "answers": [
+          "Сегодня понедельник."
+        ],
+        "explanation": "Сегодня понедельник. — Bugun dushanba."
+      },
+      {
+        "id": "q2",
+        "type": "choice",
+        "prompt": "«Завтра вторник.» nimani bildiradi?",
+        "options": [
+          "Uchrashuv ertaga.",
+          "Ertaga seshanba.",
+          "Bugun dushanba."
+        ],
+        "answers": [
+          "Ertaga seshanba."
+        ],
+        "explanation": "Завтра вторник. — Ertaga seshanba."
+      },
+      {
+        "id": "q3",
+        "type": "text",
+        "prompt": "«Uchrashuv ertaga.» iborasini ruscha yozing.",
+        "options": [],
+        "answers": [
+          "Встреча завтра."
+        ],
+        "explanation": "Встреча завтра. — Uchrashuv ertaga.",
+        "normalization": {
+          "case_sensitive": false,
+          "punctuation_tolerant": true,
+          "apostrophe_variants": true
+        }
+      },
+      {
+        "id": "q4",
+        "type": "choice",
+        "prompt": "«Ertagacha.» tarjimasini tanlang.",
+        "options": [
+          "Завтра вторник.",
+          "До завтра.",
+          "Сегодня понедельник."
+        ],
+        "answers": [
+          "До завтра."
+        ],
+        "explanation": "До завтра. — Ertagacha."
+      },
+      {
+        "id": "q5",
+        "type": "match",
+        "prompt": "Iboralarni ma’nosi bilan moslang.",
+        "options": [],
+        "answers": [],
+        "explanation": "Iboralarni tarjimalari bilan bog‘lang.",
+        "match_pairs": [
+          {
+            "left": "Сегодня понедельник.",
+            "right": "Bugun dushanba."
+          },
+          {
+            "left": "Завтра вторник.",
+            "right": "Ertaga seshanba."
+          },
+          {
+            "left": "Встреча завтра.",
+            "right": "Uchrashuv ertaga."
+          }
+        ]
+      }
+    ],
+    "outline_ref": {
+      "course": "uz-ru",
+      "module_number": 5,
+      "lesson_number": 6,
+      "source_sha256": "4de4fd39956b36c650185ec93ce419b83d8659632dc690d21003a2748eeeee09"
+    },
+    "teaching_note": "«Сегодня» — bugun, «завтра» — ertaga. Ularni hafta kunlari yoki sodda rejalar bilan birga o‘qing."
+  }
+}

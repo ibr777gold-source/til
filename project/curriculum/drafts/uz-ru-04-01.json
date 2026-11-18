@@ -1,0 +1,122 @@
+{
+  "status": "draft_unreviewed",
+  "editorial_notes": [
+    "Original demonstration draft; language educator review is required.",
+    "Written practice only; pronunciation and recordings need review.",
+    "Linked outline: Bu nima?. Verify scope and examples during review."
+  ],
+  "content": {
+    "course": "uz-ru",
+    "title": "Bu nima?",
+    "objective": "«Что это?» savolini va bir nechta sodda javobni tanish.",
+    "minutes": 8,
+    "module_number": 4,
+    "lesson_number": 1,
+    "words": [
+      {
+        "target": "Что это?",
+        "meaning": "Bu nima?"
+      },
+      {
+        "target": "Это книга.",
+        "meaning": "Bu kitob."
+      },
+      {
+        "target": "Это стол.",
+        "meaning": "Bu stol."
+      },
+      {
+        "target": "Это ручка.",
+        "meaning": "Bu ruchka."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "q1",
+        "type": "choice",
+        "prompt": "«Bu nima?» rus tilida qanday?",
+        "options": [
+          "Что это?",
+          "Это книга.",
+          "Это стол."
+        ],
+        "answers": [
+          "Что это?"
+        ],
+        "explanation": "«Что это?» — «Bu nima?»"
+      },
+      {
+        "id": "q2",
+        "type": "choice",
+        "prompt": "«Это книга.» nimani bildiradi?",
+        "options": [
+          "Bu stol.",
+          "Bu kitob.",
+          "Bu ruchka."
+        ],
+        "answers": [
+          "Bu kitob."
+        ],
+        "explanation": "«Это книга.» — «Bu kitob.»"
+      },
+      {
+        "id": "q3",
+        "type": "text",
+        "prompt": "«Bu stol.» jumlasini ruscha yozing.",
+        "options": [],
+        "answers": [
+          "Это стол."
+        ],
+        "explanation": "«Это стол.» — «Bu stol.»",
+        "normalization": {
+          "case_sensitive": false,
+          "punctuation_tolerant": true,
+          "apostrophe_variants": true
+        }
+      },
+      {
+        "id": "q4",
+        "type": "choice",
+        "prompt": "«Это ручка.» jumlasidagi «ручка» nimani bildiradi?",
+        "options": [
+          "kitob",
+          "stol",
+          "ruchka"
+        ],
+        "answers": [
+          "ruchka"
+        ],
+        "explanation": "«Ручка» — ruchka."
+      },
+      {
+        "id": "q5",
+        "type": "match",
+        "prompt": "Jumlalarni ma’nosi bilan moslang.",
+        "options": [],
+        "answers": [],
+        "explanation": "Har bir ruscha jumlani o‘zbekcha ma’nosi bilan bog‘lang.",
+        "match_pairs": [
+          {
+            "left": "Что это?",
+            "right": "Bu nima?"
+          },
+          {
+            "left": "Это книга.",
+            "right": "Bu kitob."
+          },
+          {
+            "left": "Это стол.",
+            "right": "Bu stol."
+          }
+        ]
+      }
+    ],
+    "outline_ref": {
+      "course": "uz-ru",
+      "module_number": 4,
+      "lesson_number": 1,
+      "source_sha256": "4de4fd39956b36c650185ec93ce419b83d8659632dc690d21003a2748eeeee09"
+    },
+    "teaching_note": "«Что это?» buyum haqida so‘raydi. Javobda «Это…» dan keyin buyum nomini aytish mumkin: «Это книга»."
+  }
+}

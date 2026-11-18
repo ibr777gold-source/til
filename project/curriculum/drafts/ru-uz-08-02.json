@@ -1,0 +1,126 @@
+{
+  "status": "draft_unreviewed",
+  "editorial_notes": [
+    "Original sample. Requires qualified educator review of translation, register, and context.",
+    "Written recognition practice only; not a full lesson on the outline objective.",
+    "Linked outline: Вежливая просьба. Audio and pronunciation are not yet reviewed."
+  ],
+  "content": {
+    "course": "ru-uz",
+    "title": "Вежливая просьба",
+    "objective": "Узнавать несколько полезных слов или фраз по теме.",
+    "minutes": 8,
+    "module_number": 8,
+    "lesson_number": 2,
+    "words": [
+      {
+        "target": "Iltimos",
+        "meaning": "Пожалуйста"
+      },
+      {
+        "target": "Rahmat",
+        "meaning": "Спасибо"
+      },
+      {
+        "target": "Mumkinmi?",
+        "meaning": "Можно?"
+      },
+      {
+        "target": "Iltimos, bering",
+        "meaning": "Дайте, пожалуйста"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "q1",
+        "type": "choice",
+        "prompt": "Какая фраза соответствует «Пожалуйста»?",
+        "options": [
+          "Iltimos",
+          "Rahmat",
+          "Mumkinmi?"
+        ],
+        "answers": [
+          "Iltimos"
+        ],
+        "explanation": "Iltimos — Пожалуйста."
+      },
+      {
+        "id": "q2",
+        "type": "choice",
+        "prompt": "Что означает «Rahmat»?",
+        "options": [
+          "Можно?",
+          "Спасибо",
+          "Дайте, пожалуйста"
+        ],
+        "answers": [
+          "Спасибо"
+        ],
+        "explanation": "Rahmat — Спасибо."
+      },
+      {
+        "id": "q3",
+        "type": "text",
+        "prompt": "Напишите по-узбекски: «Можно?».",
+        "options": [],
+        "answers": [
+          "Mumkinmi?"
+        ],
+        "explanation": "Mumkinmi? — Можно?.",
+        "normalization": {
+          "case_sensitive": false,
+          "punctuation_tolerant": true,
+          "apostrophe_variants": true
+        }
+      },
+      {
+        "id": "q4",
+        "type": "choice",
+        "prompt": "Что означает «Iltimos, bering»?",
+        "options": [
+          "Пожалуйста",
+          "Дайте, пожалуйста",
+          "Можно?"
+        ],
+        "answers": [
+          "Дайте, пожалуйста"
+        ],
+        "explanation": "Iltimos, bering — Дайте, пожалуйста."
+      },
+      {
+        "id": "q5",
+        "type": "match",
+        "prompt": "Соедините слова или фразы с их значениями.",
+        "options": [],
+        "answers": [],
+        "explanation": "Сопоставьте примеры и переводы.",
+        "match_pairs": [
+          {
+            "left": "Iltimos",
+            "right": "Пожалуйста"
+          },
+          {
+            "left": "Rahmat",
+            "right": "Спасибо"
+          },
+          {
+            "left": "Mumkinmi?",
+            "right": "Можно?"
+          },
+          {
+            "left": "Iltimos, bering",
+            "right": "Дайте, пожалуйста"
+          }
+        ]
+      }
+    ],
+    "outline_ref": {
+      "course": "ru-uz",
+      "module_number": 8,
+      "lesson_number": 2,
+      "source_sha256": "58a33c4a8c89c57886dface7064fff0c5ef413940fc4c0018c8f7acb87b59cf8"
+    },
+    "teaching_note": "Iltimos делает просьбу вежливой, а rahmat выражает благодарность."
+  }
+}
