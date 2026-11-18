@@ -3,13 +3,13 @@
   "editorial_notes": [
     "Original demonstration draft. Educator review of wording and progression is required.",
     "Written practice only; pronunciation and native-speaker audio are not yet reviewed.",
-    "The linked outline may cover more than this short sample."
+    "Includes contextual reading and word ordering; educator review of grammar and pacing is required."
   ],
   "content": {
     "course": "uz-ru",
     "title": "Sifatlar va buyumlar",
-    "objective": "Bir nechta sifatni ot bilan birga tanish.",
-    "minutes": 8,
+    "objective": "Bir nechta sifatni ot bilan tanish va namunada qo‘llash.",
+    "minutes": 10,
     "module_number": 6,
     "lesson_number": 4,
     "words": [
@@ -109,6 +109,53 @@
             "right": "yaxshi kitob"
           }
         ]
+      },
+      {
+        "id": "q6",
+        "type": "order",
+        "prompt": "«Kichik uy» iborasini tuzing.",
+        "options": [
+          "дом",
+          "маленький"
+        ],
+        "answers": [
+          "маленький дом"
+        ],
+        "explanation": "Маленький дом — kichik uy.",
+        "normalization": {
+          "case_sensitive": false,
+          "punctuation_tolerant": true,
+          "apostrophe_variants": true
+        }
+      },
+      {
+        "id": "q7",
+        "type": "choice",
+        "prompt": "O‘qing: «Это новая книга.» Kitob qanday?",
+        "options": [
+          "Yangi",
+          "Kichik",
+          "Katta"
+        ],
+        "answers": [
+          "Yangi"
+        ],
+        "explanation": "Новая книга — yangi kitob."
+      },
+      {
+        "id": "q8",
+        "type": "text",
+        "prompt": "«Yangi kitob» iborasini ruscha yozing.",
+        "options": [],
+        "answers": [
+          "новая книга"
+        ],
+        "explanation": "Новая книга — yangi kitob.",
+        "normalization": {
+          "case_sensitive": false,
+          "punctuation_tolerant": true,
+          "apostrophe_variants": true
+        }
       }
     ],
     "outline_ref": {

@@ -61,6 +61,30 @@ def test_resume_and_review():
     Base.metadata.drop_all(engine)
 
 
+def test_drafts_reject_whitespace_only_teaching_content():
+    import copy
+    from sqlalchemy.orm import Session
+    from app.main import EditorAccess
+    Base.metadata.drop_all(engine); Base.metadata.create_all(engine)
+    content={'course':'uz-ru','title':'Greetings','objective':'Greet someone','minutes':8,
+             'words':[{'target':'Привет','meaning':'Salom'}],
+             'exercises':[{'id':'q1','type':'text','prompt':'Translate','answers':['Salom'],'explanation':'A greeting'}]}
+    with TestClient(app) as editor:
+        uid=editor.post('/api/auth/register',json={'email':'blank-draft@example.com','password':'longpassword'}).json()['id']
+        with Session(engine) as s: s.add(EditorAccess(user_id=uid)); s.commit()
+        draft=editor.post('/api/admin/drafts',json=content)
+        assert draft.status_code==200
+        for section,index,field in [(None,None,'title'),(None,None,'objective'),('words',0,'target'),('words',0,'meaning'),('exercises',0,'prompt'),('exercises',0,'explanation')]:
+            invalid=copy.deepcopy(content)
+            target=invalid if section is None else invalid[section][index]
+            target[field]=' \u2003\n'
+            result=editor.post('/api/admin/drafts',json=invalid)
+            assert result.status_code==422 and 'blank' in result.json()['detail']
+            result=editor.patch(f"/api/admin/drafts/{draft.json()['id']}?expected_version=1",json=invalid)
+            assert result.status_code==422 and 'blank' in result.json()['detail']
+    Base.metadata.drop_all(engine)
+
+
 def test_editor_drafts_are_private_and_validated():
     from sqlalchemy.orm import Session
     from app.main import EditorAccess
@@ -188,12 +212,16 @@ def test_answer_retry_is_idempotent_and_does_not_reset_review():
     from sqlalchemy.orm import Session
     from app.main import ReviewItem
     Base.metadata.drop_all(engine); Base.metadata.create_all(engine)
-    with TestClient(app) as client:
+    with TestClient(app) as client, TestClient(app) as other:
         client.post('/api/auth/register',json={'email':'retry@example.com','password':'longpassword'})
+        other.post('/api/auth/register',json={'email':'retry-feedback-other@example.com','password':'longpassword'})
         attempt=client.post('/api/lessons/uz-ru-greetings/attempts').json()['id']
         path=f'/api/attempts/{attempt}/answers'
+        assert client.get(path+'/g1').status_code==404
         first=client.post(path,json={'exercise_id':'g1','response':'Спасибо'})
         assert first.status_code==200 and not first.json()['correct']
+        assert client.get(path+'/g1').json()==first.json()
+        assert other.get(path+'/g1').status_code==404
         item=client.get('/api/review').json()[0]
         client.post(f"/api/review/{item['id']}/answer",json={'response':'Привет'})
         assert client.post(path,json={'exercise_id':'g1','response':'  СПАСИБО  '}).json()==first.json()
@@ -1027,10 +1055,12 @@ def test_guest_preview_feedback_is_anonymous_and_visible_only_to_editors():
 
 
 def test_demo_checkpoint_checks_and_privately_saves_scores():
+    from datetime import datetime
+    from app import main
     Base.metadata.drop_all(engine);Base.metadata.create_all(engine)
     with TestClient(app) as learner, TestClient(app) as guest:
         assert guest.get('/api/demo-checkpoint/uz-ru').status_code==401
-        learner.post('/api/auth/register',json={'email':'checkpoint@example.com','password':'longpassword'})
+        uid=learner.post('/api/auth/register',json={'email':'checkpoint@example.com','password':'longpassword'}).json()['id']
         for course,answers in [('uz-ru',{'g1':'Привет','g2':'спасибо','g3':'До свидания'}),('ru-uz',{'g1':'Salom','g2':'rahmat','g3':'Assalomu alaykum'})]:
             loaded=learner.get('/api/demo-checkpoint/'+course).json();questions=loaded['exercises'];version=loaded['content_version']
             assert len(questions)==3 and all('answers' not in q for q in questions)
@@ -1042,8 +1072,167 @@ def test_demo_checkpoint_checks_and_privately_saves_scores():
             assert result['score']==67 and not result['results'][0]['correct']
         assert learner.get('/api/progress').json()==[]
         assert [item['score'] for item in learner.get('/api/demo-checkpoint/uz-ru/history').json()]==[67,100]
+        with main.Session(engine) as s:
+            s.add(main.DemoCheckpointResult(user_id=uid,course='uz-ru',module_number=3,score=25,created_at=datetime(2100,1,1)));s.commit()
+        assert [item['score'] for item in learner.get('/api/demo-checkpoint/uz-ru/history').json()]==[67,100]
+        module3=learner.get('/api/progress/overview').json()['courses'][0]['modules'][2]
+        assert module3['practice']['score']==25
         assert guest.get('/api/demo-checkpoint/uz-ru/history').status_code==401
     Base.metadata.drop_all(engine)
+
+
+def test_teen_number_samples_cover_all_numbers_and_accept_valid_answers():
+    import json
+    from app.main import load_local_preview_lessons,answer_matches
+    lessons=load_local_preview_lessons()
+    for course,answer in [('uz-ru','шестнадцать'),('ru-uz',"o'n olti")]:
+        lesson=lessons[f'preview-{course}-05-02']
+        assert {int(word['meaning']) for word in lesson['words']}==set(range(11,21))
+        extra=next(e for e in lesson['exercises'] if e['id']=='q6')
+        assert {pair['left'] for pair in extra['match_pairs']}=={'13','16','17'}
+        assert answer_matches(extra,json.dumps({p['left']:p['right'] for p in extra['match_pairs']},ensure_ascii=False))
+        assert answer_matches(next(e for e in lesson['exercises'] if e['id']=='q7'),answer)
+    price=lessons['preview-ru-uz-05-03']
+    dialogue=next(e for e in price['exercises'] if e['id']=='q7')
+    assert dialogue['dialogue'] and answer_matches(dialogue,"O'ttiz ming so'm.")
+    assert not answer_matches(dialogue,'Yigirma ming so‘m.')
+
+
+def test_calendar_samples_cover_week_and_date_practice():
+    import json
+    from app.main import load_local_preview_lessons,answer_matches
+    lessons=load_local_preview_lessons()
+    for lesson_id,answer in [('preview-uz-ru-05-04','воскресенье'),('preview-ru-uz-05-05','yakshanba')]:
+        exercises=lessons[lesson_id]['exercises']
+        pairs=next(e for e in exercises if e['id']=='q6')
+        assert len(pairs['match_pairs'])==4
+        assert answer_matches(pairs,json.dumps({p['left']:p['right'] for p in pairs['match_pairs']},ensure_ascii=False))
+        assert answer_matches(next(e for e in exercises if e['id']=='q7'),answer)
+    for lesson_id,exercise_id,answer in [('preview-uz-ru-05-06','q7','Сегодня первое мая.'),('preview-ru-uz-05-05','q8','Сегодня первое мая.')]:
+        exercise=next(e for e in lessons[lesson_id]['exercises'] if e['id']==exercise_id)
+        assert answer_matches(exercise,answer)
+
+
+def test_age_samples_practice_number_forms_in_context():
+    import json
+    from app.main import load_local_preview_lessons,answer_matches
+    lessons=load_local_preview_lessons()
+    for lesson_id,answer,incorrect in [('preview-uz-ru-05-03','Мне двадцать один год','Мне двадцать один года'),('preview-ru-uz-05-04','Men yigirma bir yoshdaman','Men yigirma ikki yoshdaman')]:
+        exercises=lessons[lesson_id]['exercises']
+        pairs=next(e for e in exercises if e['id']=='q6')
+        assert answer_matches(pairs,json.dumps({p['left']:p['right'] for p in pairs['match_pairs']},ensure_ascii=False))
+        written=next(e for e in exercises if e['id']=='q8')
+        assert answer_matches(written,answer) and not answer_matches(written,incorrect)
+
+
+def test_time_samples_accept_correct_whole_hour_responses():
+    from app.main import load_local_preview_lessons,answer_matches
+    lessons=load_local_preview_lessons()
+    russian=lessons['preview-uz-ru-05-05']['exercises']
+    uzbek=lessons['preview-ru-uz-05-06']['exercises']
+    assert answer_matches(next(e for e in russian if e['id']=='q8'),'Сейчас один час')
+    assert not answer_matches(next(e for e in russian if e['id']=='q8'),'Сейчас два часа')
+    assert answer_matches(next(e for e in uzbek if e['id']=='q7'),"Hozir soat to'rt.")
+    assert answer_matches(next(e for e in uzbek if e['id']=='q8'),'Hozir soat bir')
+
+
+def test_color_samples_practice_added_colors_and_object_description():
+    from app.main import load_local_preview_lessons,answer_matches
+    lessons=load_local_preview_lessons()
+    for course,phrase in [('uz-ru','зелёная книга'),('ru-uz','yashil kitob')]:
+        exercises=lessons[f'preview-{course}-06-03']['exercises']
+        assert answer_matches(next(e for e in exercises if e['id']=='q7'),phrase)
+    russian=next(e for e in lessons['preview-uz-ru-06-03']['exercises'] if e['id']=='q8')
+    assert answer_matches(russian,'жёлтый') and not answer_matches(russian,'желтый')
+
+
+def test_family_samples_practice_sibling_introductions():
+    from app.main import load_local_preview_lessons,answer_matches
+    lessons=load_local_preview_lessons()
+    for course,dialogue_answer,written_answer in [('uz-ru','Это мой брат.','Это моя сестра'),('ru-uz','Bu mening akam.','Bu mening singlim')]:
+        exercises=lessons[f'preview-{course}-06-02']['exercises']
+        assert answer_matches(next(e for e in exercises if e['id']=='q6'),dialogue_answer)
+        assert answer_matches(next(e for e in exercises if e['id']=='q7'),written_answer)
+
+
+def test_description_samples_include_sentence_order_and_context():
+    from app.main import load_local_preview_lessons,answer_matches
+    lessons=load_local_preview_lessons()
+    for course,ordered,incorrect in [('uz-ru','Дом большой','большой Дом'),('ru-uz','Bu yangi kitob','kitob yangi Bu')]:
+        exercises=lessons[f'preview-{course}-06-06']['exercises']
+        order=next(e for e in exercises if e['id']=='q6')
+        assert answer_matches(order,ordered) and not answer_matches(order,incorrect)
+        text='Bu mening onam' if course=='ru-uz' else 'Книга новая'
+        assert any(e['type']=='choice' and text in e['prompt'] for e in exercises)
+
+
+def test_adjective_samples_practice_agreement_and_word_order():
+    from app.main import load_local_preview_lessons,answer_matches
+    lessons=load_local_preview_lessons()
+    russian=lessons['preview-uz-ru-06-05']['exercises']
+    form=next(e for e in russian if e['id']=='q6')
+    assert answer_matches(form,'новая') and not answer_matches(form,'новый')
+    uzbek=lessons['preview-ru-uz-06-04']['exercises']
+    order=next(e for e in uzbek if e['id']=='q6')
+    assert answer_matches(order,'kichik uy') and not answer_matches(order,'uy kichik')
+
+
+def test_description_samples_read_context_and_build_phrases():
+    from app.main import load_local_preview_lessons,answer_matches
+    lessons=load_local_preview_lessons()
+    for lesson_id,order_answer,context_answer in [('preview-ru-uz-06-05',"U baland bo'yli",'Он студент.'),('preview-uz-ru-06-04','маленький дом','Yangi')]:
+        exercises=lessons[lesson_id]['exercises']
+        assert answer_matches(next(e for e in exercises if e['id']=='q6'),order_answer)
+        assert answer_matches(next(e for e in exercises if e['id']=='q7'),context_answer)
+
+
+def test_daily_plan_sample_distinguishes_today_and_tomorrow():
+    from app.main import load_local_preview_lessons,answer_matches
+    lesson=load_local_preview_lessons()['preview-ru-uz-07-05']
+    exercises=lesson['exercises']
+    assert answer_matches(next(e for e in exercises if e['id']=='q3'),"Ertaga men o'qiyman")
+    assert answer_matches(next(e for e in exercises if e['id']=='q6'),'Ertaga men dam olaman')
+    reading=next(e for e in exercises if e['id']=='q7')
+    assert answer_matches(reading,'Завтра') and not answer_matches(reading,'Сегодня')
+
+
+def test_action_question_samples_offer_dialogue_and_question_order():
+    from app.main import load_local_preview_lessons,answer_matches
+    lessons=load_local_preview_lessons()
+    for course,reply,question in [('uz-ru','Я работаю.','Что вы делаете?'),('ru-uz','Men ishlayapman.','Siz nima qilyapsiz?')]:
+        exercises=lessons[f'preview-{course}-07-03']['exercises']
+        assert answer_matches(next(e for e in exercises if e['id']=='q6'),reply)
+        assert answer_matches(next(e for e in exercises if e['id']=='q7'),question)
+
+
+def test_routine_readings_check_time_and_action():
+    from app.main import load_local_preview_lessons,answer_matches
+    lessons=load_local_preview_lessons()
+    for course,time,action,ordered in [('uz-ru','Kunduzi','Dam oladi','Я сплю ночью'),('ru-uz','Днём','Отдыхает','Men tunda uxlayman')]:
+        exercises=lessons[f'preview-{course}-07-06']['exercises']
+        for exercise_id,answer in [('q6',time),('q7',action),('q8',ordered)]:
+            assert answer_matches(next(e for e in exercises if e['id']==exercise_id),answer)
+
+
+def test_negative_action_samples_distinguish_positive_from_negative():
+    from app.main import load_local_preview_lessons,answer_matches
+    lessons=load_local_preview_lessons()
+    for course,negative,positive,ordered in [('uz-ru','Я не работаю.','Я работаю.','Я не читаю'),('ru-uz','Men ishlamayman.','Men ishlayman.',"Men o'qimayman")]:
+        exercises=lessons[f'preview-{course}-07-04']['exercises']
+        contrast=next(e for e in exercises if e['id']=='q6')
+        assert answer_matches(contrast,negative) and not answer_matches(contrast,positive)
+        assert answer_matches(next(e for e in exercises if e['id']=='q7'),ordered)
+
+
+def test_first_person_samples_connect_verbs_and_sentences():
+    import json
+    from app.main import load_local_preview_lessons,answer_matches
+    lessons=load_local_preview_lessons()
+    for course,ordered in [('uz-ru','Я пишу'),('ru-uz','Men yozaman')]:
+        exercises=lessons[f'preview-{course}-07-02']['exercises']
+        pairs=next(e for e in exercises if e['id']=='q6')
+        assert answer_matches(pairs,json.dumps({p['left']:p['right'] for p in pairs['match_pairs']},ensure_ascii=False))
+        assert answer_matches(next(e for e in exercises if e['id']=='q7'),ordered)
 
 
 def test_alphabet_samples_enforce_requested_letter_case():
@@ -1100,7 +1289,7 @@ def test_module_practice_covers_demo_modules_and_saves_private_results(monkeypat
                 assert client.post(f'/api/demo-module/{course}/{module}',json={'content_version':result.json()['content_version'],'responses':answers}).json()['score']==100
             assert len(client.get(f'/api/demo-module/{course}/4').json()['exercises'])>3
         assert client.get('/api/demo-module/uz-ru/11').status_code==404
-        assert len(client.get('/api/demo-checkpoint/uz-ru/history').json())==1
+        assert client.get('/api/demo-checkpoint/uz-ru/history').json()==[]
         overview=client.get('/api/progress/overview').json()
         for course in overview['courses']:
             assert all(module['practice']['score']==100 for module in course['modules'])

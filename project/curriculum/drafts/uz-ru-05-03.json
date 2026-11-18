@@ -3,13 +3,13 @@
   "editorial_notes": [
     "Original demonstration draft. Educator review of wording, register and sequencing is required.",
     "Written practice only. Native-speaker recordings and pronunciation review are needed.",
-    "The linked outline may cover more than this sample."
+    "Age examples include 18, 20, 21, 22 and 25; educator review of grammar, register and pacing remains required."
   ],
   "content": {
     "course": "uz-ru",
     "title": "Yoshni aytish",
     "objective": "Yoshni so‘rash va namunadagi yoshni aytish.",
-    "minutes": 8,
+    "minutes": 10,
     "module_number": 5,
     "lesson_number": 3,
     "words": [
@@ -28,6 +28,18 @@
       {
         "target": "Спасибо.",
         "meaning": "Rahmat."
+      },
+      {
+        "target": "Мне двадцать один год.",
+        "meaning": "Men yigirma bir yoshdaman."
+      },
+      {
+        "target": "Мне двадцать два года.",
+        "meaning": "Men yigirma ikki yoshdaman."
+      },
+      {
+        "target": "Мне двадцать пять лет.",
+        "meaning": "Men yigirma besh yoshdaman."
       }
     ],
     "exercises": [
@@ -119,6 +131,63 @@
             "right": "Men o‘n sakkiz yoshdaman."
           }
         ]
+      },
+      {
+        "id": "q6",
+        "type": "match",
+        "prompt": "Yoshlarni mos gaplar bilan bog‘lang.",
+        "options": [],
+        "answers": [],
+        "explanation": "21 — двадцать один год; 22 — двадцать два года; 25 — двадцать пять лет.",
+        "match_pairs": [
+          {
+            "left": "21",
+            "right": "Мне двадцать один год."
+          },
+          {
+            "left": "22",
+            "right": "Мне двадцать два года."
+          },
+          {
+            "left": "25",
+            "right": "Мне двадцать пять лет."
+          }
+        ]
+      },
+      {
+        "id": "q7",
+        "type": "dialogue",
+        "prompt": "Namunadagi odam 22 yoshda. Mos javobni tanlang.",
+        "dialogue": [
+          {
+            "speaker": "Собеседник",
+            "text": "Сколько вам лет?"
+          }
+        ],
+        "options": [
+          "Мне двадцать два года.",
+          "Мне двадцать один год.",
+          "Мне двадцать пять лет."
+        ],
+        "answers": [
+          "Мне двадцать два года."
+        ],
+        "explanation": "22 yosh uchun: Мне двадцать два года."
+      },
+      {
+        "id": "q8",
+        "type": "text",
+        "prompt": "Namunadagi odam 21 yoshda. «Мне ...» deb yoshini ruscha yozing.",
+        "options": [],
+        "answers": [
+          "Мне двадцать один год."
+        ],
+        "explanation": "Мне двадцать один год. — Men yigirma bir yoshdaman.",
+        "normalization": {
+          "case_sensitive": false,
+          "punctuation_tolerant": true,
+          "apostrophe_variants": true
+        }
       }
     ],
     "outline_ref": {
@@ -127,6 +196,6 @@
       "lesson_number": 3,
       "source_sha256": "4de4fd39956b36c650185ec93ce419b83d8659632dc690d21003a2748eeeee09"
     },
-    "teaching_note": "Yoshni so‘rash uchun «Сколько вам лет?» deyiladi. 18 va 20 bilan namunadagi «лет» shakliga e’tibor bering; boshqa sonlarda shakl o‘zgarishi mumkin."
+    "teaching_note": "Yoshni so‘rash uchun «Сколько вам лет?» deyiladi. Namunalarga e’tibor bering: 21 — «год», 22 — «года», 25 — «лет». 18 va 20 bilan ham «лет» ishlatiladi. Bu yerda shakllarni tayyor gaplarda mashq qiling."
   }
 }

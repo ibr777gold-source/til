@@ -49,6 +49,8 @@ Frontend fonts are bundled locally; a running frontend and API do not require Go
 
 Practice assessments include a version token so changed questions are not silently graded against a different version. Saved scores are marked when questions have changed; scores created before version tracking are marked as unknown rather than assumed current. By default, an API restart requires an open practice assessment to reload. If multiple API workers are used, configure the same strong, private `PRACTICE_REVISION_KEY` for every worker; this development setting does not replace a production deployment review.
 
+An older database used the same category for the greeting checkpoint and module 3 practice. The separation migration retains those ambiguous scores in the database but excludes them from both displays; new scores appear in their correct histories. Back up the database before migrating if those historical records need investigation.
+
 ## Current limitations
 
 This is **not ready for public launch**. It contains two original, unreviewed demonstration lessons by default; the local demo option adds 118 more unreviewed samples, covering the planned lesson positions in both tracks. The complete reviewed curriculum, reliable licensed recordings, production deployment, and the plan's remaining safeguards and assessments are not yet in place. Do not use real learner data or publish source-derived content before the editorial, legal, privacy and security work described in the plan is complete.

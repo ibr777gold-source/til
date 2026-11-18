@@ -3,13 +3,13 @@
   "editorial_notes": [
     "Original demonstration draft. Educator review of wording, register and sequencing is required.",
     "Written practice only. Native-speaker recordings and pronunciation review are needed.",
-    "The linked outline may cover more than this sample."
+    "Age examples include 18, 20, 21, 22 and 25; educator review of grammar, register and pacing remains required."
   ],
   "content": {
     "course": "ru-uz",
     "title": "Возраст",
     "objective": "Спросить возраст и дать ответ по готовому образцу.",
-    "minutes": 8,
+    "minutes": 10,
     "module_number": 5,
     "lesson_number": 4,
     "words": [
@@ -28,6 +28,18 @@
       {
         "target": "Rahmat.",
         "meaning": "Спасибо."
+      },
+      {
+        "target": "Men yigirma bir yoshdaman.",
+        "meaning": "Мне двадцать один год."
+      },
+      {
+        "target": "Men yigirma ikki yoshdaman.",
+        "meaning": "Мне двадцать два года."
+      },
+      {
+        "target": "Men yigirma besh yoshdaman.",
+        "meaning": "Мне двадцать пять лет."
       }
     ],
     "exercises": [
@@ -119,6 +131,63 @@
             "right": "Мне восемнадцать лет."
           }
         ]
+      },
+      {
+        "id": "q6",
+        "type": "match",
+        "prompt": "Соедините возраст и ответ.",
+        "options": [],
+        "answers": [],
+        "explanation": "21 — yigirma bir; 22 — yigirma ikki; 25 — yigirma besh.",
+        "match_pairs": [
+          {
+            "left": "21",
+            "right": "Men yigirma bir yoshdaman."
+          },
+          {
+            "left": "22",
+            "right": "Men yigirma ikki yoshdaman."
+          },
+          {
+            "left": "25",
+            "right": "Men yigirma besh yoshdaman."
+          }
+        ]
+      },
+      {
+        "id": "q7",
+        "type": "dialogue",
+        "prompt": "Человеку в примере 22 года. Выберите его ответ.",
+        "dialogue": [
+          {
+            "speaker": "Suhbatdosh",
+            "text": "Yoshingiz nechada?"
+          }
+        ],
+        "options": [
+          "Men yigirma ikki yoshdaman.",
+          "Men yigirma bir yoshdaman.",
+          "Men yigirma besh yoshdaman."
+        ],
+        "answers": [
+          "Men yigirma ikki yoshdaman."
+        ],
+        "explanation": "Men yigirma ikki yoshdaman. — Мне двадцать два года."
+      },
+      {
+        "id": "q8",
+        "type": "text",
+        "prompt": "Напишите по образцу: «Мне двадцать один год». Начните с Men.",
+        "options": [],
+        "answers": [
+          "Men yigirma bir yoshdaman."
+        ],
+        "explanation": "Men yigirma bir yoshdaman. — Мне двадцать один год.",
+        "normalization": {
+          "case_sensitive": false,
+          "punctuation_tolerant": true,
+          "apostrophe_variants": true
+        }
       }
     ],
     "outline_ref": {
@@ -127,6 +196,6 @@
       "lesson_number": 4,
       "source_sha256": "58a33c4a8c89c57886dface7064fff0c5ef413940fc4c0018c8f7acb87b59cf8"
     },
-    "teaching_note": "В ответе о возрасте используйте готовый образец Men … yoshdaman. В примере Men yigirma yoshdaman речь идёт о двадцати годах."
+    "teaching_note": "В ответе используйте образец Men … yoshdaman. Например, Men yigirma bir yoshdaman — «Мне двадцать один год». Число в примере можно заменить изученным числительным."
   }
 }

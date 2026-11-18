@@ -53,6 +53,7 @@
 .feature-page .progress-head p{color:#53695a}
 
 .speech-speed{display:flex;align-items:center;gap:10px;color:#425d4a;font-size:13px;font-weight:700;margin:20px 0}.speech-speed select{padding:8px 10px;border:1px solid #cddcca;border-radius:6px;background:#fff;color:#244234}
+.audio-player{display:flex;flex-direction:column;align-items:flex-start;max-width:100%;gap:6px;margin:12px 0}.audio-player audio{max-width:100%}.audio-player .speech-speed{margin:0}.audio-player [role=alert]{color:#8a2d26}.audio-player .text-button{text-decoration:underline;font-weight:700}
 
 .lesson-group-label{font-size:11px;letter-spacing:.1em;color:#526b59;margin:26px 0 12px}
 

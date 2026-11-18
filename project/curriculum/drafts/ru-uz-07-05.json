@@ -3,71 +3,71 @@
   "editorial_notes": [
     "Original demonstration draft. Educator review of wording and progression is required.",
     "Written practice only; pronunciation and native-speaker audio are not yet reviewed.",
-    "The linked outline may cover more than this short sample."
+    "This draft now addresses the outline’s daily-plan outcome; educator review of tense, natural usage and pacing is required."
   ],
   "content": {
     "course": "ru-uz",
-    "title": "Повседневные действия",
-    "objective": "Узнавать простые фразы о повседневных действиях.",
-    "minutes": 8,
+    "title": "Планы на день",
+    "objective": "Понимать и сообщать простой план на сегодня или завтра по образцу.",
+    "minutes": 10,
     "module_number": 7,
     "lesson_number": 5,
     "words": [
       {
-        "target": "Men o‘qiyapman.",
-        "meaning": "Я читаю."
+        "target": "Bugun men ishlayman.",
+        "meaning": "Сегодня я буду работать."
       },
       {
-        "target": "Men ishlayapman.",
-        "meaning": "Я работаю."
+        "target": "Ertaga men dam olaman.",
+        "meaning": "Завтра я буду отдыхать."
       },
       {
-        "target": "Men dam olyapman.",
-        "meaning": "Я отдыхаю."
+        "target": "Ertaga men o‘qiyman.",
+        "meaning": "Завтра я буду читать."
       },
       {
-        "target": "Men uxlayapman.",
-        "meaning": "Я сплю."
+        "target": "Ertaga nima qilasiz?",
+        "meaning": "Что вы будете делать завтра?"
       }
     ],
     "exercises": [
       {
         "id": "q1",
         "type": "choice",
-        "prompt": "Как по-узбекски: «Я читаю.»?",
+        "prompt": "Что означает «Bugun men ishlayman»?",
         "options": [
-          "Men o‘qiyapman.",
-          "Men ishlayapman.",
-          "Men dam olyapman."
+          "Сегодня я буду работать.",
+          "Завтра я буду отдыхать.",
+          "Завтра я буду читать."
         ],
         "answers": [
-          "Men o‘qiyapman."
+          "Сегодня я буду работать."
         ],
-        "explanation": "Men o‘qiyapman. — Я читаю."
+        "explanation": "Bugun — сегодня; men ishlayman — я буду работать в этом контексте."
       },
       {
         "id": "q2",
         "type": "choice",
-        "prompt": "Что означает «Men ishlayapman.»?",
+        "prompt": "Как сказать «Завтра я буду отдыхать»?",
         "options": [
-          "Я отдыхаю.",
-          "Я работаю.",
-          "Я читаю."
+          "Ertaga men dam olaman.",
+          "Bugun men ishlayman.",
+          "Ertaga men o‘qiyman."
         ],
         "answers": [
-          "Я работаю."
+          "Ertaga men dam olaman."
         ],
-        "explanation": "Men ishlayapman. — Я работаю."
+        "explanation": "Ertaga men dam olaman — завтра я буду отдыхать."
       },
       {
         "id": "q3",
         "type": "text",
-        "prompt": "Напишите по-узбекски: «Я отдыхаю.»",
+        "prompt": "По образцу напишите: «Завтра я буду читать». Начните с Ertaga men.",
         "options": [],
         "answers": [
-          "Men dam olyapman."
+          "Ertaga men o‘qiyman."
         ],
-        "explanation": "Men dam olyapman. — Я отдыхаю.",
+        "explanation": "Ertaga men o‘qiyman. — Завтра я буду читать.",
         "normalization": {
           "case_sensitive": false,
           "punctuation_tolerant": true,
@@ -76,39 +76,79 @@
       },
       {
         "id": "q4",
-        "type": "choice",
-        "prompt": "Выберите перевод: «Я сплю.»",
+        "type": "dialogue",
+        "prompt": "Вы планируете завтра отдыхать. Выберите ответ.",
+        "dialogue": [
+          {
+            "speaker": "Suhbatdosh",
+            "text": "Ertaga nima qilasiz?"
+          }
+        ],
         "options": [
-          "Men ishlayapman.",
-          "Men uxlayapman.",
-          "Men o‘qiyapman."
+          "Ertaga men dam olaman.",
+          "Bugun men ishlayman.",
+          "Ertaga men o‘qiyman."
         ],
         "answers": [
-          "Men uxlayapman."
+          "Ertaga men dam olaman."
         ],
-        "explanation": "Men uxlayapman. — Я сплю."
+        "explanation": "Ertaga men dam olaman — завтра я буду отдыхать."
       },
       {
         "id": "q5",
         "type": "match",
-        "prompt": "Соедините фразы и их значения.",
+        "prompt": "Соедините планы и их значения.",
         "options": [],
         "answers": [],
-        "explanation": "Сопоставьте слова и переводы.",
+        "explanation": "Обратите внимание на слова bugun и ertaga.",
         "match_pairs": [
           {
-            "left": "Men o‘qiyapman.",
-            "right": "Я читаю."
+            "left": "Bugun men ishlayman.",
+            "right": "Сегодня я буду работать."
           },
           {
-            "left": "Men ishlayapman.",
-            "right": "Я работаю."
+            "left": "Ertaga men dam olaman.",
+            "right": "Завтра я буду отдыхать."
           },
           {
-            "left": "Men dam olyapman.",
-            "right": "Я отдыхаю."
+            "left": "Ertaga men o‘qiyman.",
+            "right": "Завтра я буду читать."
           }
         ]
+      },
+      {
+        "id": "q6",
+        "type": "order",
+        "prompt": "Составьте фразу «Завтра я буду отдыхать».",
+        "options": [
+          "olaman",
+          "Ertaga",
+          "dam",
+          "men"
+        ],
+        "answers": [
+          "Ertaga men dam olaman"
+        ],
+        "explanation": "Ertaga men dam olaman — завтра я буду отдыхать.",
+        "normalization": {
+          "case_sensitive": false,
+          "punctuation_tolerant": true,
+          "apostrophe_variants": true
+        }
+      },
+      {
+        "id": "q7",
+        "type": "choice",
+        "prompt": "Прочитайте: «Bugun men ishlayman. Ertaga men dam olaman.» Когда человек будет отдыхать?",
+        "options": [
+          "Завтра",
+          "Сегодня",
+          "Не сказано"
+        ],
+        "answers": [
+          "Завтра"
+        ],
+        "explanation": "Ertaga означает «завтра»."
       }
     ],
     "outline_ref": {
@@ -117,6 +157,6 @@
       "lesson_number": 5,
       "source_sha256": "58a33c4a8c89c57886dface7064fff0c5ef413940fc4c0018c8f7acb87b59cf8"
     },
-    "teaching_note": "В этих примерах формы на -yapman описывают действие говорящего сейчас: Men ishlayapman — «Я работаю»."
+    "teaching_note": "Bugun — сегодня, ertaga — завтра. В этих примерах слова времени помогают понять план: Ertaga men dam olaman — завтра я буду отдыхать. Сравните с Men dam olyapman — я отдыхаю сейчас."
   }
 }

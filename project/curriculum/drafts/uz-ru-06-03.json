@@ -2,14 +2,14 @@
   "status": "draft_unreviewed",
   "editorial_notes": [
     "Original sample. Requires qualified educator review of translation, register, and context.",
-    "Written recognition practice only; not a full lesson on the outline objective.",
+    "Written recognition and one object description; not a complete listening or speaking lesson.",
     "Linked outline: Asosiy ranglar. Audio and pronunciation are not yet reviewed."
   ],
   "content": {
     "course": "uz-ru",
     "title": "Asosiy ranglar",
-    "objective": "Mavzuga oid bir necha foydali so‘z yoki iborani tanish.",
-    "minutes": 8,
+    "objective": "Asosiy ranglarni tanish va namunadagi buyum rangini tasvirlash.",
+    "minutes": 10,
     "module_number": 6,
     "lesson_number": 3,
     "words": [
@@ -28,6 +28,18 @@
       {
         "target": "чёрный",
         "meaning": "qora"
+      },
+      {
+        "target": "зелёный",
+        "meaning": "yashil"
+      },
+      {
+        "target": "жёлтый",
+        "meaning": "sariq"
+      },
+      {
+        "target": "зелёная книга",
+        "meaning": "yashil kitob"
       }
     ],
     "exercises": [
@@ -113,6 +125,57 @@
             "right": "qora"
           }
         ]
+      },
+      {
+        "id": "q6",
+        "type": "match",
+        "prompt": "Ranglarni ma’nosi bilan moslang.",
+        "options": [],
+        "answers": [],
+        "explanation": "Зелёный — yashil, жёлтый — sariq, чёрный — qora.",
+        "match_pairs": [
+          {
+            "left": "зелёный",
+            "right": "yashil"
+          },
+          {
+            "left": "жёлтый",
+            "right": "sariq"
+          },
+          {
+            "left": "чёрный",
+            "right": "qora"
+          }
+        ]
+      },
+      {
+        "id": "q7",
+        "type": "choice",
+        "prompt": "«Yashil kitob» uchun mos iborani tanlang.",
+        "options": [
+          "зелёная книга",
+          "жёлтый",
+          "красный"
+        ],
+        "answers": [
+          "зелёная книга"
+        ],
+        "explanation": "Книга bilan bu misolda зелёная shakli ishlatiladi."
+      },
+      {
+        "id": "q8",
+        "type": "text",
+        "prompt": "«Sariq» rangini ruscha yozing. Harfga e’tibor bering: ё.",
+        "options": [],
+        "answers": [
+          "жёлтый"
+        ],
+        "explanation": "Жёлтый — sariq.",
+        "normalization": {
+          "case_sensitive": false,
+          "punctuation_tolerant": true,
+          "apostrophe_variants": true
+        }
       }
     ],
     "outline_ref": {
@@ -121,6 +184,6 @@
       "lesson_number": 3,
       "source_sha256": "4de4fd39956b36c650185ec93ce419b83d8659632dc690d21003a2748eeeee09"
     },
-    "teaching_note": "Bu ranglar erkak jinsidagi birlik ot bilan ishlatiladigan shaklda berilgan. Sifat shakli otga qarab o‘zgarishi mumkin."
+    "teaching_note": "Rang so‘zlari erkak jinsidagi birlik shaklda berilgan: зелёный. Ayol jinsidagi книга bilan bu misolda зелёная ishlatiladi: зелёная книга."
   }
 }

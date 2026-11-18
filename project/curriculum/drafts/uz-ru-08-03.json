@@ -3,13 +3,13 @@
   "editorial_notes": [
     "Original demonstration draft; educator review of language and sequencing is required.",
     "Written practice only; no reviewed listening or pronunciation recording.",
-    "The outline may cover more than this draft; verify before publication."
+    "Written practice distinguishes three prices; educator review of amounts, register and recordings remains required."
   ],
   "content": {
     "course": "uz-ru",
     "title": "Narxni so‘rash",
     "objective": "Rus tilida narxni so‘rash va sodda javobni tushunish.",
-    "minutes": 8,
+    "minutes": 10,
     "module_number": 8,
     "lesson_number": 3,
     "words": [
@@ -28,6 +28,14 @@
       {
         "target": "Пожалуйста.",
         "meaning": "Marhamat."
+      },
+      {
+        "target": "Пять тысяч сумов.",
+        "meaning": "Besh ming so‘m."
+      },
+      {
+        "target": "Двадцать тысяч сумов.",
+        "meaning": "Yigirma ming so‘m."
       }
     ],
     "exercises": [
@@ -119,6 +127,66 @@
             "right": "Marhamat."
           }
         ]
+      },
+      {
+        "id": "q6",
+        "type": "match",
+        "prompt": "Narxlarni ma’nosi bilan moslang.",
+        "options": [],
+        "answers": [],
+        "explanation": "Пять тысяч — besh ming; десять тысяч — o‘n ming; двадцать тысяч — yigirma ming.",
+        "match_pairs": [
+          {
+            "left": "Пять тысяч сумов.",
+            "right": "Besh ming so‘m."
+          },
+          {
+            "left": "Десять тысяч сумов.",
+            "right": "O‘n ming so‘m."
+          },
+          {
+            "left": "Двадцать тысяч сумов.",
+            "right": "Yigirma ming so‘m."
+          }
+        ]
+      },
+      {
+        "id": "q7",
+        "type": "dialogue",
+        "prompt": "Buyum narxini so‘rang.",
+        "dialogue": [
+          {
+            "speaker": "Покупатель",
+            "text": "Здравствуйте."
+          },
+          {
+            "speaker": "Продавец",
+            "text": "Здравствуйте."
+          }
+        ],
+        "options": [
+          "Сколько это стоит?",
+          "Спасибо.",
+          "До свидания."
+        ],
+        "answers": [
+          "Сколько это стоит?"
+        ],
+        "explanation": "Сколько это стоит? — Bu qancha turadi?"
+      },
+      {
+        "id": "q8",
+        "type": "choice",
+        "prompt": "O‘qing: «Сколько это стоит? — Двадцать тысяч сумов.» Narx qancha?",
+        "options": [
+          "Yigirma ming so‘m.",
+          "O‘n ming so‘m.",
+          "Besh ming so‘m."
+        ],
+        "answers": [
+          "Yigirma ming so‘m."
+        ],
+        "explanation": "Двадцать тысяч сумов — yigirma ming so‘m."
       }
     ],
     "outline_ref": {
@@ -127,6 +195,6 @@
       "lesson_number": 3,
       "source_sha256": "4de4fd39956b36c650185ec93ce419b83d8659632dc690d21003a2748eeeee09"
     },
-    "teaching_note": "«Сколько это стоит?» narxni so‘raydi. «Десять тысяч сумов» — o‘n ming so‘m."
+    "teaching_note": "«Сколько это стоит?» narxni so‘raydi. «Пять тысяч», «десять тысяч» va «двадцать тысяч сумов» miqdorlarini solishtiring."
   }
 }

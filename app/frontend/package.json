@@ -11,6 +11,13 @@
     "test:a11y": "node tests/accessibility-smoke.cjs",
     "test:a11y:learner": "node tests/accessibility-learner.cjs",
     "test:listening": "node tests/listening-flow.cjs",
+    "test:audio-player": "node tests/audio-player.cjs",
+    "test:course-map-retry": "node tests/course-map-retry.cjs",
+    "test:progress-retry": "node tests/progress-retry.cjs",
+    "test:checkpoint-submit": "node tests/checkpoint-submit.cjs",
+    "test:feedback-submit": "node tests/feedback-submit.cjs",
+    "test:word-order": "node tests/word-order.cjs",
+    "test:matching": "node tests/matching.cjs",
     "test:e2e:ru": "node tests/lesson-flow-ru.cjs"
   },
   "dependencies": {

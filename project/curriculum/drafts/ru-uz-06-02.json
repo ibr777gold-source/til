@@ -3,13 +3,13 @@
   "editorial_notes": [
     "Original demonstration draft. Educator review of wording, register and sequencing is required.",
     "Written practice only. Native-speaker recordings and pronunciation review are needed.",
-    "The linked outline may cover more than this sample."
+    "Includes sibling introductions; educator must review possessive forms, register and age distinctions."
   ],
   "content": {
     "course": "ru-uz",
     "title": "Моя семья",
     "objective": "Представить близких с помощью коротких фраз.",
-    "minutes": 8,
+    "minutes": 10,
     "module_number": 6,
     "lesson_number": 2,
     "words": [
@@ -28,6 +28,14 @@
       {
         "target": "Mening oilam",
         "meaning": "Моя семья"
+      },
+      {
+        "target": "Bu mening akam.",
+        "meaning": "Это мой старший брат."
+      },
+      {
+        "target": "Bu mening singlim.",
+        "meaning": "Это моя младшая сестра."
       }
     ],
     "exercises": [
@@ -119,6 +127,41 @@
             "right": "Это моя семья."
           }
         ]
+      },
+      {
+        "id": "q6",
+        "type": "dialogue",
+        "prompt": "На фотографии ваш старший брат. Выберите ответ на вопрос.",
+        "dialogue": [
+          {
+            "speaker": "Suhbatdosh",
+            "text": "Bu kim?"
+          }
+        ],
+        "options": [
+          "Bu mening akam.",
+          "Bu mening singlim.",
+          "Bu mening onam."
+        ],
+        "answers": [
+          "Bu mening akam."
+        ],
+        "explanation": "Bu mening akam. — Это мой старший брат."
+      },
+      {
+        "id": "q7",
+        "type": "text",
+        "prompt": "Напишите по образцу: «Это моя младшая сестра».",
+        "options": [],
+        "answers": [
+          "Bu mening singlim."
+        ],
+        "explanation": "Bu mening singlim. — Это моя младшая сестра.",
+        "normalization": {
+          "case_sensitive": false,
+          "punctuation_tolerant": true,
+          "apostrophe_variants": true
+        }
       }
     ],
     "outline_ref": {
@@ -127,6 +170,6 @@
       "lesson_number": 2,
       "source_sha256": "58a33c4a8c89c57886dface7064fff0c5ef413940fc4c0018c8f7acb87b59cf8"
     },
-    "teaching_note": "В образцах mening onam означает «моя мама», mening otam — «мой папа». Сравните окончания в этих готовых выражениях."
+    "teaching_note": "Сравните mening onam, mening otam, mening akam и mening singlim. Окончание в этих примерах указывает на принадлежность говорящему; aka и singil также различают старшего брата и младшую сестру."
   }
 }

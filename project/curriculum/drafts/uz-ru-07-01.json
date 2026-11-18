@@ -3,14 +3,14 @@
   "editorial_notes": [
     "Original demonstration draft; language educator review is required.",
     "Written vocabulary practice only; usage, pronunciation and recordings need review.",
-    "Linked outline: Kundalik fe’llar. This sample may cover only part of its objective; verify scope during review.",
+    "Introduces five verbs and first-person examples; educator review of sequencing and meanings remains required.",
     "Examples use first-person forms; review inflection and register with an educator."
   ],
   "content": {
     "course": "uz-ru",
     "title": "Kundalik fe’llar",
     "objective": "Kundalik harakatlarni bildiruvchi ruscha fe’llarni tanish.",
-    "minutes": 8,
+    "minutes": 10,
     "module_number": 7,
     "lesson_number": 1,
     "words": [
@@ -37,6 +37,12 @@
         "meaning": "yashamoq",
         "example": "Я живу.",
         "example_translation": "Men yashayman."
+      },
+      {
+        "target": "писать",
+        "meaning": "yozmoq",
+        "example": "Я пишу.",
+        "example_translation": "Men yozaman."
       }
     ],
     "exercises": [
@@ -122,6 +128,34 @@
             "right": "yashamoq"
           }
         ]
+      },
+      {
+        "id": "q6",
+        "type": "choice",
+        "prompt": "«Yozmoq» qaysi ruscha fe’l?",
+        "options": [
+          "писать",
+          "читать",
+          "говорить"
+        ],
+        "answers": [
+          "писать"
+        ],
+        "explanation": "Писать — yozmoq."
+      },
+      {
+        "id": "q7",
+        "type": "choice",
+        "prompt": "«Я пишу» misolida qaysi harakat aytilgan?",
+        "options": [
+          "Yozmoq",
+          "O‘qimoq",
+          "Ishlamoq"
+        ],
+        "answers": [
+          "Yozmoq"
+        ],
+        "explanation": "Писать — yozmoq; я пишу — men yozaman."
       }
     ],
     "outline_ref": {

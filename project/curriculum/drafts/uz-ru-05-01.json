@@ -3,13 +3,13 @@
   "editorial_notes": [
     "Original demonstration draft; language educator review is required.",
     "Written practice only. Listening and pronunciation require reviewed recordings.",
-    "Linked outline: Noldan o‘ngacha. This sample may cover only part of its objective; verify scope during review."
+    "Written number coverage includes 0–10; check scope and pacing with a language educator."
   ],
   "content": {
     "course": "uz-ru",
     "title": "Birinchi sonlar",
-    "objective": "Noldan beshgacha bo‘lgan sonlarni yozuvda tanish.",
-    "minutes": 8,
+    "objective": "Noldan o‘ngacha bo‘lgan sonlarni yozuvda tanish va ayrimlarini yozish.",
+    "minutes": 12,
     "module_number": 5,
     "lesson_number": 1,
     "words": [
@@ -36,6 +36,26 @@
       {
         "target": "пять",
         "meaning": "besh"
+      },
+      {
+        "target": "шесть",
+        "meaning": "olti"
+      },
+      {
+        "target": "семь",
+        "meaning": "yetti"
+      },
+      {
+        "target": "восемь",
+        "meaning": "sakkiz"
+      },
+      {
+        "target": "девять",
+        "meaning": "to‘qqiz"
+      },
+      {
+        "target": "десять",
+        "meaning": "o‘n"
       }
     ],
     "exercises": [
@@ -117,6 +137,65 @@
             "right": "bir"
           }
         ]
+      },
+      {
+        "id": "q6",
+        "type": "choice",
+        "prompt": "«Yetti» qaysi ruscha son?",
+        "options": [
+          "шесть",
+          "семь",
+          "восемь"
+        ],
+        "answers": [
+          "семь"
+        ],
+        "explanation": "Семь — yetti."
+      },
+      {
+        "id": "q7",
+        "type": "text",
+        "prompt": "«To‘qqiz» sonini ruscha yozing.",
+        "options": [],
+        "answers": [
+          "девять"
+        ],
+        "explanation": "Девять — to‘qqiz.",
+        "normalization": {
+          "case_sensitive": false,
+          "punctuation_tolerant": true,
+          "apostrophe_variants": true
+        }
+      },
+      {
+        "id": "q8",
+        "type": "match",
+        "prompt": "6–10 sonlarini ma’nosi bilan moslang.",
+        "options": [],
+        "answers": [],
+        "explanation": "Har bir ruscha sonni uning o‘zbekcha ma’nosi bilan bog‘lang.",
+        "match_pairs": [
+          {
+            "left": "шесть",
+            "right": "olti"
+          },
+          {
+            "left": "семь",
+            "right": "yetti"
+          },
+          {
+            "left": "восемь",
+            "right": "sakkiz"
+          },
+          {
+            "left": "девять",
+            "right": "to‘qqiz"
+          },
+          {
+            "left": "десять",
+            "right": "o‘n"
+          }
+        ]
       }
     ],
     "outline_ref": {
@@ -125,6 +204,6 @@
       "lesson_number": 1,
       "source_sha256": "4de4fd39956b36c650185ec93ce419b83d8659632dc690d21003a2748eeeee09"
     },
-    "teaching_note": "Noldan beshgacha sonlarning ruscha yozilishini raqamlar bilan solishtiring."
+    "teaching_note": "Noldan o‘ngacha sonlarning ruscha yozilishini raqamlar bilan solishtiring. Avval 0–5, keyin 6–10 ni mashq qiling."
   }
 }

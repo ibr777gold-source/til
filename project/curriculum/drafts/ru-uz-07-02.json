@@ -2,14 +2,14 @@
   "status": "draft_unreviewed",
   "editorial_notes": [
     "Original sample. Requires qualified educator review of translation, register, and context.",
-    "Written recognition practice only; not a full lesson on the outline objective.",
+    "Includes verb-form comparisons and a short reading; educator review and recorded listening remain necessary.",
     "Linked outline: Что я делаю. Audio and pronunciation are not yet reviewed."
   ],
   "content": {
     "course": "ru-uz",
     "title": "Что я делаю",
-    "objective": "Узнавать несколько полезных слов или фраз по теме.",
-    "minutes": 8,
+    "objective": "Использовать знакомые глаголы в предложениях о себе по образцу.",
+    "minutes": 10,
     "module_number": 7,
     "lesson_number": 2,
     "words": [
@@ -113,6 +113,60 @@
             "right": "Я живу"
           }
         ]
+      },
+      {
+        "id": "q6",
+        "type": "match",
+        "prompt": "Соедините начальную форму и форму с men.",
+        "options": [],
+        "answers": [],
+        "explanation": "O‘qimoq — men o‘qiyman; ishlamoq — men ishlayman; yashamoq — men yashayman.",
+        "match_pairs": [
+          {
+            "left": "o‘qimoq",
+            "right": "men o‘qiyman"
+          },
+          {
+            "left": "ishlamoq",
+            "right": "men ishlayman"
+          },
+          {
+            "left": "yashamoq",
+            "right": "men yashayman"
+          }
+        ]
+      },
+      {
+        "id": "q7",
+        "type": "order",
+        "prompt": "Составьте фразу «Я пишу».",
+        "options": [
+          "yozaman",
+          "Men"
+        ],
+        "answers": [
+          "Men yozaman"
+        ],
+        "explanation": "Men yozaman — я пишу.",
+        "normalization": {
+          "case_sensitive": false,
+          "punctuation_tolerant": true,
+          "apostrophe_variants": true
+        }
+      },
+      {
+        "id": "q8",
+        "type": "choice",
+        "prompt": "Прочитайте: «Men o‘qiyman. Men yozaman.» Какая фраза означает «я пишу»?",
+        "options": [
+          "Men yozaman.",
+          "Men o‘qiyman.",
+          "Men yashayman."
+        ],
+        "answers": [
+          "Men yozaman."
+        ],
+        "explanation": "Men yozaman — я пишу."
       }
     ],
     "outline_ref": {
@@ -121,6 +175,6 @@
       "lesson_number": 2,
       "source_sha256": "58a33c4a8c89c57886dface7064fff0c5ef413940fc4c0018c8f7acb87b59cf8"
     },
-    "teaching_note": "Men означает «я». В готовых фразах Men o‘qiyman и Men yozaman форма глагола относится к говорящему."
+    "teaching_note": "Men означает «я». Сравните начальную форму и готовую форму для говорящего: o‘qimoq — men o‘qiyman; ishlamoq — men ishlayman; yashamoq — men yashayman. Значение времени зависит от контекста."
   }
 }

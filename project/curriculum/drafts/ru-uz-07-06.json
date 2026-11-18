@@ -3,13 +3,13 @@
   "editorial_notes": [
     "Original demonstration draft. Educator review of wording and progression is required.",
     "Written practice only; pronunciation and native-speaker audio are not yet reviewed.",
-    "The linked outline may cover more than this short sample."
+    "Includes a short routine reading; educator review of natural usage and sequencing remains required."
   ],
   "content": {
     "course": "ru-uz",
     "title": "Мой обычный день",
-    "objective": "Узнавать короткие фразы о распорядке дня.",
-    "minutes": 8,
+    "objective": "Читать короткий текст о распорядке дня и составлять предложение по образцу.",
+    "minutes": 10,
     "module_number": 7,
     "lesson_number": 6,
     "words": [
@@ -109,6 +109,53 @@
             "right": "Я отдыхаю вечером."
           }
         ]
+      },
+      {
+        "id": "q6",
+        "type": "choice",
+        "prompt": "Прочитайте: «Men ertalab o‘qiyman. Men kunduzi ishlayman. Men kechqurun dam olaman.» Когда человек работает?",
+        "options": [
+          "Днём",
+          "Утром",
+          "Вечером"
+        ],
+        "answers": [
+          "Днём"
+        ],
+        "explanation": "Men kunduzi ishlayman — я работаю днём."
+      },
+      {
+        "id": "q7",
+        "type": "choice",
+        "prompt": "Что человек делает вечером? «Men ertalab o‘qiyman. Men kunduzi ishlayman. Men kechqurun dam olaman.»",
+        "options": [
+          "Отдыхает",
+          "Работает",
+          "Спит"
+        ],
+        "answers": [
+          "Отдыхает"
+        ],
+        "explanation": "Men kechqurun dam olaman — я отдыхаю вечером."
+      },
+      {
+        "id": "q8",
+        "type": "order",
+        "prompt": "Составьте фразу «Я сплю ночью».",
+        "options": [
+          "uxlayman",
+          "Men",
+          "tunda"
+        ],
+        "answers": [
+          "Men tunda uxlayman"
+        ],
+        "explanation": "Men tunda uxlayman — я сплю ночью.",
+        "normalization": {
+          "case_sensitive": false,
+          "punctuation_tolerant": true,
+          "apostrophe_variants": true
+        }
       }
     ],
     "outline_ref": {

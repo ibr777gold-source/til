@@ -3,13 +3,13 @@
   "editorial_notes": [
     "Original demonstration draft. Educator review of wording and progression is required.",
     "Written practice only; pronunciation and native-speaker audio are not yet reviewed.",
-    "The linked outline may cover more than this short sample."
+    "Includes contextual reading and sentence ordering; educator review of usage and pacing remains required."
   ],
   "content": {
     "course": "uz-ru",
     "title": "Kundalik harakatlar",
     "objective": "Kundalik ishlar haqida bir nechta sodda gapni tanish.",
-    "minutes": 8,
+    "minutes": 10,
     "module_number": 7,
     "lesson_number": 5,
     "words": [
@@ -109,6 +109,38 @@
             "right": "Men dam olyapman."
           }
         ]
+      },
+      {
+        "id": "q6",
+        "type": "order",
+        "prompt": "«Men ishlayapman» gapini tuzing.",
+        "options": [
+          "работаю",
+          "Я"
+        ],
+        "answers": [
+          "Я работаю"
+        ],
+        "explanation": "Я работаю — men ishlayapman.",
+        "normalization": {
+          "case_sensitive": false,
+          "punctuation_tolerant": true,
+          "apostrophe_variants": true
+        }
+      },
+      {
+        "id": "q7",
+        "type": "choice",
+        "prompt": "O‘qing: «Я работаю. Я отдыхаю.» Qaysi gap dam olishni bildiradi?",
+        "options": [
+          "Я отдыхаю.",
+          "Я работаю.",
+          "Я сплю."
+        ],
+        "answers": [
+          "Я отдыхаю."
+        ],
+        "explanation": "Я отдыхаю — men dam olyapman."
       }
     ],
     "outline_ref": {

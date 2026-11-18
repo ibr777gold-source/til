@@ -3,13 +3,13 @@
   "editorial_notes": [
     "Original demonstration draft. Educator review of wording and progression is required.",
     "Written practice only; pronunciation and native-speaker audio are not yet reviewed.",
-    "The linked outline may cover more than this short sample."
+    "Includes sentence ordering and a short reading; educator review of scope, phrasing and sequencing remains necessary."
   ],
   "content": {
     "course": "ru-uz",
     "title": "Короткое описание",
-    "objective": "Читать короткие фразы о людях и вещах.",
-    "minutes": 8,
+    "objective": "Читать и составлять короткие описания людей и вещей по образцу.",
+    "minutes": 10,
     "module_number": 6,
     "lesson_number": 6,
     "words": [
@@ -109,6 +109,54 @@
             "right": "Это новая книга."
           }
         ]
+      },
+      {
+        "id": "q6",
+        "type": "order",
+        "prompt": "Составьте предложение «Это новая книга».",
+        "options": [
+          "kitob",
+          "Bu",
+          "yangi"
+        ],
+        "answers": [
+          "Bu yangi kitob"
+        ],
+        "explanation": "Bu yangi kitob — это новая книга.",
+        "normalization": {
+          "case_sensitive": false,
+          "punctuation_tolerant": true,
+          "apostrophe_variants": true
+        }
+      },
+      {
+        "id": "q7",
+        "type": "choice",
+        "prompt": "Прочитайте: «Bu mening onam. U mehribon.» Что говорится о маме?",
+        "options": [
+          "Она добрый человек.",
+          "Это новая книга.",
+          "Это большой дом."
+        ],
+        "answers": [
+          "Она добрый человек."
+        ],
+        "explanation": "U mehribon в этом контексте относится к маме."
+      },
+      {
+        "id": "q8",
+        "type": "text",
+        "prompt": "Напишите по образцу: «Это большой дом».",
+        "options": [],
+        "answers": [
+          "Bu katta uy."
+        ],
+        "explanation": "Bu katta uy. — Это большой дом.",
+        "normalization": {
+          "case_sensitive": false,
+          "punctuation_tolerant": true,
+          "apostrophe_variants": true
+        }
       }
     ],
     "outline_ref": {

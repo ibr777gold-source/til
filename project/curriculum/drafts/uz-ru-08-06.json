@@ -3,13 +3,13 @@
   "editorial_notes": [
     "Original demonstration draft. Educator review of wording, register and sequencing is required.",
     "Written practice only. Native-speaker recordings and pronunciation review are needed.",
-    "The linked outline may cover more than this sample."
+    "Includes a quantity, a simple price and thanks; educator must review natural dialogue, register and grammar."
   ],
   "content": {
     "course": "uz-ru",
     "title": "Kafeda ichimlik",
-    "objective": "Kafeda ichimlikni xushmuomalalik bilan so‘rash.",
-    "minutes": 8,
+    "objective": "Kafeda ichimlikni xushmuomalalik bilan so‘rash va oddiy narxni tushunish.",
+    "minutes": 10,
     "module_number": 8,
     "lesson_number": 6,
     "words": [
@@ -28,6 +28,18 @@
       {
         "target": "Пожалуйста.",
         "meaning": "Marhamat."
+      },
+      {
+        "target": "Одну чашку чая, пожалуйста.",
+        "meaning": "Bir piyola choy, iltimos."
+      },
+      {
+        "target": "Сколько это стоит?",
+        "meaning": "Bu qancha turadi?"
+      },
+      {
+        "target": "Десять тысяч сумов.",
+        "meaning": "O‘n ming so‘m."
       }
     ],
     "exercises": [
@@ -119,6 +131,60 @@
             "right": "Rahmat."
           }
         ]
+      },
+      {
+        "id": "q6",
+        "type": "dialogue",
+        "prompt": "Bir piyola choy buyurtma qiling. Mos javobni tanlang.",
+        "dialogue": [
+          {
+            "speaker": "Официант",
+            "text": "Что вы хотите?"
+          }
+        ],
+        "options": [
+          "Одну чашку чая, пожалуйста.",
+          "Воду, пожалуйста.",
+          "Спасибо."
+        ],
+        "answers": [
+          "Одну чашку чая, пожалуйста."
+        ],
+        "explanation": "Одну чашку чая, пожалуйста. — Bir piyola choy, iltimos."
+      },
+      {
+        "id": "q7",
+        "type": "choice",
+        "prompt": "O‘qing: «Сколько это стоит? — Десять тысяч сумов.» Narx qancha?",
+        "options": [
+          "O‘n ming so‘m.",
+          "Yigirma ming so‘m.",
+          "Bir ming so‘m."
+        ],
+        "answers": [
+          "O‘n ming so‘m."
+        ],
+        "explanation": "Десять тысяч сумов — o‘n ming so‘m."
+      },
+      {
+        "id": "q8",
+        "type": "dialogue",
+        "prompt": "Sizga choy berishdi. Minnatdorchilik bildiring.",
+        "dialogue": [
+          {
+            "speaker": "Официант",
+            "text": "Пожалуйста."
+          }
+        ],
+        "options": [
+          "Спасибо.",
+          "Сколько это стоит?",
+          "Воду, пожалуйста."
+        ],
+        "answers": [
+          "Спасибо."
+        ],
+        "explanation": "Спасибо — rahmat."
       }
     ],
     "outline_ref": {
@@ -127,6 +193,6 @@
       "lesson_number": 6,
       "source_sha256": "4de4fd39956b36c650185ec93ce419b83d8659632dc690d21003a2748eeeee09"
     },
-    "teaching_note": "Kafeda «Чай, пожалуйста» bilan choy so‘rashingiz mumkin. Ichimlik olingach, «Спасибо» deng."
+    "teaching_note": "«Чай, пожалуйста» yoki «Одну чашку чая, пожалуйста» bilan choy so‘rang. «Сколько это стоит?» — narxni so‘rash. Ichimlikni olgach, «Спасибо» deng."
   }
 }

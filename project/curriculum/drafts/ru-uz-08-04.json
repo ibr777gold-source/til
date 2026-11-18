@@ -3,13 +3,13 @@
   "editorial_notes": [
     "Original demonstration draft. Educator review of wording and progression is required.",
     "Written practice only; pronunciation and native-speaker audio are not yet reviewed.",
-    "The linked outline may cover more than this short sample."
+    "Includes a quantity request and comparison; educator review of forms, register and listening remains necessary."
   ],
   "content": {
     "course": "ru-uz",
     "title": "Количество напитков",
-    "objective": "Узнавать простые выражения количества напитков.",
-    "minutes": 8,
+    "objective": "Различать количество напитков и выбрать вежливую просьбу по образцу.",
+    "minutes": 10,
     "module_number": 8,
     "lesson_number": 4,
     "words": [
@@ -28,6 +28,10 @@
       {
         "target": "ikki stakan suv",
         "meaning": "два стакана воды"
+      },
+      {
+        "target": "Bir shisha suv, iltimos.",
+        "meaning": "Одну бутылку воды, пожалуйста."
       }
     ],
     "exercises": [
@@ -109,6 +113,54 @@
             "right": "одна бутылка воды"
           }
         ]
+      },
+      {
+        "id": "q6",
+        "type": "dialogue",
+        "prompt": "Попросите одну бутылку воды. Выберите ответ.",
+        "dialogue": [
+          {
+            "speaker": "Sotuvchi",
+            "text": "Nima xohlaysiz?"
+          }
+        ],
+        "options": [
+          "Bir shisha suv, iltimos.",
+          "Choy, iltimos.",
+          "Rahmat."
+        ],
+        "answers": [
+          "Bir shisha suv, iltimos."
+        ],
+        "explanation": "Bir shisha suv, iltimos. — Одну бутылку воды, пожалуйста."
+      },
+      {
+        "id": "q7",
+        "type": "choice",
+        "prompt": "Сколько пиал в выражении «ikki piyola choy»?",
+        "options": [
+          "Две",
+          "Одна",
+          "Три"
+        ],
+        "answers": [
+          "Две"
+        ],
+        "explanation": "Ikki piyola choy — две пиалы чая."
+      },
+      {
+        "id": "q8",
+        "type": "choice",
+        "prompt": "Прочитайте: «Bir shisha suv, iltimos.» Что попросили?",
+        "options": [
+          "Одну бутылку воды.",
+          "Два стакана воды.",
+          "Одну пиалу чая."
+        ],
+        "answers": [
+          "Одну бутылку воды."
+        ],
+        "explanation": "Bir shisha suv — одна бутылка воды."
       }
     ],
     "outline_ref": {
@@ -117,6 +169,6 @@
       "lesson_number": 4,
       "source_sha256": "58a33c4a8c89c57886dface7064fff0c5ef413940fc4c0018c8f7acb87b59cf8"
     },
-    "teaching_note": "В этих выражениях сначала идёт количество, затем мера и предмет: ikki piyola choy — две чашки чая."
+    "teaching_note": "В этих выражениях сначала идёт количество, затем мера и предмет: ikki piyola choy — две чашки чая. Для просьбы используйте готовое выражение: Bir shisha suv, iltimos."
   }
 }

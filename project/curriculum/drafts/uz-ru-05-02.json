@@ -3,13 +3,13 @@
   "editorial_notes": [
     "Original demonstration draft; educator review of language and sequencing is required.",
     "Written practice only; no reviewed listening or pronunciation recording.",
-    "The outline may cover more than this draft; verify before publication."
+    "Written examples cover 11–20; educator review of pacing and spelling is still needed."
   ],
   "content": {
     "course": "uz-ru",
     "title": "O‘n birdan yigirmagacha",
     "objective": "11 dan 20 gacha bo‘lgan ruscha sonlarni yozuvda tanish.",
-    "minutes": 8,
+    "minutes": 10,
     "module_number": 5,
     "lesson_number": 2,
     "words": [
@@ -133,6 +133,43 @@
             "right": "девятнадцать"
           }
         ]
+      },
+      {
+        "id": "q6",
+        "type": "match",
+        "prompt": "Qolgan sonlarni yozuvi bilan moslang.",
+        "options": [],
+        "answers": [],
+        "explanation": "13 — тринадцать, 16 — шестнадцать, 17 — семнадцать.",
+        "match_pairs": [
+          {
+            "left": "13",
+            "right": "тринадцать"
+          },
+          {
+            "left": "16",
+            "right": "шестнадцать"
+          },
+          {
+            "left": "17",
+            "right": "семнадцать"
+          }
+        ]
+      },
+      {
+        "id": "q7",
+        "type": "text",
+        "prompt": "16 sonini ruscha yozing.",
+        "options": [],
+        "answers": [
+          "шестнадцать"
+        ],
+        "explanation": "Шестнадцать — 16.",
+        "normalization": {
+          "case_sensitive": false,
+          "punctuation_tolerant": true,
+          "apostrophe_variants": true
+        }
       }
     ],
     "outline_ref": {

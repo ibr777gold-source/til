@@ -3,13 +3,13 @@
   "editorial_notes": [
     "Original demonstration draft. Educator review of wording and progression is required.",
     "Written practice only; pronunciation and native-speaker audio are not yet reviewed.",
-    "The linked outline may cover more than this short sample."
+    "All seven days have written practice; review pronunciation and pedagogical pacing."
   ],
   "content": {
     "course": "uz-ru",
     "title": "Hafta kunlari",
     "objective": "Hafta kunlarining ruscha nomlarini yozuvda tanish.",
-    "minutes": 8,
+    "minutes": 10,
     "module_number": 5,
     "lesson_number": 4,
     "words": [
@@ -121,6 +121,47 @@
             "right": "chorshanba"
           }
         ]
+      },
+      {
+        "id": "q6",
+        "type": "match",
+        "prompt": "Haftaning qolgan kunlarini ma’nosi bilan moslang.",
+        "options": [],
+        "answers": [],
+        "explanation": "Четверг — payshanba, пятница — juma, суббота — shanba, воскресенье — yakshanba.",
+        "match_pairs": [
+          {
+            "left": "четверг",
+            "right": "payshanba"
+          },
+          {
+            "left": "пятница",
+            "right": "juma"
+          },
+          {
+            "left": "суббота",
+            "right": "shanba"
+          },
+          {
+            "left": "воскресенье",
+            "right": "yakshanba"
+          }
+        ]
+      },
+      {
+        "id": "q7",
+        "type": "text",
+        "prompt": "«Yakshanba» so‘zini ruscha yozing.",
+        "options": [],
+        "answers": [
+          "воскресенье"
+        ],
+        "explanation": "Воскресенье — yakshanba.",
+        "normalization": {
+          "case_sensitive": false,
+          "punctuation_tolerant": true,
+          "apostrophe_variants": true
+        }
       }
     ],
     "outline_ref": {

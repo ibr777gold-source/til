@@ -3,13 +3,13 @@
   "editorial_notes": [
     "Original demonstration draft. Educator review of wording, register and sequencing is required.",
     "Written practice only. Native-speaker recordings and pronunciation review are needed.",
-    "The linked outline may cover more than this sample."
+    "Includes sibling introductions; educator must review possessive forms, register and age distinctions."
   ],
   "content": {
     "course": "uz-ru",
     "title": "Mening oilam",
     "objective": "Yaqinlarni sodda gaplar bilan tanishtirish.",
-    "minutes": 8,
+    "minutes": 10,
     "module_number": 6,
     "lesson_number": 2,
     "words": [
@@ -28,6 +28,14 @@
       {
         "target": "Моя семья",
         "meaning": "Mening oilam"
+      },
+      {
+        "target": "Это мой брат.",
+        "meaning": "Bu mening akam yoki ukam."
+      },
+      {
+        "target": "Это моя сестра.",
+        "meaning": "Bu mening opam yoki singlim."
       }
     ],
     "exercises": [
@@ -119,6 +127,41 @@
             "right": "Bu mening oilam."
           }
         ]
+      },
+      {
+        "id": "q6",
+        "type": "dialogue",
+        "prompt": "Suratdagi kishi sizning akangiz. Savolga mos ruscha javobni tanlang.",
+        "dialogue": [
+          {
+            "speaker": "Собеседник",
+            "text": "Кто это?"
+          }
+        ],
+        "options": [
+          "Это мой брат.",
+          "Это моя сестра.",
+          "Это моя мама."
+        ],
+        "answers": [
+          "Это мой брат."
+        ],
+        "explanation": "Это мой брат. — Bu mening akam yoki ukam."
+      },
+      {
+        "id": "q7",
+        "type": "text",
+        "prompt": "«Bu mening opam yoki singlim.» iborasini ruscha yozing.",
+        "options": [],
+        "answers": [
+          "Это моя сестра."
+        ],
+        "explanation": "Это моя сестра. — Bu mening opam yoki singlim.",
+        "normalization": {
+          "case_sensitive": false,
+          "punctuation_tolerant": true,
+          "apostrophe_variants": true
+        }
       }
     ],
     "outline_ref": {
@@ -127,6 +170,6 @@
       "lesson_number": 2,
       "source_sha256": "4de4fd39956b36c650185ec93ce419b83d8659632dc690d21003a2748eeeee09"
     },
-    "teaching_note": "Bu misollarda «моя мама» va «мой папа» iboralarini solishtiring: egalik so‘zi otdan oldin kelib, otga mos shakl oladi."
+    "teaching_note": "«Моя мама», «мой папа», «мой брат» va «моя сестра» iboralarini solishtiring. Bu misollarda egalik so‘zi otga mos shakl oladi. Ruscha брат va сестра yoshni aniqlamaydi."
   }
 }

@@ -3,13 +3,13 @@
   "editorial_notes": [
     "Original demonstration draft. Educator review of wording and progression is required.",
     "Written practice only; pronunciation and native-speaker audio are not yet reviewed.",
-    "The linked outline may cover more than this short sample."
+    "Date and plan examples are fixed phrases; a Russian educator must review wording and date grammar."
   ],
   "content": {
     "course": "uz-ru",
-    "title": "Kun va reja",
-    "objective": "Bugun va ertaga bilan sodda gaplarni tanish.",
-    "minutes": 8,
+    "title": "Sana va reja",
+    "objective": "Bugun va ertaga bilan sodda gaplarni hamda namunadagi sanani tushunish.",
+    "minutes": 10,
     "module_number": 5,
     "lesson_number": 6,
     "words": [
@@ -28,6 +28,14 @@
       {
         "target": "До завтра.",
         "meaning": "Ertagacha."
+      },
+      {
+        "target": "Какое сегодня число?",
+        "meaning": "Bugun nechanchi sana?"
+      },
+      {
+        "target": "Сегодня первое мая.",
+        "meaning": "Bugun birinchi may."
       }
     ],
     "exercises": [
@@ -109,6 +117,40 @@
             "right": "Uchrashuv ertaga."
           }
         ]
+      },
+      {
+        "id": "q6",
+        "type": "choice",
+        "prompt": "«Сегодня первое мая.» nimani bildiradi?",
+        "options": [
+          "Bugun birinchi may.",
+          "Ertaga seshanba.",
+          "Uchrashuv ertaga."
+        ],
+        "answers": [
+          "Bugun birinchi may."
+        ],
+        "explanation": "Сегодня первое мая. — Bugun birinchi may."
+      },
+      {
+        "id": "q7",
+        "type": "dialogue",
+        "prompt": "Bugun 1-may. Mos javobni tanlang.",
+        "dialogue": [
+          {
+            "speaker": "A",
+            "text": "Какое сегодня число?"
+          }
+        ],
+        "options": [
+          "Сегодня первое мая.",
+          "Завтра вторник.",
+          "До завтра."
+        ],
+        "answers": [
+          "Сегодня первое мая."
+        ],
+        "explanation": "Сегодня первое мая. — Bugun birinchi may."
       }
     ],
     "outline_ref": {
@@ -117,6 +159,6 @@
       "lesson_number": 6,
       "source_sha256": "4de4fd39956b36c650185ec93ce419b83d8659632dc690d21003a2748eeeee09"
     },
-    "teaching_note": "«Сегодня» — bugun, «завтра» — ertaga. Ularni hafta kunlari yoki sodda rejalar bilan birga o‘qing."
+    "teaching_note": "«Сегодня» — bugun, «завтра» — ertaga. Ularni hafta kunlari yoki sodda rejalar bilan birga o‘qing. Sana uchun «Какое сегодня число?» savolini va «Сегодня первое мая» javobini tayyor ibora sifatida mashq qiling."
   }
 }

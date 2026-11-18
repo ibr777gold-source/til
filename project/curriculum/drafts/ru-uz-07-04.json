@@ -3,13 +3,13 @@
   "editorial_notes": [
     "Original demonstration draft. Educator review of wording and progression is required.",
     "Written practice only; pronunciation and native-speaker audio are not yet reviewed.",
-    "The linked outline may cover more than this short sample."
+    "Contrasts positive and negative statements in context; educator review of tense and natural wording is required."
   ],
   "content": {
     "course": "ru-uz",
     "title": "Отрицание в контексте",
-    "objective": "Узнавать отрицание в нескольких готовых фразах.",
-    "minutes": 8,
+    "objective": "Различать утвердительные и отрицательные фразы и составлять ответ по образцу.",
+    "minutes": 10,
     "module_number": 7,
     "lesson_number": 4,
     "words": [
@@ -109,6 +109,52 @@
             "right": "Я не говорю."
           }
         ]
+      },
+      {
+        "id": "q6",
+        "type": "choice",
+        "prompt": "Выберите фразу «Я не работаю».",
+        "options": [
+          "Men ishlayman.",
+          "Men ishlamayman.",
+          "Men o‘qimayman."
+        ],
+        "answers": [
+          "Men ishlamayman."
+        ],
+        "explanation": "Men ishlamayman — я не работаю; men ishlayman — я работаю."
+      },
+      {
+        "id": "q7",
+        "type": "order",
+        "prompt": "Составьте фразу «Я не читаю».",
+        "options": [
+          "o‘qimayman",
+          "Men"
+        ],
+        "answers": [
+          "Men o‘qimayman"
+        ],
+        "explanation": "Men o‘qimayman — я не читаю.",
+        "normalization": {
+          "case_sensitive": false,
+          "punctuation_tolerant": true,
+          "apostrophe_variants": true
+        }
+      },
+      {
+        "id": "q8",
+        "type": "choice",
+        "prompt": "Прочитайте: «Men ishlayman. Men o‘qimayman.» Что человек не делает?",
+        "options": [
+          "Не читает.",
+          "Не работает.",
+          "Не спит."
+        ],
+        "answers": [
+          "Не читает."
+        ],
+        "explanation": "Men o‘qimayman — я не читаю."
       }
     ],
     "outline_ref": {

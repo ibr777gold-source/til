@@ -3,13 +3,13 @@
   "editorial_notes": [
     "Original demonstration draft. Educator review of wording and progression is required.",
     "Written practice only; pronunciation and native-speaker audio are not yet reviewed.",
-    "The linked outline may cover more than this short sample."
+    "Includes a short action exchange; educator review of register and natural usage remains necessary."
   ],
   "content": {
     "course": "ru-uz",
     "title": "Вопрос о действии",
-    "objective": "Спросить о действии и узнать простой ответ.",
-    "minutes": 8,
+    "objective": "Спросить о действии и ответить в коротком диалоге по образцу.",
+    "minutes": 10,
     "module_number": 7,
     "lesson_number": 3,
     "words": [
@@ -109,6 +109,59 @@
             "right": "Я работаю."
           }
         ]
+      },
+      {
+        "id": "q6",
+        "type": "dialogue",
+        "prompt": "Сейчас вы работаете. Выберите подходящий ответ.",
+        "dialogue": [
+          {
+            "speaker": "Suhbatdosh",
+            "text": "Siz nima qilyapsiz?"
+          }
+        ],
+        "options": [
+          "Men ishlayapman.",
+          "Men o‘qiyapman.",
+          "Men dam olyapman."
+        ],
+        "answers": [
+          "Men ishlayapman."
+        ],
+        "explanation": "Men ishlayapman. — Я работаю."
+      },
+      {
+        "id": "q7",
+        "type": "order",
+        "prompt": "Составьте вопрос «Что вы делаете?».",
+        "options": [
+          "qilyapsiz?",
+          "Siz",
+          "nima"
+        ],
+        "answers": [
+          "Siz nima qilyapsiz?"
+        ],
+        "explanation": "Siz nima qilyapsiz? — Что вы делаете?",
+        "normalization": {
+          "case_sensitive": false,
+          "punctuation_tolerant": true,
+          "apostrophe_variants": true
+        }
+      },
+      {
+        "id": "q8",
+        "type": "choice",
+        "prompt": "Прочитайте: «Siz nima qilyapsiz? — Men dam olyapman.» Что делает человек?",
+        "options": [
+          "Отдыхает.",
+          "Работает.",
+          "Читает."
+        ],
+        "answers": [
+          "Отдыхает."
+        ],
+        "explanation": "Men dam olyapman — я отдыхаю."
       }
     ],
     "outline_ref": {

@@ -3,13 +3,13 @@
   "editorial_notes": [
     "Original demonstration draft. Educator review of wording and progression is required.",
     "Written practice only; pronunciation and native-speaker audio are not yet reviewed.",
-    "The linked outline may cover more than this short sample."
+    "Includes sentence ordering and a short reading; educator review of scope, phrasing and sequencing remains necessary."
   ],
   "content": {
     "course": "uz-ru",
     "title": "Narsa qanday?",
     "objective": "Buyumni sodda sifat bilan tasvirlash.",
-    "minutes": 8,
+    "minutes": 10,
     "module_number": 6,
     "lesson_number": 6,
     "words": [
@@ -109,6 +109,58 @@
             "right": "Kitob yangi."
           }
         ]
+      },
+      {
+        "id": "q6",
+        "type": "order",
+        "prompt": "«Uy katta» gapini tuzing.",
+        "options": [
+          "большой",
+          "Дом"
+        ],
+        "answers": [
+          "Дом большой"
+        ],
+        "explanation": "Дом большой — uy katta.",
+        "normalization": {
+          "case_sensitive": false,
+          "punctuation_tolerant": true,
+          "apostrophe_variants": true
+        }
+      },
+      {
+        "id": "q7",
+        "type": "dialogue",
+        "prompt": "Uy katta. Savolga mos javobni tanlang.",
+        "dialogue": [
+          {
+            "speaker": "Собеседник",
+            "text": "Какой дом?"
+          }
+        ],
+        "options": [
+          "Дом большой.",
+          "Книга новая.",
+          "Чай горячий."
+        ],
+        "answers": [
+          "Дом большой."
+        ],
+        "explanation": "Дом большой. — Uy katta."
+      },
+      {
+        "id": "q8",
+        "type": "choice",
+        "prompt": "Matnni o‘qing: «Это книга. Книга новая.» Kitob qanday?",
+        "options": [
+          "Yangi",
+          "Katta",
+          "Issiq"
+        ],
+        "answers": [
+          "Yangi"
+        ],
+        "explanation": "Книга новая. — Kitob yangi."
       }
     ],
     "outline_ref": {

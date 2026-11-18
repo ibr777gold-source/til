@@ -14,6 +14,9 @@ const url=new URL(base);if(url.protocol!=='http:'||!['127.0.0.1','localhost'].in
   await page.locator('input[name="password"]').fill('test-password-123');
   await page.locator('form').getByRole('button',{name:/Создать аккаунт/}).click();
   await page.getByRole('radio',{name:'Учёба'}).check();
+  await page.route('**/api/onboarding',route=>route.request().method()==='POST'?route.fulfill({status:503,contentType:'application/json',body:'{"detail":"Unavailable"}'}):route.continue(),{times:1});
+  await page.locator('.onboarding-form').getByRole('button',{name:/Начать обучение/}).click();
+  await page.getByRole('alert').getByText('Не удалось сохранить настройки. Проверьте соединение и попробуйте ещё раз.').waitFor();
   await page.locator('.onboarding-form').getByRole('button',{name:/Начать обучение/}).click();
   await page.locator('.lesson-row').filter({hasText:'Первые числа'}).first().click();
   await page.getByRole('button',{name:/К упражнениям/}).click();
@@ -36,6 +39,15 @@ const url=new URL(base);if(url.protocol!=='http:'||!['127.0.0.1','localhost'].in
   await page.getByLabel('to‘rt соответствие').selectOption('четыре');
   await page.getByLabel('besh соответствие').selectOption('пять');
   await page.getByLabel('bir соответствие').selectOption('один');
+  await page.getByRole('button',{name:/Проверить/}).click();
+  await page.getByRole('button',{name:/Продолжить/}).click();
+  await page.locator('.choices button').filter({hasText:'yetti'}).click();
+  await page.getByRole('button',{name:/Проверить/}).click();
+  await page.getByRole('button',{name:/Продолжить/}).click();
+  await page.locator('.answer-label input').fill("to'qqiz");
+  await page.getByRole('button',{name:/Проверить/}).click();
+  await page.getByRole('button',{name:/Продолжить/}).click();
+  for(const [left,right] of [['olti','шесть'],['yetti','семь'],['sakkiz','восемь'],['to‘qqiz','девять'],['o‘n','десять']])await page.getByLabel(left+' соответствие').selectOption(right);
   await page.getByRole('button',{name:/Проверить/}).click();
   await page.getByRole('button',{name:/Продолжить/}).click();
   await page.getByText('100%',{exact:false}).waitFor();

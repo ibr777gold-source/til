@@ -3,13 +3,13 @@
   "editorial_notes": [
     "Original demonstration draft; educator review of language and sequencing is required.",
     "Written practice only; no reviewed listening or pronunciation recording.",
-    "The outline may cover more than this draft; verify before publication."
+    "Written practice distinguishes three prices; educator review of amounts, register and recordings remains required."
   ],
   "content": {
     "course": "ru-uz",
     "title": "Сколько стоит?",
     "objective": "Спросить цену по-узбекски и узнать простой ответ.",
-    "minutes": 8,
+    "minutes": 10,
     "module_number": 8,
     "lesson_number": 3,
     "words": [
@@ -28,6 +28,14 @@
       {
         "target": "Marhamat.",
         "meaning": "Пожалуйста / вот, пожалуйста."
+      },
+      {
+        "target": "Besh ming so‘m.",
+        "meaning": "Пять тысяч сумов."
+      },
+      {
+        "target": "Yigirma ming so‘m.",
+        "meaning": "Двадцать тысяч сумов."
       }
     ],
     "exercises": [
@@ -119,6 +127,66 @@
             "right": "Пожалуйста."
           }
         ]
+      },
+      {
+        "id": "q6",
+        "type": "match",
+        "prompt": "Соедините цены с переводами.",
+        "options": [],
+        "answers": [],
+        "explanation": "Besh ming — пять тысяч; o‘n ming — десять тысяч; yigirma ming — двадцать тысяч.",
+        "match_pairs": [
+          {
+            "left": "Besh ming so‘m.",
+            "right": "Пять тысяч сумов."
+          },
+          {
+            "left": "O‘n ming so‘m.",
+            "right": "Десять тысяч сумов."
+          },
+          {
+            "left": "Yigirma ming so‘m.",
+            "right": "Двадцать тысяч сумов."
+          }
+        ]
+      },
+      {
+        "id": "q7",
+        "type": "dialogue",
+        "prompt": "Спросите цену товара.",
+        "dialogue": [
+          {
+            "speaker": "Xaridor",
+            "text": "Assalomu alaykum."
+          },
+          {
+            "speaker": "Sotuvchi",
+            "text": "Va alaykum assalom."
+          }
+        ],
+        "options": [
+          "Bu qancha turadi?",
+          "Rahmat.",
+          "Xayr."
+        ],
+        "answers": [
+          "Bu qancha turadi?"
+        ],
+        "explanation": "Bu qancha turadi? — Сколько это стоит?"
+      },
+      {
+        "id": "q8",
+        "type": "choice",
+        "prompt": "Прочитайте: «Bu qancha turadi? — Yigirma ming so‘m.» Какова цена?",
+        "options": [
+          "Двадцать тысяч сумов.",
+          "Десять тысяч сумов.",
+          "Пять тысяч сумов."
+        ],
+        "answers": [
+          "Двадцать тысяч сумов."
+        ],
+        "explanation": "Yigirma ming so‘m — двадцать тысяч сумов."
       }
     ],
     "outline_ref": {
@@ -127,6 +195,6 @@
       "lesson_number": 3,
       "source_sha256": "58a33c4a8c89c57886dface7064fff0c5ef413940fc4c0018c8f7acb87b59cf8"
     },
-    "teaching_note": "Bu qancha turadi? — вопрос о цене. O‘n ming so‘m означает десять тысяч сумов."
+    "teaching_note": "Bu qancha turadi? — вопрос о цене. Сравните besh ming, o‘n ming и yigirma ming so‘m: пять, десять и двадцать тысяч сумов."
   }
 }

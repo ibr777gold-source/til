@@ -3,14 +3,14 @@
   "editorial_notes": [
     "Original demonstration draft; language educator review is required.",
     "Written vocabulary practice only; usage, pronunciation and recordings need review.",
-    "Linked outline: Действия каждый день. This sample may cover only part of its objective; verify scope during review.",
+    "Introduces five verbs and first-person examples; educator review of sequencing and meanings remains required.",
     "Examples use first-person forms; review inflection and register with an educator."
   ],
   "content": {
     "course": "ru-uz",
     "title": "Действия каждый день",
     "objective": "Узнавать несколько узбекских глаголов в начальной форме.",
-    "minutes": 8,
+    "minutes": 10,
     "module_number": 7,
     "lesson_number": 1,
     "words": [
@@ -37,6 +37,12 @@
         "meaning": "жить",
         "example": "Men yashayman.",
         "example_translation": "Я живу."
+      },
+      {
+        "target": "yozmoq",
+        "meaning": "писать",
+        "example": "Men yozaman.",
+        "example_translation": "Я пишу."
       }
     ],
     "exercises": [
@@ -122,6 +128,34 @@
             "right": "жить"
           }
         ]
+      },
+      {
+        "id": "q6",
+        "type": "choice",
+        "prompt": "Какой узбекский глагол означает «писать»?",
+        "options": [
+          "yozmoq",
+          "o‘qimoq",
+          "gapirmoq"
+        ],
+        "answers": [
+          "yozmoq"
+        ],
+        "explanation": "Yozmoq — писать."
+      },
+      {
+        "id": "q7",
+        "type": "choice",
+        "prompt": "Какое действие названо в примере «Men yozaman»?",
+        "options": [
+          "Писать",
+          "Читать",
+          "Работать"
+        ],
+        "answers": [
+          "Писать"
+        ],
+        "explanation": "Yozmoq — писать; men yozaman — я пишу."
       }
     ],
     "outline_ref": {

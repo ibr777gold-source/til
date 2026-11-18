@@ -3,13 +3,13 @@
   "editorial_notes": [
     "Original demonstration draft. Educator review of wording and progression is required.",
     "Written practice only; pronunciation and native-speaker audio are not yet reviewed.",
-    "The linked outline may cover more than this short sample."
+    "Whole-hour examples include a guided exchange; a language educator must review natural wording and audio."
   ],
   "content": {
     "course": "ru-uz",
     "title": "Который час?",
     "objective": "Спросить время и узнать несколько ответов о полном часе.",
-    "minutes": 8,
+    "minutes": 10,
     "module_number": 5,
     "lesson_number": 6,
     "words": [
@@ -28,6 +28,14 @@
       {
         "target": "Hozir soat besh.",
         "meaning": "Сейчас пять часов."
+      },
+      {
+        "target": "Hozir soat bir.",
+        "meaning": "Сейчас час."
+      },
+      {
+        "target": "Hozir soat to‘rt.",
+        "meaning": "Сейчас четыре часа."
       }
     ],
     "exercises": [
@@ -109,6 +117,63 @@
             "right": "Сейчас три часа."
           }
         ]
+      },
+      {
+        "id": "q6",
+        "type": "match",
+        "prompt": "Соедините время с подходящим ответом.",
+        "options": [],
+        "answers": [],
+        "explanation": "1:00 — Hozir soat bir; 4:00 — Hozir soat to‘rt; 5:00 — Hozir soat besh.",
+        "match_pairs": [
+          {
+            "left": "1:00",
+            "right": "Hozir soat bir."
+          },
+          {
+            "left": "4:00",
+            "right": "Hozir soat to‘rt."
+          },
+          {
+            "left": "5:00",
+            "right": "Hozir soat besh."
+          }
+        ]
+      },
+      {
+        "id": "q7",
+        "type": "dialogue",
+        "prompt": "Сейчас 4:00. Выберите ответ на вопрос.",
+        "dialogue": [
+          {
+            "speaker": "Suhbatdosh",
+            "text": "Soat necha?"
+          }
+        ],
+        "options": [
+          "Hozir soat to‘rt.",
+          "Hozir soat bir.",
+          "Hozir soat besh."
+        ],
+        "answers": [
+          "Hozir soat to‘rt."
+        ],
+        "explanation": "Hozir soat to‘rt. — Сейчас четыре часа."
+      },
+      {
+        "id": "q8",
+        "type": "text",
+        "prompt": "1:00. Напишите по-узбекски: «Сейчас час».",
+        "options": [],
+        "answers": [
+          "Hozir soat bir."
+        ],
+        "explanation": "Hozir soat bir. — Сейчас час.",
+        "normalization": {
+          "case_sensitive": false,
+          "punctuation_tolerant": true,
+          "apostrophe_variants": true
+        }
       }
     ],
     "outline_ref": {
@@ -117,6 +182,6 @@
       "lesson_number": 6,
       "source_sha256": "58a33c4a8c89c57886dface7064fff0c5ef413940fc4c0018c8f7acb87b59cf8"
     },
-    "teaching_note": "Чтобы спросить время, используйте Soat necha? В ответах этого урока называется полный час."
+    "teaching_note": "Чтобы спросить время, используйте Soat necha? В ответах этого урока называется полный час: Hozir soat bir — 1:00; Hozir soat to‘rt — 4:00."
   }
 }

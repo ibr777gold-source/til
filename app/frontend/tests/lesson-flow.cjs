@@ -18,11 +18,21 @@ if(url.protocol!=='http:'||!['127.0.0.1','localhost'].includes(url.hostname))thr
   await page.locator('input[name="password"]').fill('test-password-123');
   await page.locator('form').getByRole('button',{name:/Hisob yaratish/}).click();
   await page.getByRole('radio',{name:'O‘qish'}).check();
+  await page.route('**/api/onboarding',route=>route.request().method()==='POST'?route.fulfill({status:503,contentType:'application/json',body:'{"detail":"Unavailable"}'}):route.continue(),{times:1});
+  await page.locator('.onboarding-form').getByRole('button',{name:/O‘rganishni boshlash/}).click();
+  await page.getByRole('alert').getByText('Sozlamalarni saqlab bo‘lmadi. Ulanishni tekshirib, qayta urinib ko‘ring.').waitFor();
   await page.locator('.onboarding-form').getByRole('button',{name:/O‘rganishni boshlash/}).click();
   await page.locator('.lesson-row').filter({hasText:'Birinchi sonlar'}).first().click();
   await page.getByRole('button',{name:/Mashqlarni boshlash/}).click();
+  // Save the answer on the server, then simulate losing its response in transit.
+  await page.route('**/api/attempts/*/answers',async route=>{await route.fetch();await route.abort('failed')},{times:1});
   await page.locator('.choices button').filter({hasText:'один'}).click();
   await page.getByRole('button',{name:/Tekshirish/}).click();
+  await page.getByRole('alert').first().waitFor();
+  await page.locator('.choices button').filter({hasNotText:'один'}).first().click();
+  await page.getByRole('button',{name:/Tekshirish/}).click();
+  await page.getByText('Birinchi javob saqlangan. Uning natijasi ko‘rsatilmoqda.').waitFor();
+  await page.getByText('To‘g‘ri!',{exact:true}).waitFor();
   await page.getByRole('button',{name:/Davom etish/}).click();
   await page.getByRole('button',{name:/Orqaga/}).click();
   // Simulate closing or refreshing the app before returning to an unfinished lesson.
@@ -43,7 +53,34 @@ if(url.protocol!=='http:'||!['127.0.0.1','localhost'].includes(url.hostname))thr
   await page.getByLabel('один mos javob').selectOption('bir');
   await page.getByRole('button',{name:/Tekshirish/}).click();
   await page.getByRole('button',{name:/Davom etish/}).click();
+  await page.getByRole('button',{name:'семь',exact:true}).click();
+  await page.getByRole('button',{name:/Tekshirish/}).click();
+  await page.getByRole('button',{name:/Davom etish/}).click();
+  await page.locator('.answer-label input').fill('девять');
+  await page.getByRole('button',{name:/Tekshirish/}).click();
+  await page.getByRole('button',{name:/Davom etish/}).click();
+  for(const [left,right] of [['шесть','olti'],['семь','yetti'],['восемь','sakkiz'],['девять','to‘qqiz'],['десять','o‘n']])await page.getByLabel(left+' mos javob',{exact:true}).selectOption(right);
+  await page.getByRole('button',{name:/Tekshirish/}).click();
+  await page.getByRole('button',{name:/Davom etish/}).click();
   await page.getByText('100%',{exact:false}).waitFor();
+  await page.getByRole('button',{name:/Bosh sahifaga/}).click();
+  await page.locator('.progress-ring strong').getByText('1',{exact:true}).waitFor();
+  await page.route('**/api/auth/logout',route=>route.fulfill({status:503,contentType:'application/json',body:'{"detail":"Unavailable"}'}),{times:1});
+  await page.getByRole('button',{name:'Chiqish'}).click();
+  await page.getByRole('alert').getByText('Server bilan aloqa uzildi. Qayta urinib ko‘ring.').waitFor();
+  await page.getByRole('button',{name:'Chiqish'}).waitFor();
+  await page.getByRole('button',{name:'Chiqish'}).click();
+  let release;const gate=new Promise(resolve=>release=resolve);
+  await page.route('**/api/progress',async route=>{await gate;await route.continue()});
+  await page.getByRole('button',{name:/O‘rganishni boshlash/}).first().click();
+  await page.locator('input[name="name"]').fill('Second QA');
+  await page.locator('input[name="email"]').fill(`qa-second-${Date.now()}@example.com`);
+  await page.locator('input[name="password"]').fill('test-password-123');
+  await page.locator('form').getByRole('button',{name:/Hisob yaratish/}).click();
+  await page.getByRole('radio',{name:'O‘qish'}).check();
+  await page.locator('.onboarding-form').getByRole('button',{name:/O‘rganishni boshlash/}).click();
+  await page.locator('.progress-ring strong').getByText('0',{exact:true}).waitFor();
+  release();
   console.log('Browser: numbers lesson, resume, typed and matching answers passed');
  }finally{await browser.close()}
 })().catch(e=>{console.error(e.message);process.exitCode=1});

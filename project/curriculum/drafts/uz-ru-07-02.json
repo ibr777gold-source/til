@@ -2,14 +2,14 @@
   "status": "draft_unreviewed",
   "editorial_notes": [
     "Original sample. Requires qualified educator review of translation, register, and context.",
-    "Written recognition practice only; not a full lesson on the outline objective.",
+    "Includes verb-form comparisons and a short reading; educator review and recorded listening remain necessary.",
     "Linked outline: Men nima qilaman. Audio and pronunciation are not yet reviewed."
   ],
   "content": {
     "course": "uz-ru",
     "title": "Men nima qilaman",
-    "objective": "Mavzuga oid bir necha foydali so‘z yoki iborani tanish.",
-    "minutes": 8,
+    "objective": "Tanish fe’llarni «men» bilan namunadagi gaplarda qo‘llash.",
+    "minutes": 10,
     "module_number": 7,
     "lesson_number": 2,
     "words": [
@@ -113,6 +113,60 @@
             "right": "Men yashayman"
           }
         ]
+      },
+      {
+        "id": "q6",
+        "type": "match",
+        "prompt": "Fe’lni «я» bilan ishlatilgan shakliga moslang.",
+        "options": [],
+        "answers": [],
+        "explanation": "Читать — я читаю; работать — я работаю; жить — я живу.",
+        "match_pairs": [
+          {
+            "left": "читать",
+            "right": "я читаю"
+          },
+          {
+            "left": "работать",
+            "right": "я работаю"
+          },
+          {
+            "left": "жить",
+            "right": "я живу"
+          }
+        ]
+      },
+      {
+        "id": "q7",
+        "type": "order",
+        "prompt": "«Men yozaman» gapini tuzing.",
+        "options": [
+          "пишу",
+          "Я"
+        ],
+        "answers": [
+          "Я пишу"
+        ],
+        "explanation": "Я пишу — men yozaman.",
+        "normalization": {
+          "case_sensitive": false,
+          "punctuation_tolerant": true,
+          "apostrophe_variants": true
+        }
+      },
+      {
+        "id": "q8",
+        "type": "choice",
+        "prompt": "O‘qing: «Я читаю. Я пишу.» Qaysi gap yozish haqida?",
+        "options": [
+          "Я пишу.",
+          "Я читаю.",
+          "Я живу."
+        ],
+        "answers": [
+          "Я пишу."
+        ],
+        "explanation": "Я пишу — men yozaman."
       }
     ],
     "outline_ref": {
@@ -121,6 +175,6 @@
       "lesson_number": 2,
       "source_sha256": "4de4fd39956b36c650185ec93ce419b83d8659632dc690d21003a2748eeeee09"
     },
-    "teaching_note": "«Я» — men. Misollarda undan keyingi fe’l gapiruvchining harakatini bildiradi: «Я читаю» — men o‘qiyman."
+    "teaching_note": "«Я» — men. Fe’lning boshlang‘ich va «я» bilan ishlatilgan shakllarini solishtiring: читать — я читаю; работать — я работаю; жить — я живу."
   }
 }

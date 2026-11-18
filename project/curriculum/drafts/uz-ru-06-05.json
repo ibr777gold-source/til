@@ -3,13 +3,13 @@
   "editorial_notes": [
     "Original demonstration draft. Educator review of wording and progression is required.",
     "Written practice only; pronunciation and native-speaker audio are not yet reviewed.",
-    "The linked outline may cover more than this short sample."
+    "Includes guided word-form and sentence-building practice; educator review of wording, scope and sequencing is required."
   ],
   "content": {
     "course": "uz-ru",
     "title": "Sifat va ot",
-    "objective": "«Yangi» sifatini bir necha ot bilan yozuvda tanish.",
-    "minutes": 8,
+    "objective": "«Yangi» sifatining shaklini tanish va namunadagi otga moslash.",
+    "minutes": 10,
     "module_number": 6,
     "lesson_number": 5,
     "words": [
@@ -109,6 +109,65 @@
             "right": "yangi deraza"
           }
         ]
+      },
+      {
+        "id": "q6",
+        "type": "choice",
+        "prompt": "Bo‘sh joyga mos shaklni tanlang: ___ книга.",
+        "options": [
+          "новый",
+          "новая",
+          "новое",
+          "новые"
+        ],
+        "answers": [
+          "новая"
+        ],
+        "explanation": "Книга bilan bu misolda новая ishlatiladi: новая книга."
+      },
+      {
+        "id": "q7",
+        "type": "match",
+        "prompt": "Namunadagi ot va sifat shaklini moslang.",
+        "options": [],
+        "answers": [],
+        "explanation": "Новый стол, новая книга, новое окно, новые книги.",
+        "match_pairs": [
+          {
+            "left": "стол",
+            "right": "новый"
+          },
+          {
+            "left": "книга",
+            "right": "новая"
+          },
+          {
+            "left": "окно",
+            "right": "новое"
+          },
+          {
+            "left": "книги",
+            "right": "новые"
+          }
+        ]
+      },
+      {
+        "id": "q8",
+        "type": "order",
+        "prompt": "«Yangi kitoblar» iborasini tuzing.",
+        "options": [
+          "книги",
+          "новые"
+        ],
+        "answers": [
+          "новые книги"
+        ],
+        "explanation": "Новые книги — yangi kitoblar.",
+        "normalization": {
+          "case_sensitive": false,
+          "punctuation_tolerant": true,
+          "apostrophe_variants": true
+        }
       }
     ],
     "outline_ref": {

@@ -3,13 +3,13 @@
   "editorial_notes": [
     "Original demonstration draft. Educator review of wording and progression is required.",
     "Written practice only; pronunciation and native-speaker audio are not yet reviewed.",
-    "The linked outline may cover more than this short sample."
+    "Includes a quantity request and comparison; educator review of forms, register and listening remains necessary."
   ],
   "content": {
     "course": "uz-ru",
     "title": "Miqdor va ichimlik",
-    "objective": "Ichimlik miqdorini sodda iboralarda tanish.",
-    "minutes": 8,
+    "objective": "Ichimlik miqdorini farqlash va namunada xushmuomala so‘rovni tanlash.",
+    "minutes": 10,
     "module_number": 8,
     "lesson_number": 4,
     "words": [
@@ -28,6 +28,10 @@
       {
         "target": "два стакана воды",
         "meaning": "ikki stakan suv"
+      },
+      {
+        "target": "Одну бутылку воды, пожалуйста.",
+        "meaning": "Bir shisha suv, iltimos."
       }
     ],
     "exercises": [
@@ -109,6 +113,54 @@
             "right": "bir shisha suv"
           }
         ]
+      },
+      {
+        "id": "q6",
+        "type": "dialogue",
+        "prompt": "Bir shisha suv so‘rang. Mos javobni tanlang.",
+        "dialogue": [
+          {
+            "speaker": "Продавец",
+            "text": "Что вы хотите?"
+          }
+        ],
+        "options": [
+          "Одну бутылку воды, пожалуйста.",
+          "Чай, пожалуйста.",
+          "Спасибо."
+        ],
+        "answers": [
+          "Одну бутылку воды, пожалуйста."
+        ],
+        "explanation": "Одну бутылку воды, пожалуйста. — Bir shisha suv, iltimos."
+      },
+      {
+        "id": "q7",
+        "type": "choice",
+        "prompt": "«Две чашки чая» nechta piyola?",
+        "options": [
+          "Ikki",
+          "Bir",
+          "Uch"
+        ],
+        "answers": [
+          "Ikki"
+        ],
+        "explanation": "Две чашки чая — ikki piyola choy."
+      },
+      {
+        "id": "q8",
+        "type": "choice",
+        "prompt": "O‘qing: «Одну бутылку воды, пожалуйста.» Nima so‘raldi?",
+        "options": [
+          "Bir shisha suv.",
+          "Ikki stakan suv.",
+          "Bir piyola choy."
+        ],
+        "answers": [
+          "Bir shisha suv."
+        ],
+        "explanation": "Одну бутылку воды — bir shisha suv."
       }
     ],
     "outline_ref": {
@@ -117,6 +169,6 @@
       "lesson_number": 4,
       "source_sha256": "4de4fd39956b36c650185ec93ce419b83d8659632dc690d21003a2748eeeee09"
     },
-    "teaching_note": "Rus tilida miqdordan keyin so‘z shakli o‘zgarishi mumkin: одна чашка чая, две чашки чая. Bu darsda to‘liq iboralarni solishtiring."
+    "teaching_note": "Rus tilida miqdordan keyin so‘z shakli o‘zgarishi mumkin: одна чашка чая, две чашки чая. Bu darsda to‘liq iboralarni solishtiring. So‘rovda tayyor iborani ishlating: «Одну бутылку воды, пожалуйста»."
   }
 }

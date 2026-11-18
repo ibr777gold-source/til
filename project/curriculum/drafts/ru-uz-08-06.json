@@ -3,13 +3,13 @@
   "editorial_notes": [
     "Original demonstration draft. Educator review of wording and progression is required.",
     "Written practice only; pronunciation and native-speaker audio are not yet reviewed.",
-    "The linked outline may cover more than this short sample."
+    "Includes a short price exchange; educator review of natural wording and register remains necessary."
   ],
   "content": {
     "course": "ru-uz",
     "title": "В магазине",
-    "objective": "Узнавать короткие выражения для покупки в магазине.",
-    "minutes": 8,
+    "objective": "Попросить хлеб, спросить цену и понять простой ответ в магазине.",
+    "minutes": 10,
     "module_number": 8,
     "lesson_number": 6,
     "words": [
@@ -28,6 +28,10 @@
       {
         "target": "Xayr.",
         "meaning": "До свидания."
+      },
+      {
+        "target": "O‘n ming so‘m.",
+        "meaning": "Десять тысяч сумов."
       }
     ],
     "exercises": [
@@ -109,6 +113,63 @@
             "right": "Спасибо."
           }
         ]
+      },
+      {
+        "id": "q6",
+        "type": "dialogue",
+        "prompt": "Спросите цену хлеба. Выберите вопрос.",
+        "dialogue": [
+          {
+            "speaker": "Xaridor",
+            "text": "Menga non kerak."
+          },
+          {
+            "speaker": "Sotuvchi",
+            "text": "Marhamat."
+          }
+        ],
+        "options": [
+          "Non qancha turadi?",
+          "Rahmat.",
+          "Xayr."
+        ],
+        "answers": [
+          "Non qancha turadi?"
+        ],
+        "explanation": "Non qancha turadi? — Сколько стоит хлеб?"
+      },
+      {
+        "id": "q7",
+        "type": "choice",
+        "prompt": "Прочитайте: «Non qancha turadi? — O‘n ming so‘m.» Сколько стоит хлеб?",
+        "options": [
+          "Десять тысяч сумов.",
+          "Двадцать тысяч сумов.",
+          "Одна тысяча сумов."
+        ],
+        "answers": [
+          "Десять тысяч сумов."
+        ],
+        "explanation": "O‘n ming so‘m — десять тысяч сумов."
+      },
+      {
+        "id": "q8",
+        "type": "order",
+        "prompt": "Составьте фразу «Мне нужен хлеб».",
+        "options": [
+          "kerak",
+          "Menga",
+          "non"
+        ],
+        "answers": [
+          "Menga non kerak"
+        ],
+        "explanation": "Menga non kerak — мне нужен хлеб.",
+        "normalization": {
+          "case_sensitive": false,
+          "punctuation_tolerant": true,
+          "apostrophe_variants": true
+        }
       }
     ],
     "outline_ref": {

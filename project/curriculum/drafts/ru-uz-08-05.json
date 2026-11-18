@@ -3,13 +3,13 @@
   "editorial_notes": [
     "Original demonstration draft. Educator review of wording, register and sequencing is required.",
     "Written practice only. Native-speaker recordings and pronunciation review are needed.",
-    "The linked outline may cover more than this sample."
+    "Includes a quantity, a simple price and thanks; educator must review natural dialogue, register and grammar."
   ],
   "content": {
     "course": "ru-uz",
     "title": "Напиток в кафе",
-    "objective": "Вежливо попросить напиток в кафе.",
-    "minutes": 8,
+    "objective": "Вежливо попросить напиток в кафе и понять простую цену.",
+    "minutes": 10,
     "module_number": 8,
     "lesson_number": 5,
     "words": [
@@ -28,6 +28,18 @@
       {
         "target": "Marhamat.",
         "meaning": "Пожалуйста / вот, пожалуйста."
+      },
+      {
+        "target": "Bir piyola choy, iltimos.",
+        "meaning": "Одну пиалу чая, пожалуйста."
+      },
+      {
+        "target": "Bu qancha turadi?",
+        "meaning": "Сколько это стоит?"
+      },
+      {
+        "target": "O‘n ming so‘m.",
+        "meaning": "Десять тысяч сумов."
       }
     ],
     "exercises": [
@@ -119,6 +131,60 @@
             "right": "Спасибо."
           }
         ]
+      },
+      {
+        "id": "q6",
+        "type": "dialogue",
+        "prompt": "Закажите одну пиалу чая. Выберите подходящий ответ.",
+        "dialogue": [
+          {
+            "speaker": "Xizmatchi",
+            "text": "Nima xohlaysiz?"
+          }
+        ],
+        "options": [
+          "Bir piyola choy, iltimos.",
+          "Suv, iltimos.",
+          "Rahmat."
+        ],
+        "answers": [
+          "Bir piyola choy, iltimos."
+        ],
+        "explanation": "Bir piyola choy, iltimos. — Одну пиалу чая, пожалуйста."
+      },
+      {
+        "id": "q7",
+        "type": "choice",
+        "prompt": "Прочитайте: «Bu qancha turadi? — O‘n ming so‘m.» Какова цена?",
+        "options": [
+          "Десять тысяч сумов.",
+          "Двадцать тысяч сумов.",
+          "Одна тысяча сумов."
+        ],
+        "answers": [
+          "Десять тысяч сумов."
+        ],
+        "explanation": "O‘n ming so‘m — десять тысяч сумов."
+      },
+      {
+        "id": "q8",
+        "type": "dialogue",
+        "prompt": "Вам подали чай. Поблагодарите.",
+        "dialogue": [
+          {
+            "speaker": "Xizmatchi",
+            "text": "Marhamat."
+          }
+        ],
+        "options": [
+          "Rahmat.",
+          "Bu qancha turadi?",
+          "Suv, iltimos."
+        ],
+        "answers": [
+          "Rahmat."
+        ],
+        "explanation": "Rahmat — спасибо."
       }
     ],
     "outline_ref": {
@@ -127,6 +193,6 @@
       "lesson_number": 5,
       "source_sha256": "58a33c4a8c89c57886dface7064fff0c5ef413940fc4c0018c8f7acb87b59cf8"
     },
-    "teaching_note": "Чтобы вежливо попросить чай, можно сказать Choy, iltimos. После получения напитка поблагодарите: Rahmat."
+    "teaching_note": "Choy, iltimos или Bir piyola choy, iltimos — вежливая просьба. Bu qancha turadi? — вопрос о цене. После получения напитка скажите Rahmat."
   }
 }

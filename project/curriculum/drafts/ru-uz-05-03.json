@@ -3,13 +3,13 @@
   "editorial_notes": [
     "Original demonstration draft. Educator review of wording and progression is required.",
     "Written practice only; pronunciation and native-speaker audio are not yet reviewed.",
-    "The linked outline may cover more than this short sample."
+    "Price example uses taught tens and ming so‘m; review natural wording and suitability with an Uzbek educator."
   ],
   "content": {
     "course": "ru-uz",
-    "title": "Десятки",
-    "objective": "Узнавать написание нескольких десятков.",
-    "minutes": 8,
+    "title": "Десятки и цена",
+    "objective": "Узнавать несколько десятков и понимать цену в тысячах сумов в коротком диалоге.",
+    "minutes": 10,
     "module_number": 5,
     "lesson_number": 3,
     "words": [
@@ -28,6 +28,18 @@
       {
         "target": "qirq",
         "meaning": "40"
+      },
+      {
+        "target": "Bu qancha turadi?",
+        "meaning": "Сколько это стоит?"
+      },
+      {
+        "target": "ming so‘m",
+        "meaning": "тысяча сумов (в цене)"
+      },
+      {
+        "target": "Yigirma ming so‘m.",
+        "meaning": "Двадцать тысяч сумов."
       }
     ],
     "exercises": [
@@ -109,6 +121,40 @@
             "right": "30"
           }
         ]
+      },
+      {
+        "id": "q6",
+        "type": "choice",
+        "prompt": "Какую цену означает «yigirma ming so‘m»?",
+        "options": [
+          "20 000 сумов",
+          "2 000 сумов",
+          "30 000 сумов"
+        ],
+        "answers": [
+          "20 000 сумов"
+        ],
+        "explanation": "Yigirma — 20, ming — тысяча: 20 000 сумов."
+      },
+      {
+        "id": "q7",
+        "type": "dialogue",
+        "prompt": "Выберите ответ: цена — 30 000 сумов.",
+        "dialogue": [
+          {
+            "speaker": "Покупатель",
+            "text": "Bu qancha turadi?"
+          }
+        ],
+        "options": [
+          "O‘ttiz ming so‘m.",
+          "Yigirma ming so‘m.",
+          "O‘n ming so‘m."
+        ],
+        "answers": [
+          "O‘ttiz ming so‘m."
+        ],
+        "explanation": "O‘ttiz ming so‘m — 30 000 сумов."
       }
     ],
     "outline_ref": {
@@ -117,6 +163,6 @@
       "lesson_number": 3,
       "source_sha256": "58a33c4a8c89c57886dface7064fff0c5ef413940fc4c0018c8f7acb87b59cf8"
     },
-    "teaching_note": "O‘n — 10, yigirma — 20, o‘ttiz — 30, qirq — 40. Сравните запись каждого числа с цифрами."
+    "teaching_note": "O‘n — 10, yigirma — 20, o‘ttiz — 30, qirq — 40. В цене ming означает «тысяча»: yigirma ming so‘m — 20 000 сумов."
   }
 }

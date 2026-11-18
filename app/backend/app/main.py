@@ -53,7 +53,7 @@ class DemoCheckpointResult(Base):
     id: Mapped[int] = mapped_column(primary_key=True)
     user_id: Mapped[int] = mapped_column(ForeignKey('users.id'), index=True)
     course: Mapped[str] = mapped_column(String(5))
-    module_number: Mapped[int] = mapped_column(Integer, default=3, server_default='3')
+    module_number: Mapped[int] = mapped_column(Integer, default=-1, server_default='-1')
     content_digest: Mapped[str | None] = mapped_column(String(64), nullable=True)
     score: Mapped[int] = mapped_column(Integer)
     created_at: Mapped[datetime] = mapped_column(DateTime)
@@ -542,7 +542,7 @@ def progress_overview(u: User=Depends(user),s: Session=Depends(db)):
     progress_by_id={item['lesson_id']:item for item in progress(u=u,s=s)}
     unfinished=unfinished_lessons(u=u,s=s)
     practice={}
-    for entry in s.scalars(select(DemoCheckpointResult).where(DemoCheckpointResult.user_id==u.id).order_by(DemoCheckpointResult.created_at.desc(),DemoCheckpointResult.id.desc())):
+    for entry in s.scalars(select(DemoCheckpointResult).where(DemoCheckpointResult.user_id==u.id,DemoCheckpointResult.module_number.between(0,10)).order_by(DemoCheckpointResult.created_at.desc(),DemoCheckpointResult.id.desc())):
         key=(entry.course,entry.module_number)
         if key in practice: continue
         status='unknown'
@@ -612,13 +612,13 @@ def grade_demo_checkpoint(course: Literal['uz-ru','ru-uz'],data: CheckpointSubmi
         raise HTTPException(422,'Answer every question')
     results=[{'id':e['id'],'prompt':e['prompt'],'correct':answer_matches(e,data.responses[e['id']]),'answer':correct_answer(e),'explanation':e['explanation']} for e in exercises]
     score=round(100*sum(item['correct'] for item in results)/len(results))
-    s.add(DemoCheckpointResult(user_id=u.id,course=course,content_digest=practice_digest(exercises),score=score,created_at=datetime.now(timezone.utc).replace(tzinfo=None)))
+    s.add(DemoCheckpointResult(user_id=u.id,course=course,module_number=-1,content_digest=practice_digest(exercises),score=score,created_at=datetime.now(timezone.utc).replace(tzinfo=None)))
     track(s,u.id,'demo_checkpoint_completed',{'course':course,'score':score});s.commit()
     return {'score':score,'results':results}
 
 @app.get('/api/demo-checkpoint/{course}/history')
 def demo_checkpoint_history(course: Literal['uz-ru','ru-uz'],u: User=Depends(user),s: Session=Depends(db)):
-    entries=s.scalars(select(DemoCheckpointResult).where(DemoCheckpointResult.user_id==u.id,DemoCheckpointResult.course==course,DemoCheckpointResult.module_number==3).order_by(DemoCheckpointResult.created_at.desc(),DemoCheckpointResult.id.desc()).limit(10))
+    entries=s.scalars(select(DemoCheckpointResult).where(DemoCheckpointResult.user_id==u.id,DemoCheckpointResult.course==course,DemoCheckpointResult.module_number==-1).order_by(DemoCheckpointResult.created_at.desc(),DemoCheckpointResult.id.desc()).limit(10))
     return [{'score':entry.score,'created_at':entry.created_at.isoformat()+'Z'} for entry in entries]
 
 def sample_listening_exercise(course: str):
@@ -756,6 +756,16 @@ def answer(attempt_id: int,data: Answer,request: Request,u: User=Depends(user),s
     track(s,u.id,'exercise_answered',{'lesson_id':a.lesson_id,'exercise_id':e['id'],'correct':correct})
     s.commit()
     return result
+
+@app.get('/api/attempts/{attempt_id}/answers/{exercise_id}')
+def saved_answer_feedback(attempt_id: int,exercise_id: str,u: User=Depends(user),s: Session=Depends(db)):
+    attempt=s.get(Attempt,attempt_id)
+    if not attempt or attempt.user_id!=u.id: raise HTTPException(404,'Attempt not found')
+    ensure_not_blocked(attempt.lesson_id,s)
+    receipt=s.scalar(select(AnswerReceipt).where(AnswerReceipt.attempt_id==attempt_id,AnswerReceipt.exercise_id==exercise_id))
+    if not receipt: raise HTTPException(404,'Saved answer not found')
+    return json.loads(receipt.result)
+
 @app.post('/api/attempts/{attempt_id}/complete')
 def complete(attempt_id: int,request: Request,u: User=Depends(user),s: Session=Depends(db)):
     import json
@@ -966,13 +976,17 @@ class DraftContent(BaseModel):
     exercises: list[DraftExercise] = Field(min_length=1,max_length=50)
 
 def validate_draft(content: DraftContent, s: Session):
+    if not content.title.strip() or not content.objective.strip():
+        raise HTTPException(422,'Lesson title and objective cannot be blank')
     if content.outline_ref and (content.outline_ref.course!=content.course or content.outline_ref.module_number!=content.module_number or content.outline_ref.lesson_number!=content.lesson_number):
         raise HTTPException(422,'Outline direction, module, and lesson number must match the draft')
     for word in content.words:
+        if not word.target.strip() or not word.meaning.strip(): raise HTTPException(422,'Vocabulary target and meaning cannot be blank')
         if bool(word.example.strip())!=bool(word.example_translation.strip()): raise HTTPException(422,'Provide both an example and its translation')
         if word.media_id and not s.get(MediaAsset,word.media_id): raise HTTPException(422,'Audio asset not found')
     ids=set()
     for e in content.exercises:
+        if not e.prompt.strip() or not e.explanation.strip(): raise HTTPException(422,'Exercise prompt and explanation cannot be blank')
         if e.type=='dialogue' and (not e.dialogue or any(not line.speaker.strip() or not line.text.strip() for line in e.dialogue)): raise HTTPException(422,'Dialogue exercises need at least one non-empty turn')
         if e.type in ('listen_choice','listen_text') and not e.media_id: raise HTTPException(422,'Listening exercises require audio')
         if e.media_id and not s.get(MediaAsset,e.media_id): raise HTTPException(422,'Audio asset not found')

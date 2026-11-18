@@ -16,6 +16,18 @@ if(url.protocol!=='http:'||!['127.0.0.1','localhost'].includes(url.hostname))thr
    console.log(`${screen}: ${result.violations.length} automated violations`);
    for(const issue of result.violations){failed=true;console.error(`${issue.id}: ${issue.nodes.map(n=>n.target.join(' ')).join(', ')}`)}
   }
+  let release,started;const gate=new Promise(r=>release=r),submitted=new Promise(r=>started=r);
+  await page.route('**/api/preview/uz-ru/answer',async route=>{started();await gate;await route.fulfill({status:200,json:{correct:true,explanation:'Old direction'}})});
+  await page.getByRole('button',{name:/Привет/}).click();
+  await page.getByRole('button',{name:/Tekshirish/}).click();await submitted;
+  await page.getByLabel('Interface language / Til').selectOption('ru-uz');
+  await page.getByRole('button',{name:/Salom/}).waitFor();
+  const oldResponse=page.waitForResponse(response=>response.url().includes('/api/preview/uz-ru/answer'));release();await oldResponse;
+  if(await page.getByText('Old direction').count())throw Error('Old feedback leaked into the new course');
+  await page.getByRole('button',{name:/Salom/}).click();
+  await page.getByRole('button',{name:/Проверить/}).click();
+  await page.getByText('Верно!',{exact:true}).waitFor();
+  console.log('Guest preview: switching direction during submission passed');
  }finally{await browser.close()}
  if(failed)process.exitCode=1;
 })().catch(error=>{console.error(error);process.exitCode=1});

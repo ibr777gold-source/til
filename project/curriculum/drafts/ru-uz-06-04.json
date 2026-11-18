@@ -3,13 +3,13 @@
   "editorial_notes": [
     "Original demonstration draft. Educator review of wording and progression is required.",
     "Written practice only; pronunciation and native-speaker audio are not yet reviewed.",
-    "The linked outline may cover more than this short sample."
+    "Includes guided word-form and sentence-building practice; educator review of wording, scope and sequencing is required."
   ],
   "content": {
     "course": "ru-uz",
     "title": "Размер и качество",
-    "objective": "Узнавать простые прилагательные вместе с существительными.",
-    "minutes": 8,
+    "objective": "Узнавать и составлять простые сочетания прилагательных с существительными.",
+    "minutes": 10,
     "module_number": 6,
     "lesson_number": 4,
     "words": [
@@ -109,6 +109,53 @@
             "right": "хорошая книга"
           }
         ]
+      },
+      {
+        "id": "q6",
+        "type": "order",
+        "prompt": "Составьте сочетание «маленький дом».",
+        "options": [
+          "uy",
+          "kichik"
+        ],
+        "answers": [
+          "kichik uy"
+        ],
+        "explanation": "Kichik uy — маленький дом.",
+        "normalization": {
+          "case_sensitive": false,
+          "punctuation_tolerant": true,
+          "apostrophe_variants": true
+        }
+      },
+      {
+        "id": "q7",
+        "type": "choice",
+        "prompt": "Прочитайте: «Bu katta uy.» Какой это дом?",
+        "options": [
+          "Большой",
+          "Маленький",
+          "Новый"
+        ],
+        "answers": [
+          "Большой"
+        ],
+        "explanation": "Katta означает «большой». Bu katta uy — это большой дом."
+      },
+      {
+        "id": "q8",
+        "type": "text",
+        "prompt": "Напишите по-узбекски «новая книга».",
+        "options": [],
+        "answers": [
+          "yangi kitob"
+        ],
+        "explanation": "Yangi kitob — новая книга.",
+        "normalization": {
+          "case_sensitive": false,
+          "punctuation_tolerant": true,
+          "apostrophe_variants": true
+        }
       }
     ],
     "outline_ref": {

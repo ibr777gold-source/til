@@ -3,13 +3,13 @@
   "editorial_notes": [
     "Original demonstration draft. Educator review of wording and progression is required.",
     "Written practice only; pronunciation and native-speaker audio are not yet reviewed.",
-    "The linked outline may cover more than this short sample."
+    "All seven days and one date example have written practice; educator review of Uzbek wording is required."
   ],
   "content": {
     "course": "ru-uz",
-    "title": "Дни недели",
-    "objective": "Узнавать узбекские названия дней недели.",
-    "minutes": 8,
+    "title": "Дни недели и дата",
+    "objective": "Узнавать дни недели и понимать дату в коротком образце.",
+    "minutes": 10,
     "module_number": 5,
     "lesson_number": 5,
     "words": [
@@ -40,6 +40,10 @@
       {
         "target": "yakshanba",
         "meaning": "воскресенье"
+      },
+      {
+        "target": "Bugun birinchi may.",
+        "meaning": "Сегодня первое мая."
       }
     ],
     "exercises": [
@@ -121,6 +125,61 @@
             "right": "среда"
           }
         ]
+      },
+      {
+        "id": "q6",
+        "type": "match",
+        "prompt": "Соедините остальные дни недели с переводом.",
+        "options": [],
+        "answers": [],
+        "explanation": "Payshanba — четверг, juma — пятница, shanba — суббота, yakshanba — воскресенье.",
+        "match_pairs": [
+          {
+            "left": "payshanba",
+            "right": "четверг"
+          },
+          {
+            "left": "juma",
+            "right": "пятница"
+          },
+          {
+            "left": "shanba",
+            "right": "суббота"
+          },
+          {
+            "left": "yakshanba",
+            "right": "воскресенье"
+          }
+        ]
+      },
+      {
+        "id": "q7",
+        "type": "text",
+        "prompt": "Напишите по-узбекски: «воскресенье».",
+        "options": [],
+        "answers": [
+          "yakshanba"
+        ],
+        "explanation": "Yakshanba — воскресенье.",
+        "normalization": {
+          "case_sensitive": false,
+          "punctuation_tolerant": true,
+          "apostrophe_variants": true
+        }
+      },
+      {
+        "id": "q8",
+        "type": "choice",
+        "prompt": "Что означает «Bugun birinchi may»?",
+        "options": [
+          "Сегодня первое мая.",
+          "Сегодня понедельник.",
+          "Завтра первое мая."
+        ],
+        "answers": [
+          "Сегодня первое мая."
+        ],
+        "explanation": "Bugun birinchi may. — Сегодня первое мая."
       }
     ],
     "outline_ref": {
@@ -129,6 +188,6 @@
       "lesson_number": 5,
       "source_sha256": "58a33c4a8c89c57886dface7064fff0c5ef413940fc4c0018c8f7acb87b59cf8"
     },
-    "teaching_note": "Прочитайте дни недели последовательно: dushanba — понедельник, seshanba — вторник и далее."
+    "teaching_note": "Прочитайте дни недели последовательно: dushanba — понедельник, seshanba — вторник и далее. В выражении Bugun birinchi may слово bugun означает «сегодня», birinchi — «первое». Это готовый пример даты."
   }
 }

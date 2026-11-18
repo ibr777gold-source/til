@@ -3,13 +3,13 @@
   "editorial_notes": [
     "Original demonstration draft; language educator review is required.",
     "Written practice only. Listening and pronunciation require reviewed recordings.",
-    "Linked outline: Числа 0–10. This sample may cover only part of its objective; verify scope during review."
+    "Written number coverage includes 0–10; check scope and pacing with a language educator."
   ],
   "content": {
     "course": "ru-uz",
     "title": "Первые числа",
-    "objective": "Узнавать на письме числа от нуля до пяти.",
-    "minutes": 8,
+    "objective": "Узнавать на письме числа от нуля до десяти и записывать некоторые из них.",
+    "minutes": 12,
     "module_number": 5,
     "lesson_number": 1,
     "words": [
@@ -36,6 +36,26 @@
       {
         "target": "besh",
         "meaning": "пять"
+      },
+      {
+        "target": "olti",
+        "meaning": "шесть"
+      },
+      {
+        "target": "yetti",
+        "meaning": "семь"
+      },
+      {
+        "target": "sakkiz",
+        "meaning": "восемь"
+      },
+      {
+        "target": "to‘qqiz",
+        "meaning": "девять"
+      },
+      {
+        "target": "o‘n",
+        "meaning": "десять"
       }
     ],
     "exercises": [
@@ -117,6 +137,65 @@
             "right": "один"
           }
         ]
+      },
+      {
+        "id": "q6",
+        "type": "choice",
+        "prompt": "Как по-узбекски «семь»?",
+        "options": [
+          "olti",
+          "yetti",
+          "sakkiz"
+        ],
+        "answers": [
+          "yetti"
+        ],
+        "explanation": "Yetti — семь."
+      },
+      {
+        "id": "q7",
+        "type": "text",
+        "prompt": "Напишите по-узбекски «девять».",
+        "options": [],
+        "answers": [
+          "to‘qqiz"
+        ],
+        "explanation": "To‘qqiz — девять.",
+        "normalization": {
+          "case_sensitive": false,
+          "punctuation_tolerant": true,
+          "apostrophe_variants": true
+        }
+      },
+      {
+        "id": "q8",
+        "type": "match",
+        "prompt": "Соедините числа 6–10 и их значения.",
+        "options": [],
+        "answers": [],
+        "explanation": "Соедините каждое узбекское число с его значением.",
+        "match_pairs": [
+          {
+            "left": "olti",
+            "right": "шесть"
+          },
+          {
+            "left": "yetti",
+            "right": "семь"
+          },
+          {
+            "left": "sakkiz",
+            "right": "восемь"
+          },
+          {
+            "left": "to‘qqiz",
+            "right": "девять"
+          },
+          {
+            "left": "o‘n",
+            "right": "десять"
+          }
+        ]
       }
     ],
     "outline_ref": {
@@ -125,6 +204,6 @@
       "lesson_number": 1,
       "source_sha256": "58a33c4a8c89c57886dface7064fff0c5ef413940fc4c0018c8f7acb87b59cf8"
     },
-    "teaching_note": "Сопоставляйте узбекское написание чисел от нуля до пяти с цифрами."
+    "teaching_note": "Сопоставляйте узбекское написание чисел от нуля до десяти с цифрами. Сначала потренируйте 0–5, затем 6–10."
   }
 }

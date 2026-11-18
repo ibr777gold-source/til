@@ -3,13 +3,13 @@
   "editorial_notes": [
     "Original demonstration draft. Educator review of wording and progression is required.",
     "Written practice only; pronunciation and native-speaker audio are not yet reviewed.",
-    "The linked outline may cover more than this short sample."
+    "Contrasts positive and negative statements in context; educator review of tense and natural wording is required."
   ],
   "content": {
     "course": "uz-ru",
     "title": "Oddiy inkor",
-    "objective": "«Не» bilan bir nechta tayyor gapni tanish.",
-    "minutes": 8,
+    "objective": "Bo‘lishli va «не» bilan inkor gaplarni farqlash hamda namunaga ko‘ra gap tuzish.",
+    "minutes": 10,
     "module_number": 7,
     "lesson_number": 4,
     "words": [
@@ -109,6 +109,53 @@
             "right": "Men gapirmayman."
           }
         ]
+      },
+      {
+        "id": "q6",
+        "type": "choice",
+        "prompt": "«Men ishlamayman» gapiga mos ruscha javobni tanlang.",
+        "options": [
+          "Я работаю.",
+          "Я не работаю.",
+          "Я не читаю."
+        ],
+        "answers": [
+          "Я не работаю."
+        ],
+        "explanation": "Не fe’l oldida kelib gapni inkor qiladi: Я не работаю."
+      },
+      {
+        "id": "q7",
+        "type": "order",
+        "prompt": "«Men o‘qimayman» gapini tuzing.",
+        "options": [
+          "читаю",
+          "не",
+          "Я"
+        ],
+        "answers": [
+          "Я не читаю"
+        ],
+        "explanation": "Я не читаю — men o‘qimayman.",
+        "normalization": {
+          "case_sensitive": false,
+          "punctuation_tolerant": true,
+          "apostrophe_variants": true
+        }
+      },
+      {
+        "id": "q8",
+        "type": "choice",
+        "prompt": "O‘qing: «Я работаю. Я не читаю.» Kishi qaysi ishni qilmaydi?",
+        "options": [
+          "O‘qimaydi.",
+          "Ishlamaydi.",
+          "Uxlamaydi."
+        ],
+        "answers": [
+          "O‘qimaydi."
+        ],
+        "explanation": "Я не читаю — men o‘qimayman."
       }
     ],
     "outline_ref": {

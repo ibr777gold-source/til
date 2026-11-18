@@ -2,14 +2,14 @@
   "status": "draft_unreviewed",
   "editorial_notes": [
     "Original sample. Requires qualified educator review of translation, register, and context.",
-    "Written recognition practice only; not a full lesson on the outline objective.",
+    "Written recognition and one object description; not a complete listening or speaking lesson.",
     "Linked outline: Основные цвета. Audio and pronunciation are not yet reviewed."
   ],
   "content": {
     "course": "ru-uz",
     "title": "Основные цвета",
-    "objective": "Узнавать несколько полезных слов или фраз по теме.",
-    "minutes": 8,
+    "objective": "Узнавать основные цвета и описывать цвет предмета по образцу.",
+    "minutes": 10,
     "module_number": 6,
     "lesson_number": 3,
     "words": [
@@ -28,6 +28,18 @@
       {
         "target": "qora",
         "meaning": "чёрный"
+      },
+      {
+        "target": "yashil",
+        "meaning": "зелёный"
+      },
+      {
+        "target": "sariq",
+        "meaning": "жёлтый"
+      },
+      {
+        "target": "yashil kitob",
+        "meaning": "зелёная книга"
       }
     ],
     "exercises": [
@@ -113,6 +125,57 @@
             "right": "чёрный"
           }
         ]
+      },
+      {
+        "id": "q6",
+        "type": "match",
+        "prompt": "Соедините цвета и их значения.",
+        "options": [],
+        "answers": [],
+        "explanation": "Yashil — зелёный, sariq — жёлтый, qora — чёрный.",
+        "match_pairs": [
+          {
+            "left": "yashil",
+            "right": "зелёный"
+          },
+          {
+            "left": "sariq",
+            "right": "жёлтый"
+          },
+          {
+            "left": "qora",
+            "right": "чёрный"
+          }
+        ]
+      },
+      {
+        "id": "q7",
+        "type": "choice",
+        "prompt": "Как сказать «зелёная книга»?",
+        "options": [
+          "yashil kitob",
+          "sariq",
+          "qizil"
+        ],
+        "answers": [
+          "yashil kitob"
+        ],
+        "explanation": "Yashil kitob — зелёная книга."
+      },
+      {
+        "id": "q8",
+        "type": "text",
+        "prompt": "Напишите по-узбекски «жёлтый».",
+        "options": [],
+        "answers": [
+          "sariq"
+        ],
+        "explanation": "Sariq — жёлтый.",
+        "normalization": {
+          "case_sensitive": false,
+          "punctuation_tolerant": true,
+          "apostrophe_variants": true
+        }
       }
     ],
     "outline_ref": {
@@ -121,6 +184,6 @@
       "lesson_number": 3,
       "source_sha256": "58a33c4a8c89c57886dface7064fff0c5ef413940fc4c0018c8f7acb87b59cf8"
     },
-    "teaching_note": "В узбекском языке прилагательное перед существительным не изменяется по роду."
+    "teaching_note": "В узбекском языке прилагательное перед существительным не изменяется по роду: yashil — зелёный, yashil kitob — зелёная книга."
   }
 }
