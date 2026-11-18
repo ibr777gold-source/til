@@ -1,26 +1,18 @@
 import {useEffect, useState} from 'react';
 
-function savedTheme(): 'light' | 'dark' | null {
+function savedTheme(): 'light' | 'dark' {
   try {
     const value = localStorage.getItem('til-theme');
-    return value === 'light' || value === 'dark' ? value : null;
-  } catch { return null; }
+    return value === 'dark' ? 'dark' : 'light';
+  } catch { return 'light'; }
 }
 
 export default function ThemeToggle({ru = false}: {ru?: boolean}) {
-  const [theme, setTheme] = useState<'light' | 'dark' | null>(savedTheme);
-  const [systemDark, setSystemDark] = useState(() => window.matchMedia('(prefers-color-scheme: dark)').matches);
+  const [theme, setTheme] = useState<'light' | 'dark'>(savedTheme);
   useEffect(() => {
-    const query = window.matchMedia('(prefers-color-scheme: dark)');
-    const update = () => setSystemDark(query.matches);
-    query.addEventListener('change', update);
-    return () => query.removeEventListener('change', update);
-  }, []);
-  useEffect(() => {
-    if (theme) document.documentElement.dataset.theme = theme;
-    else delete document.documentElement.dataset.theme;
+    document.documentElement.dataset.theme = theme;
   }, [theme]);
-  const dark = theme ? theme === 'dark' : systemDark;
+  const dark = theme === 'dark';
   function toggle() {
     const next = dark ? 'light' : 'dark';
     setTheme(next);

@@ -9,6 +9,8 @@
     "preview": "vite preview",
     "test:e2e": "node tests/lesson-flow.cjs",
     "test:startup": "node tests/startup-retry.cjs",
+    "test:theme": "node tests/theme.cjs",
+    "test:language": "node tests/language.cjs",
     "test:a11y": "node tests/accessibility-smoke.cjs",
     "test:a11y:learner": "node tests/accessibility-learner.cjs",
     "test:listening": "node tests/listening-flow.cjs",

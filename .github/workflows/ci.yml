@@ -90,6 +90,8 @@ jobs:
           cd app/frontend
           npm run test:e2e
           npm run test:startup
+          npm run test:theme
+          npm run test:language
           npm run test:e2e:ru
           npm run test:a11y
           npm run test:a11y:learner
