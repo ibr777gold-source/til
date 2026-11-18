@@ -14,6 +14,10 @@ from sqlalchemy.orm import DeclarativeBase, Mapped, mapped_column, Session
 from sqlalchemy.exc import IntegrityError
 
 DATABASE_URL = os.getenv('DATABASE_URL', 'postgresql+psycopg://til:til_dev_password@localhost:5432/til')
+if DATABASE_URL.startswith('postgres://'):
+    DATABASE_URL='postgresql+psycopg://'+DATABASE_URL[len('postgres://'):]
+elif DATABASE_URL.startswith('postgresql://'):
+    DATABASE_URL='postgresql+psycopg://'+DATABASE_URL[len('postgresql://'):]
 engine = create_engine(DATABASE_URL, connect_args={'check_same_thread': False} if DATABASE_URL.startswith('sqlite') else {})
 class Base(DeclarativeBase): pass
 class User(Base):

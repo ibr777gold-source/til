@@ -166,3 +166,7 @@ The listening smoke check also uses the disposable test instance and simulates a
 TIL_E2E_ISOLATED=1 TIL_E2E_BASE_URL=http://127.0.0.1:5174/ \
   TIL_BROWSER_PATH=/opt/google/chrome/chrome npm run test:listening
 ```
+
+## Hosting preparation
+
+`netlify.toml` builds the frontend with `TIL_API_ORIGIN` set to the public HTTPS origin of a separately deployed FastAPI backend. Its `/api/*` proxy preserves same-origin browser requests. `render.yaml` is a starting configuration for a free Render API and PostgreSQL database; set `WEB_ORIGIN` to the exact Netlify site origin before launch. Render's free database expires after 30 days, and free service storage is ephemeral, including uploaded media. Configure durable storage, backups, security settings, and a reviewed content and privacy process before relying on a public installation. Create a separate cloud database: do not copy local user data automatically.
