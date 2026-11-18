@@ -11,3 +11,6 @@ __pycache__/
 materials/
 project/staging/
 project/WORKING-NOTES.md
+
+# Local Netlify folder
+.netlify
