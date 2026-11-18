@@ -25,6 +25,8 @@ if(url.protocol!=='http:'||!['127.0.0.1','localhost'].includes(url.hostname))thr
   await page.getByRole('button',{name:/Tekshirish/}).click();
   await page.getByRole('button',{name:/Davom etish/}).click();
   await page.getByRole('button',{name:/Orqaga/}).click();
+  // Simulate closing or refreshing the app before returning to an unfinished lesson.
+  await page.reload({waitUntil:'networkidle'});
   await page.locator('.resume-list .lesson-row').filter({hasText:'Birinchi sonlar'}).click();
   await page.getByText('«Три» qaysi son?').waitFor();
   await page.locator('.choices button').filter({hasText:'uch'}).click();

@@ -21,6 +21,7 @@ const url=new URL(base);if(url.protocol!=='http:'||!['127.0.0.1','localhost'].in
   await page.getByRole('button',{name:/Проверить/}).click();
   await page.getByRole('button',{name:/Продолжить/}).click();
   await page.getByRole('button',{name:/Назад/}).click();
+  await page.reload({waitUntil:'networkidle'});
   await page.locator('.resume-list .lesson-row').filter({hasText:'Первые числа'}).click();
   await page.getByText('Какое число означает uch?').waitFor();
   await page.locator('.choices button').filter({hasText:'три'}).click();
