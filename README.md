@@ -86,6 +86,15 @@ DATABASE_URL=postgresql+psycopg://til:til_dev_password@localhost:5432/til_test \
 
 The check restores the archive and compares the migration version and selected table row counts. It requires PostgreSQL server tools and does not verify uploaded media or every record.
 
+To test an existing archive, without connecting to or overwriting any existing database, run as an unprivileged user with PostgreSQL server and client tools installed:
+
+```bash
+cd app/backend
+../../.venv/bin/python -m scripts.verify_database_backup /secure/path/til-backup.dump
+```
+
+This restores into a private temporary PostgreSQL cluster with no TCP listener, checks that a migration version exists, and removes the temporary cluster afterward. It does not compare every record or verify media files. The temporary directory must have enough free space for the restored data.
+
 ## Password-reset email
 
 Set `SMTP_HOST` and `SMTP_FROM` for reset emails. Optional settings are `SMTP_PORT` (default `587`), `SMTP_USERNAME`, `SMTP_PASSWORD`, and `SMTP_STARTTLS` (default `true`). Set `WEB_ORIGIN` to the exact frontend origin; reset links use it. Without SMTP configuration, the recovery screen explains that email recovery is unavailable. Direct API requests retain the same neutral response for known and unknown accounts and deliver no email. The flow needs production rate limiting, delivery monitoring and HTTPS before public use.
