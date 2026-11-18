@@ -20,7 +20,7 @@ if(url.protocol!=='http:'||!['127.0.0.1','localhost'].includes(url.hostname))thr
   await page.locator('form').getByRole('button',{name:/Hisob yaratish/}).click();
   await page.getByRole('radio',{name:'O‘qish'}).check();
   await page.locator('.onboarding-form').getByRole('button',{name:/O‘rganishni boshlash/}).click();
-  async function scan(name){const r=await new AxeBuilder({page}).withTags(['wcag2a','wcag2aa','wcag21a','wcag21aa']).analyze();console.log(name+': '+r.violations.length+' automated violations');if(r.violations.length)throw Error(name+': '+r.violations.map(v=>v.id).join(', '));}
+  async function scan(name){await page.evaluate(() => Promise.all(document.getAnimations().map(animation => animation.finished.catch(() => {}))));const r=await new AxeBuilder({page}).withTags(['wcag2a','wcag2aa','wcag21a','wcag21aa']).analyze();console.log(name+': '+r.violations.length+' automated violations');if(r.violations.length)throw Error(name+': '+r.violations.map(v=>v.id).join(', '));}
   await scan('dashboard');
   await page.locator('.lesson-row').filter({hasText:'Birinchi sonlar'}).first().click();
   await scan('lesson intro');

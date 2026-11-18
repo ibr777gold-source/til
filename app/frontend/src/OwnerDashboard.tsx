@@ -1,5 +1,6 @@
 import React,{useEffect,useState} from 'react';
 import './style.css';
+import './redesign.css';
 import FeedbackInbox from './FeedbackInbox';
 import Analytics from './Analytics';
 import Editor from './Editor';

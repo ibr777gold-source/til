@@ -12,6 +12,7 @@ if(url.protocol!=='http:'||!['127.0.0.1','localhost'].includes(url.hostname))thr
   await page.goto(base,{waitUntil:'networkidle'});
   for(const screen of ['home','preview']){
    if(screen==='preview')await page.getByRole('button',{name:/Mashqni sinab ko‘rish/}).click();
+   await page.evaluate(() => Promise.all(document.getAnimations().map(animation => animation.finished.catch(() => {}))));
    const result=await new AxeBuilder({page}).withTags(['wcag2a','wcag2aa','wcag21a','wcag21aa']).analyze();
    console.log(`${screen}: ${result.violations.length} automated violations`);
    for(const issue of result.violations){failed=true;console.error(`${issue.id}: ${issue.nodes.map(n=>n.target.join(' ')).join(', ')}`)}
