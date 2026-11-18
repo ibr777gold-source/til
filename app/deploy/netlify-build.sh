@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 set -euo pipefail
+python3 app/deploy/wait_for_ci.py
 if [[ -z "${TIL_API_ORIGIN:-}" ]]; then
   printf '%s\n' 'Set TIL_API_ORIGIN to the public HTTPS origin of the FastAPI backend.' >&2
   exit 1

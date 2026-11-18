@@ -3,6 +3,7 @@ services:
     name: til-api
     runtime: python
     plan: free
+    autoDeployTrigger: checksPass
     buildCommand: pip install -r app/backend/requirements.txt
     startCommand: cd app/backend && alembic upgrade head && uvicorn app.main:app --host 0.0.0.0 --port $PORT
     healthCheckPath: /api/ready
