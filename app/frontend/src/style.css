@@ -87,3 +87,4 @@
 @media(max-width:760px){.hero{gap:36px;padding-top:45px;padding-bottom:55px}.hero h1{font-size:clamp(42px,9vw,58px)}.hero-art{height:390px}.learning-intro{grid-template-columns:1fr;gap:30px;padding-top:70px;padding-bottom:45px}#courses.section{padding-top:45px}}
 @media(max-width:460px){.hero-actions{align-items:stretch}.hero-actions .button{width:100%;justify-content:space-between}.hero-art{height:350px}.language-card{width:69%;padding:20px;min-height:210px}.language-card-word{font-size:44px;margin-top:27px}.hero-art .floating{padding:9px 11px}.hero-art .floating>span{width:27px;height:27px}.hero-art .word-one{left:3%}.hero-art .word-two{right:3%}.learning-steps>div{gap:10px;grid-template-columns:28px 1fr 36px}}
 .section h2,.about h2{font-family:'Manrope Variable',sans-serif}
+.language-card-label,.language-card-bottom,.art-caption,.learning-steps>div>span{color:#395b3d}
