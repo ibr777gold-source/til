@@ -85,6 +85,8 @@ footer{background:var(--bg);border-top:1px solid var(--border)}.footer-inner{fon
 .choices button.selected,.onboarding-choice.chosen,.goal-choice.chosen{background:var(--surface-subtle);border-color:var(--accent);color:var(--text)}
 .choices i,.row-arrow{color:var(--muted)}
 .error,[role=alert]{color:var(--text)}.error{background:var(--surface);border:1px solid var(--border-strong);box-shadow:var(--shadow);border-radius:var(--radius-card)}
+.demo-notice{display:flex;align-items:flex-start;justify-content:center;gap:1rem;padding:.8rem 1.2rem;background:var(--surface);color:var(--text);border-bottom:1px solid var(--border-strong)}
+.demo-notice p{margin:0;max-width:70rem;line-height:1.5}.demo-notice button{border:0;background:transparent;color:inherit;font-size:1.5rem;line-height:1;cursor:pointer}
 .feedback,.draft-notice,.teaching-note,.feedback-summary{border:1px solid var(--border);border-radius:var(--radius-card)}
 .speech-button{background:var(--surface);color:var(--text);border:1px solid var(--border-strong);border-radius:var(--radius-control);min-height:44px}
 [role=status]{color:var(--muted)}

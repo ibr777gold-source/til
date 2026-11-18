@@ -1,0 +1,43 @@
+const {chromium}=require('playwright-core');
+const base=process.env.TIL_E2E_BASE_URL, browserPath=process.env.TIL_BROWSER_PATH;
+if(process.env.TIL_E2E_ISOLATED!=='1'||!base||!browserPath)throw Error('Use a disposable local test server and set TIL_E2E_ISOLATED, TIL_E2E_BASE_URL and TIL_BROWSER_PATH.');
+const url=new URL(base);
+if(url.protocol!=='http:'||!['127.0.0.1','localhost'].includes(url.hostname))throw Error('Test server must be local.');
+(async()=>{
+ const browser=await chromium.launch({executablePath:browserPath,headless:true,args:['--no-sandbox']});
+ const page=await browser.newPage();
+ try{
+  let failed=0;
+  await page.route('**/api/ready',route=>{if(failed++<2)return route.fulfill({status:504,body:'Gateway timeout'});return route.continue()});
+  await page.goto(base);
+  await page.getByRole('complementary',{name:'Namuna versiya haqida'}).getByText(/Server uyqu holatiga/).waitFor();
+  await page.getByRole('status').getByText(/Server ishga tushmoqda/).waitFor();
+  await page.getByRole('button',{name:/O‘rganishni boshlash/}).first().waitFor({timeout:20000});
+  if(failed<3)throw Error('Startup did not retry the failed readiness requests');
+  await page.unroute('**/api/ready');
+  await page.getByLabel('Interface language / Til').selectOption('ru-uz');
+  await page.getByRole('complementary',{name:'Информация о демоверсии'}).getByText(/спящий режим/).waitFor();
+  await page.getByLabel('Interface language / Til').selectOption('uz-ru');
+  await page.getByRole('button',{name:'Xabarni yopish'}).click();
+  if(await page.getByRole('complementary',{name:'Namuna versiya haqida'}).count())throw Error('Demo notice did not close');
+  await page.getByRole('button',{name:/O‘rganishni boshlash/}).first().click();
+  await page.locator('input[name="name"]').fill('Startup QA');
+  await page.locator('input[name="email"]').fill(`startup-${Date.now()}@example.com`);
+  await page.locator('input[name="password"]').fill('test-password-123');
+  await page.route('**/api/onboarding',route=>route.request().method()==='GET'?route.fulfill({status:503,body:'Unavailable'}):route.continue(),{times:1});
+  await page.locator('form').getByRole('button',{name:/Hisob yaratish/}).click();
+  await page.getByRole('radio',{name:'O‘qish'}).check({timeout:20000});
+  await page.locator('.onboarding-form').getByRole('button',{name:/O‘rganishni boshlash/}).click();
+  await page.getByRole('button',{name:'Startup QA'}).waitFor();
+  await page.route('**/api/onboarding',route=>route.fulfill({status:503,body:'Unavailable'}),{times:1});
+  await page.reload();
+  await page.getByRole('button',{name:'Startup QA'}).waitFor({timeout:20000});
+  await page.route('**/api/ready',route=>route.fulfill({status:503,body:'Unavailable'}));
+  await page.reload();
+  await page.getByRole('alert').getByText(/Serverga ulanib bo‘lmadi/).waitFor({timeout:20000});
+  await page.unroute('**/api/ready');
+  await page.getByRole('button',{name:/Qayta urinish/}).click();
+  await page.getByRole('button',{name:'Startup QA'}).waitFor({timeout:20000});
+  console.log('Startup retries proxy failures and recovers the session after signup.');
+ }finally{await browser.close()}
+})().catch(e=>{console.error(e);process.exitCode=1});

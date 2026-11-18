@@ -89,6 +89,7 @@ jobs:
           if [ "$ready" != 1 ]; then cat /tmp/til-ci.log; exit 1; fi
           cd app/frontend
           npm run test:e2e
+          npm run test:startup
           npm run test:e2e:ru
           npm run test:a11y
           npm run test:a11y:learner

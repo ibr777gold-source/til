@@ -8,6 +8,7 @@
     "build": "tsc -b && vite build",
     "preview": "vite preview",
     "test:e2e": "node tests/lesson-flow.cjs",
+    "test:startup": "node tests/startup-retry.cjs",
     "test:a11y": "node tests/accessibility-smoke.cjs",
     "test:a11y:learner": "node tests/accessibility-learner.cjs",
     "test:listening": "node tests/listening-flow.cjs",
