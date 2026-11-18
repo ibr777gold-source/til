@@ -19,8 +19,8 @@ const url=new URL(base);if(url.protocol!=='http:'||!['127.0.0.1','localhost'].in
   await page.locator('.onboarding-form').getByRole('button',{name:/O‘rganishni boshlash/}).click();
   await page.getByRole('button',{name:/Tinglashni sinab ko‘rish/}).click();
   await page.evaluate(()=>{speechSynthesis.getVoices=()=>[];speechSynthesis.dispatchEvent(new Event('voiceschanged'))});
-  await page.getByText('Bu qurilmada o‘rganilayotgan til uchun ovoz mavjud emas.',{exact:false}).waitFor();
-  await scan('voice unavailable');
+  await page.getByText('Oldindan yaratilgan sun’iy ovoz qo‘llanadi; u hali mutaxassis tomonidan tekshirilmagan.',{exact:false}).waitFor();
+  await scan('synthetic audio fallback');
   await page.evaluate(()=>{speechSynthesis.getVoices=()=>[{name:'Test Russian',lang:'ru-RU'}];speechSynthesis.dispatchEvent(new Event('voiceschanged'))});
   await scan('listening choice');
   await page.getByLabel('Nutq tezligi').focus();

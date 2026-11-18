@@ -141,6 +141,8 @@ During a lesson, missed exercises are revisited before completion. The recorded 
 
 ## Browser smoke test
 
+The repository's GitHub Actions workflow runs backend tests, a frontend build, isolated browser smoke checks, and PostgreSQL migration and integration smoke checks on pushes and pull requests. It uses disposable test databases and does not replace manual accessibility review or production security testing. Reference PDFs and vocabulary staging are private and excluded from the repository, so their local checks are not run in CI.
+
 The browser smoke test creates a new learner and lesson attempt. Run it only against a disposable, isolated test database, never against the development database containing real demo feedback or learner progress. For example, with Chrome installed at `/opt/google/chrome/chrome`:
 
 ```bash

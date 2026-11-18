@@ -1,0 +1,102 @@
+name: Application checks
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  postgres:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    services:
+      postgres:
+        image: postgres:16
+        env:
+          POSTGRES_USER: til
+          POSTGRES_PASSWORD: til_ci_password
+          POSTGRES_DB: til_test
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd "pg_isready -U til -d til_test"
+          --health-interval 5s
+          --health-timeout 5s
+          --health-retries 12
+    env:
+      DATABASE_URL: postgresql+psycopg://til:til_ci_password@127.0.0.1:5432/til_test
+      ENABLE_DEMO_CONTENT: 'true'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install test dependencies
+        run: |
+          python -m venv .venv
+          .venv/bin/pip install -r app/backend/requirements-test.txt
+      - name: Migrate and test PostgreSQL
+        working-directory: app/backend
+        run: |
+          ../../.venv/bin/alembic upgrade head
+          ../../.venv/bin/python -m tests.postgres_smoke
+          ../../.venv/bin/python -m tests.postgres_publication_smoke
+          ../../.venv/bin/python -m tests.postgres_practice_smoke
+          ../../.venv/bin/python -m tests.postgres_deletion_smoke
+
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+          cache-dependency-path: app/frontend/package-lock.json
+      - name: Install dependencies
+        run: |
+          python -m venv .venv
+          .venv/bin/pip install -r app/backend/requirements-test.txt
+          npm ci --prefix app/frontend
+      - name: Backend tests
+        working-directory: app/backend
+        run: ../../.venv/bin/python -m pytest -q
+      - name: Frontend build
+        working-directory: app/frontend
+        run: npm run build
+      - name: Browser tests on isolated database
+        shell: bash
+        run: |
+          set -euo pipefail
+          browser="$(command -v google-chrome || command -v chromium || command -v chromium-browser)"
+          export TIL_BROWSER_PATH="$browser"
+          export TIL_E2E_ISOLATED=1
+          export TIL_E2E_BASE_URL=http://127.0.0.1:5174/
+          DATABASE_URL=sqlite:////tmp/til-ci.db TIL_API_PORT=8012 TIL_WEB_PORT=5174 ./app/run-demo.sh > /tmp/til-ci.log 2>&1 &
+          demo_pid=$!
+          trap 'kill "$demo_pid" 2>/dev/null || true' EXIT
+          ready=0
+          for attempt in {1..30}; do
+            if curl -fsS http://127.0.0.1:5174/api/ready > /dev/null; then ready=1; break; fi
+            sleep 1
+          done
+          if [ "$ready" != 1 ]; then cat /tmp/til-ci.log; exit 1; fi
+          cd app/frontend
+          npm run test:e2e
+          npm run test:e2e:ru
+          npm run test:a11y
+          npm run test:a11y:learner
+          npm run test:listening
+          npm run test:audio-player
+          npm run test:course-map-retry
+          npm run test:progress-retry
+          npm run test:checkpoint-submit
+          npm run test:feedback-submit
+          npm run test:word-order
+          npm run test:matching
