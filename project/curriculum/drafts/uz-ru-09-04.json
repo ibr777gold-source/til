@@ -1,0 +1,122 @@
+{
+  "status": "draft_unreviewed",
+  "editorial_notes": [
+    "Original demonstration draft. Educator review of wording and progression is required.",
+    "Written practice only; pronunciation and native-speaker audio are not yet reviewed.",
+    "The linked outline may cover more than this short sample."
+  ],
+  "content": {
+    "course": "uz-ru",
+    "title": "Qayerdansiz?",
+    "objective": "Qayerdan ekanini aytish uchun tayyor iboralarni tanish.",
+    "minutes": 8,
+    "module_number": 9,
+    "lesson_number": 4,
+    "words": [
+      {
+        "target": "Откуда вы?",
+        "meaning": "Qayerdansiz?"
+      },
+      {
+        "target": "Я из Ташкента.",
+        "meaning": "Men Toshkentdanman."
+      },
+      {
+        "target": "Я из Самарканда.",
+        "meaning": "Men Samarqanddanman."
+      },
+      {
+        "target": "Я из Узбекистана.",
+        "meaning": "Men O‘zbekistondanman."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "q1",
+        "type": "choice",
+        "prompt": "«Qayerdansiz?» rus tilida qanday?",
+        "options": [
+          "Откуда вы?",
+          "Я из Ташкента.",
+          "Я из Самарканда."
+        ],
+        "answers": [
+          "Откуда вы?"
+        ],
+        "explanation": "Откуда вы? — Qayerdansiz?"
+      },
+      {
+        "id": "q2",
+        "type": "choice",
+        "prompt": "«Я из Ташкента.» nimani bildiradi?",
+        "options": [
+          "Men Samarqanddanman.",
+          "Men Toshkentdanman.",
+          "Qayerdansiz?"
+        ],
+        "answers": [
+          "Men Toshkentdanman."
+        ],
+        "explanation": "Я из Ташкента. — Men Toshkentdanman."
+      },
+      {
+        "id": "q3",
+        "type": "text",
+        "prompt": "«Men Samarqanddanman.» iborasini ruscha yozing.",
+        "options": [],
+        "answers": [
+          "Я из Самарканда."
+        ],
+        "explanation": "Я из Самарканда. — Men Samarqanddanman.",
+        "normalization": {
+          "case_sensitive": false,
+          "punctuation_tolerant": true,
+          "apostrophe_variants": true
+        }
+      },
+      {
+        "id": "q4",
+        "type": "choice",
+        "prompt": "«Men O‘zbekistondanman.» tarjimasini tanlang.",
+        "options": [
+          "Я из Ташкента.",
+          "Я из Узбекистана.",
+          "Откуда вы?"
+        ],
+        "answers": [
+          "Я из Узбекистана."
+        ],
+        "explanation": "Я из Узбекистана. — Men O‘zbekistondanman."
+      },
+      {
+        "id": "q5",
+        "type": "match",
+        "prompt": "Iboralarni ma’nosi bilan moslang.",
+        "options": [],
+        "answers": [],
+        "explanation": "Iboralarni tarjimalari bilan bog‘lang.",
+        "match_pairs": [
+          {
+            "left": "Откуда вы?",
+            "right": "Qayerdansiz?"
+          },
+          {
+            "left": "Я из Ташкента.",
+            "right": "Men Toshkentdanman."
+          },
+          {
+            "left": "Я из Самарканда.",
+            "right": "Men Samarqanddanman."
+          }
+        ]
+      }
+    ],
+    "outline_ref": {
+      "course": "uz-ru",
+      "module_number": 9,
+      "lesson_number": 4,
+      "source_sha256": "4de4fd39956b36c650185ec93ce419b83d8659632dc690d21003a2748eeeee09"
+    },
+    "teaching_note": "«Откуда?» qayerdan ekanini so‘raydi. Shahar va mamlakatlar bilan bu misollarda «из» ishlatiladi: из Ташкента, из Узбекистана."
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "status": "draft_unreviewed",
+  "editorial_notes": [
+    "Original demonstration draft. Educator review of wording and progression is required.",
+    "Written practice only; pronunciation and native-speaker audio are not yet reviewed.",
+    "The linked outline may cover more than this short sample."
+  ],
+  "content": {
+    "course": "uz-ru",
+    "title": "Miqdor va ichimlik",
+    "objective": "Ichimlik miqdorini sodda iboralarda tanish.",
+    "minutes": 8,
+    "module_number": 8,
+    "lesson_number": 4,
+    "words": [
+      {
+        "target": "одна чашка чая",
+        "meaning": "bir piyola choy"
+      },
+      {
+        "target": "две чашки чая",
+        "meaning": "ikki piyola choy"
+      },
+      {
+        "target": "одна бутылка воды",
+        "meaning": "bir shisha suv"
+      },
+      {
+        "target": "два стакана воды",
+        "meaning": "ikki stakan suv"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "q1",
+        "type": "choice",
+        "prompt": "«bir piyola choy» rus tilida qanday?",
+        "options": [
+          "одна чашка чая",
+          "две чашки чая",
+          "одна бутылка воды"
+        ],
+        "answers": [
+          "одна чашка чая"
+        ],
+        "explanation": "одна чашка чая — bir piyola choy"
+      },
+      {
+        "id": "q2",
+        "type": "choice",
+        "prompt": "«две чашки чая» nimani bildiradi?",
+        "options": [
+          "bir shisha suv",
+          "ikki piyola choy",
+          "bir piyola choy"
+        ],
+        "answers": [
+          "ikki piyola choy"
+        ],
+        "explanation": "две чашки чая — ikki piyola choy"
+      },
+      {
+        "id": "q3",
+        "type": "text",
+        "prompt": "«bir shisha suv» iborasini ruscha yozing.",
+        "options": [],
+        "answers": [
+          "одна бутылка воды"
+        ],
+        "explanation": "одна бутылка воды — bir shisha suv",
+        "normalization": {
+          "case_sensitive": false,
+          "punctuation_tolerant": true,
+          "apostrophe_variants": true
+        }
+      },
+      {
+        "id": "q4",
+        "type": "choice",
+        "prompt": "«ikki stakan suv» tarjimasini tanlang.",
+        "options": [
+          "две чашки чая",
+          "два стакана воды",
+          "одна чашка чая"
+        ],
+        "answers": [
+          "два стакана воды"
+        ],
+        "explanation": "два стакана воды — ikki stakan suv"
+      },
+      {
+        "id": "q5",
+        "type": "match",
+        "prompt": "Iboralarni ma’nosi bilan moslang.",
+        "options": [],
+        "answers": [],
+        "explanation": "Iboralarni tarjimalari bilan bog‘lang.",
+        "match_pairs": [
+          {
+            "left": "одна чашка чая",
+            "right": "bir piyola choy"
+          },
+          {
+            "left": "две чашки чая",
+            "right": "ikki piyola choy"
+          },
+          {
+            "left": "одна бутылка воды",
+            "right": "bir shisha suv"
+          }
+        ]
+      }
+    ],
+    "outline_ref": {
+      "course": "uz-ru",
+      "module_number": 8,
+      "lesson_number": 4,
+      "source_sha256": "4de4fd39956b36c650185ec93ce419b83d8659632dc690d21003a2748eeeee09"
+    },
+    "teaching_note": "Rus tilida miqdordan keyin so‘z shakli o‘zgarishi mumkin: одна чашка чая, две чашки чая. Bu darsda to‘liq iboralarni solishtiring."
+  }
+}

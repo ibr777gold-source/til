@@ -1,0 +1,126 @@
+{
+  "status": "draft_unreviewed",
+  "editorial_notes": [
+    "Original sample. Requires qualified educator review of translation, register, and context.",
+    "Written recognition practice only; not a full lesson on the outline objective.",
+    "Linked outline: O‘qish va ish. Audio and pronunciation are not yet reviewed."
+  ],
+  "content": {
+    "course": "uz-ru",
+    "title": "O‘qish va ish",
+    "objective": "Mavzuga oid bir necha foydali so‘z yoki iborani tanish.",
+    "minutes": 8,
+    "module_number": 10,
+    "lesson_number": 2,
+    "words": [
+      {
+        "target": "учитель",
+        "meaning": "o‘qituvchi"
+      },
+      {
+        "target": "школа",
+        "meaning": "maktab"
+      },
+      {
+        "target": "работа",
+        "meaning": "ish"
+      },
+      {
+        "target": "ученик",
+        "meaning": "o‘quvchi"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "q1",
+        "type": "choice",
+        "prompt": "«o‘qituvchi» uchun mos javobni tanlang.",
+        "options": [
+          "учитель",
+          "школа",
+          "работа"
+        ],
+        "answers": [
+          "учитель"
+        ],
+        "explanation": "учитель — o‘qituvchi."
+      },
+      {
+        "id": "q2",
+        "type": "choice",
+        "prompt": "«школа» nimani bildiradi?",
+        "options": [
+          "ish",
+          "maktab",
+          "o‘quvchi"
+        ],
+        "answers": [
+          "maktab"
+        ],
+        "explanation": "школа — maktab."
+      },
+      {
+        "id": "q3",
+        "type": "text",
+        "prompt": "Rus tilida yozing: «ish».",
+        "options": [],
+        "answers": [
+          "работа"
+        ],
+        "explanation": "работа — ish.",
+        "normalization": {
+          "case_sensitive": false,
+          "punctuation_tolerant": true,
+          "apostrophe_variants": true
+        }
+      },
+      {
+        "id": "q4",
+        "type": "choice",
+        "prompt": "«ученик» nimani bildiradi?",
+        "options": [
+          "o‘qituvchi",
+          "o‘quvchi",
+          "ish"
+        ],
+        "answers": [
+          "o‘quvchi"
+        ],
+        "explanation": "ученик — o‘quvchi."
+      },
+      {
+        "id": "q5",
+        "type": "match",
+        "prompt": "So‘z yoki iboralarni ma’nosi bilan moslang.",
+        "options": [],
+        "answers": [],
+        "explanation": "Misollar va ularning ma’nolarini solishtiring.",
+        "match_pairs": [
+          {
+            "left": "учитель",
+            "right": "o‘qituvchi"
+          },
+          {
+            "left": "школа",
+            "right": "maktab"
+          },
+          {
+            "left": "работа",
+            "right": "ish"
+          },
+          {
+            "left": "ученик",
+            "right": "o‘quvchi"
+          }
+        ]
+      }
+    ],
+    "outline_ref": {
+      "course": "uz-ru",
+      "module_number": 10,
+      "lesson_number": 2,
+      "source_sha256": "4de4fd39956b36c650185ec93ce419b83d8659632dc690d21003a2748eeeee09"
+    },
+    "teaching_note": "Bu so‘zlar o‘qish va ish mavzulariga tegishli. Har bir so‘zni ma’nosi bilan solishtiring."
+  }
+}

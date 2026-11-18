@@ -1,0 +1,129 @@
+{
+  "status": "draft_unreviewed",
+  "content": {
+    "course": "uz-ru",
+    "minutes": 8,
+    "module_number": 1,
+    "lesson_number": 2,
+    "title": "Tanish shakllar",
+    "objective": "Shakli tanish, lekin tovush qiymati farqlanishi mumkin bo‘lgan kirill harflarini tanish.",
+    "words": [
+      {
+        "target": "Р р",
+        "meaning": "Ruscha r tovushiga yaqin harf; lotin P shakliga o‘xshaydi."
+      },
+      {
+        "target": "С с",
+        "meaning": "Ruscha s tovushiga yaqin harf; lotin C shakliga o‘xshaydi."
+      },
+      {
+        "target": "Н н",
+        "meaning": "Ruscha n tovushiga yaqin harf; lotin H shakliga o‘xshaydi."
+      },
+      {
+        "target": "В в",
+        "meaning": "Ruscha v tovushiga yaqin harf; lotin B shakliga o‘xshaydi."
+      },
+      {
+        "target": "У у",
+        "meaning": "Ruscha u tovushiga yaqin harf; lotin Y shakliga o‘xshaydi."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "q1",
+        "type": "choice",
+        "prompt": "Qaysi kirill harfi r tovushiga yaqin?",
+        "options": [
+          "Р",
+          "С",
+          "Н"
+        ],
+        "answers": [
+          "Р"
+        ],
+        "explanation": "Kirill Р odatda r tovushini bildiradi."
+      },
+      {
+        "id": "q2",
+        "type": "choice",
+        "prompt": "Kirill С qaysi lotin harfi bilan ifodalangan tovushga yaqin?",
+        "options": [
+          "s",
+          "n",
+          "v"
+        ],
+        "answers": [
+          "s"
+        ],
+        "explanation": "Kirill С odatda s tovushini bildiradi."
+      },
+      {
+        "id": "q3",
+        "type": "text",
+        "prompt": "n tovushiga yaqin kirill harfining kichik shaklini yozing.",
+        "options": [],
+        "answers": [
+          "н"
+        ],
+        "explanation": "Kirill н odatda n tovushini bildiradi.",
+        "normalization": {
+          "case_sensitive": true,
+          "punctuation_tolerant": false,
+          "apostrophe_variants": true
+        }
+      },
+      {
+        "id": "q4",
+        "type": "choice",
+        "prompt": "Kirill В qaysi tovushga yaqin?",
+        "options": [
+          "v",
+          "b",
+          "k"
+        ],
+        "answers": [
+          "v"
+        ],
+        "explanation": "Kirill В shakli lotin B ga o‘xshasa ham, odatda v tovushini bildiradi."
+      },
+      {
+        "id": "q5",
+        "type": "match",
+        "prompt": "Kirill harfi va yaqin lotin tovush belgisini moslang.",
+        "options": [],
+        "answers": [],
+        "explanation": "Shakliga emas, mashqdagi tovush qiymatiga e’tibor bering.",
+        "match_pairs": [
+          {
+            "left": "Р",
+            "right": "r"
+          },
+          {
+            "left": "С",
+            "right": "s"
+          },
+          {
+            "left": "Н",
+            "right": "n"
+          },
+          {
+            "left": "У",
+            "right": "u"
+          }
+        ]
+      }
+    ],
+    "outline_ref": {
+      "course": "uz-ru",
+      "module_number": 1,
+      "lesson_number": 2,
+      "source_sha256": "4de4fd39956b36c650185ec93ce419b83d8659632dc690d21003a2748eeeee09"
+    },
+    "teaching_note": "Ba’zi kirill harflari lotin harflariga o‘xshab ko‘rinsa ham, boshqacha o‘qiladi. Р, С va Н shakllarini tarjimadagi tovushlar bilan solishtiring."
+  },
+  "editorial_notes": [
+    "Original draft; Russian educator review is required.",
+    "No audio is included; pronunciation and listening work remain incomplete."
+  ]
+}

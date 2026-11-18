@@ -1,0 +1,126 @@
+{
+  "status": "draft_unreviewed",
+  "editorial_notes": [
+    "Original sample. Requires qualified educator review of translation, register, and context.",
+    "Written recognition practice only; not a full lesson on the outline objective.",
+    "Linked outline: Учёба и работа. Audio and pronunciation are not yet reviewed."
+  ],
+  "content": {
+    "course": "ru-uz",
+    "title": "Учёба и работа",
+    "objective": "Узнавать несколько полезных слов или фраз по теме.",
+    "minutes": 8,
+    "module_number": 10,
+    "lesson_number": 2,
+    "words": [
+      {
+        "target": "o‘qituvchi",
+        "meaning": "учитель"
+      },
+      {
+        "target": "maktab",
+        "meaning": "школа"
+      },
+      {
+        "target": "ish",
+        "meaning": "работа"
+      },
+      {
+        "target": "o‘quvchi",
+        "meaning": "ученик"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "q1",
+        "type": "choice",
+        "prompt": "Какая фраза соответствует «учитель»?",
+        "options": [
+          "o‘qituvchi",
+          "maktab",
+          "ish"
+        ],
+        "answers": [
+          "o‘qituvchi"
+        ],
+        "explanation": "o‘qituvchi — учитель."
+      },
+      {
+        "id": "q2",
+        "type": "choice",
+        "prompt": "Что означает «maktab»?",
+        "options": [
+          "работа",
+          "школа",
+          "ученик"
+        ],
+        "answers": [
+          "школа"
+        ],
+        "explanation": "maktab — школа."
+      },
+      {
+        "id": "q3",
+        "type": "text",
+        "prompt": "Напишите по-узбекски: «работа».",
+        "options": [],
+        "answers": [
+          "ish"
+        ],
+        "explanation": "ish — работа.",
+        "normalization": {
+          "case_sensitive": false,
+          "punctuation_tolerant": true,
+          "apostrophe_variants": true
+        }
+      },
+      {
+        "id": "q4",
+        "type": "choice",
+        "prompt": "Что означает «o‘quvchi»?",
+        "options": [
+          "учитель",
+          "ученик",
+          "работа"
+        ],
+        "answers": [
+          "ученик"
+        ],
+        "explanation": "o‘quvchi — ученик."
+      },
+      {
+        "id": "q5",
+        "type": "match",
+        "prompt": "Соедините слова или фразы с их значениями.",
+        "options": [],
+        "answers": [],
+        "explanation": "Сопоставьте примеры и переводы.",
+        "match_pairs": [
+          {
+            "left": "o‘qituvchi",
+            "right": "учитель"
+          },
+          {
+            "left": "maktab",
+            "right": "школа"
+          },
+          {
+            "left": "ish",
+            "right": "работа"
+          },
+          {
+            "left": "o‘quvchi",
+            "right": "ученик"
+          }
+        ]
+      }
+    ],
+    "outline_ref": {
+      "course": "ru-uz",
+      "module_number": 10,
+      "lesson_number": 2,
+      "source_sha256": "58a33c4a8c89c57886dface7064fff0c5ef413940fc4c0018c8f7acb87b59cf8"
+    },
+    "teaching_note": "Эти слова связаны с учёбой и работой. Сопоставьте каждое написание с переводом."
+  }
+}

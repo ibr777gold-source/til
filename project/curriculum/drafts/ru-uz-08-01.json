@@ -1,0 +1,126 @@
+{
+  "status": "draft_unreviewed",
+  "editorial_notes": [
+    "Original demonstration draft; language educator review is required.",
+    "Written vocabulary practice only; usage, pronunciation and recordings need review.",
+    "Linked outline: Еда и напитки. This sample may cover only part of its objective; verify scope during review."
+  ],
+  "content": {
+    "course": "ru-uz",
+    "title": "Еда и напитки",
+    "objective": "Узнавать несколько узбекских названий еды и напитков.",
+    "minutes": 8,
+    "module_number": 8,
+    "lesson_number": 1,
+    "words": [
+      {
+        "target": "non",
+        "meaning": "хлеб"
+      },
+      {
+        "target": "suv",
+        "meaning": "вода"
+      },
+      {
+        "target": "choy",
+        "meaning": "чай"
+      },
+      {
+        "target": "sut",
+        "meaning": "молоко"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "q1",
+        "type": "choice",
+        "prompt": "Как по-узбекски «хлеб»?",
+        "options": [
+          "non",
+          "suv",
+          "choy"
+        ],
+        "answers": [
+          "non"
+        ],
+        "explanation": "non — хлеб."
+      },
+      {
+        "id": "q2",
+        "type": "choice",
+        "prompt": "Что означает «suv»?",
+        "options": [
+          "чай",
+          "вода",
+          "молоко"
+        ],
+        "answers": [
+          "вода"
+        ],
+        "explanation": "suv — вода."
+      },
+      {
+        "id": "q3",
+        "type": "text",
+        "prompt": "Напишите по-узбекски «чай».",
+        "options": [],
+        "answers": [
+          "choy"
+        ],
+        "explanation": "choy — чай.",
+        "normalization": {
+          "case_sensitive": false,
+          "punctuation_tolerant": true,
+          "apostrophe_variants": true
+        }
+      },
+      {
+        "id": "q4",
+        "type": "choice",
+        "prompt": "Как по-узбекски «молоко»?",
+        "options": [
+          "non",
+          "sut",
+          "choy"
+        ],
+        "answers": [
+          "sut"
+        ],
+        "explanation": "sut — молоко."
+      },
+      {
+        "id": "q5",
+        "type": "match",
+        "prompt": "Соедините слова и их значения.",
+        "options": [],
+        "answers": [],
+        "explanation": "Сопоставьте слова с их значениями.",
+        "match_pairs": [
+          {
+            "left": "non",
+            "right": "хлеб"
+          },
+          {
+            "left": "suv",
+            "right": "вода"
+          },
+          {
+            "left": "choy",
+            "right": "чай"
+          },
+          {
+            "left": "sut",
+            "right": "молоко"
+          }
+        ]
+      }
+    ],
+    "outline_ref": {
+      "course": "ru-uz",
+      "module_number": 8,
+      "lesson_number": 1,
+      "source_sha256": "58a33c4a8c89c57886dface7064fff0c5ef413940fc4c0018c8f7acb87b59cf8"
+    },
+    "teaching_note": "Это названия продуктов и напитков. Сопоставьте каждое слово с переводом."
+  }
+}

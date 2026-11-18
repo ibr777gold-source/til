@@ -1,0 +1,132 @@
+{
+  "status": "draft_unreviewed",
+  "editorial_notes": [
+    "Original demonstration draft. Educator review of wording, register and sequencing is required.",
+    "Written practice only. Native-speaker recordings and pronunciation review are needed.",
+    "The linked outline may cover more than this sample."
+  ],
+  "content": {
+    "course": "ru-uz",
+    "title": "Возраст",
+    "objective": "Спросить возраст и дать ответ по готовому образцу.",
+    "minutes": 8,
+    "module_number": 5,
+    "lesson_number": 4,
+    "words": [
+      {
+        "target": "Yoshingiz nechada?",
+        "meaning": "Сколько вам лет?"
+      },
+      {
+        "target": "Men yigirma yoshdaman.",
+        "meaning": "Мне двадцать лет."
+      },
+      {
+        "target": "Men o‘n sakkiz yoshdaman.",
+        "meaning": "Мне восемнадцать лет."
+      },
+      {
+        "target": "Rahmat.",
+        "meaning": "Спасибо."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "q1",
+        "type": "choice",
+        "prompt": "Как передать по-узбекски: «Сколько вам лет?»?",
+        "options": [
+          "Yoshingiz nechada?",
+          "Men yigirma yoshdaman.",
+          "Men o‘n sakkiz yoshdaman."
+        ],
+        "answers": [
+          "Yoshingiz nechada?"
+        ],
+        "explanation": "Yoshingiz nechada? — Сколько вам лет?"
+      },
+      {
+        "id": "q2",
+        "type": "choice",
+        "prompt": "Что означает «Men yigirma yoshdaman.»?",
+        "options": [
+          "Мне восемнадцать лет.",
+          "Мне двадцать лет.",
+          "Сколько вам лет?"
+        ],
+        "answers": [
+          "Мне двадцать лет."
+        ],
+        "explanation": "Men yigirma yoshdaman. — Мне двадцать лет."
+      },
+      {
+        "id": "q3",
+        "type": "text",
+        "prompt": "Напишите по-узбекски: «Мне восемнадцать лет.»",
+        "options": [],
+        "answers": [
+          "Men o‘n sakkiz yoshdaman."
+        ],
+        "explanation": "Men o‘n sakkiz yoshdaman. — Мне восемнадцать лет.",
+        "normalization": {
+          "case_sensitive": false,
+          "punctuation_tolerant": true,
+          "apostrophe_variants": true
+        }
+      },
+      {
+        "id": "q4",
+        "type": "dialogue",
+        "prompt": "Вас спросили о возрасте. Как отвечает человек двадцати лет?",
+        "options": [
+          "Men yigirma yoshdaman.",
+          "Yoshingiz nechada?",
+          "Men o‘n sakkiz yoshdaman."
+        ],
+        "answers": [
+          "Men yigirma yoshdaman."
+        ],
+        "explanation": "Men yigirma yoshdaman. — Мне двадцать лет.",
+        "dialogue": [
+          {
+            "speaker": "Suhbatdosh",
+            "text": "Yoshingiz nechada?"
+          },
+          {
+            "speaker": "Siz",
+            "text": "…"
+          }
+        ]
+      },
+      {
+        "id": "q5",
+        "type": "match",
+        "prompt": "Соедините фразы и их значения.",
+        "options": [],
+        "answers": [],
+        "explanation": "Сопоставьте фразы и переводы.",
+        "match_pairs": [
+          {
+            "left": "Yoshingiz nechada?",
+            "right": "Сколько вам лет?"
+          },
+          {
+            "left": "Men yigirma yoshdaman.",
+            "right": "Мне двадцать лет."
+          },
+          {
+            "left": "Men o‘n sakkiz yoshdaman.",
+            "right": "Мне восемнадцать лет."
+          }
+        ]
+      }
+    ],
+    "outline_ref": {
+      "course": "ru-uz",
+      "module_number": 5,
+      "lesson_number": 4,
+      "source_sha256": "58a33c4a8c89c57886dface7064fff0c5ef413940fc4c0018c8f7acb87b59cf8"
+    },
+    "teaching_note": "В ответе о возрасте используйте готовый образец Men … yoshdaman. В примере Men yigirma yoshdaman речь идёт о двадцати годах."
+  }
+}

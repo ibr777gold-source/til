@@ -1,0 +1,91 @@
+{
+  "status": "draft_unreviewed",
+  "editorial_notes": [
+    "Original sample for the local MVP demo. Requires language educator review.",
+    "No audio is included.",
+    "Linked outline: Hurmat bilan murojaat. This sample may cover only part of its objective; verify scope during review."
+  ],
+  "content": {
+    "title": "Tanishuv: qisqa suhbat",
+    "objective": "Salomlashish va ismingizni aytishni mashq qiling.",
+    "words": [
+      {
+        "target": "Привет!",
+        "meaning": "Salom!"
+      },
+      {
+        "target": "Меня зовут Аня.",
+        "meaning": "Mening ismim Anya."
+      },
+      {
+        "target": "Как тебя зовут?",
+        "meaning": "Ismingiz nima?"
+      },
+      {
+        "target": "Пока!",
+        "meaning": "Xayr!"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "q1",
+        "type": "dialogue",
+        "prompt": "Suhbatga mos javobni tanlang.",
+        "dialogue": [
+          {
+            "speaker": "Аня",
+            "text": "Привет!"
+          }
+        ],
+        "options": [
+          "Привет!",
+          "Пока!",
+          "Спасибо!"
+        ],
+        "answers": [
+          "Привет!"
+        ],
+        "explanation": "Привет — norasmiy salomlashish."
+      },
+      {
+        "id": "q2",
+        "type": "order",
+        "prompt": "«Mening ismim Anya» jumlasini tuzing.",
+        "options": [
+          "Аня",
+          "зовут",
+          "Меня"
+        ],
+        "answers": [
+          "Меня зовут Аня"
+        ],
+        "explanation": "Rus tilida «Меня зовут Аня» deb aytiladi."
+      },
+      {
+        "id": "q3",
+        "type": "choice",
+        "prompt": "«Пока!» nimani bildiradi?",
+        "options": [
+          "Xayr!",
+          "Salom!",
+          "Rahmat!"
+        ],
+        "answers": [
+          "Xayr!"
+        ],
+        "explanation": "Пока — norasmiy xayrlashuv."
+      }
+    ],
+    "course": "uz-ru",
+    "minutes": 6,
+    "module_number": 3,
+    "lesson_number": 2,
+    "outline_ref": {
+      "course": "uz-ru",
+      "module_number": 3,
+      "lesson_number": 2,
+      "source_sha256": "4de4fd39956b36c650185ec93ce419b83d8659632dc690d21003a2748eeeee09"
+    },
+    "teaching_note": "Suhbatda salomlashing, ismingizni ayting va suhbatdoshning gapiga javob bering. Kim gapirayotganiga e’tibor bering."
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "status": "draft_unreviewed",
+  "editorial_notes": [
+    "Original demonstration draft. Educator review of wording and progression is required.",
+    "Written practice only; pronunciation and native-speaker audio are not yet reviewed.",
+    "The linked outline may cover more than this short sample."
+  ],
+  "content": {
+    "course": "ru-uz",
+    "title": "Который час?",
+    "objective": "Спросить время и узнать несколько ответов о полном часе.",
+    "minutes": 8,
+    "module_number": 5,
+    "lesson_number": 6,
+    "words": [
+      {
+        "target": "Soat necha?",
+        "meaning": "Который час?"
+      },
+      {
+        "target": "Hozir soat ikki.",
+        "meaning": "Сейчас два часа."
+      },
+      {
+        "target": "Hozir soat uch.",
+        "meaning": "Сейчас три часа."
+      },
+      {
+        "target": "Hozir soat besh.",
+        "meaning": "Сейчас пять часов."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "q1",
+        "type": "choice",
+        "prompt": "Как по-узбекски: «Который час?»?",
+        "options": [
+          "Soat necha?",
+          "Hozir soat ikki.",
+          "Hozir soat uch."
+        ],
+        "answers": [
+          "Soat necha?"
+        ],
+        "explanation": "Soat necha? — Который час?"
+      },
+      {
+        "id": "q2",
+        "type": "choice",
+        "prompt": "Что означает «Hozir soat ikki.»?",
+        "options": [
+          "Сейчас три часа.",
+          "Сейчас два часа.",
+          "Который час?"
+        ],
+        "answers": [
+          "Сейчас два часа."
+        ],
+        "explanation": "Hozir soat ikki. — Сейчас два часа."
+      },
+      {
+        "id": "q3",
+        "type": "text",
+        "prompt": "Напишите по-узбекски: «Сейчас три часа.»",
+        "options": [],
+        "answers": [
+          "Hozir soat uch."
+        ],
+        "explanation": "Hozir soat uch. — Сейчас три часа.",
+        "normalization": {
+          "case_sensitive": false,
+          "punctuation_tolerant": true,
+          "apostrophe_variants": true
+        }
+      },
+      {
+        "id": "q4",
+        "type": "choice",
+        "prompt": "Выберите перевод: «Сейчас пять часов.»",
+        "options": [
+          "Hozir soat ikki.",
+          "Hozir soat besh.",
+          "Soat necha?"
+        ],
+        "answers": [
+          "Hozir soat besh."
+        ],
+        "explanation": "Hozir soat besh. — Сейчас пять часов."
+      },
+      {
+        "id": "q5",
+        "type": "match",
+        "prompt": "Соедините фразы и их значения.",
+        "options": [],
+        "answers": [],
+        "explanation": "Сопоставьте слова и переводы.",
+        "match_pairs": [
+          {
+            "left": "Soat necha?",
+            "right": "Который час?"
+          },
+          {
+            "left": "Hozir soat ikki.",
+            "right": "Сейчас два часа."
+          },
+          {
+            "left": "Hozir soat uch.",
+            "right": "Сейчас три часа."
+          }
+        ]
+      }
+    ],
+    "outline_ref": {
+      "course": "ru-uz",
+      "module_number": 5,
+      "lesson_number": 6,
+      "source_sha256": "58a33c4a8c89c57886dface7064fff0c5ef413940fc4c0018c8f7acb87b59cf8"
+    },
+    "teaching_note": "Чтобы спросить время, используйте Soat necha? В ответах этого урока называется полный час."
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "status": "draft_unreviewed",
+  "editorial_notes": [
+    "Original demonstration draft; language educator review is required.",
+    "Written vocabulary practice only; usage, pronunciation and recordings need review.",
+    "Linked outline: Men va siz. This sample may cover only part of its objective; verify scope during review."
+  ],
+  "content": {
+    "course": "uz-ru",
+    "title": "Men va siz",
+    "objective": "Rus tilidagi bir nechta kishilik olmoshini tanish.",
+    "minutes": 8,
+    "module_number": 4,
+    "lesson_number": 3,
+    "words": [
+      {
+        "target": "я",
+        "meaning": "men"
+      },
+      {
+        "target": "мы",
+        "meaning": "biz"
+      },
+      {
+        "target": "ты",
+        "meaning": "sen"
+      },
+      {
+        "target": "вы",
+        "meaning": "siz"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "q1",
+        "type": "choice",
+        "prompt": "«men» rus tilida qanday?",
+        "options": [
+          "я",
+          "мы",
+          "ты"
+        ],
+        "answers": [
+          "я"
+        ],
+        "explanation": "я — men."
+      },
+      {
+        "id": "q2",
+        "type": "choice",
+        "prompt": "«мы» nimani bildiradi?",
+        "options": [
+          "sen",
+          "biz",
+          "siz"
+        ],
+        "answers": [
+          "biz"
+        ],
+        "explanation": "мы — biz."
+      },
+      {
+        "id": "q3",
+        "type": "text",
+        "prompt": "«sen» so‘zini ruscha yozing.",
+        "options": [],
+        "answers": [
+          "ты"
+        ],
+        "explanation": "ты — sen.",
+        "normalization": {
+          "case_sensitive": false,
+          "punctuation_tolerant": true,
+          "apostrophe_variants": true
+        }
+      },
+      {
+        "id": "q4",
+        "type": "choice",
+        "prompt": "«siz» rus tilida qanday?",
+        "options": [
+          "я",
+          "вы",
+          "ты"
+        ],
+        "answers": [
+          "вы"
+        ],
+        "explanation": "вы — siz."
+      },
+      {
+        "id": "q5",
+        "type": "match",
+        "prompt": "So‘zlarni ma’nosi bilan moslang.",
+        "options": [],
+        "answers": [],
+        "explanation": "So‘zlar va ularning ma’nolarini solishtiring.",
+        "match_pairs": [
+          {
+            "left": "я",
+            "right": "men"
+          },
+          {
+            "left": "мы",
+            "right": "biz"
+          },
+          {
+            "left": "ты",
+            "right": "sen"
+          },
+          {
+            "left": "вы",
+            "right": "siz"
+          }
+        ]
+      }
+    ],
+    "outline_ref": {
+      "course": "uz-ru",
+      "module_number": 4,
+      "lesson_number": 3,
+      "source_sha256": "4de4fd39956b36c650185ec93ce419b83d8659632dc690d21003a2748eeeee09"
+    },
+    "teaching_note": "«Я» — men, «мы» — biz. «Ты» odatda yaqin kishiga, «вы» esa hurmat bilan yoki bir necha kishiga ishlatiladi."
+  }
+}

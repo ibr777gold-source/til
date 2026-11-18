@@ -1,0 +1,122 @@
+{
+  "status": "draft_unreviewed",
+  "editorial_notes": [
+    "Original demonstration draft. Educator review of wording and progression is required.",
+    "Written practice only; pronunciation and native-speaker audio are not yet reviewed.",
+    "The linked outline may cover more than this short sample."
+  ],
+  "content": {
+    "course": "ru-uz",
+    "title": "Вопрос о действии",
+    "objective": "Спросить о действии и узнать простой ответ.",
+    "minutes": 8,
+    "module_number": 7,
+    "lesson_number": 3,
+    "words": [
+      {
+        "target": "Siz nima qilyapsiz?",
+        "meaning": "Что вы делаете?"
+      },
+      {
+        "target": "Men o‘qiyapman.",
+        "meaning": "Я читаю."
+      },
+      {
+        "target": "Men ishlayapman.",
+        "meaning": "Я работаю."
+      },
+      {
+        "target": "Men dam olyapman.",
+        "meaning": "Я отдыхаю."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "q1",
+        "type": "choice",
+        "prompt": "Как по-узбекски: «Что вы делаете?»?",
+        "options": [
+          "Siz nima qilyapsiz?",
+          "Men o‘qiyapman.",
+          "Men ishlayapman."
+        ],
+        "answers": [
+          "Siz nima qilyapsiz?"
+        ],
+        "explanation": "Siz nima qilyapsiz? — Что вы делаете?"
+      },
+      {
+        "id": "q2",
+        "type": "choice",
+        "prompt": "Что означает «Men o‘qiyapman.»?",
+        "options": [
+          "Я работаю.",
+          "Я читаю.",
+          "Что вы делаете?"
+        ],
+        "answers": [
+          "Я читаю."
+        ],
+        "explanation": "Men o‘qiyapman. — Я читаю."
+      },
+      {
+        "id": "q3",
+        "type": "text",
+        "prompt": "Напишите по-узбекски: «Я работаю.»",
+        "options": [],
+        "answers": [
+          "Men ishlayapman."
+        ],
+        "explanation": "Men ishlayapman. — Я работаю.",
+        "normalization": {
+          "case_sensitive": false,
+          "punctuation_tolerant": true,
+          "apostrophe_variants": true
+        }
+      },
+      {
+        "id": "q4",
+        "type": "choice",
+        "prompt": "Выберите перевод: «Я отдыхаю.»",
+        "options": [
+          "Men o‘qiyapman.",
+          "Men dam olyapman.",
+          "Siz nima qilyapsiz?"
+        ],
+        "answers": [
+          "Men dam olyapman."
+        ],
+        "explanation": "Men dam olyapman. — Я отдыхаю."
+      },
+      {
+        "id": "q5",
+        "type": "match",
+        "prompt": "Соедините фразы и их значения.",
+        "options": [],
+        "answers": [],
+        "explanation": "Сопоставьте слова и переводы.",
+        "match_pairs": [
+          {
+            "left": "Siz nima qilyapsiz?",
+            "right": "Что вы делаете?"
+          },
+          {
+            "left": "Men o‘qiyapman.",
+            "right": "Я читаю."
+          },
+          {
+            "left": "Men ishlayapman.",
+            "right": "Я работаю."
+          }
+        ]
+      }
+    ],
+    "outline_ref": {
+      "course": "ru-uz",
+      "module_number": 7,
+      "lesson_number": 3,
+      "source_sha256": "58a33c4a8c89c57886dface7064fff0c5ef413940fc4c0018c8f7acb87b59cf8"
+    },
+    "teaching_note": "Siz nima qilyapsiz? — уважительный вопрос о том, что человек делает сейчас. В ответе Men… говорящий рассказывает о себе."
+  }
+}

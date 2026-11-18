@@ -1,0 +1,122 @@
+{
+  "status": "draft_unreviewed",
+  "editorial_notes": [
+    "Original demonstration draft. Educator review of wording and progression is required.",
+    "Written practice only; pronunciation and native-speaker audio are not yet reviewed.",
+    "The linked outline may cover more than this short sample."
+  ],
+  "content": {
+    "course": "ru-uz",
+    "title": "Количество напитков",
+    "objective": "Узнавать простые выражения количества напитков.",
+    "minutes": 8,
+    "module_number": 8,
+    "lesson_number": 4,
+    "words": [
+      {
+        "target": "bir piyola choy",
+        "meaning": "одна чашка чая"
+      },
+      {
+        "target": "ikki piyola choy",
+        "meaning": "две чашки чая"
+      },
+      {
+        "target": "bir shisha suv",
+        "meaning": "одна бутылка воды"
+      },
+      {
+        "target": "ikki stakan suv",
+        "meaning": "два стакана воды"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "q1",
+        "type": "choice",
+        "prompt": "Как по-узбекски: «одна чашка чая»?",
+        "options": [
+          "bir piyola choy",
+          "ikki piyola choy",
+          "bir shisha suv"
+        ],
+        "answers": [
+          "bir piyola choy"
+        ],
+        "explanation": "bir piyola choy — одна чашка чая"
+      },
+      {
+        "id": "q2",
+        "type": "choice",
+        "prompt": "Что означает «ikki piyola choy»?",
+        "options": [
+          "одна бутылка воды",
+          "две чашки чая",
+          "одна чашка чая"
+        ],
+        "answers": [
+          "две чашки чая"
+        ],
+        "explanation": "ikki piyola choy — две чашки чая"
+      },
+      {
+        "id": "q3",
+        "type": "text",
+        "prompt": "Напишите по-узбекски: «одна бутылка воды»",
+        "options": [],
+        "answers": [
+          "bir shisha suv"
+        ],
+        "explanation": "bir shisha suv — одна бутылка воды",
+        "normalization": {
+          "case_sensitive": false,
+          "punctuation_tolerant": true,
+          "apostrophe_variants": true
+        }
+      },
+      {
+        "id": "q4",
+        "type": "choice",
+        "prompt": "Выберите перевод: «два стакана воды»",
+        "options": [
+          "ikki piyola choy",
+          "ikki stakan suv",
+          "bir piyola choy"
+        ],
+        "answers": [
+          "ikki stakan suv"
+        ],
+        "explanation": "ikki stakan suv — два стакана воды"
+      },
+      {
+        "id": "q5",
+        "type": "match",
+        "prompt": "Соедините фразы и их значения.",
+        "options": [],
+        "answers": [],
+        "explanation": "Сопоставьте слова и переводы.",
+        "match_pairs": [
+          {
+            "left": "bir piyola choy",
+            "right": "одна чашка чая"
+          },
+          {
+            "left": "ikki piyola choy",
+            "right": "две чашки чая"
+          },
+          {
+            "left": "bir shisha suv",
+            "right": "одна бутылка воды"
+          }
+        ]
+      }
+    ],
+    "outline_ref": {
+      "course": "ru-uz",
+      "module_number": 8,
+      "lesson_number": 4,
+      "source_sha256": "58a33c4a8c89c57886dface7064fff0c5ef413940fc4c0018c8f7acb87b59cf8"
+    },
+    "teaching_note": "В этих выражениях сначала идёт количество, затем мера и предмет: ikki piyola choy — две чашки чая."
+  }
+}

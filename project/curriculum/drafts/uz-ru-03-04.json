@@ -1,0 +1,122 @@
+{
+  "status": "draft_unreviewed",
+  "editorial_notes": [
+    "Original demonstration draft. Educator review of wording and progression is required.",
+    "Written practice only; pronunciation and native-speaker audio are not yet reviewed.",
+    "The linked outline may cover more than this short sample."
+  ],
+  "content": {
+    "course": "uz-ru",
+    "title": "Ismni aytish",
+    "objective": "Ismni so‘rash va namunada aytishni mashq qilish.",
+    "minutes": 8,
+    "module_number": 3,
+    "lesson_number": 4,
+    "words": [
+      {
+        "target": "Как вас зовут?",
+        "meaning": "Ismingiz nima?"
+      },
+      {
+        "target": "Меня зовут Аня.",
+        "meaning": "Mening ismim Anya."
+      },
+      {
+        "target": "Меня зовут Али.",
+        "meaning": "Mening ismim Ali."
+      },
+      {
+        "target": "Очень приятно.",
+        "meaning": "Tanishganimdan xursandman."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "q1",
+        "type": "choice",
+        "prompt": "«Ismingiz nima?» rus tilida qanday?",
+        "options": [
+          "Как вас зовут?",
+          "Меня зовут Аня.",
+          "Меня зовут Али."
+        ],
+        "answers": [
+          "Как вас зовут?"
+        ],
+        "explanation": "Как вас зовут? — Ismingiz nima?"
+      },
+      {
+        "id": "q2",
+        "type": "choice",
+        "prompt": "«Меня зовут Аня.» nimani bildiradi?",
+        "options": [
+          "Mening ismim Ali.",
+          "Mening ismim Anya.",
+          "Ismingiz nima?"
+        ],
+        "answers": [
+          "Mening ismim Anya."
+        ],
+        "explanation": "Меня зовут Аня. — Mening ismim Anya."
+      },
+      {
+        "id": "q3",
+        "type": "text",
+        "prompt": "«Mening ismim Ali.» iborasini ruscha yozing.",
+        "options": [],
+        "answers": [
+          "Меня зовут Али."
+        ],
+        "explanation": "Меня зовут Али. — Mening ismim Ali.",
+        "normalization": {
+          "case_sensitive": false,
+          "punctuation_tolerant": true,
+          "apostrophe_variants": true
+        }
+      },
+      {
+        "id": "q4",
+        "type": "choice",
+        "prompt": "«Tanishganimdan xursandman.» tarjimasini tanlang.",
+        "options": [
+          "Меня зовут Аня.",
+          "Очень приятно.",
+          "Как вас зовут?"
+        ],
+        "answers": [
+          "Очень приятно."
+        ],
+        "explanation": "Очень приятно. — Tanishganimdan xursandman."
+      },
+      {
+        "id": "q5",
+        "type": "match",
+        "prompt": "Iboralarni ma’nosi bilan moslang.",
+        "options": [],
+        "answers": [],
+        "explanation": "Iboralarni tarjimalari bilan bog‘lang.",
+        "match_pairs": [
+          {
+            "left": "Как вас зовут?",
+            "right": "Ismingiz nima?"
+          },
+          {
+            "left": "Меня зовут Аня.",
+            "right": "Mening ismim Anya."
+          },
+          {
+            "left": "Меня зовут Али.",
+            "right": "Mening ismim Ali."
+          }
+        ]
+      }
+    ],
+    "outline_ref": {
+      "course": "uz-ru",
+      "module_number": 3,
+      "lesson_number": 4,
+      "source_sha256": "4de4fd39956b36c650185ec93ce419b83d8659632dc690d21003a2748eeeee09"
+    },
+    "teaching_note": "Ismni hurmat bilan so‘rash uchun «Как вас зовут?» deyiladi. Javobda «Меня зовут…» dan keyin ismingizni ayting."
+  }
+}

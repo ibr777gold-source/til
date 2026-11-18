@@ -1,0 +1,122 @@
+{
+  "status": "draft_unreviewed",
+  "editorial_notes": [
+    "Original demonstration draft. Educator review of wording and progression is required.",
+    "Written practice only; pronunciation and native-speaker audio are not yet reviewed.",
+    "The linked outline may cover more than this short sample."
+  ],
+  "content": {
+    "course": "uz-ru",
+    "title": "Sodda bo‘g‘inlar",
+    "objective": "Bir necha yozma kirill bo‘g‘inini farqlash.",
+    "minutes": 8,
+    "module_number": 1,
+    "lesson_number": 5,
+    "words": [
+      {
+        "target": "ма",
+        "meaning": "ma bo‘g‘ini"
+      },
+      {
+        "target": "мо",
+        "meaning": "mo bo‘g‘ini"
+      },
+      {
+        "target": "му",
+        "meaning": "mu bo‘g‘ini"
+      },
+      {
+        "target": "ми",
+        "meaning": "mi bo‘g‘ini"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "q1",
+        "type": "choice",
+        "prompt": "«ma bo‘g‘ini» rus tilida qanday?",
+        "options": [
+          "ма",
+          "мо",
+          "му"
+        ],
+        "answers": [
+          "ма"
+        ],
+        "explanation": "ма — ma bo‘g‘ini"
+      },
+      {
+        "id": "q2",
+        "type": "choice",
+        "prompt": "«мо» nimani bildiradi?",
+        "options": [
+          "mu bo‘g‘ini",
+          "mo bo‘g‘ini",
+          "ma bo‘g‘ini"
+        ],
+        "answers": [
+          "mo bo‘g‘ini"
+        ],
+        "explanation": "мо — mo bo‘g‘ini"
+      },
+      {
+        "id": "q3",
+        "type": "text",
+        "prompt": "«mu bo‘g‘ini» iborasini ruscha yozing.",
+        "options": [],
+        "answers": [
+          "му"
+        ],
+        "explanation": "му — mu bo‘g‘ini",
+        "normalization": {
+          "case_sensitive": false,
+          "punctuation_tolerant": true,
+          "apostrophe_variants": true
+        }
+      },
+      {
+        "id": "q4",
+        "type": "choice",
+        "prompt": "«mi bo‘g‘ini» tarjimasini tanlang.",
+        "options": [
+          "мо",
+          "ми",
+          "ма"
+        ],
+        "answers": [
+          "ми"
+        ],
+        "explanation": "ми — mi bo‘g‘ini"
+      },
+      {
+        "id": "q5",
+        "type": "match",
+        "prompt": "Iboralarni ma’nosi bilan moslang.",
+        "options": [],
+        "answers": [],
+        "explanation": "Iboralarni tarjimalari bilan bog‘lang.",
+        "match_pairs": [
+          {
+            "left": "ма",
+            "right": "ma bo‘g‘ini"
+          },
+          {
+            "left": "мо",
+            "right": "mo bo‘g‘ini"
+          },
+          {
+            "left": "му",
+            "right": "mu bo‘g‘ini"
+          }
+        ]
+      }
+    ],
+    "outline_ref": {
+      "course": "uz-ru",
+      "module_number": 1,
+      "lesson_number": 5,
+      "source_sha256": "4de4fd39956b36c650185ec93ce419b83d8659632dc690d21003a2748eeeee09"
+    },
+    "teaching_note": "Bo‘g‘inda undosh va unli birga kelishi mumkin. «ма», «мо» va «му» yozuvida birinchi harf bir xil, unli esa o‘zgaradi."
+  }
+}

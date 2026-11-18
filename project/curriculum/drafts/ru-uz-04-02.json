@@ -1,0 +1,122 @@
+{
+  "status": "draft_unreviewed",
+  "editorial_notes": [
+    "Original demonstration draft; language educator review is required.",
+    "Written practice only; pronunciation and recordings need review.",
+    "Linked outline: Что это?. Verify scope and examples during review."
+  ],
+  "content": {
+    "course": "ru-uz",
+    "title": "Что это?",
+    "objective": "Задавать вопрос «Bu nima?» и узнавать несколько коротких ответов.",
+    "minutes": 8,
+    "module_number": 4,
+    "lesson_number": 2,
+    "words": [
+      {
+        "target": "Bu nima?",
+        "meaning": "Что это?"
+      },
+      {
+        "target": "Bu kitob.",
+        "meaning": "Это книга."
+      },
+      {
+        "target": "Bu stol.",
+        "meaning": "Это стол."
+      },
+      {
+        "target": "Bu qalam.",
+        "meaning": "Это карандаш."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "q1",
+        "type": "choice",
+        "prompt": "Как по-узбекски спросить «Что это?»",
+        "options": [
+          "Bu nima?",
+          "Bu kitob.",
+          "Bu stol."
+        ],
+        "answers": [
+          "Bu nima?"
+        ],
+        "explanation": "«Bu nima?» означает «Что это?»"
+      },
+      {
+        "id": "q2",
+        "type": "choice",
+        "prompt": "Что означает «Bu kitob.»?",
+        "options": [
+          "Это стол.",
+          "Это книга.",
+          "Это карандаш."
+        ],
+        "answers": [
+          "Это книга."
+        ],
+        "explanation": "«Bu kitob.» — «Это книга.»"
+      },
+      {
+        "id": "q3",
+        "type": "text",
+        "prompt": "Напишите по-узбекски «Это стол.»",
+        "options": [],
+        "answers": [
+          "Bu stol."
+        ],
+        "explanation": "«Bu stol.» — «Это стол.»",
+        "normalization": {
+          "case_sensitive": false,
+          "punctuation_tolerant": true,
+          "apostrophe_variants": true
+        }
+      },
+      {
+        "id": "q4",
+        "type": "choice",
+        "prompt": "Что означает «qalam» в предложении «Bu qalam.»?",
+        "options": [
+          "книга",
+          "стол",
+          "карандаш"
+        ],
+        "answers": [
+          "карандаш"
+        ],
+        "explanation": "«qalam» означает «карандаш»."
+      },
+      {
+        "id": "q5",
+        "type": "match",
+        "prompt": "Соедините предложения и их значения.",
+        "options": [],
+        "answers": [],
+        "explanation": "Сопоставьте каждое узбекское предложение с его переводом.",
+        "match_pairs": [
+          {
+            "left": "Bu nima?",
+            "right": "Что это?"
+          },
+          {
+            "left": "Bu kitob.",
+            "right": "Это книга."
+          },
+          {
+            "left": "Bu stol.",
+            "right": "Это стол."
+          }
+        ]
+      }
+    ],
+    "outline_ref": {
+      "course": "ru-uz",
+      "module_number": 4,
+      "lesson_number": 2,
+      "source_sha256": "58a33c4a8c89c57886dface7064fff0c5ef413940fc4c0018c8f7acb87b59cf8"
+    },
+    "teaching_note": "Bu nima? спрашивает о вещи. В простом ответе после bu можно назвать предмет: Bu kitob — «Это книга»."
+  }
+}

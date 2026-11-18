@@ -1,0 +1,132 @@
+{
+  "status": "draft_unreviewed",
+  "editorial_notes": [
+    "Original demonstration draft; educator review of language and sequencing is required.",
+    "Written practice only; no reviewed listening or pronunciation recording.",
+    "The outline may cover more than this draft; verify before publication."
+  ],
+  "content": {
+    "course": "uz-ru",
+    "title": "Narxni so‘rash",
+    "objective": "Rus tilida narxni so‘rash va sodda javobni tushunish.",
+    "minutes": 8,
+    "module_number": 8,
+    "lesson_number": 3,
+    "words": [
+      {
+        "target": "Сколько это стоит?",
+        "meaning": "Bu qancha turadi?"
+      },
+      {
+        "target": "Десять тысяч сумов.",
+        "meaning": "O‘n ming so‘m."
+      },
+      {
+        "target": "Спасибо.",
+        "meaning": "Rahmat."
+      },
+      {
+        "target": "Пожалуйста.",
+        "meaning": "Marhamat."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "q1",
+        "type": "choice",
+        "prompt": "Narxni so‘rash uchun qaysi jumla mos?",
+        "options": [
+          "Сколько это стоит?",
+          "Как вас зовут?",
+          "Где школа?"
+        ],
+        "answers": [
+          "Сколько это стоит?"
+        ],
+        "explanation": "Bu savol «Bu qancha turadi?» degani."
+      },
+      {
+        "id": "q2",
+        "type": "choice",
+        "prompt": "«Десять тысяч сумов.» nimani bildiradi?",
+        "options": [
+          "Bir ming so‘m.",
+          "O‘n ming so‘m.",
+          "Yigirma ming so‘m."
+        ],
+        "answers": [
+          "O‘n ming so‘m."
+        ],
+        "explanation": "Десять тысяч — o‘n ming."
+      },
+      {
+        "id": "q3",
+        "type": "text",
+        "prompt": "«Rahmat.» so‘zini ruscha yozing.",
+        "options": [],
+        "answers": [
+          "Спасибо."
+        ],
+        "explanation": "Спасибо — rahmat.",
+        "normalization": {
+          "case_sensitive": false,
+          "punctuation_tolerant": true,
+          "apostrophe_variants": true
+        }
+      },
+      {
+        "id": "q4",
+        "type": "dialogue",
+        "prompt": "Sotuvchi narxni aytdi. Xaridor qanday minnatdorchilik bildiradi?",
+        "options": [
+          "Спасибо.",
+          "Сколько это стоит?",
+          "Здравствуйте."
+        ],
+        "answers": [
+          "Спасибо."
+        ],
+        "explanation": "Спасибо — rahmat.",
+        "dialogue": [
+          {
+            "speaker": "Продавец",
+            "text": "Десять тысяч сумов."
+          },
+          {
+            "speaker": "Покупатель",
+            "text": "…"
+          }
+        ]
+      },
+      {
+        "id": "q5",
+        "type": "match",
+        "prompt": "Iboralarni ma’nosi bilan moslang.",
+        "options": [],
+        "answers": [],
+        "explanation": "Har bir iborani ma’nosi bilan bog‘lang.",
+        "match_pairs": [
+          {
+            "left": "Сколько это стоит?",
+            "right": "Bu qancha turadi?"
+          },
+          {
+            "left": "Спасибо.",
+            "right": "Rahmat."
+          },
+          {
+            "left": "Пожалуйста.",
+            "right": "Marhamat."
+          }
+        ]
+      }
+    ],
+    "outline_ref": {
+      "course": "uz-ru",
+      "module_number": 8,
+      "lesson_number": 3,
+      "source_sha256": "4de4fd39956b36c650185ec93ce419b83d8659632dc690d21003a2748eeeee09"
+    },
+    "teaching_note": "«Сколько это стоит?» narxni so‘raydi. «Десять тысяч сумов» — o‘n ming so‘m."
+  }
+}

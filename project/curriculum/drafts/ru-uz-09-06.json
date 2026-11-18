@@ -1,0 +1,122 @@
+{
+  "status": "draft_unreviewed",
+  "editorial_notes": [
+    "Original demonstration draft. Educator review of wording and progression is required.",
+    "Written practice only; pronunciation and native-speaker audio are not yet reviewed.",
+    "The linked outline may cover more than this short sample."
+  ],
+  "content": {
+    "course": "ru-uz",
+    "title": "Простой маршрут",
+    "objective": "Повторить простые указания направления.",
+    "minutes": 8,
+    "module_number": 9,
+    "lesson_number": 6,
+    "words": [
+      {
+        "target": "To‘g‘riga yuring.",
+        "meaning": "Идите прямо."
+      },
+      {
+        "target": "Chapga buriling.",
+        "meaning": "Поверните налево."
+      },
+      {
+        "target": "O‘ngga buriling.",
+        "meaning": "Поверните направо."
+      },
+      {
+        "target": "Bekat shu yerda.",
+        "meaning": "Остановка здесь."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "q1",
+        "type": "choice",
+        "prompt": "Как по-узбекски: «Идите прямо.»?",
+        "options": [
+          "To‘g‘riga yuring.",
+          "Chapga buriling.",
+          "O‘ngga buriling."
+        ],
+        "answers": [
+          "To‘g‘riga yuring."
+        ],
+        "explanation": "To‘g‘riga yuring. — Идите прямо."
+      },
+      {
+        "id": "q2",
+        "type": "choice",
+        "prompt": "Что означает «Chapga buriling.»?",
+        "options": [
+          "Поверните направо.",
+          "Поверните налево.",
+          "Идите прямо."
+        ],
+        "answers": [
+          "Поверните налево."
+        ],
+        "explanation": "Chapga buriling. — Поверните налево."
+      },
+      {
+        "id": "q3",
+        "type": "text",
+        "prompt": "Напишите по-узбекски: «Поверните направо.»",
+        "options": [],
+        "answers": [
+          "O‘ngga buriling."
+        ],
+        "explanation": "O‘ngga buriling. — Поверните направо.",
+        "normalization": {
+          "case_sensitive": false,
+          "punctuation_tolerant": true,
+          "apostrophe_variants": true
+        }
+      },
+      {
+        "id": "q4",
+        "type": "choice",
+        "prompt": "Выберите перевод: «Остановка здесь.»",
+        "options": [
+          "Chapga buriling.",
+          "Bekat shu yerda.",
+          "To‘g‘riga yuring."
+        ],
+        "answers": [
+          "Bekat shu yerda."
+        ],
+        "explanation": "Bekat shu yerda. — Остановка здесь."
+      },
+      {
+        "id": "q5",
+        "type": "match",
+        "prompt": "Соедините фразы и их значения.",
+        "options": [],
+        "answers": [],
+        "explanation": "Сопоставьте слова и переводы.",
+        "match_pairs": [
+          {
+            "left": "To‘g‘riga yuring.",
+            "right": "Идите прямо."
+          },
+          {
+            "left": "Chapga buriling.",
+            "right": "Поверните налево."
+          },
+          {
+            "left": "O‘ngga buriling.",
+            "right": "Поверните направо."
+          }
+        ]
+      }
+    ],
+    "outline_ref": {
+      "course": "ru-uz",
+      "module_number": 9,
+      "lesson_number": 6,
+      "source_sha256": "58a33c4a8c89c57886dface7064fff0c5ef413940fc4c0018c8f7acb87b59cf8"
+    },
+    "teaching_note": "To‘g‘riga — прямо, chapga — налево, o‘ngga — направо. Повторяйте указания целиком."
+  }
+}

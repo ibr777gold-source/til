@@ -1,0 +1,122 @@
+{
+  "status": "draft_unreviewed",
+  "editorial_notes": [
+    "Original demonstration draft. Educator review of wording and progression is required.",
+    "Written practice only; pronunciation and native-speaker audio are not yet reviewed.",
+    "The linked outline may cover more than this short sample."
+  ],
+  "content": {
+    "course": "ru-uz",
+    "title": "Слоги на письме",
+    "objective": "Узнавать простые напечатанные слоги.",
+    "minutes": 8,
+    "module_number": 1,
+    "lesson_number": 4,
+    "words": [
+      {
+        "target": "sa",
+        "meaning": "слог sa"
+      },
+      {
+        "target": "lo",
+        "meaning": "слог lo"
+      },
+      {
+        "target": "ma",
+        "meaning": "слог ma"
+      },
+      {
+        "target": "na",
+        "meaning": "слог na"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "q1",
+        "type": "choice",
+        "prompt": "Как по-узбекски: «слог sa»?",
+        "options": [
+          "sa",
+          "lo",
+          "ma"
+        ],
+        "answers": [
+          "sa"
+        ],
+        "explanation": "sa — слог sa"
+      },
+      {
+        "id": "q2",
+        "type": "choice",
+        "prompt": "Что означает «lo»?",
+        "options": [
+          "слог ma",
+          "слог lo",
+          "слог sa"
+        ],
+        "answers": [
+          "слог lo"
+        ],
+        "explanation": "lo — слог lo"
+      },
+      {
+        "id": "q3",
+        "type": "text",
+        "prompt": "Напишите по-узбекски: «слог ma»",
+        "options": [],
+        "answers": [
+          "ma"
+        ],
+        "explanation": "ma — слог ma",
+        "normalization": {
+          "case_sensitive": false,
+          "punctuation_tolerant": true,
+          "apostrophe_variants": true
+        }
+      },
+      {
+        "id": "q4",
+        "type": "choice",
+        "prompt": "Выберите перевод: «слог na»",
+        "options": [
+          "lo",
+          "na",
+          "sa"
+        ],
+        "answers": [
+          "na"
+        ],
+        "explanation": "na — слог na"
+      },
+      {
+        "id": "q5",
+        "type": "match",
+        "prompt": "Соедините фразы и их значения.",
+        "options": [],
+        "answers": [],
+        "explanation": "Сопоставьте слова и переводы.",
+        "match_pairs": [
+          {
+            "left": "sa",
+            "right": "слог sa"
+          },
+          {
+            "left": "lo",
+            "right": "слог lo"
+          },
+          {
+            "left": "ma",
+            "right": "слог ma"
+          }
+        ]
+      }
+    ],
+    "outline_ref": {
+      "course": "ru-uz",
+      "module_number": 1,
+      "lesson_number": 4,
+      "source_sha256": "58a33c4a8c89c57886dface7064fff0c5ef413940fc4c0018c8f7acb87b59cf8"
+    },
+    "teaching_note": "Слоги sa, lo, ma и na показывают сочетание согласной и гласной на письме. Произношение нужно практиковать отдельно."
+  }
+}

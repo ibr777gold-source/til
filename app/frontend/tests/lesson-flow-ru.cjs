@@ -1,0 +1,43 @@
+const {chromium}=require('playwright-core');
+const base=process.env.TIL_E2E_BASE_URL,browserPath=process.env.TIL_BROWSER_PATH;
+if(process.env.TIL_E2E_ISOLATED!=='1'||!base||!browserPath)throw Error('Use an isolated test instance and set TIL_E2E_BASE_URL and TIL_BROWSER_PATH.');
+const url=new URL(base);if(url.protocol!=='http:'||!['127.0.0.1','localhost'].includes(url.hostname))throw Error('Test server must be local.');
+(async()=>{
+ const browser=await chromium.launch({executablePath:browserPath,headless:true,args:['--no-sandbox']});
+ const page=await browser.newPage({viewport:{width:390,height:844}});
+ try{
+  await page.goto(base,{waitUntil:'networkidle'});
+  await page.getByLabel('Interface language / Til').selectOption('ru-uz');
+  await page.getByRole('button',{name:/Начать обучение/}).first().click();
+  await page.locator('input[name="name"]').fill('QA');
+  await page.locator('input[name="email"]').fill(`qa-ru-${Date.now()}@example.com`);
+  await page.locator('input[name="password"]').fill('test-password-123');
+  await page.locator('form').getByRole('button',{name:/Создать аккаунт/}).click();
+  await page.getByRole('radio',{name:'Учёба'}).check();
+  await page.locator('.onboarding-form').getByRole('button',{name:/Начать обучение/}).click();
+  await page.locator('.lesson-row').filter({hasText:'Первые числа'}).first().click();
+  await page.getByRole('button',{name:/К упражнениям/}).click();
+  await page.locator('.choices button').filter({hasText:'bir'}).click();
+  await page.getByRole('button',{name:/Проверить/}).click();
+  await page.getByRole('button',{name:/Продолжить/}).click();
+  await page.getByRole('button',{name:/Назад/}).click();
+  await page.locator('.resume-list .lesson-row').filter({hasText:'Первые числа'}).click();
+  await page.getByText('Какое число означает uch?').waitFor();
+  await page.locator('.choices button').filter({hasText:'три'}).click();
+  await page.getByRole('button',{name:/Проверить/}).click();
+  await page.getByRole('button',{name:/Продолжить/}).click();
+  await page.locator('.answer-label input').fill('ikki');
+  await page.getByRole('button',{name:/Проверить/}).click();
+  await page.getByRole('button',{name:/Продолжить/}).click();
+  await page.locator('.choices button').filter({hasText:'nol'}).click();
+  await page.getByRole('button',{name:/Проверить/}).click();
+  await page.getByRole('button',{name:/Продолжить/}).click();
+  await page.getByLabel('to‘rt соответствие').selectOption('четыре');
+  await page.getByLabel('besh соответствие').selectOption('пять');
+  await page.getByLabel('bir соответствие').selectOption('один');
+  await page.getByRole('button',{name:/Проверить/}).click();
+  await page.getByRole('button',{name:/Продолжить/}).click();
+  await page.getByText('100%',{exact:false}).waitFor();
+  console.log('Browser: Russian-language onboarding, Uzbek lesson, resume, typing and matching passed');
+ }finally{await browser.close()}
+})().catch(error=>{console.error(error.message);process.exitCode=1});

@@ -1,0 +1,135 @@
+{
+  "status": "draft_unreviewed",
+  "editorial_notes": [
+    "Original demonstration draft; language educator review is required.",
+    "Written vocabulary practice only; usage, pronunciation and recordings need review.",
+    "Linked outline: Kundalik fe’llar. This sample may cover only part of its objective; verify scope during review.",
+    "Examples use first-person forms; review inflection and register with an educator."
+  ],
+  "content": {
+    "course": "uz-ru",
+    "title": "Kundalik fe’llar",
+    "objective": "Kundalik harakatlarni bildiruvchi ruscha fe’llarni tanish.",
+    "minutes": 8,
+    "module_number": 7,
+    "lesson_number": 1,
+    "words": [
+      {
+        "target": "читать",
+        "meaning": "o‘qimoq",
+        "example": "Я читаю.",
+        "example_translation": "Men o‘qiyman."
+      },
+      {
+        "target": "работать",
+        "meaning": "ishlamoq",
+        "example": "Я работаю.",
+        "example_translation": "Men ishlayman."
+      },
+      {
+        "target": "говорить",
+        "meaning": "gapirmoq",
+        "example": "Я говорю.",
+        "example_translation": "Men gapiraman."
+      },
+      {
+        "target": "жить",
+        "meaning": "yashamoq",
+        "example": "Я живу.",
+        "example_translation": "Men yashayman."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "q1",
+        "type": "choice",
+        "prompt": "«o‘qimoq» rus tilida qanday?",
+        "options": [
+          "читать",
+          "работать",
+          "говорить"
+        ],
+        "answers": [
+          "читать"
+        ],
+        "explanation": "читать — o‘qimoq."
+      },
+      {
+        "id": "q2",
+        "type": "choice",
+        "prompt": "«работать» nimani bildiradi?",
+        "options": [
+          "gapirmoq",
+          "ishlamoq",
+          "yashamoq"
+        ],
+        "answers": [
+          "ishlamoq"
+        ],
+        "explanation": "работать — ishlamoq."
+      },
+      {
+        "id": "q3",
+        "type": "text",
+        "prompt": "«gapirmoq» so‘zini ruscha yozing.",
+        "options": [],
+        "answers": [
+          "говорить"
+        ],
+        "explanation": "говорить — gapirmoq.",
+        "normalization": {
+          "case_sensitive": false,
+          "punctuation_tolerant": true,
+          "apostrophe_variants": true
+        }
+      },
+      {
+        "id": "q4",
+        "type": "choice",
+        "prompt": "«yashamoq» rus tilida qanday?",
+        "options": [
+          "читать",
+          "жить",
+          "говорить"
+        ],
+        "answers": [
+          "жить"
+        ],
+        "explanation": "жить — yashamoq."
+      },
+      {
+        "id": "q5",
+        "type": "match",
+        "prompt": "So‘zlarni ma’nosi bilan moslang.",
+        "options": [],
+        "answers": [],
+        "explanation": "So‘zlar va ularning ma’nolarini solishtiring.",
+        "match_pairs": [
+          {
+            "left": "читать",
+            "right": "o‘qimoq"
+          },
+          {
+            "left": "работать",
+            "right": "ishlamoq"
+          },
+          {
+            "left": "говорить",
+            "right": "gapirmoq"
+          },
+          {
+            "left": "жить",
+            "right": "yashamoq"
+          }
+        ]
+      }
+    ],
+    "outline_ref": {
+      "course": "uz-ru",
+      "module_number": 7,
+      "lesson_number": 1,
+      "source_sha256": "4de4fd39956b36c650185ec93ce419b83d8659632dc690d21003a2748eeeee09"
+    },
+    "teaching_note": "Bu fe’llar lug‘at shaklida berilgan: читать — o‘qimoq, работать — ishlamoq. Keyingi darsda ularni gap ichida ko‘rasiz."
+  }
+}

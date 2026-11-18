@@ -1,0 +1,122 @@
+{
+  "status": "draft_unreviewed",
+  "editorial_notes": [
+    "Original demonstration draft. Educator review of wording and progression is required.",
+    "Written practice only; pronunciation and native-speaker audio are not yet reviewed.",
+    "The linked outline may cover more than this short sample."
+  ],
+  "content": {
+    "course": "uz-ru",
+    "title": "Ismni so‘rash",
+    "objective": "Ismni hurmat bilan yoki norasmiy so‘rashni tanish.",
+    "minutes": 8,
+    "module_number": 3,
+    "lesson_number": 5,
+    "words": [
+      {
+        "target": "Как вас зовут?",
+        "meaning": "Ismingiz nima? (hurmat bilan)"
+      },
+      {
+        "target": "Как тебя зовут?",
+        "meaning": "Isming nima? (norasmiy)"
+      },
+      {
+        "target": "Меня зовут Аня.",
+        "meaning": "Mening ismim Anya."
+      },
+      {
+        "target": "Очень приятно.",
+        "meaning": "Tanishganimdan xursandman."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "q1",
+        "type": "choice",
+        "prompt": "«Ismingiz nima? (hurmat bilan)» rus tilida qanday?",
+        "options": [
+          "Как вас зовут?",
+          "Как тебя зовут?",
+          "Меня зовут Аня."
+        ],
+        "answers": [
+          "Как вас зовут?"
+        ],
+        "explanation": "Как вас зовут? — Ismingiz nima? (hurmat bilan)"
+      },
+      {
+        "id": "q2",
+        "type": "choice",
+        "prompt": "«Как тебя зовут?» nimani bildiradi?",
+        "options": [
+          "Mening ismim Anya.",
+          "Isming nima? (norasmiy)",
+          "Ismingiz nima? (hurmat bilan)"
+        ],
+        "answers": [
+          "Isming nima? (norasmiy)"
+        ],
+        "explanation": "Как тебя зовут? — Isming nima? (norasmiy)"
+      },
+      {
+        "id": "q3",
+        "type": "text",
+        "prompt": "«Mening ismim Anya.» iborasini ruscha yozing.",
+        "options": [],
+        "answers": [
+          "Меня зовут Аня."
+        ],
+        "explanation": "Меня зовут Аня. — Mening ismim Anya.",
+        "normalization": {
+          "case_sensitive": false,
+          "punctuation_tolerant": true,
+          "apostrophe_variants": true
+        }
+      },
+      {
+        "id": "q4",
+        "type": "choice",
+        "prompt": "«Tanishganimdan xursandman.» tarjimasini tanlang.",
+        "options": [
+          "Как тебя зовут?",
+          "Очень приятно.",
+          "Как вас зовут?"
+        ],
+        "answers": [
+          "Очень приятно."
+        ],
+        "explanation": "Очень приятно. — Tanishganimdan xursandman."
+      },
+      {
+        "id": "q5",
+        "type": "match",
+        "prompt": "Iboralarni ma’nosi bilan moslang.",
+        "options": [],
+        "answers": [],
+        "explanation": "Iboralarni tarjimalari bilan bog‘lang.",
+        "match_pairs": [
+          {
+            "left": "Как вас зовут?",
+            "right": "Ismingiz nima? (hurmat bilan)"
+          },
+          {
+            "left": "Как тебя зовут?",
+            "right": "Isming nima? (norasmiy)"
+          },
+          {
+            "left": "Меня зовут Аня.",
+            "right": "Mening ismim Anya."
+          }
+        ]
+      }
+    ],
+    "outline_ref": {
+      "course": "uz-ru",
+      "module_number": 3,
+      "lesson_number": 5,
+      "source_sha256": "4de4fd39956b36c650185ec93ce419b83d8659632dc690d21003a2748eeeee09"
+    },
+    "teaching_note": "«Вы» hurmat bilan bir kishiga yoki bir necha kishiga murojaat qilishda ishlatilishi mumkin. «Ты» odatda yaqin kishiga norasmiy murojaatdir."
+  }
+}

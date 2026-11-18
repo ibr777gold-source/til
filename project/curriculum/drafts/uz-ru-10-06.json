@@ -1,0 +1,122 @@
+{
+  "status": "draft_unreviewed",
+  "editorial_notes": [
+    "Original demonstration draft. Educator review of wording and progression is required.",
+    "Written practice only; pronunciation and native-speaker audio are not yet reviewed.",
+    "The linked outline may cover more than this short sample."
+  ],
+  "content": {
+    "course": "uz-ru",
+    "title": "Kundalik takror",
+    "objective": "Oldingi mavzulardagi oddiy iboralarni takrorlash.",
+    "minutes": 8,
+    "module_number": 10,
+    "lesson_number": 6,
+    "words": [
+      {
+        "target": "Как вас зовут?",
+        "meaning": "Ismingiz nima?"
+      },
+      {
+        "target": "Сколько это стоит?",
+        "meaning": "Bu qancha turadi?"
+      },
+      {
+        "target": "Где станция?",
+        "meaning": "Bekat qayerda?"
+      },
+      {
+        "target": "Спасибо.",
+        "meaning": "Rahmat."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "q1",
+        "type": "choice",
+        "prompt": "«Ismingiz nima?» rus tilida qanday?",
+        "options": [
+          "Как вас зовут?",
+          "Сколько это стоит?",
+          "Где станция?"
+        ],
+        "answers": [
+          "Как вас зовут?"
+        ],
+        "explanation": "Как вас зовут? — Ismingiz nima?"
+      },
+      {
+        "id": "q2",
+        "type": "choice",
+        "prompt": "«Сколько это стоит?» nimani bildiradi?",
+        "options": [
+          "Bekat qayerda?",
+          "Bu qancha turadi?",
+          "Ismingiz nima?"
+        ],
+        "answers": [
+          "Bu qancha turadi?"
+        ],
+        "explanation": "Сколько это стоит? — Bu qancha turadi?"
+      },
+      {
+        "id": "q3",
+        "type": "text",
+        "prompt": "«Bekat qayerda?» iborasini ruscha yozing.",
+        "options": [],
+        "answers": [
+          "Где станция?"
+        ],
+        "explanation": "Где станция? — Bekat qayerda?",
+        "normalization": {
+          "case_sensitive": false,
+          "punctuation_tolerant": true,
+          "apostrophe_variants": true
+        }
+      },
+      {
+        "id": "q4",
+        "type": "choice",
+        "prompt": "«Rahmat.» tarjimasini tanlang.",
+        "options": [
+          "Сколько это стоит?",
+          "Спасибо.",
+          "Как вас зовут?"
+        ],
+        "answers": [
+          "Спасибо."
+        ],
+        "explanation": "Спасибо. — Rahmat."
+      },
+      {
+        "id": "q5",
+        "type": "match",
+        "prompt": "Iboralarni ma’nosi bilan moslang.",
+        "options": [],
+        "answers": [],
+        "explanation": "Iboralarni tarjimalari bilan bog‘lang.",
+        "match_pairs": [
+          {
+            "left": "Как вас зовут?",
+            "right": "Ismingiz nima?"
+          },
+          {
+            "left": "Сколько это стоит?",
+            "right": "Bu qancha turadi?"
+          },
+          {
+            "left": "Где станция?",
+            "right": "Bekat qayerda?"
+          }
+        ]
+      }
+    ],
+    "outline_ref": {
+      "course": "uz-ru",
+      "module_number": 10,
+      "lesson_number": 6,
+      "source_sha256": "4de4fd39956b36c650185ec93ce419b83d8659632dc690d21003a2748eeeee09"
+    },
+    "teaching_note": "Turli mavzulardagi savol va iboralarni takrorlang. Har bir ibora qaysi vaziyatga mosligiga e’tibor bering."
+  }
+}

@@ -1,0 +1,6 @@
+import {useEffect,useState} from 'react';
+type Action={action:string;reason:string;actor_id:number;revision_id:number;draft_version:number;created_at:string};
+export default function PublicationHistory({draftId,refreshKey}:{draftId:number;refreshKey:string}){const [actions,setActions]=useState<Action[]>([]),[error,setError]=useState(false);
+ useEffect(()=>{let live=true;fetch(`/api/admin/drafts/${draftId}/publications`,{credentials:'include'}).then(r=>{if(!r.ok)throw Error();return r.json()}).then(data=>{if(live){setActions(data);setError(false)}}).catch(()=>{if(live)setError(true)});return()=>{live=false}},[draftId,refreshKey]);
+ return <section className="editor-form"><div className="overline">PUBLICATION HISTORY</div><h3>Published and withdrawn revisions</h3>{error&&<p role="alert">Could not load publication history.</p>}{!error&&actions.length===0&&<p className="muted">No publication actions recorded.</p>}{actions.map((a,i)=><div className="editor-group" key={`${a.revision_id}-${a.action}-${i}`}><div className="overline">{a.action} · DRAFT VERSION {a.draft_version} · EDITOR {a.actor_id}</div>{a.reason&&<p>{a.reason}</p>}<small>{new Date(a.created_at).toLocaleString()}</small></div>)}</section>
+}

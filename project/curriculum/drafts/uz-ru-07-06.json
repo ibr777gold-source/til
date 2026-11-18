@@ -1,0 +1,122 @@
+{
+  "status": "draft_unreviewed",
+  "editorial_notes": [
+    "Original demonstration draft. Educator review of wording and progression is required.",
+    "Written practice only; pronunciation and native-speaker audio are not yet reviewed.",
+    "The linked outline may cover more than this short sample."
+  ],
+  "content": {
+    "course": "uz-ru",
+    "title": "Kunlik iboralar",
+    "objective": "Kunlik ishlar haqida qisqa gaplarni o‘qish.",
+    "minutes": 8,
+    "module_number": 7,
+    "lesson_number": 6,
+    "words": [
+      {
+        "target": "Я читаю утром.",
+        "meaning": "Men ertalab o‘qiyman."
+      },
+      {
+        "target": "Я работаю днём.",
+        "meaning": "Men kunduzi ishlayman."
+      },
+      {
+        "target": "Я отдыхаю вечером.",
+        "meaning": "Men kechqurun dam olaman."
+      },
+      {
+        "target": "Я сплю ночью.",
+        "meaning": "Men tunda uxlayman."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "q1",
+        "type": "choice",
+        "prompt": "«Men ertalab o‘qiyman.» rus tilida qanday?",
+        "options": [
+          "Я читаю утром.",
+          "Я работаю днём.",
+          "Я отдыхаю вечером."
+        ],
+        "answers": [
+          "Я читаю утром."
+        ],
+        "explanation": "Я читаю утром. — Men ertalab o‘qiyman."
+      },
+      {
+        "id": "q2",
+        "type": "choice",
+        "prompt": "«Я работаю днём.» nimani bildiradi?",
+        "options": [
+          "Men kechqurun dam olaman.",
+          "Men kunduzi ishlayman.",
+          "Men ertalab o‘qiyman."
+        ],
+        "answers": [
+          "Men kunduzi ishlayman."
+        ],
+        "explanation": "Я работаю днём. — Men kunduzi ishlayman."
+      },
+      {
+        "id": "q3",
+        "type": "text",
+        "prompt": "«Men kechqurun dam olaman.» iborasini ruscha yozing.",
+        "options": [],
+        "answers": [
+          "Я отдыхаю вечером."
+        ],
+        "explanation": "Я отдыхаю вечером. — Men kechqurun dam olaman.",
+        "normalization": {
+          "case_sensitive": false,
+          "punctuation_tolerant": true,
+          "apostrophe_variants": true
+        }
+      },
+      {
+        "id": "q4",
+        "type": "choice",
+        "prompt": "«Men tunda uxlayman.» tarjimasini tanlang.",
+        "options": [
+          "Я работаю днём.",
+          "Я сплю ночью.",
+          "Я читаю утром."
+        ],
+        "answers": [
+          "Я сплю ночью."
+        ],
+        "explanation": "Я сплю ночью. — Men tunda uxlayman."
+      },
+      {
+        "id": "q5",
+        "type": "match",
+        "prompt": "Iboralarni ma’nosi bilan moslang.",
+        "options": [],
+        "answers": [],
+        "explanation": "Iboralarni tarjimalari bilan bog‘lang.",
+        "match_pairs": [
+          {
+            "left": "Я читаю утром.",
+            "right": "Men ertalab o‘qiyman."
+          },
+          {
+            "left": "Я работаю днём.",
+            "right": "Men kunduzi ishlayman."
+          },
+          {
+            "left": "Я отдыхаю вечером.",
+            "right": "Men kechqurun dam olaman."
+          }
+        ]
+      }
+    ],
+    "outline_ref": {
+      "course": "uz-ru",
+      "module_number": 7,
+      "lesson_number": 6,
+      "source_sha256": "4de4fd39956b36c650185ec93ce419b83d8659632dc690d21003a2748eeeee09"
+    },
+    "teaching_note": "Утром — ertalab, днём — kunduzi, вечером — kechqurun, ночью — tunda. Ularni gapdagi harakat bilan birga o‘qing."
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "status": "draft_unreviewed",
+  "editorial_notes": [
+    "Original demonstration draft. Educator review of wording and progression is required.",
+    "Written practice only; pronunciation and native-speaker audio are not yet reviewed.",
+    "The linked outline may cover more than this short sample."
+  ],
+  "content": {
+    "course": "ru-uz",
+    "title": "Дни недели",
+    "objective": "Узнавать узбекские названия дней недели.",
+    "minutes": 8,
+    "module_number": 5,
+    "lesson_number": 5,
+    "words": [
+      {
+        "target": "dushanba",
+        "meaning": "понедельник"
+      },
+      {
+        "target": "seshanba",
+        "meaning": "вторник"
+      },
+      {
+        "target": "chorshanba",
+        "meaning": "среда"
+      },
+      {
+        "target": "payshanba",
+        "meaning": "четверг"
+      },
+      {
+        "target": "juma",
+        "meaning": "пятница"
+      },
+      {
+        "target": "shanba",
+        "meaning": "суббота"
+      },
+      {
+        "target": "yakshanba",
+        "meaning": "воскресенье"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "q1",
+        "type": "choice",
+        "prompt": "Как по-узбекски: «понедельник»?",
+        "options": [
+          "dushanba",
+          "seshanba",
+          "chorshanba"
+        ],
+        "answers": [
+          "dushanba"
+        ],
+        "explanation": "dushanba — понедельник"
+      },
+      {
+        "id": "q2",
+        "type": "choice",
+        "prompt": "Что означает «seshanba»?",
+        "options": [
+          "среда",
+          "вторник",
+          "понедельник"
+        ],
+        "answers": [
+          "вторник"
+        ],
+        "explanation": "seshanba — вторник"
+      },
+      {
+        "id": "q3",
+        "type": "text",
+        "prompt": "Напишите по-узбекски: «среда»",
+        "options": [],
+        "answers": [
+          "chorshanba"
+        ],
+        "explanation": "chorshanba — среда",
+        "normalization": {
+          "case_sensitive": false,
+          "punctuation_tolerant": true,
+          "apostrophe_variants": true
+        }
+      },
+      {
+        "id": "q4",
+        "type": "choice",
+        "prompt": "Выберите перевод: «четверг»",
+        "options": [
+          "seshanba",
+          "payshanba",
+          "dushanba"
+        ],
+        "answers": [
+          "payshanba"
+        ],
+        "explanation": "payshanba — четверг"
+      },
+      {
+        "id": "q5",
+        "type": "match",
+        "prompt": "Соедините фразы и их значения.",
+        "options": [],
+        "answers": [],
+        "explanation": "Сопоставьте слова и переводы.",
+        "match_pairs": [
+          {
+            "left": "dushanba",
+            "right": "понедельник"
+          },
+          {
+            "left": "seshanba",
+            "right": "вторник"
+          },
+          {
+            "left": "chorshanba",
+            "right": "среда"
+          }
+        ]
+      }
+    ],
+    "outline_ref": {
+      "course": "ru-uz",
+      "module_number": 5,
+      "lesson_number": 5,
+      "source_sha256": "58a33c4a8c89c57886dface7064fff0c5ef413940fc4c0018c8f7acb87b59cf8"
+    },
+    "teaching_note": "Прочитайте дни недели последовательно: dushanba — понедельник, seshanba — вторник и далее."
+  }
+}

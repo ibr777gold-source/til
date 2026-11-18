@@ -1,0 +1,122 @@
+{
+  "status": "draft_unreviewed",
+  "editorial_notes": [
+    "Original demonstration draft; language educator review is required.",
+    "Written practice only; pronunciation and recordings need review.",
+    "Verify the scope and examples against the linked outline."
+  ],
+  "content": {
+    "course": "uz-ru",
+    "title": "Kim bu?",
+    "objective": "«Кто это?» savolini va kishilar haqidagi sodda javoblarni tanish.",
+    "minutes": 8,
+    "module_number": 4,
+    "lesson_number": 2,
+    "words": [
+      {
+        "target": "Кто это?",
+        "meaning": "Bu kim?"
+      },
+      {
+        "target": "Это мама.",
+        "meaning": "Bu ona."
+      },
+      {
+        "target": "Это папа.",
+        "meaning": "Bu ota."
+      },
+      {
+        "target": "Это друг.",
+        "meaning": "Bu do‘st."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "q1",
+        "type": "choice",
+        "prompt": "«Bu kim?» rus tilida qanday?",
+        "options": [
+          "Кто это?",
+          "Что это?",
+          "Это мама."
+        ],
+        "answers": [
+          "Кто это?"
+        ],
+        "explanation": "«Кто это?» — «Bu kim?»"
+      },
+      {
+        "id": "q2",
+        "type": "choice",
+        "prompt": "«Это мама.» nimani bildiradi?",
+        "options": [
+          "Bu ota.",
+          "Bu ona.",
+          "Bu do‘st."
+        ],
+        "answers": [
+          "Bu ona."
+        ],
+        "explanation": "«Это мама.» — «Bu ona.»"
+      },
+      {
+        "id": "q3",
+        "type": "text",
+        "prompt": "«Bu ota.» jumlasini ruscha yozing.",
+        "options": [],
+        "answers": [
+          "Это папа."
+        ],
+        "explanation": "«Это папа.» — «Bu ota.»",
+        "normalization": {
+          "case_sensitive": false,
+          "punctuation_tolerant": true,
+          "apostrophe_variants": true
+        }
+      },
+      {
+        "id": "q4",
+        "type": "choice",
+        "prompt": "«Друг» nimani bildiradi?",
+        "options": [
+          "do‘st",
+          "ona",
+          "ota"
+        ],
+        "answers": [
+          "do‘st"
+        ],
+        "explanation": "«Друг» — do‘st."
+      },
+      {
+        "id": "q5",
+        "type": "match",
+        "prompt": "Savol va javoblarni ma’nosi bilan moslang.",
+        "options": [],
+        "answers": [],
+        "explanation": "Ruscha iboralarni o‘zbekcha ma’nosi bilan bog‘lang.",
+        "match_pairs": [
+          {
+            "left": "Кто это?",
+            "right": "Bu kim?"
+          },
+          {
+            "left": "Это мама.",
+            "right": "Bu ona."
+          },
+          {
+            "left": "Это папа.",
+            "right": "Bu ota."
+          }
+        ]
+      }
+    ],
+    "outline_ref": {
+      "course": "uz-ru",
+      "module_number": 4,
+      "lesson_number": 2,
+      "source_sha256": "4de4fd39956b36c650185ec93ce419b83d8659632dc690d21003a2748eeeee09"
+    },
+    "teaching_note": "«Кто это?» odam haqida so‘raydi; «Что это?» esa buyum yoki narsa haqida so‘raydi. Javobda «Это…» dan foydalaning."
+  }
+}

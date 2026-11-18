@@ -1,0 +1,426 @@
+{
+  "course": "uz-ru",
+  "status": "draft_unreviewed",
+  "modules": [
+    {
+      "number": 1,
+      "title": "Tovushlar va kirill I",
+      "lessons": [
+        {
+          "number": 1,
+          "title": "Kirill alifbosi bilan tanishuv",
+          "objective": "Kirill yozuvi o‘ngdan chapga emas, chapdan o‘ngga o‘qilishini kuzatish.",
+          "practice": "Harf shakllarini ajrating."
+        },
+        {
+          "number": 2,
+          "title": "Tanish shakllar",
+          "objective": "Shakli tanish ayrim harflarni sodda bo‘g‘inlarda tanish.",
+          "practice": "Harf va bo‘g‘inni moslang."
+        },
+        {
+          "number": 3,
+          "title": "Unlilarni eshitish",
+          "objective": "Sodda bo‘g‘inlarda asosiy unlilarni farqlashni boshlash.",
+          "practice": "Tovushni tinglab tanlang."
+        },
+        {
+          "number": 4,
+          "title": "Undoshlar I",
+          "objective": "Bir necha ko‘p uchraydigan undoshni tanish.",
+          "practice": "Harf va tovushni bog‘lang."
+        },
+        {
+          "number": 5,
+          "title": "Bo‘g‘inlarni birlashtirish",
+          "objective": "O‘rganilgan harflardan qisqa bo‘g‘inlarni o‘qish.",
+          "practice": "Bo‘g‘inlarni tartiblang."
+        },
+        {
+          "number": 6,
+          "title": "Birinchi o‘qish mashqi",
+          "objective": "Tanish harflardan tuzilgan qisqa so‘zlarni o‘qish.",
+          "practice": "Tinglang va yozuvni tanlang."
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Tovushlar va kirill II",
+      "lessons": [
+        {
+          "number": 1,
+          "title": "Undoshlar II",
+          "objective": "Keyingi ko‘p uchraydigan undoshlarni tanish.",
+          "practice": "Yozuv va tovushni moslang."
+        },
+        {
+          "number": 2,
+          "title": "O‘xshash harflar",
+          "objective": "Shakli o‘xshash harflarni adashtirmaslikni mashq qilish.",
+          "practice": "Taqqoslab tanlang."
+        },
+        {
+          "number": 3,
+          "title": "Maxsus belgilar",
+          "objective": "Yumshatish va ajratish belgilarini tanib olish.",
+          "practice": "Belgilarni so‘zlarda toping."
+        },
+        {
+          "number": 4,
+          "title": "Urg‘uni eshitish",
+          "objective": "Tanish so‘zlarda urg‘uli bo‘g‘inni eshitishni boshlash.",
+          "practice": "Ikki talaffuzni taqqoslang."
+        },
+        {
+          "number": 5,
+          "title": "Oddiy so‘zlarni o‘qish",
+          "objective": "Tanish so‘zlarni yozuv va talaffuz bilan bog‘lash.",
+          "practice": "Tinglang va qisqa so‘zni yozing."
+        },
+        {
+          "number": 6,
+          "title": "Alifbo takrori",
+          "objective": "O‘tilgan harflarni aralash mashqlarda mustahkamlash.",
+          "practice": "O‘qish va tinglashni birlashtiring."
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Salomlashuv va tanishuv",
+      "lessons": [
+        {
+          "number": 1,
+          "title": "Salom va xayr",
+          "objective": "Norasmiy salomlashish va xayrlashish iboralarini tanlash.",
+          "practice": "Vaziyatga mos iborani tanlang."
+        },
+        {
+          "number": 2,
+          "title": "Hurmat bilan murojaat",
+          "objective": "Rasmiy va norasmiy salomlashish orasidagi farqni kuzatish.",
+          "practice": "Qisqa suhbatni to‘ldiring."
+        },
+        {
+          "number": 3,
+          "title": "Rahmat va iltimos",
+          "objective": "Oddiy minnatdorchilik va iltimos iboralarini qo‘llash.",
+          "practice": "Mos javobni yozing."
+        },
+        {
+          "number": 4,
+          "title": "Ism aytish",
+          "objective": "O‘z ismini oddiy qolipda aytish.",
+          "practice": "Tayyor gapni tuzing."
+        },
+        {
+          "number": 5,
+          "title": "Ism so‘rash",
+          "objective": "Suhbatdoshning ismini so‘rash va javobni tushunish.",
+          "practice": "Ikki navbatli suhbatni yakunlang."
+        },
+        {
+          "number": 6,
+          "title": "Tanishuv suhbati",
+          "objective": "Salomlashish va ism almashishni birlashtirish.",
+          "practice": "Yo‘naltirilgan muloqotni bajaring."
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Odamlar va buyumlar",
+      "lessons": [
+        {
+          "number": 1,
+          "title": "Bu nima?",
+          "objective": "Buyumni oddiy gap bilan ko‘rsatish.",
+          "practice": "Rasm va gapni moslang."
+        },
+        {
+          "number": 2,
+          "title": "Kim bu?",
+          "objective": "Kishilarni oddiy gap bilan tanishtirish.",
+          "practice": "Savolga mos javobni tanlang."
+        },
+        {
+          "number": 3,
+          "title": "Men va siz",
+          "objective": "Asosiy kishilik olmoshlarini vaziyatda tanish.",
+          "practice": "Olmoshni to‘ldiring."
+        },
+        {
+          "number": 4,
+          "title": "Buyum nomlari",
+          "objective": "Kundalik bir necha buyum nomini tanish.",
+          "practice": "So‘z va ma’noni bog‘lang."
+        },
+        {
+          "number": 5,
+          "title": "Menda bor",
+          "objective": "Egalikni tayyor kundalik ibora orqali ifodalash.",
+          "practice": "Qisqa javobni yig‘ing."
+        },
+        {
+          "number": 6,
+          "title": "Oddiy savol-javob",
+          "objective": "Odam va buyum haqida sodda savollarga javob berish.",
+          "practice": "Aralash mashq va qisqa muloqot."
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Sonlar va vaqt",
+      "lessons": [
+        {
+          "number": 1,
+          "title": "Noldan o‘ngacha",
+          "objective": "Kichik sonlarni eshitish va tanish.",
+          "practice": "Sonni tinglab tanlang."
+        },
+        {
+          "number": 2,
+          "title": "O‘n birdan yigirmagacha",
+          "objective": "Keyingi sonlarni tanish va aytishni mashq qilish.",
+          "practice": "Son va yozuvni moslang."
+        },
+        {
+          "number": 3,
+          "title": "Yosh",
+          "objective": "Yoshni so‘rash va aytish uchun tayyor iboralarni ishlatish.",
+          "practice": "Savolga qisqa javob yozing."
+        },
+        {
+          "number": 4,
+          "title": "Hafta kunlari",
+          "objective": "Hafta kunlarini tanish.",
+          "practice": "Kunni audio bilan moslang."
+        },
+        {
+          "number": 5,
+          "title": "Vaqtni so‘rash",
+          "objective": "Oddiy vaqtni so‘rash va tanish.",
+          "practice": "Soat va iborani bog‘lang."
+        },
+        {
+          "number": 6,
+          "title": "Sana va reja",
+          "objective": "Oddiy kun va vaqt haqidagi xabarni tushunish.",
+          "practice": "Qisqa jadvalni o‘qing."
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Oila va tavsif",
+      "lessons": [
+        {
+          "number": 1,
+          "title": "Oila a’zolari",
+          "objective": "Yaqin oila a’zolarini nomlash.",
+          "practice": "So‘z va ma’noni moslang."
+        },
+        {
+          "number": 2,
+          "title": "Mening oilam",
+          "objective": "Oila haqida bir necha sodda gap aytish.",
+          "practice": "Gapni to‘ldiring."
+        },
+        {
+          "number": 3,
+          "title": "Asosiy ranglar",
+          "objective": "Ko‘p uchraydigan ranglarni tanish.",
+          "practice": "Rang va so‘zni moslang."
+        },
+        {
+          "number": 4,
+          "title": "Sodda sifatlar",
+          "objective": "Kishi yoki buyumni oddiy sifat bilan tasvirlash.",
+          "practice": "Mos sifatni tanlang."
+        },
+        {
+          "number": 5,
+          "title": "Sifat va ot",
+          "objective": "Yuqori chastotali tayyor birikmalarda moslashuvni kuzatish.",
+          "practice": "Namunaga qarab iborani yig‘ing."
+        },
+        {
+          "number": 6,
+          "title": "Kim qanday?",
+          "objective": "Kishi yoki buyum haqida sodda tavsif berish.",
+          "practice": "Qisqa tavsif yozing."
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Kundalik hayot",
+      "lessons": [
+        {
+          "number": 1,
+          "title": "Kundalik fe’llar",
+          "objective": "Bir necha kundalik harakatni tanish.",
+          "practice": "Harakat va fe’lni bog‘lang."
+        },
+        {
+          "number": 2,
+          "title": "Men nima qilaman",
+          "objective": "O‘zi haqidagi sodda hozirgi zamon gaplarini tuzish.",
+          "practice": "So‘zlarni tartiblang."
+        },
+        {
+          "number": 3,
+          "title": "Siz nima qilasiz?",
+          "objective": "Sodda savolga mos harakat javobini tanlash.",
+          "practice": "Suhbatni davom ettiring."
+        },
+        {
+          "number": 4,
+          "title": "Inkor",
+          "objective": "Tanish gapda oddiy inkorni tanish.",
+          "practice": "Ijobiy va inkor gapni taqqoslang."
+        },
+        {
+          "number": 5,
+          "title": "Kun tartibi",
+          "objective": "Kundalik ishlarni ketma-ket aytish.",
+          "practice": "Gaplarni tartiblang."
+        },
+        {
+          "number": 6,
+          "title": "Qisqa kunlik matn",
+          "objective": "Tanish fe’llar bilan qisqa matnni tushunish.",
+          "practice": "Matn bo‘yicha javob yozing."
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Ovqat va xarid",
+      "lessons": [
+        {
+          "number": 1,
+          "title": "Ovqat va ichimlik",
+          "objective": "Asosiy ovqat va ichimlik nomlarini tanish.",
+          "practice": "So‘z va ma’noni moslang."
+        },
+        {
+          "number": 2,
+          "title": "Iltimos, bering",
+          "objective": "Muloyim oddiy so‘rovni qo‘llash.",
+          "practice": "Buyurtmani yig‘ing."
+        },
+        {
+          "number": 3,
+          "title": "Narxni so‘rash",
+          "objective": "Narx haqida sodda savol berish.",
+          "practice": "Savol va javobni moslang."
+        },
+        {
+          "number": 4,
+          "title": "Miqdor",
+          "objective": "Oddiy miqdorni eshitib tanish.",
+          "practice": "Sonli buyurtmani tanlang."
+        },
+        {
+          "number": 5,
+          "title": "Do‘konda",
+          "objective": "Qisqa xarid suhbatidagi tanish iboralarni tushunish.",
+          "practice": "Suhbatni to‘ldiring."
+        },
+        {
+          "number": 6,
+          "title": "Kafeda",
+          "objective": "Ichimlik so‘rash va minnatdorchilik bildirish.",
+          "practice": "Yo‘naltirilgan muloqot qiling."
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "title": "Joy va harakat",
+      "lessons": [
+        {
+          "number": 1,
+          "title": "Shahar joylari",
+          "objective": "Kundalik joylar nomlarini tanish.",
+          "practice": "Joy va so‘zni moslang."
+        },
+        {
+          "number": 2,
+          "title": "Qayerda?",
+          "objective": "Tanish joylashuv savolini tushunish.",
+          "practice": "Savolga mos iborani tanlang."
+        },
+        {
+          "number": 3,
+          "title": "Qayerga?",
+          "objective": "Borish yo‘nalishi haqidagi tayyor iboralarni tanish.",
+          "practice": "Yo‘nalishni tanlang."
+        },
+        {
+          "number": 4,
+          "title": "Qayerdan?",
+          "objective": "Kelib chiqish yoki qaytish haqidagi tayyor iboralarni tanish.",
+          "practice": "Savol va javobni bog‘lang."
+        },
+        {
+          "number": 5,
+          "title": "Yo‘l so‘rash",
+          "objective": "Oddiy yo‘l so‘rash va ko‘rsatmani tushunish.",
+          "practice": "Qisqa suhbatni yakunlang."
+        },
+        {
+          "number": 6,
+          "title": "Yo‘lda mashq",
+          "objective": "Joy va harakat iboralarini vaziyatda takrorlash.",
+          "practice": "Tinglang va to‘g‘ri javobni tanlang."
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "title": "Amaliy muloqot",
+      "lessons": [
+        {
+          "number": 1,
+          "title": "Uy va yashash joyi",
+          "objective": "Qayerda yashash haqida sodda gap aytish.",
+          "practice": "Qisqa javob yozing."
+        },
+        {
+          "number": 2,
+          "title": "O‘qish va ish",
+          "objective": "O‘qish yoki ish haqida sodda ma’lumot berish.",
+          "practice": "Gapni to‘ldiring."
+        },
+        {
+          "number": 3,
+          "title": "Kecha va ertaga",
+          "objective": "Oddiy o‘tgan va kelasi vaqt iboralarini tanish.",
+          "practice": "Vaqt ifodasini tanlang."
+        },
+        {
+          "number": 4,
+          "title": "Qisqa xabar",
+          "objective": "Tanish mavzuda qisqa xabar o‘qish va yozish.",
+          "practice": "Namunaga qarab xabar yozing."
+        },
+        {
+          "number": 5,
+          "title": "Kundalik suhbat",
+          "objective": "Tanish mavzuda savol va javoblarni bog‘lash.",
+          "practice": "Yo‘naltirilgan suhbatni bajaring."
+        },
+        {
+          "number": 6,
+          "title": "Yakuniy takror",
+          "objective": "O‘qish, tinglash va yozishni aralash mashqda qo‘llash.",
+          "practice": "Tanish vaziyatlar bo‘yicha mashq qiling."
+        }
+      ]
+    }
+  ]
+}

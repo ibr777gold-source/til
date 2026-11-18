@@ -1,0 +1,132 @@
+{
+  "status": "draft_unreviewed",
+  "editorial_notes": [
+    "Original demonstration draft. Educator review of wording, register and sequencing is required.",
+    "Written practice only. Native-speaker recordings and pronunciation review are needed.",
+    "The linked outline may cover more than this sample."
+  ],
+  "content": {
+    "course": "ru-uz",
+    "title": "Спрашиваем дорогу",
+    "objective": "Спросить о месте и узнать простое направление.",
+    "minutes": 8,
+    "module_number": 9,
+    "lesson_number": 5,
+    "words": [
+      {
+        "target": "Bekat qayerda?",
+        "meaning": "Где остановка?"
+      },
+      {
+        "target": "To‘g‘riga yuring.",
+        "meaning": "Идите прямо."
+      },
+      {
+        "target": "Chapga buriling.",
+        "meaning": "Поверните налево."
+      },
+      {
+        "target": "Rahmat.",
+        "meaning": "Спасибо."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "q1",
+        "type": "choice",
+        "prompt": "Как передать по-узбекски: «Где остановка?»?",
+        "options": [
+          "Bekat qayerda?",
+          "To‘g‘riga yuring.",
+          "Chapga buriling."
+        ],
+        "answers": [
+          "Bekat qayerda?"
+        ],
+        "explanation": "Bekat qayerda? — Где остановка?"
+      },
+      {
+        "id": "q2",
+        "type": "choice",
+        "prompt": "Что означает «To‘g‘riga yuring.»?",
+        "options": [
+          "Поверните налево.",
+          "Идите прямо.",
+          "Где остановка?"
+        ],
+        "answers": [
+          "Идите прямо."
+        ],
+        "explanation": "To‘g‘riga yuring. — Идите прямо."
+      },
+      {
+        "id": "q3",
+        "type": "text",
+        "prompt": "Напишите по-узбекски: «Поверните налево.»",
+        "options": [],
+        "answers": [
+          "Chapga buriling."
+        ],
+        "explanation": "Chapga buriling. — Поверните налево.",
+        "normalization": {
+          "case_sensitive": false,
+          "punctuation_tolerant": true,
+          "apostrophe_variants": true
+        }
+      },
+      {
+        "id": "q4",
+        "type": "dialogue",
+        "prompt": "Вы ищете остановку. Что вы спросите?",
+        "options": [
+          "Bekat qayerda?",
+          "To‘g‘riga yuring.",
+          "Chapga buriling."
+        ],
+        "answers": [
+          "Bekat qayerda?"
+        ],
+        "explanation": "Bekat qayerda? — Где остановка?",
+        "dialogue": [
+          {
+            "speaker": "Suhbatdosh",
+            "text": "Assalomu alaykum!"
+          },
+          {
+            "speaker": "Siz",
+            "text": "…"
+          }
+        ]
+      },
+      {
+        "id": "q5",
+        "type": "match",
+        "prompt": "Соедините фразы и их значения.",
+        "options": [],
+        "answers": [],
+        "explanation": "Сопоставьте фразы и переводы.",
+        "match_pairs": [
+          {
+            "left": "Bekat qayerda?",
+            "right": "Где остановка?"
+          },
+          {
+            "left": "To‘g‘riga yuring.",
+            "right": "Идите прямо."
+          },
+          {
+            "left": "Chapga buriling.",
+            "right": "Поверните налево."
+          }
+        ]
+      }
+    ],
+    "outline_ref": {
+      "course": "ru-uz",
+      "module_number": 9,
+      "lesson_number": 5,
+      "source_sha256": "58a33c4a8c89c57886dface7064fff0c5ef413940fc4c0018c8f7acb87b59cf8"
+    },
+    "teaching_note": "Bekat qayerda? спрашивает, где находится остановка. To‘g‘riga yuring и Chapga buriling дают простые указания."
+  }
+}

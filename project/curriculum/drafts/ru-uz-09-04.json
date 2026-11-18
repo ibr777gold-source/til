@@ -1,0 +1,122 @@
+{
+  "status": "draft_unreviewed",
+  "editorial_notes": [
+    "Original demonstration draft. Educator review of wording and progression is required.",
+    "Written practice only; pronunciation and native-speaker audio are not yet reviewed.",
+    "The linked outline may cover more than this short sample."
+  ],
+  "content": {
+    "course": "ru-uz",
+    "title": "Откуда вы?",
+    "objective": "Спросить о происхождении и узнать готовые ответы.",
+    "minutes": 8,
+    "module_number": 9,
+    "lesson_number": 4,
+    "words": [
+      {
+        "target": "Qayerdansiz?",
+        "meaning": "Откуда вы?"
+      },
+      {
+        "target": "Men Toshkentdanman.",
+        "meaning": "Я из Ташкента."
+      },
+      {
+        "target": "Men Samarqanddanman.",
+        "meaning": "Я из Самарканда."
+      },
+      {
+        "target": "Men O‘zbekistondanman.",
+        "meaning": "Я из Узбекистана."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "q1",
+        "type": "choice",
+        "prompt": "Как по-узбекски: «Откуда вы?»?",
+        "options": [
+          "Qayerdansiz?",
+          "Men Toshkentdanman.",
+          "Men Samarqanddanman."
+        ],
+        "answers": [
+          "Qayerdansiz?"
+        ],
+        "explanation": "Qayerdansiz? — Откуда вы?"
+      },
+      {
+        "id": "q2",
+        "type": "choice",
+        "prompt": "Что означает «Men Toshkentdanman.»?",
+        "options": [
+          "Я из Самарканда.",
+          "Я из Ташкента.",
+          "Откуда вы?"
+        ],
+        "answers": [
+          "Я из Ташкента."
+        ],
+        "explanation": "Men Toshkentdanman. — Я из Ташкента."
+      },
+      {
+        "id": "q3",
+        "type": "text",
+        "prompt": "Напишите по-узбекски: «Я из Самарканда.»",
+        "options": [],
+        "answers": [
+          "Men Samarqanddanman."
+        ],
+        "explanation": "Men Samarqanddanman. — Я из Самарканда.",
+        "normalization": {
+          "case_sensitive": false,
+          "punctuation_tolerant": true,
+          "apostrophe_variants": true
+        }
+      },
+      {
+        "id": "q4",
+        "type": "choice",
+        "prompt": "Выберите перевод: «Я из Узбекистана.»",
+        "options": [
+          "Men Toshkentdanman.",
+          "Men O‘zbekistondanman.",
+          "Qayerdansiz?"
+        ],
+        "answers": [
+          "Men O‘zbekistondanman."
+        ],
+        "explanation": "Men O‘zbekistondanman. — Я из Узбекистана."
+      },
+      {
+        "id": "q5",
+        "type": "match",
+        "prompt": "Соедините фразы и их значения.",
+        "options": [],
+        "answers": [],
+        "explanation": "Сопоставьте слова и переводы.",
+        "match_pairs": [
+          {
+            "left": "Qayerdansiz?",
+            "right": "Откуда вы?"
+          },
+          {
+            "left": "Men Toshkentdanman.",
+            "right": "Я из Ташкента."
+          },
+          {
+            "left": "Men Samarqanddanman.",
+            "right": "Я из Самарканда."
+          }
+        ]
+      }
+    ],
+    "outline_ref": {
+      "course": "ru-uz",
+      "module_number": 9,
+      "lesson_number": 4,
+      "source_sha256": "58a33c4a8c89c57886dface7064fff0c5ef413940fc4c0018c8f7acb87b59cf8"
+    },
+    "teaching_note": "В этих примерах происхождение выражается частью -dan: Toshkentdan — из Ташкента. В ответе Men Toshkentdanman добавлена форма для «я»."
+  }
+}

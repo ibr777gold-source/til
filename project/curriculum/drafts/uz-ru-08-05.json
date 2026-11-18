@@ -1,0 +1,122 @@
+{
+  "status": "draft_unreviewed",
+  "editorial_notes": [
+    "Original demonstration draft. Educator review of wording and progression is required.",
+    "Written practice only; pronunciation and native-speaker audio are not yet reviewed.",
+    "The linked outline may cover more than this short sample."
+  ],
+  "content": {
+    "course": "uz-ru",
+    "title": "Do‘konda",
+    "objective": "Do‘konda ishlatiladigan qisqa iboralarni tanish.",
+    "minutes": 8,
+    "module_number": 8,
+    "lesson_number": 5,
+    "words": [
+      {
+        "target": "Мне нужен хлеб.",
+        "meaning": "Menga non kerak."
+      },
+      {
+        "target": "Сколько стоит хлеб?",
+        "meaning": "Non qancha turadi?"
+      },
+      {
+        "target": "Спасибо.",
+        "meaning": "Rahmat."
+      },
+      {
+        "target": "До свидания.",
+        "meaning": "Xayr."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "q1",
+        "type": "choice",
+        "prompt": "«Menga non kerak.» rus tilida qanday?",
+        "options": [
+          "Мне нужен хлеб.",
+          "Сколько стоит хлеб?",
+          "Спасибо."
+        ],
+        "answers": [
+          "Мне нужен хлеб."
+        ],
+        "explanation": "Мне нужен хлеб. — Menga non kerak."
+      },
+      {
+        "id": "q2",
+        "type": "choice",
+        "prompt": "«Сколько стоит хлеб?» nimani bildiradi?",
+        "options": [
+          "Rahmat.",
+          "Non qancha turadi?",
+          "Menga non kerak."
+        ],
+        "answers": [
+          "Non qancha turadi?"
+        ],
+        "explanation": "Сколько стоит хлеб? — Non qancha turadi?"
+      },
+      {
+        "id": "q3",
+        "type": "text",
+        "prompt": "«Rahmat.» iborasini ruscha yozing.",
+        "options": [],
+        "answers": [
+          "Спасибо."
+        ],
+        "explanation": "Спасибо. — Rahmat.",
+        "normalization": {
+          "case_sensitive": false,
+          "punctuation_tolerant": true,
+          "apostrophe_variants": true
+        }
+      },
+      {
+        "id": "q4",
+        "type": "choice",
+        "prompt": "«Xayr.» tarjimasini tanlang.",
+        "options": [
+          "Сколько стоит хлеб?",
+          "До свидания.",
+          "Мне нужен хлеб."
+        ],
+        "answers": [
+          "До свидания."
+        ],
+        "explanation": "До свидания. — Xayr."
+      },
+      {
+        "id": "q5",
+        "type": "match",
+        "prompt": "Iboralarni ma’nosi bilan moslang.",
+        "options": [],
+        "answers": [],
+        "explanation": "Iboralarni tarjimalari bilan bog‘lang.",
+        "match_pairs": [
+          {
+            "left": "Мне нужен хлеб.",
+            "right": "Menga non kerak."
+          },
+          {
+            "left": "Сколько стоит хлеб?",
+            "right": "Non qancha turadi?"
+          },
+          {
+            "left": "Спасибо.",
+            "right": "Rahmat."
+          }
+        ]
+      }
+    ],
+    "outline_ref": {
+      "course": "uz-ru",
+      "module_number": 8,
+      "lesson_number": 5,
+      "source_sha256": "4de4fd39956b36c650185ec93ce419b83d8659632dc690d21003a2748eeeee09"
+    },
+    "teaching_note": "Do‘konda «Мне нужен хлеб» bilan nonga ehtiyojni, «Сколько стоит хлеб?» bilan uning narxini so‘rashingiz mumkin."
+  }
+}

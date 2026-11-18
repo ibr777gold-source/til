@@ -1,0 +1,31 @@
+{
+  "name": "til-frontend",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "test:e2e": "node tests/lesson-flow.cjs",
+    "test:a11y": "node tests/accessibility-smoke.cjs",
+    "test:a11y:learner": "node tests/accessibility-learner.cjs",
+    "test:listening": "node tests/listening-flow.cjs",
+    "test:e2e:ru": "node tests/lesson-flow-ru.cjs"
+  },
+  "dependencies": {
+    "@fontsource-variable/dm-sans": "^5.3.0",
+    "@fontsource-variable/manrope": "^5.3.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.14.0",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "@vitejs/plugin-react": "^4.5.0",
+    "playwright-core": "^1.65.1",
+    "typescript": "~5.8.3",
+    "vite": "^6.3.5"
+  }
+}

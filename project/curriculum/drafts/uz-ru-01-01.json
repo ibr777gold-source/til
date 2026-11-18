@@ -1,0 +1,125 @@
+{
+  "status": "draft_unreviewed",
+  "content": {
+    "course": "uz-ru",
+    "minutes": 8,
+    "module_number": 1,
+    "lesson_number": 1,
+    "title": "Kirill alifbosi bilan tanishuv",
+    "objective": "Kirill yozuvi yo‘nalishini va bir necha bosma harfni tanish.",
+    "words": [
+      {
+        "target": "А а",
+        "meaning": "Kirill A harfining katta va kichik shakli."
+      },
+      {
+        "target": "М м",
+        "meaning": "Kirill M harfining katta va kichik shakli."
+      },
+      {
+        "target": "О о",
+        "meaning": "Kirill O harfining katta va kichik shakli."
+      },
+      {
+        "target": "К к",
+        "meaning": "Kirill K harfining katta va kichik shakli."
+      },
+      {
+        "target": "Т т",
+        "meaning": "Kirill T harfining katta va kichik shakli."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "q1",
+        "type": "choice",
+        "prompt": "Qaysi belgi kirill А harfi?",
+        "options": [
+          "А",
+          "К",
+          "Т"
+        ],
+        "answers": [
+          "А"
+        ],
+        "explanation": "А — bu kirill A harfining katta shakli."
+      },
+      {
+        "id": "q2",
+        "type": "choice",
+        "prompt": "Qaysi so‘zda М harfi bor?",
+        "options": [
+          "мама",
+          "кот",
+          "ток"
+        ],
+        "answers": [
+          "мама"
+        ],
+        "explanation": "мама so‘zida м harfi ikki marta uchraydi."
+      },
+      {
+        "id": "q3",
+        "type": "text",
+        "prompt": "К harfining kichik shaklini yozing. Bosh va kichik harf farqlanadi.",
+        "options": [],
+        "answers": [
+          "к"
+        ],
+        "explanation": "К — katta shakl, к — kichik shakl.",
+        "normalization": {
+          "case_sensitive": true,
+          "punctuation_tolerant": false,
+          "apostrophe_variants": true
+        }
+      },
+      {
+        "id": "q4",
+        "type": "choice",
+        "prompt": "кот so‘zi qaysi harf bilan boshlanadi?",
+        "options": [
+          "к",
+          "м",
+          "а"
+        ],
+        "answers": [
+          "к"
+        ],
+        "explanation": "кот so‘zining birinchi harfi к."
+      },
+      {
+        "id": "q5",
+        "type": "match",
+        "prompt": "Katta va kichik harflarni moslang.",
+        "options": [],
+        "answers": [],
+        "explanation": "Har bir katta harfni uning kichik shakli bilan bog‘lang.",
+        "match_pairs": [
+          {
+            "left": "А",
+            "right": "а"
+          },
+          {
+            "left": "М",
+            "right": "м"
+          },
+          {
+            "left": "К",
+            "right": "к"
+          }
+        ]
+      }
+    ],
+    "outline_ref": {
+      "course": "uz-ru",
+      "module_number": 1,
+      "lesson_number": 1,
+      "source_sha256": "4de4fd39956b36c650185ec93ce419b83d8659632dc690d21003a2748eeeee09"
+    },
+    "teaching_note": "Rus tili kirill yozuvidan foydalanadi. Bu yozuv ham chapdan o‘ngga o‘qiladi. Har bir harfning katta va kichik shakliga e’tibor bering."
+  },
+  "editorial_notes": [
+    "Original draft; Russian educator review is required.",
+    "No audio is included; pronunciation and listening work remain incomplete."
+  ]
+}

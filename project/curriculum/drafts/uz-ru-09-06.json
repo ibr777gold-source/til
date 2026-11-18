@@ -1,0 +1,122 @@
+{
+  "status": "draft_unreviewed",
+  "editorial_notes": [
+    "Original demonstration draft. Educator review of wording and progression is required.",
+    "Written practice only; pronunciation and native-speaker audio are not yet reviewed.",
+    "The linked outline may cover more than this short sample."
+  ],
+  "content": {
+    "course": "uz-ru",
+    "title": "Yo‘lni tushuntirish",
+    "objective": "Sodda yo‘nalish ko‘rsatmalarini qayta mashq qilish.",
+    "minutes": 8,
+    "module_number": 9,
+    "lesson_number": 6,
+    "words": [
+      {
+        "target": "Идите прямо.",
+        "meaning": "To‘g‘riga yuring."
+      },
+      {
+        "target": "Поверните налево.",
+        "meaning": "Chapga buriling."
+      },
+      {
+        "target": "Поверните направо.",
+        "meaning": "O‘ngga buriling."
+      },
+      {
+        "target": "Станция здесь.",
+        "meaning": "Bekat shu yerda."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "q1",
+        "type": "choice",
+        "prompt": "«To‘g‘riga yuring.» rus tilida qanday?",
+        "options": [
+          "Идите прямо.",
+          "Поверните налево.",
+          "Поверните направо."
+        ],
+        "answers": [
+          "Идите прямо."
+        ],
+        "explanation": "Идите прямо. — To‘g‘riga yuring."
+      },
+      {
+        "id": "q2",
+        "type": "choice",
+        "prompt": "«Поверните налево.» nimani bildiradi?",
+        "options": [
+          "O‘ngga buriling.",
+          "Chapga buriling.",
+          "To‘g‘riga yuring."
+        ],
+        "answers": [
+          "Chapga buriling."
+        ],
+        "explanation": "Поверните налево. — Chapga buriling."
+      },
+      {
+        "id": "q3",
+        "type": "text",
+        "prompt": "«O‘ngga buriling.» iborasini ruscha yozing.",
+        "options": [],
+        "answers": [
+          "Поверните направо."
+        ],
+        "explanation": "Поверните направо. — O‘ngga buriling.",
+        "normalization": {
+          "case_sensitive": false,
+          "punctuation_tolerant": true,
+          "apostrophe_variants": true
+        }
+      },
+      {
+        "id": "q4",
+        "type": "choice",
+        "prompt": "«Bekat shu yerda.» tarjimasini tanlang.",
+        "options": [
+          "Поверните налево.",
+          "Станция здесь.",
+          "Идите прямо."
+        ],
+        "answers": [
+          "Станция здесь."
+        ],
+        "explanation": "Станция здесь. — Bekat shu yerda."
+      },
+      {
+        "id": "q5",
+        "type": "match",
+        "prompt": "Iboralarni ma’nosi bilan moslang.",
+        "options": [],
+        "answers": [],
+        "explanation": "Iboralarni tarjimalari bilan bog‘lang.",
+        "match_pairs": [
+          {
+            "left": "Идите прямо.",
+            "right": "To‘g‘riga yuring."
+          },
+          {
+            "left": "Поверните налево.",
+            "right": "Chapga buriling."
+          },
+          {
+            "left": "Поверните направо.",
+            "right": "O‘ngga buriling."
+          }
+        ]
+      }
+    ],
+    "outline_ref": {
+      "course": "uz-ru",
+      "module_number": 9,
+      "lesson_number": 6,
+      "source_sha256": "4de4fd39956b36c650185ec93ce419b83d8659632dc690d21003a2748eeeee09"
+    },
+    "teaching_note": "«Прямо» — to‘g‘riga, «налево» — chapga, «направо» — o‘ngga. Ko‘rsatmalarni to‘liq ibora sifatida mashq qiling."
+  }
+}

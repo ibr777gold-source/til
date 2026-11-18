@@ -1,0 +1,122 @@
+{
+  "status": "draft_unreviewed",
+  "editorial_notes": [
+    "Original demonstration draft. Educator review of wording and progression is required.",
+    "Written practice only; pronunciation and native-speaker audio are not yet reviewed.",
+    "The linked outline may cover more than this short sample."
+  ],
+  "content": {
+    "course": "ru-uz",
+    "title": "Десятки",
+    "objective": "Узнавать написание нескольких десятков.",
+    "minutes": 8,
+    "module_number": 5,
+    "lesson_number": 3,
+    "words": [
+      {
+        "target": "o‘n",
+        "meaning": "10"
+      },
+      {
+        "target": "yigirma",
+        "meaning": "20"
+      },
+      {
+        "target": "o‘ttiz",
+        "meaning": "30"
+      },
+      {
+        "target": "qirq",
+        "meaning": "40"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "q1",
+        "type": "choice",
+        "prompt": "Как по-узбекски: «10»?",
+        "options": [
+          "o‘n",
+          "yigirma",
+          "o‘ttiz"
+        ],
+        "answers": [
+          "o‘n"
+        ],
+        "explanation": "o‘n — 10"
+      },
+      {
+        "id": "q2",
+        "type": "choice",
+        "prompt": "Что означает «yigirma»?",
+        "options": [
+          "30",
+          "20",
+          "10"
+        ],
+        "answers": [
+          "20"
+        ],
+        "explanation": "yigirma — 20"
+      },
+      {
+        "id": "q3",
+        "type": "text",
+        "prompt": "Напишите по-узбекски: «30»",
+        "options": [],
+        "answers": [
+          "o‘ttiz"
+        ],
+        "explanation": "o‘ttiz — 30",
+        "normalization": {
+          "case_sensitive": false,
+          "punctuation_tolerant": true,
+          "apostrophe_variants": true
+        }
+      },
+      {
+        "id": "q4",
+        "type": "choice",
+        "prompt": "Выберите перевод: «40»",
+        "options": [
+          "yigirma",
+          "qirq",
+          "o‘n"
+        ],
+        "answers": [
+          "qirq"
+        ],
+        "explanation": "qirq — 40"
+      },
+      {
+        "id": "q5",
+        "type": "match",
+        "prompt": "Соедините фразы и их значения.",
+        "options": [],
+        "answers": [],
+        "explanation": "Сопоставьте слова и переводы.",
+        "match_pairs": [
+          {
+            "left": "o‘n",
+            "right": "10"
+          },
+          {
+            "left": "yigirma",
+            "right": "20"
+          },
+          {
+            "left": "o‘ttiz",
+            "right": "30"
+          }
+        ]
+      }
+    ],
+    "outline_ref": {
+      "course": "ru-uz",
+      "module_number": 5,
+      "lesson_number": 3,
+      "source_sha256": "58a33c4a8c89c57886dface7064fff0c5ef413940fc4c0018c8f7acb87b59cf8"
+    },
+    "teaching_note": "O‘n — 10, yigirma — 20, o‘ttiz — 30, qirq — 40. Сравните запись каждого числа с цифрами."
+  }
+}

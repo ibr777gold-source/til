@@ -1,0 +1,126 @@
+{
+  "status": "draft_unreviewed",
+  "editorial_notes": [
+    "Original sample; needs educator review.",
+    "Written practice only; reviewed listening and pronunciation material is still needed.",
+    "Linked outline: Shahar joylari. This sample may cover only part of its objective; verify scope during review."
+  ],
+  "content": {
+    "course": "uz-ru",
+    "title": "Shahardagi joylar",
+    "objective": "Shahardagi bir necha joy nomini tanish.",
+    "minutes": 8,
+    "module_number": 9,
+    "lesson_number": 1,
+    "words": [
+      {
+        "target": "школа",
+        "meaning": "maktab"
+      },
+      {
+        "target": "магазин",
+        "meaning": "do‘kon"
+      },
+      {
+        "target": "рынок",
+        "meaning": "bozor"
+      },
+      {
+        "target": "библиотека",
+        "meaning": "kutubxona"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "q1",
+        "type": "choice",
+        "prompt": "«maktab» rus tilida qanday?",
+        "options": [
+          "школа",
+          "магазин",
+          "рынок"
+        ],
+        "answers": [
+          "школа"
+        ],
+        "explanation": "школа — maktab."
+      },
+      {
+        "id": "q2",
+        "type": "choice",
+        "prompt": "«магазин» nimani bildiradi?",
+        "options": [
+          "bozor",
+          "do‘kon",
+          "kutubxona"
+        ],
+        "answers": [
+          "do‘kon"
+        ],
+        "explanation": "магазин — do‘kon."
+      },
+      {
+        "id": "q3",
+        "type": "text",
+        "prompt": "«bozor» so‘zini ruscha yozing.",
+        "options": [],
+        "answers": [
+          "рынок"
+        ],
+        "explanation": "рынок — bozor.",
+        "normalization": {
+          "case_sensitive": false,
+          "punctuation_tolerant": true,
+          "apostrophe_variants": true
+        }
+      },
+      {
+        "id": "q4",
+        "type": "choice",
+        "prompt": "«kutubxona» rus tilida qanday?",
+        "options": [
+          "магазин",
+          "школа",
+          "библиотека"
+        ],
+        "answers": [
+          "библиотека"
+        ],
+        "explanation": "библиотека — kutubxona."
+      },
+      {
+        "id": "q5",
+        "type": "match",
+        "prompt": "Joylarni ma’nosi bilan moslang.",
+        "options": [],
+        "answers": [],
+        "explanation": "So‘zlar va ma’nolarni solishtiring.",
+        "match_pairs": [
+          {
+            "left": "школа",
+            "right": "maktab"
+          },
+          {
+            "left": "магазин",
+            "right": "do‘kon"
+          },
+          {
+            "left": "рынок",
+            "right": "bozor"
+          },
+          {
+            "left": "библиотека",
+            "right": "kutubxona"
+          }
+        ]
+      }
+    ],
+    "outline_ref": {
+      "course": "uz-ru",
+      "module_number": 9,
+      "lesson_number": 1,
+      "source_sha256": "4de4fd39956b36c650185ec93ce419b83d8659632dc690d21003a2748eeeee09"
+    },
+    "teaching_note": "Bu so‘zlar shahardagi joylarni bildiradi. Ularni keyingi darslardagi joy va yo‘nalish savollarida uchratasiz."
+  }
+}

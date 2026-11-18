@@ -1,0 +1,122 @@
+{
+  "status": "draft_unreviewed",
+  "editorial_notes": [
+    "Original demonstration draft. Educator review of wording and progression is required.",
+    "Written practice only; pronunciation and native-speaker audio are not yet reviewed.",
+    "The linked outline may cover more than this short sample."
+  ],
+  "content": {
+    "course": "uz-ru",
+    "title": "Sifatlar va buyumlar",
+    "objective": "Bir nechta sifatni ot bilan birga tanish.",
+    "minutes": 8,
+    "module_number": 6,
+    "lesson_number": 4,
+    "words": [
+      {
+        "target": "большой дом",
+        "meaning": "katta uy"
+      },
+      {
+        "target": "маленький дом",
+        "meaning": "kichik uy"
+      },
+      {
+        "target": "хорошая книга",
+        "meaning": "yaxshi kitob"
+      },
+      {
+        "target": "новая книга",
+        "meaning": "yangi kitob"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "q1",
+        "type": "choice",
+        "prompt": "«katta uy» rus tilida qanday?",
+        "options": [
+          "большой дом",
+          "маленький дом",
+          "хорошая книга"
+        ],
+        "answers": [
+          "большой дом"
+        ],
+        "explanation": "большой дом — katta uy"
+      },
+      {
+        "id": "q2",
+        "type": "choice",
+        "prompt": "«маленький дом» nimani bildiradi?",
+        "options": [
+          "yaxshi kitob",
+          "kichik uy",
+          "katta uy"
+        ],
+        "answers": [
+          "kichik uy"
+        ],
+        "explanation": "маленький дом — kichik uy"
+      },
+      {
+        "id": "q3",
+        "type": "text",
+        "prompt": "«yaxshi kitob» iborasini ruscha yozing.",
+        "options": [],
+        "answers": [
+          "хорошая книга"
+        ],
+        "explanation": "хорошая книга — yaxshi kitob",
+        "normalization": {
+          "case_sensitive": false,
+          "punctuation_tolerant": true,
+          "apostrophe_variants": true
+        }
+      },
+      {
+        "id": "q4",
+        "type": "choice",
+        "prompt": "«yangi kitob» tarjimasini tanlang.",
+        "options": [
+          "маленький дом",
+          "новая книга",
+          "большой дом"
+        ],
+        "answers": [
+          "новая книга"
+        ],
+        "explanation": "новая книга — yangi kitob"
+      },
+      {
+        "id": "q5",
+        "type": "match",
+        "prompt": "Iboralarni ma’nosi bilan moslang.",
+        "options": [],
+        "answers": [],
+        "explanation": "Iboralarni tarjimalari bilan bog‘lang.",
+        "match_pairs": [
+          {
+            "left": "большой дом",
+            "right": "katta uy"
+          },
+          {
+            "left": "маленький дом",
+            "right": "kichik uy"
+          },
+          {
+            "left": "хорошая книга",
+            "right": "yaxshi kitob"
+          }
+        ]
+      }
+    ],
+    "outline_ref": {
+      "course": "uz-ru",
+      "module_number": 6,
+      "lesson_number": 4,
+      "source_sha256": "4de4fd39956b36c650185ec93ce419b83d8659632dc690d21003a2748eeeee09"
+    },
+    "teaching_note": "Rus tilida sifat odatda otdan oldin keladi. «Большой дом» va «маленький дом» iboralarida bir xil ot turli sifatlar bilan tasvirlanadi."
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "status": "draft_unreviewed",
+  "editorial_notes": [
+    "Original demonstration draft. Educator review of wording and progression is required.",
+    "Written practice only; pronunciation and native-speaker audio are not yet reviewed.",
+    "The linked outline may cover more than this short sample."
+  ],
+  "content": {
+    "course": "uz-ru",
+    "title": "Tanishuv iboralari",
+    "objective": "Tanishishda ishlatiladigan muloyim iboralarni tanish.",
+    "minutes": 8,
+    "module_number": 3,
+    "lesson_number": 6,
+    "words": [
+      {
+        "target": "Здравствуйте.",
+        "meaning": "Assalomu alaykum."
+      },
+      {
+        "target": "Меня зовут Аня.",
+        "meaning": "Mening ismim Anya."
+      },
+      {
+        "target": "Очень приятно.",
+        "meaning": "Tanishganimdan xursandman."
+      },
+      {
+        "target": "До свидания.",
+        "meaning": "Xayr."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "q1",
+        "type": "choice",
+        "prompt": "«Assalomu alaykum.» rus tilida qanday?",
+        "options": [
+          "Здравствуйте.",
+          "Меня зовут Аня.",
+          "Очень приятно."
+        ],
+        "answers": [
+          "Здравствуйте."
+        ],
+        "explanation": "Здравствуйте. — Assalomu alaykum."
+      },
+      {
+        "id": "q2",
+        "type": "choice",
+        "prompt": "«Меня зовут Аня.» nimani bildiradi?",
+        "options": [
+          "Tanishganimdan xursandman.",
+          "Mening ismim Anya.",
+          "Assalomu alaykum."
+        ],
+        "answers": [
+          "Mening ismim Anya."
+        ],
+        "explanation": "Меня зовут Аня. — Mening ismim Anya."
+      },
+      {
+        "id": "q3",
+        "type": "text",
+        "prompt": "«Tanishganimdan xursandman.» iborasini ruscha yozing.",
+        "options": [],
+        "answers": [
+          "Очень приятно."
+        ],
+        "explanation": "Очень приятно. — Tanishganimdan xursandman.",
+        "normalization": {
+          "case_sensitive": false,
+          "punctuation_tolerant": true,
+          "apostrophe_variants": true
+        }
+      },
+      {
+        "id": "q4",
+        "type": "choice",
+        "prompt": "«Xayr.» tarjimasini tanlang.",
+        "options": [
+          "Меня зовут Аня.",
+          "До свидания.",
+          "Здравствуйте."
+        ],
+        "answers": [
+          "До свидания."
+        ],
+        "explanation": "До свидания. — Xayr."
+      },
+      {
+        "id": "q5",
+        "type": "match",
+        "prompt": "Iboralarni ma’nosi bilan moslang.",
+        "options": [],
+        "answers": [],
+        "explanation": "Iboralarni tarjimalari bilan bog‘lang.",
+        "match_pairs": [
+          {
+            "left": "Здравствуйте.",
+            "right": "Assalomu alaykum."
+          },
+          {
+            "left": "Меня зовут Аня.",
+            "right": "Mening ismim Anya."
+          },
+          {
+            "left": "Очень приятно.",
+            "right": "Tanishganimdan xursandman."
+          }
+        ]
+      }
+    ],
+    "outline_ref": {
+      "course": "uz-ru",
+      "module_number": 3,
+      "lesson_number": 6,
+      "source_sha256": "4de4fd39956b36c650185ec93ce419b83d8659632dc690d21003a2748eeeee09"
+    },
+    "teaching_note": "Tanishuvda salomlashish, ismni aytish va xayrlashish iboralarini vaziyatga mos ishlating."
+  }
+}

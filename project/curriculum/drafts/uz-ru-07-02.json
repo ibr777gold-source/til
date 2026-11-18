@@ -1,0 +1,126 @@
+{
+  "status": "draft_unreviewed",
+  "editorial_notes": [
+    "Original sample. Requires qualified educator review of translation, register, and context.",
+    "Written recognition practice only; not a full lesson on the outline objective.",
+    "Linked outline: Men nima qilaman. Audio and pronunciation are not yet reviewed."
+  ],
+  "content": {
+    "course": "uz-ru",
+    "title": "Men nima qilaman",
+    "objective": "Mavzuga oid bir necha foydali so‘z yoki iborani tanish.",
+    "minutes": 8,
+    "module_number": 7,
+    "lesson_number": 2,
+    "words": [
+      {
+        "target": "Я читаю",
+        "meaning": "Men o‘qiyman"
+      },
+      {
+        "target": "Я пишу",
+        "meaning": "Men yozaman"
+      },
+      {
+        "target": "Я работаю",
+        "meaning": "Men ishlayman"
+      },
+      {
+        "target": "Я живу",
+        "meaning": "Men yashayman"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "q1",
+        "type": "choice",
+        "prompt": "«Men o‘qiyman» uchun mos javobni tanlang.",
+        "options": [
+          "Я читаю",
+          "Я пишу",
+          "Я работаю"
+        ],
+        "answers": [
+          "Я читаю"
+        ],
+        "explanation": "Я читаю — Men o‘qiyman."
+      },
+      {
+        "id": "q2",
+        "type": "choice",
+        "prompt": "«Я пишу» nimani bildiradi?",
+        "options": [
+          "Men ishlayman",
+          "Men yozaman",
+          "Men yashayman"
+        ],
+        "answers": [
+          "Men yozaman"
+        ],
+        "explanation": "Я пишу — Men yozaman."
+      },
+      {
+        "id": "q3",
+        "type": "text",
+        "prompt": "Rus tilida yozing: «Men ishlayman».",
+        "options": [],
+        "answers": [
+          "Я работаю"
+        ],
+        "explanation": "Я работаю — Men ishlayman.",
+        "normalization": {
+          "case_sensitive": false,
+          "punctuation_tolerant": true,
+          "apostrophe_variants": true
+        }
+      },
+      {
+        "id": "q4",
+        "type": "choice",
+        "prompt": "«Я живу» nimani bildiradi?",
+        "options": [
+          "Men o‘qiyman",
+          "Men yashayman",
+          "Men ishlayman"
+        ],
+        "answers": [
+          "Men yashayman"
+        ],
+        "explanation": "Я живу — Men yashayman."
+      },
+      {
+        "id": "q5",
+        "type": "match",
+        "prompt": "So‘z yoki iboralarni ma’nosi bilan moslang.",
+        "options": [],
+        "answers": [],
+        "explanation": "Misollar va ularning ma’nolarini solishtiring.",
+        "match_pairs": [
+          {
+            "left": "Я читаю",
+            "right": "Men o‘qiyman"
+          },
+          {
+            "left": "Я пишу",
+            "right": "Men yozaman"
+          },
+          {
+            "left": "Я работаю",
+            "right": "Men ishlayman"
+          },
+          {
+            "left": "Я живу",
+            "right": "Men yashayman"
+          }
+        ]
+      }
+    ],
+    "outline_ref": {
+      "course": "uz-ru",
+      "module_number": 7,
+      "lesson_number": 2,
+      "source_sha256": "4de4fd39956b36c650185ec93ce419b83d8659632dc690d21003a2748eeeee09"
+    },
+    "teaching_note": "«Я» — men. Misollarda undan keyingi fe’l gapiruvchining harakatini bildiradi: «Я читаю» — men o‘qiyman."
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "status": "draft_unreviewed",
+  "editorial_notes": [
+    "Original demonstration draft. Educator review of wording and progression is required.",
+    "Written practice only; pronunciation and native-speaker audio are not yet reviewed.",
+    "The linked outline may cover more than this short sample."
+  ],
+  "content": {
+    "course": "uz-ru",
+    "title": "Soatni so‘rash",
+    "objective": "To‘liq soatni so‘rash va bir nechta javobni tanish.",
+    "minutes": 8,
+    "module_number": 5,
+    "lesson_number": 5,
+    "words": [
+      {
+        "target": "Который час?",
+        "meaning": "Soat necha?"
+      },
+      {
+        "target": "Сейчас два часа.",
+        "meaning": "Hozir soat ikki."
+      },
+      {
+        "target": "Сейчас три часа.",
+        "meaning": "Hozir soat uch."
+      },
+      {
+        "target": "Сейчас пять часов.",
+        "meaning": "Hozir soat besh."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "q1",
+        "type": "choice",
+        "prompt": "«Soat necha?» rus tilida qanday?",
+        "options": [
+          "Который час?",
+          "Сейчас два часа.",
+          "Сейчас три часа."
+        ],
+        "answers": [
+          "Который час?"
+        ],
+        "explanation": "Который час? — Soat necha?"
+      },
+      {
+        "id": "q2",
+        "type": "choice",
+        "prompt": "«Сейчас два часа.» nimani bildiradi?",
+        "options": [
+          "Hozir soat uch.",
+          "Hozir soat ikki.",
+          "Soat necha?"
+        ],
+        "answers": [
+          "Hozir soat ikki."
+        ],
+        "explanation": "Сейчас два часа. — Hozir soat ikki."
+      },
+      {
+        "id": "q3",
+        "type": "text",
+        "prompt": "«Hozir soat uch.» iborasini ruscha yozing.",
+        "options": [],
+        "answers": [
+          "Сейчас три часа."
+        ],
+        "explanation": "Сейчас три часа. — Hozir soat uch.",
+        "normalization": {
+          "case_sensitive": false,
+          "punctuation_tolerant": true,
+          "apostrophe_variants": true
+        }
+      },
+      {
+        "id": "q4",
+        "type": "choice",
+        "prompt": "«Hozir soat besh.» tarjimasini tanlang.",
+        "options": [
+          "Сейчас два часа.",
+          "Сейчас пять часов.",
+          "Который час?"
+        ],
+        "answers": [
+          "Сейчас пять часов."
+        ],
+        "explanation": "Сейчас пять часов. — Hozir soat besh."
+      },
+      {
+        "id": "q5",
+        "type": "match",
+        "prompt": "Iboralarni ma’nosi bilan moslang.",
+        "options": [],
+        "answers": [],
+        "explanation": "Iboralarni tarjimalari bilan bog‘lang.",
+        "match_pairs": [
+          {
+            "left": "Который час?",
+            "right": "Soat necha?"
+          },
+          {
+            "left": "Сейчас два часа.",
+            "right": "Hozir soat ikki."
+          },
+          {
+            "left": "Сейчас три часа.",
+            "right": "Hozir soat uch."
+          }
+        ]
+      }
+    ],
+    "outline_ref": {
+      "course": "uz-ru",
+      "module_number": 5,
+      "lesson_number": 5,
+      "source_sha256": "4de4fd39956b36c650185ec93ce419b83d8659632dc690d21003a2748eeeee09"
+    },
+    "teaching_note": "To‘liq soatni aytganda bu misollarda 2 va 3 bilan «часа», 5 bilan «часов» ishlatiladi. Hozircha ularni tayyor ibora sifatida o‘rganing."
+  }
+}

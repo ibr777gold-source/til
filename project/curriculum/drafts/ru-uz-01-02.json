@@ -1,0 +1,118 @@
+{
+  "status": "draft_unreviewed",
+  "editorial_notes": [
+    "Оригинальный черновик: написание, перевод и последовательность требуют проверки преподавателем узбекского языка.",
+    "Этот черновик упражняет только узнавание письменных гласных. Прослушивание и различение гласных на слух из плана ещё не реализованы: необходимы проверенные записи."
+  ],
+  "content": {
+    "course": "ru-uz",
+    "title": "Гласные в знакомых словах",
+    "objective": "Находить написанные гласные в нескольких коротких узбекских словах.",
+    "minutes": 8,
+    "module_number": 1,
+    "lesson_number": 2,
+    "words": [
+      {
+        "target": "ona",
+        "meaning": "мать"
+      },
+      {
+        "target": "ota",
+        "meaning": "отец"
+      },
+      {
+        "target": "olma",
+        "meaning": "яблоко"
+      },
+      {
+        "target": "suv",
+        "meaning": "вода"
+      },
+      {
+        "target": "kitob",
+        "meaning": "книга"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "q1",
+        "type": "choice",
+        "prompt": "Какая гласная стоит в начале слова ota?",
+        "options": [
+          "o",
+          "a",
+          "u"
+        ],
+        "answers": [
+          "o"
+        ],
+        "explanation": "Слово ota начинается с буквы o."
+      },
+      {
+        "id": "q2",
+        "type": "choice",
+        "prompt": "Какая гласная есть в слове suv?",
+        "options": [
+          "u",
+          "i",
+          "a"
+        ],
+        "answers": [
+          "u"
+        ],
+        "explanation": "В слове suv между s и v стоит буква u."
+      },
+      {
+        "id": "q3",
+        "type": "choice",
+        "prompt": "Какие гласные написаны в слове olma по порядку?",
+        "options": [
+          "o, a",
+          "a, o",
+          "u, i"
+        ],
+        "answers": [
+          "o, a"
+        ],
+        "explanation": "В слове olma сначала написана o, затем a."
+      },
+      {
+        "id": "q4",
+        "type": "text",
+        "prompt": "Напишите первую гласную из слова kitob.",
+        "options": [],
+        "answers": [
+          "i"
+        ],
+        "explanation": "Первая гласная в слове kitob — i.",
+        "normalization": {
+          "case_sensitive": false,
+          "punctuation_tolerant": true,
+          "apostrophe_variants": true
+        }
+      },
+      {
+        "id": "q5",
+        "type": "text",
+        "prompt": "Напишите по-узбекски слово «яблоко».",
+        "options": [],
+        "answers": [
+          "olma"
+        ],
+        "explanation": "Olma означает «яблоко».",
+        "normalization": {
+          "case_sensitive": false,
+          "punctuation_tolerant": true,
+          "apostrophe_variants": true
+        }
+      }
+    ],
+    "outline_ref": {
+      "course": "ru-uz",
+      "module_number": 1,
+      "lesson_number": 2,
+      "source_sha256": "58a33c4a8c89c57886dface7064fff0c5ef413940fc4c0018c8f7acb87b59cf8"
+    },
+    "teaching_note": "В словах ona, ota и olma обратите внимание на гласные буквы. Прочитайте каждое слово и сопоставьте его со значением."
+  }
+}

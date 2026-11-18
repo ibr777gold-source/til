@@ -1,0 +1,130 @@
+{
+  "status": "draft_unreviewed",
+  "editorial_notes": [
+    "Original demonstration draft; language educator review is required.",
+    "Written practice only. Listening and pronunciation require reviewed recordings.",
+    "Linked outline: Noldan o‘ngacha. This sample may cover only part of its objective; verify scope during review."
+  ],
+  "content": {
+    "course": "uz-ru",
+    "title": "Birinchi sonlar",
+    "objective": "Noldan beshgacha bo‘lgan sonlarni yozuvda tanish.",
+    "minutes": 8,
+    "module_number": 5,
+    "lesson_number": 1,
+    "words": [
+      {
+        "target": "ноль",
+        "meaning": "nol"
+      },
+      {
+        "target": "один",
+        "meaning": "bir"
+      },
+      {
+        "target": "два",
+        "meaning": "ikki"
+      },
+      {
+        "target": "три",
+        "meaning": "uch"
+      },
+      {
+        "target": "четыре",
+        "meaning": "to‘rt"
+      },
+      {
+        "target": "пять",
+        "meaning": "besh"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "q1",
+        "type": "choice",
+        "prompt": "«Bir» qaysi ruscha son?",
+        "options": [
+          "один",
+          "два",
+          "три"
+        ],
+        "answers": [
+          "один"
+        ],
+        "explanation": "Один — bir."
+      },
+      {
+        "id": "q2",
+        "type": "choice",
+        "prompt": "«Три» qaysi son?",
+        "options": [
+          "uch",
+          "ikki",
+          "besh"
+        ],
+        "answers": [
+          "uch"
+        ],
+        "explanation": "Три — uch."
+      },
+      {
+        "id": "q3",
+        "type": "text",
+        "prompt": "«Ikki» sonini ruscha yozing.",
+        "options": [],
+        "answers": [
+          "два"
+        ],
+        "explanation": "Два — ikki.",
+        "normalization": {
+          "case_sensitive": false,
+          "punctuation_tolerant": true,
+          "apostrophe_variants": true
+        }
+      },
+      {
+        "id": "q4",
+        "type": "choice",
+        "prompt": "«Nol» qaysi ruscha son?",
+        "options": [
+          "ноль",
+          "один",
+          "пять"
+        ],
+        "answers": [
+          "ноль"
+        ],
+        "explanation": "Ноль — nol."
+      },
+      {
+        "id": "q5",
+        "type": "match",
+        "prompt": "Sonlarni ma’nosi bilan moslang.",
+        "options": [],
+        "answers": [],
+        "explanation": "Sonlarning yozma shakli va ma’nosini solishtiring.",
+        "match_pairs": [
+          {
+            "left": "четыре",
+            "right": "to‘rt"
+          },
+          {
+            "left": "пять",
+            "right": "besh"
+          },
+          {
+            "left": "один",
+            "right": "bir"
+          }
+        ]
+      }
+    ],
+    "outline_ref": {
+      "course": "uz-ru",
+      "module_number": 5,
+      "lesson_number": 1,
+      "source_sha256": "4de4fd39956b36c650185ec93ce419b83d8659632dc690d21003a2748eeeee09"
+    },
+    "teaching_note": "Noldan beshgacha sonlarning ruscha yozilishini raqamlar bilan solishtiring."
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "status": "draft_unreviewed",
+  "editorial_notes": [
+    "Original demonstration draft; language educator review is required.",
+    "Written vocabulary practice only; usage, pronunciation and recordings need review.",
+    "Linked outline: Ovqat va ichimlik. This sample may cover only part of its objective; verify scope during review."
+  ],
+  "content": {
+    "course": "uz-ru",
+    "title": "Ovqat va ichimlik",
+    "objective": "Bir necha ovqat va ichimlik nomini rus tilida tanish.",
+    "minutes": 8,
+    "module_number": 8,
+    "lesson_number": 1,
+    "words": [
+      {
+        "target": "хлеб",
+        "meaning": "non"
+      },
+      {
+        "target": "вода",
+        "meaning": "suv"
+      },
+      {
+        "target": "чай",
+        "meaning": "choy"
+      },
+      {
+        "target": "молоко",
+        "meaning": "sut"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "q1",
+        "type": "choice",
+        "prompt": "«non» rus tilida qanday?",
+        "options": [
+          "хлеб",
+          "вода",
+          "чай"
+        ],
+        "answers": [
+          "хлеб"
+        ],
+        "explanation": "хлеб — non."
+      },
+      {
+        "id": "q2",
+        "type": "choice",
+        "prompt": "«вода» nimani bildiradi?",
+        "options": [
+          "choy",
+          "suv",
+          "sut"
+        ],
+        "answers": [
+          "suv"
+        ],
+        "explanation": "вода — suv."
+      },
+      {
+        "id": "q3",
+        "type": "text",
+        "prompt": "«choy» so‘zini ruscha yozing.",
+        "options": [],
+        "answers": [
+          "чай"
+        ],
+        "explanation": "чай — choy.",
+        "normalization": {
+          "case_sensitive": false,
+          "punctuation_tolerant": true,
+          "apostrophe_variants": true
+        }
+      },
+      {
+        "id": "q4",
+        "type": "choice",
+        "prompt": "«sut» rus tilida qanday?",
+        "options": [
+          "хлеб",
+          "молоко",
+          "чай"
+        ],
+        "answers": [
+          "молоко"
+        ],
+        "explanation": "молоко — sut."
+      },
+      {
+        "id": "q5",
+        "type": "match",
+        "prompt": "So‘zlarni ma’nosi bilan moslang.",
+        "options": [],
+        "answers": [],
+        "explanation": "So‘zlar va ularning ma’nolarini solishtiring.",
+        "match_pairs": [
+          {
+            "left": "хлеб",
+            "right": "non"
+          },
+          {
+            "left": "вода",
+            "right": "suv"
+          },
+          {
+            "left": "чай",
+            "right": "choy"
+          },
+          {
+            "left": "молоко",
+            "right": "sut"
+          }
+        ]
+      }
+    ],
+    "outline_ref": {
+      "course": "uz-ru",
+      "module_number": 8,
+      "lesson_number": 1,
+      "source_sha256": "4de4fd39956b36c650185ec93ce419b83d8659632dc690d21003a2748eeeee09"
+    },
+    "teaching_note": "Bu so‘zlar ovqat va ichimlik nomlari. Har birini tarjimasi bilan birga eslab qoling."
+  }
+}

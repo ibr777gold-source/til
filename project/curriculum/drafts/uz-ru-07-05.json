@@ -1,0 +1,122 @@
+{
+  "status": "draft_unreviewed",
+  "editorial_notes": [
+    "Original demonstration draft. Educator review of wording and progression is required.",
+    "Written practice only; pronunciation and native-speaker audio are not yet reviewed.",
+    "The linked outline may cover more than this short sample."
+  ],
+  "content": {
+    "course": "uz-ru",
+    "title": "Kundalik harakatlar",
+    "objective": "Kundalik ishlar haqida bir nechta sodda gapni tanish.",
+    "minutes": 8,
+    "module_number": 7,
+    "lesson_number": 5,
+    "words": [
+      {
+        "target": "Я читаю.",
+        "meaning": "Men o‘qiyapman."
+      },
+      {
+        "target": "Я работаю.",
+        "meaning": "Men ishlayapman."
+      },
+      {
+        "target": "Я отдыхаю.",
+        "meaning": "Men dam olyapman."
+      },
+      {
+        "target": "Я сплю.",
+        "meaning": "Men uxlayapman."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "q1",
+        "type": "choice",
+        "prompt": "«Men o‘qiyapman.» rus tilida qanday?",
+        "options": [
+          "Я читаю.",
+          "Я работаю.",
+          "Я отдыхаю."
+        ],
+        "answers": [
+          "Я читаю."
+        ],
+        "explanation": "Я читаю. — Men o‘qiyapman."
+      },
+      {
+        "id": "q2",
+        "type": "choice",
+        "prompt": "«Я работаю.» nimani bildiradi?",
+        "options": [
+          "Men dam olyapman.",
+          "Men ishlayapman.",
+          "Men o‘qiyapman."
+        ],
+        "answers": [
+          "Men ishlayapman."
+        ],
+        "explanation": "Я работаю. — Men ishlayapman."
+      },
+      {
+        "id": "q3",
+        "type": "text",
+        "prompt": "«Men dam olyapman.» iborasini ruscha yozing.",
+        "options": [],
+        "answers": [
+          "Я отдыхаю."
+        ],
+        "explanation": "Я отдыхаю. — Men dam olyapman.",
+        "normalization": {
+          "case_sensitive": false,
+          "punctuation_tolerant": true,
+          "apostrophe_variants": true
+        }
+      },
+      {
+        "id": "q4",
+        "type": "choice",
+        "prompt": "«Men uxlayapman.» tarjimasini tanlang.",
+        "options": [
+          "Я работаю.",
+          "Я сплю.",
+          "Я читаю."
+        ],
+        "answers": [
+          "Я сплю."
+        ],
+        "explanation": "Я сплю. — Men uxlayapman."
+      },
+      {
+        "id": "q5",
+        "type": "match",
+        "prompt": "Iboralarni ma’nosi bilan moslang.",
+        "options": [],
+        "answers": [],
+        "explanation": "Iboralarni tarjimalari bilan bog‘lang.",
+        "match_pairs": [
+          {
+            "left": "Я читаю.",
+            "right": "Men o‘qiyapman."
+          },
+          {
+            "left": "Я работаю.",
+            "right": "Men ishlayapman."
+          },
+          {
+            "left": "Я отдыхаю.",
+            "right": "Men dam olyapman."
+          }
+        ]
+      }
+    ],
+    "outline_ref": {
+      "course": "uz-ru",
+      "module_number": 7,
+      "lesson_number": 5,
+      "source_sha256": "4de4fd39956b36c650185ec93ce419b83d8659632dc690d21003a2748eeeee09"
+    },
+    "teaching_note": "Ruscha hozirgi zamon shakli vaziyatga qarab ayni paytdagi yoki odatiy harakatni bildirishi mumkin. Bu darsdagi tarjimalar ayni paytdagi harakatni ko‘rsatadi."
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "status": "draft_unreviewed",
+  "editorial_notes": [
+    "Original demonstration draft; language educator review is required.",
+    "Written vocabulary practice only; usage, pronunciation and recordings need review.",
+    "Linked outline: Я, вы и другие. This sample may cover only part of its objective; verify scope during review."
+  ],
+  "content": {
+    "course": "ru-uz",
+    "title": "Я, вы и другие",
+    "objective": "Узнавать несколько личных местоимений в узбекском языке.",
+    "minutes": 8,
+    "module_number": 4,
+    "lesson_number": 1,
+    "words": [
+      {
+        "target": "men",
+        "meaning": "я"
+      },
+      {
+        "target": "biz",
+        "meaning": "мы"
+      },
+      {
+        "target": "sen",
+        "meaning": "ты"
+      },
+      {
+        "target": "siz",
+        "meaning": "вы"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "q1",
+        "type": "choice",
+        "prompt": "Как по-узбекски «я»?",
+        "options": [
+          "men",
+          "biz",
+          "sen"
+        ],
+        "answers": [
+          "men"
+        ],
+        "explanation": "men — я."
+      },
+      {
+        "id": "q2",
+        "type": "choice",
+        "prompt": "Что означает «biz»?",
+        "options": [
+          "ты",
+          "мы",
+          "вы"
+        ],
+        "answers": [
+          "мы"
+        ],
+        "explanation": "biz — мы."
+      },
+      {
+        "id": "q3",
+        "type": "text",
+        "prompt": "Напишите по-узбекски «ты».",
+        "options": [],
+        "answers": [
+          "sen"
+        ],
+        "explanation": "sen — ты.",
+        "normalization": {
+          "case_sensitive": false,
+          "punctuation_tolerant": true,
+          "apostrophe_variants": true
+        }
+      },
+      {
+        "id": "q4",
+        "type": "choice",
+        "prompt": "Как по-узбекски «вы»?",
+        "options": [
+          "men",
+          "siz",
+          "sen"
+        ],
+        "answers": [
+          "siz"
+        ],
+        "explanation": "siz — вы."
+      },
+      {
+        "id": "q5",
+        "type": "match",
+        "prompt": "Соедините слова и их значения.",
+        "options": [],
+        "answers": [],
+        "explanation": "Сопоставьте слова с их значениями.",
+        "match_pairs": [
+          {
+            "left": "men",
+            "right": "я"
+          },
+          {
+            "left": "biz",
+            "right": "мы"
+          },
+          {
+            "left": "sen",
+            "right": "ты"
+          },
+          {
+            "left": "siz",
+            "right": "вы"
+          }
+        ]
+      }
+    ],
+    "outline_ref": {
+      "course": "ru-uz",
+      "module_number": 4,
+      "lesson_number": 1,
+      "source_sha256": "58a33c4a8c89c57886dface7064fff0c5ef413940fc4c0018c8f7acb87b59cf8"
+    },
+    "teaching_note": "Men — я, biz — мы. Sen обычно используют неформально, siz — уважительно или при обращении к нескольким людям."
+  }
+}

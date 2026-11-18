@@ -1,0 +1,122 @@
+{
+  "status": "draft_unreviewed",
+  "editorial_notes": [
+    "Original demonstration draft. Educator review of wording and progression is required.",
+    "Written practice only; pronunciation and native-speaker audio are not yet reviewed.",
+    "The linked outline may cover more than this short sample."
+  ],
+  "content": {
+    "course": "ru-uz",
+    "title": "Апостроф в словах",
+    "objective": "Узнавать написание o‘ и g‘ в простых словах.",
+    "minutes": 8,
+    "module_number": 2,
+    "lesson_number": 5,
+    "words": [
+      {
+        "target": "o‘rik",
+        "meaning": "абрикос"
+      },
+      {
+        "target": "o‘rmon",
+        "meaning": "лес"
+      },
+      {
+        "target": "g‘oz",
+        "meaning": "гусь"
+      },
+      {
+        "target": "tog‘",
+        "meaning": "гора"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "q1",
+        "type": "choice",
+        "prompt": "Как по-узбекски: «абрикос»?",
+        "options": [
+          "o‘rik",
+          "o‘rmon",
+          "g‘oz"
+        ],
+        "answers": [
+          "o‘rik"
+        ],
+        "explanation": "o‘rik — абрикос"
+      },
+      {
+        "id": "q2",
+        "type": "choice",
+        "prompt": "Что означает «o‘rmon»?",
+        "options": [
+          "гусь",
+          "лес",
+          "абрикос"
+        ],
+        "answers": [
+          "лес"
+        ],
+        "explanation": "o‘rmon — лес"
+      },
+      {
+        "id": "q3",
+        "type": "text",
+        "prompt": "Напишите по-узбекски: «гусь»",
+        "options": [],
+        "answers": [
+          "g‘oz"
+        ],
+        "explanation": "g‘oz — гусь",
+        "normalization": {
+          "case_sensitive": false,
+          "punctuation_tolerant": true,
+          "apostrophe_variants": true
+        }
+      },
+      {
+        "id": "q4",
+        "type": "choice",
+        "prompt": "Выберите перевод: «гора»",
+        "options": [
+          "o‘rmon",
+          "tog‘",
+          "o‘rik"
+        ],
+        "answers": [
+          "tog‘"
+        ],
+        "explanation": "tog‘ — гора"
+      },
+      {
+        "id": "q5",
+        "type": "match",
+        "prompt": "Соедините фразы и их значения.",
+        "options": [],
+        "answers": [],
+        "explanation": "Сопоставьте слова и переводы.",
+        "match_pairs": [
+          {
+            "left": "o‘rik",
+            "right": "абрикос"
+          },
+          {
+            "left": "o‘rmon",
+            "right": "лес"
+          },
+          {
+            "left": "g‘oz",
+            "right": "гусь"
+          }
+        ]
+      }
+    ],
+    "outline_ref": {
+      "course": "ru-uz",
+      "module_number": 2,
+      "lesson_number": 5,
+      "source_sha256": "58a33c4a8c89c57886dface7064fff0c5ef413940fc4c0018c8f7acb87b59cf8"
+    },
+    "teaching_note": "В написании o‘ и g‘ важен апостроф. Для удобства ввода приложение принимает несколько распространённых клавиатурных вариантов."
+  }
+}

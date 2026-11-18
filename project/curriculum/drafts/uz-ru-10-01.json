@@ -1,0 +1,121 @@
+{
+  "status": "draft_unreviewed",
+  "editorial_notes": [
+    "Original sample; needs educator review.",
+    "Written practice only; reviewed listening and pronunciation material is still needed.",
+    "Linked outline: Uy va yashash joyi. This sample may cover only part of its objective; verify scope during review."
+  ],
+  "content": {
+    "course": "uz-ru",
+    "title": "Uy va kundalik iboralar",
+    "objective": "O‘zi haqida bir necha sodda iborani tanish.",
+    "minutes": 8,
+    "module_number": 10,
+    "lesson_number": 1,
+    "words": [
+      {
+        "target": "Я дома",
+        "meaning": "Men uydaman"
+      },
+      {
+        "target": "Я работаю",
+        "meaning": "Men ishlayman"
+      },
+      {
+        "target": "Я учусь",
+        "meaning": "Men o‘qiyman"
+      },
+      {
+        "target": "Где вы живёте?",
+        "meaning": "Siz qayerda yashaysiz?"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "q1",
+        "type": "choice",
+        "prompt": "«Men uydaman» iborasini tanlang.",
+        "options": [
+          "Я дома",
+          "Я работаю",
+          "Я учусь"
+        ],
+        "answers": [
+          "Я дома"
+        ],
+        "explanation": "Я дома — Men uydaman."
+      },
+      {
+        "id": "q2",
+        "type": "choice",
+        "prompt": "«Я работаю» nimani bildiradi?",
+        "options": [
+          "Men o‘qiyman",
+          "Men ishlayman",
+          "Men uydaman"
+        ],
+        "answers": [
+          "Men ishlayman"
+        ],
+        "explanation": "Я работаю — Men ishlayman."
+      },
+      {
+        "id": "q3",
+        "type": "choice",
+        "prompt": "«Men o‘qiyman» iborasini tanlang.",
+        "options": [
+          "Я дома",
+          "Я работаю",
+          "Я учусь"
+        ],
+        "answers": [
+          "Я учусь"
+        ],
+        "explanation": "Я учусь — Men o‘qiyman."
+      },
+      {
+        "id": "q4",
+        "type": "choice",
+        "prompt": "«Siz qayerda yashaysiz?» qanday so‘raladi?",
+        "options": [
+          "Где вы живёте?",
+          "Я дома",
+          "Я учусь"
+        ],
+        "answers": [
+          "Где вы живёте?"
+        ],
+        "explanation": "Где вы живёте? — Siz qayerda yashaysiz?."
+      },
+      {
+        "id": "q5",
+        "type": "match",
+        "prompt": "Iboralarni ma’nosi bilan moslang.",
+        "options": [],
+        "answers": [],
+        "explanation": "Iboralar va ma’nolarini solishtiring.",
+        "match_pairs": [
+          {
+            "left": "Я дома",
+            "right": "Men uydaman"
+          },
+          {
+            "left": "Я работаю",
+            "right": "Men ishlayman"
+          },
+          {
+            "left": "Я учусь",
+            "right": "Men o‘qiyman"
+          }
+        ]
+      }
+    ],
+    "outline_ref": {
+      "course": "uz-ru",
+      "module_number": 10,
+      "lesson_number": 1,
+      "source_sha256": "4de4fd39956b36c650185ec93ce419b83d8659632dc690d21003a2748eeeee09"
+    },
+    "teaching_note": "«Я» — men. Misollardagi qisqa gaplar qayerda ekaningiz yoki nima qilishingizni aytishga yordam beradi."
+  }
+}

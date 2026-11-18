@@ -1,0 +1,122 @@
+{
+  "status": "draft_unreviewed",
+  "editorial_notes": [
+    "Original demonstration draft. Educator review of wording and progression is required.",
+    "Written practice only; pronunciation and native-speaker audio are not yet reviewed.",
+    "The linked outline may cover more than this short sample."
+  ],
+  "content": {
+    "course": "uz-ru",
+    "title": "Menda bor",
+    "objective": "«У меня есть» bilan sodda gaplarni tanish.",
+    "minutes": 8,
+    "module_number": 4,
+    "lesson_number": 5,
+    "words": [
+      {
+        "target": "У меня есть книга.",
+        "meaning": "Menda kitob bor."
+      },
+      {
+        "target": "У меня есть ручка.",
+        "meaning": "Menda ruchka bor."
+      },
+      {
+        "target": "У меня есть телефон.",
+        "meaning": "Menda telefon bor."
+      },
+      {
+        "target": "У меня есть вода.",
+        "meaning": "Menda suv bor."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "q1",
+        "type": "choice",
+        "prompt": "«Menda kitob bor.» rus tilida qanday?",
+        "options": [
+          "У меня есть книга.",
+          "У меня есть ручка.",
+          "У меня есть телефон."
+        ],
+        "answers": [
+          "У меня есть книга."
+        ],
+        "explanation": "У меня есть книга. — Menda kitob bor."
+      },
+      {
+        "id": "q2",
+        "type": "choice",
+        "prompt": "«У меня есть ручка.» nimani bildiradi?",
+        "options": [
+          "Menda telefon bor.",
+          "Menda ruchka bor.",
+          "Menda kitob bor."
+        ],
+        "answers": [
+          "Menda ruchka bor."
+        ],
+        "explanation": "У меня есть ручка. — Menda ruchka bor."
+      },
+      {
+        "id": "q3",
+        "type": "text",
+        "prompt": "«Menda telefon bor.» iborasini ruscha yozing.",
+        "options": [],
+        "answers": [
+          "У меня есть телефон."
+        ],
+        "explanation": "У меня есть телефон. — Menda telefon bor.",
+        "normalization": {
+          "case_sensitive": false,
+          "punctuation_tolerant": true,
+          "apostrophe_variants": true
+        }
+      },
+      {
+        "id": "q4",
+        "type": "choice",
+        "prompt": "«Menda suv bor.» tarjimasini tanlang.",
+        "options": [
+          "У меня есть ручка.",
+          "У меня есть вода.",
+          "У меня есть книга."
+        ],
+        "answers": [
+          "У меня есть вода."
+        ],
+        "explanation": "У меня есть вода. — Menda suv bor."
+      },
+      {
+        "id": "q5",
+        "type": "match",
+        "prompt": "Iboralarni ma’nosi bilan moslang.",
+        "options": [],
+        "answers": [],
+        "explanation": "Iboralarni tarjimalari bilan bog‘lang.",
+        "match_pairs": [
+          {
+            "left": "У меня есть книга.",
+            "right": "Menda kitob bor."
+          },
+          {
+            "left": "У меня есть ручка.",
+            "right": "Menda ruchka bor."
+          },
+          {
+            "left": "У меня есть телефон.",
+            "right": "Menda telefon bor."
+          }
+        ]
+      }
+    ],
+    "outline_ref": {
+      "course": "uz-ru",
+      "module_number": 4,
+      "lesson_number": 5,
+      "source_sha256": "4de4fd39956b36c650185ec93ce419b83d8659632dc690d21003a2748eeeee09"
+    },
+    "teaching_note": "«У меня есть…» biror narsa borligini aytishning oddiy usuli. Bu yerda tayyor iboralarni butunligicha mashq qiling."
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "status": "draft_unreviewed",
+  "editorial_notes": [
+    "Original demonstration draft. Educator review of wording, register and sequencing is required.",
+    "Written practice only. Native-speaker recordings and pronunciation review are needed.",
+    "The linked outline may cover more than this sample."
+  ],
+  "content": {
+    "course": "uz-ru",
+    "title": "Mening oilam",
+    "objective": "Yaqinlarni sodda gaplar bilan tanishtirish.",
+    "minutes": 8,
+    "module_number": 6,
+    "lesson_number": 2,
+    "words": [
+      {
+        "target": "Это моя мама.",
+        "meaning": "Bu mening onam."
+      },
+      {
+        "target": "Это мой папа.",
+        "meaning": "Bu mening otam."
+      },
+      {
+        "target": "Это моя семья.",
+        "meaning": "Bu mening oilam."
+      },
+      {
+        "target": "Моя семья",
+        "meaning": "Mening oilam"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "q1",
+        "type": "choice",
+        "prompt": "«Bu mening onam.» rus tilida qanday?",
+        "options": [
+          "Это моя мама.",
+          "Это мой папа.",
+          "Это моя семья."
+        ],
+        "answers": [
+          "Это моя мама."
+        ],
+        "explanation": "Это моя мама. — Bu mening onam."
+      },
+      {
+        "id": "q2",
+        "type": "choice",
+        "prompt": "«Это мой папа.» nimani bildiradi?",
+        "options": [
+          "Bu mening oilam.",
+          "Bu mening otam.",
+          "Bu mening onam."
+        ],
+        "answers": [
+          "Bu mening otam."
+        ],
+        "explanation": "Это мой папа. — Bu mening otam."
+      },
+      {
+        "id": "q3",
+        "type": "text",
+        "prompt": "«Bu mening oilam.» iborasini ruscha yozing.",
+        "options": [],
+        "answers": [
+          "Это моя семья."
+        ],
+        "explanation": "Это моя семья. — Bu mening oilam.",
+        "normalization": {
+          "case_sensitive": false,
+          "punctuation_tolerant": true,
+          "apostrophe_variants": true
+        }
+      },
+      {
+        "id": "q4",
+        "type": "dialogue",
+        "prompt": "Suratda onangizni ko‘rsatyapsiz. Qaysi gap mos?",
+        "options": [
+          "Это моя мама.",
+          "Это мой папа.",
+          "Это моя семья."
+        ],
+        "answers": [
+          "Это моя мама."
+        ],
+        "explanation": "Это моя мама. — Bu mening onam.",
+        "dialogue": [
+          {
+            "speaker": "Собеседник",
+            "text": "Кто это?"
+          },
+          {
+            "speaker": "Вы",
+            "text": "…"
+          }
+        ]
+      },
+      {
+        "id": "q5",
+        "type": "match",
+        "prompt": "Iboralarni ma’nosi bilan moslang.",
+        "options": [],
+        "answers": [],
+        "explanation": "Iboralarni tarjimalari bilan bog‘lang.",
+        "match_pairs": [
+          {
+            "left": "Это моя мама.",
+            "right": "Bu mening onam."
+          },
+          {
+            "left": "Это мой папа.",
+            "right": "Bu mening otam."
+          },
+          {
+            "left": "Это моя семья.",
+            "right": "Bu mening oilam."
+          }
+        ]
+      }
+    ],
+    "outline_ref": {
+      "course": "uz-ru",
+      "module_number": 6,
+      "lesson_number": 2,
+      "source_sha256": "4de4fd39956b36c650185ec93ce419b83d8659632dc690d21003a2748eeeee09"
+    },
+    "teaching_note": "Bu misollarda «моя мама» va «мой папа» iboralarini solishtiring: egalik so‘zi otdan oldin kelib, otga mos shakl oladi."
+  }
+}

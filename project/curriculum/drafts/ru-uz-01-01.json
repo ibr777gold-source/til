@@ -1,0 +1,117 @@
+{
+  "status": "draft_unreviewed",
+  "editorial_notes": [
+    "Оригинальный черновик: требуется проверка преподавателем узбекского языка.",
+    "Аудио отсутствует; соответствующая практика звуков из плана ещё не реализована."
+  ],
+  "content": {
+    "course": "ru-uz",
+    "title": "Первые буквы в словах",
+    "objective": "Узнавать знакомые латинские буквы в коротких узбекских словах.",
+    "minutes": 8,
+    "module_number": 1,
+    "lesson_number": 1,
+    "words": [
+      {
+        "target": "salom",
+        "meaning": "привет"
+      },
+      {
+        "target": "kitob",
+        "meaning": "книга"
+      },
+      {
+        "target": "maktab",
+        "meaning": "школа"
+      },
+      {
+        "target": "non",
+        "meaning": "хлеб"
+      },
+      {
+        "target": "suv",
+        "meaning": "вода"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "q1",
+        "type": "choice",
+        "prompt": "С какой латинской буквы начинается слово salom?",
+        "options": [
+          "s",
+          "k",
+          "m"
+        ],
+        "answers": [
+          "s"
+        ],
+        "explanation": "В начале слова salom стоит буква s."
+      },
+      {
+        "id": "q2",
+        "type": "choice",
+        "prompt": "Какое слово означает «книга»?",
+        "options": [
+          "kitob",
+          "non",
+          "suv"
+        ],
+        "answers": [
+          "kitob"
+        ],
+        "explanation": "Kitob означает «книга»."
+      },
+      {
+        "id": "q3",
+        "type": "choice",
+        "prompt": "Какое слово заканчивается буквой n?",
+        "options": [
+          "non",
+          "suv",
+          "kitob"
+        ],
+        "answers": [
+          "non"
+        ],
+        "explanation": "В конце слова non стоит буква n."
+      },
+      {
+        "id": "q4",
+        "type": "text",
+        "prompt": "Напишите по-узбекски слово «вода».",
+        "options": [],
+        "answers": [
+          "suv"
+        ],
+        "explanation": "Suv означает «вода».",
+        "normalization": {
+          "case_sensitive": false,
+          "punctuation_tolerant": true,
+          "apostrophe_variants": true
+        }
+      },
+      {
+        "id": "q5",
+        "type": "choice",
+        "prompt": "Выберите узбекское слово со значением «школа».",
+        "options": [
+          "maktab",
+          "salom",
+          "non"
+        ],
+        "answers": [
+          "maktab"
+        ],
+        "explanation": "Maktab означает «школа»."
+      }
+    ],
+    "outline_ref": {
+      "course": "ru-uz",
+      "module_number": 1,
+      "lesson_number": 1,
+      "source_sha256": "58a33c4a8c89c57886dface7064fff0c5ef413940fc4c0018c8f7acb87b59cf8"
+    },
+    "teaching_note": "Узбекский язык в этом курсе записывается латиницей слева направо. Знакомые буквы встречаются в новых словах; произношение нужно слушать отдельно."
+  }
+}

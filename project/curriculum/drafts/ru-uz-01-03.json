@@ -1,0 +1,122 @@
+{
+  "status": "draft_unreviewed",
+  "editorial_notes": [
+    "Original demonstration draft. Educator review of wording and progression is required.",
+    "Written practice only; pronunciation and native-speaker audio are not yet reviewed.",
+    "The linked outline may cover more than this short sample."
+  ],
+  "content": {
+    "course": "ru-uz",
+    "title": "Согласные в словах",
+    "objective": "Узнавать начальные согласные в коротких узбекских словах.",
+    "minutes": 8,
+    "module_number": 1,
+    "lesson_number": 3,
+    "words": [
+      {
+        "target": "non",
+        "meaning": "хлеб"
+      },
+      {
+        "target": "maktab",
+        "meaning": "школа"
+      },
+      {
+        "target": "suv",
+        "meaning": "вода"
+      },
+      {
+        "target": "kitob",
+        "meaning": "книга"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "q1",
+        "type": "choice",
+        "prompt": "Как по-узбекски: «хлеб»?",
+        "options": [
+          "non",
+          "maktab",
+          "suv"
+        ],
+        "answers": [
+          "non"
+        ],
+        "explanation": "non — хлеб"
+      },
+      {
+        "id": "q2",
+        "type": "choice",
+        "prompt": "Что означает «maktab»?",
+        "options": [
+          "вода",
+          "школа",
+          "хлеб"
+        ],
+        "answers": [
+          "школа"
+        ],
+        "explanation": "maktab — школа"
+      },
+      {
+        "id": "q3",
+        "type": "text",
+        "prompt": "Напишите по-узбекски: «вода»",
+        "options": [],
+        "answers": [
+          "suv"
+        ],
+        "explanation": "suv — вода",
+        "normalization": {
+          "case_sensitive": false,
+          "punctuation_tolerant": true,
+          "apostrophe_variants": true
+        }
+      },
+      {
+        "id": "q4",
+        "type": "choice",
+        "prompt": "Выберите перевод: «книга»",
+        "options": [
+          "maktab",
+          "kitob",
+          "non"
+        ],
+        "answers": [
+          "kitob"
+        ],
+        "explanation": "kitob — книга"
+      },
+      {
+        "id": "q5",
+        "type": "match",
+        "prompt": "Соедините фразы и их значения.",
+        "options": [],
+        "answers": [],
+        "explanation": "Сопоставьте слова и переводы.",
+        "match_pairs": [
+          {
+            "left": "non",
+            "right": "хлеб"
+          },
+          {
+            "left": "maktab",
+            "right": "школа"
+          },
+          {
+            "left": "suv",
+            "right": "вода"
+          }
+        ]
+      }
+    ],
+    "outline_ref": {
+      "course": "ru-uz",
+      "module_number": 1,
+      "lesson_number": 3,
+      "source_sha256": "58a33c4a8c89c57886dface7064fff0c5ef413940fc4c0018c8f7acb87b59cf8"
+    },
+    "teaching_note": "Сравните первые согласные в словах non, maktab и suv. Значение слова помогает запомнить его написание."
+  }
+}

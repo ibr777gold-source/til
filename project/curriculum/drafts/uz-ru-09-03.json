@@ -1,0 +1,122 @@
+{
+  "status": "draft_unreviewed",
+  "editorial_notes": [
+    "Original demonstration draft. Educator review of wording and progression is required.",
+    "Written practice only; pronunciation and native-speaker audio are not yet reviewed.",
+    "The linked outline may cover more than this short sample."
+  ],
+  "content": {
+    "course": "uz-ru",
+    "title": "Qayerga ketyapsiz?",
+    "objective": "Yo‘nalish haqida sodda savol va javoblarni tanish.",
+    "minutes": 8,
+    "module_number": 9,
+    "lesson_number": 3,
+    "words": [
+      {
+        "target": "Куда вы идёте?",
+        "meaning": "Qayerga ketyapsiz?"
+      },
+      {
+        "target": "Я иду в школу.",
+        "meaning": "Men maktabga ketyapman."
+      },
+      {
+        "target": "Я иду в магазин.",
+        "meaning": "Men do‘konga ketyapman."
+      },
+      {
+        "target": "Я иду домой.",
+        "meaning": "Men uyga ketyapman."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "q1",
+        "type": "choice",
+        "prompt": "«Qayerga ketyapsiz?» rus tilida qanday?",
+        "options": [
+          "Куда вы идёте?",
+          "Я иду в школу.",
+          "Я иду в магазин."
+        ],
+        "answers": [
+          "Куда вы идёте?"
+        ],
+        "explanation": "Куда вы идёте? — Qayerga ketyapsiz?"
+      },
+      {
+        "id": "q2",
+        "type": "choice",
+        "prompt": "«Я иду в школу.» nimani bildiradi?",
+        "options": [
+          "Men do‘konga ketyapman.",
+          "Men maktabga ketyapman.",
+          "Qayerga ketyapsiz?"
+        ],
+        "answers": [
+          "Men maktabga ketyapman."
+        ],
+        "explanation": "Я иду в школу. — Men maktabga ketyapman."
+      },
+      {
+        "id": "q3",
+        "type": "text",
+        "prompt": "«Men do‘konga ketyapman.» iborasini ruscha yozing.",
+        "options": [],
+        "answers": [
+          "Я иду в магазин."
+        ],
+        "explanation": "Я иду в магазин. — Men do‘konga ketyapman.",
+        "normalization": {
+          "case_sensitive": false,
+          "punctuation_tolerant": true,
+          "apostrophe_variants": true
+        }
+      },
+      {
+        "id": "q4",
+        "type": "choice",
+        "prompt": "«Men uyga ketyapman.» tarjimasini tanlang.",
+        "options": [
+          "Я иду в школу.",
+          "Я иду домой.",
+          "Куда вы идёте?"
+        ],
+        "answers": [
+          "Я иду домой."
+        ],
+        "explanation": "Я иду домой. — Men uyga ketyapman."
+      },
+      {
+        "id": "q5",
+        "type": "match",
+        "prompt": "Iboralarni ma’nosi bilan moslang.",
+        "options": [],
+        "answers": [],
+        "explanation": "Iboralarni tarjimalari bilan bog‘lang.",
+        "match_pairs": [
+          {
+            "left": "Куда вы идёте?",
+            "right": "Qayerga ketyapsiz?"
+          },
+          {
+            "left": "Я иду в школу.",
+            "right": "Men maktabga ketyapman."
+          },
+          {
+            "left": "Я иду в магазин.",
+            "right": "Men do‘konga ketyapman."
+          }
+        ]
+      }
+    ],
+    "outline_ref": {
+      "course": "uz-ru",
+      "module_number": 9,
+      "lesson_number": 3,
+      "source_sha256": "4de4fd39956b36c650185ec93ce419b83d8659632dc690d21003a2748eeeee09"
+    },
+    "teaching_note": "«Куда?» yo‘nalishni so‘raydi: в школу, в магазин, домой. Bular joyni bildiruvchi «где?» javoblari bilan bir xil emas."
+  }
+}

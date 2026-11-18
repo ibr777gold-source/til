@@ -1,0 +1,121 @@
+{
+  "status": "draft_unreviewed",
+  "editorial_notes": [
+    "Original sample; needs educator review.",
+    "Written practice only; reviewed listening and pronunciation material is still needed.",
+    "Linked outline: Дом и место жительства. This sample may cover only part of its objective; verify scope during review."
+  ],
+  "content": {
+    "course": "ru-uz",
+    "title": "Дом и повседневные фразы",
+    "objective": "Узнавать несколько простых фраз о себе.",
+    "minutes": 8,
+    "module_number": 10,
+    "lesson_number": 1,
+    "words": [
+      {
+        "target": "Men uydaman",
+        "meaning": "Я дома"
+      },
+      {
+        "target": "Men ishlayman",
+        "meaning": "Я работаю"
+      },
+      {
+        "target": "Men o‘qiyman",
+        "meaning": "Я учусь"
+      },
+      {
+        "target": "Qayerda yashaysiz?",
+        "meaning": "Где вы живёте?"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "q1",
+        "type": "choice",
+        "prompt": "Какая фраза означает «Я дома»?",
+        "options": [
+          "Men uydaman",
+          "Men ishlayman",
+          "Men o‘qiyman"
+        ],
+        "answers": [
+          "Men uydaman"
+        ],
+        "explanation": "Men uydaman — Я дома."
+      },
+      {
+        "id": "q2",
+        "type": "choice",
+        "prompt": "Что означает «Men ishlayman»?",
+        "options": [
+          "Я учусь",
+          "Я работаю",
+          "Я дома"
+        ],
+        "answers": [
+          "Я работаю"
+        ],
+        "explanation": "Men ishlayman — Я работаю."
+      },
+      {
+        "id": "q3",
+        "type": "choice",
+        "prompt": "Какая фраза означает «Я учусь»?",
+        "options": [
+          "Men uydaman",
+          "Men ishlayman",
+          "Men o‘qiyman"
+        ],
+        "answers": [
+          "Men o‘qiyman"
+        ],
+        "explanation": "Men o‘qiyman — Я учусь."
+      },
+      {
+        "id": "q4",
+        "type": "choice",
+        "prompt": "Как спросить «Где вы живёте?»?",
+        "options": [
+          "Qayerda yashaysiz?",
+          "Men uydaman",
+          "Men o‘qiyman"
+        ],
+        "answers": [
+          "Qayerda yashaysiz?"
+        ],
+        "explanation": "Qayerda yashaysiz? — Где вы живёте?."
+      },
+      {
+        "id": "q5",
+        "type": "match",
+        "prompt": "Соедините фразы и их значения.",
+        "options": [],
+        "answers": [],
+        "explanation": "Сопоставьте фразы и значения.",
+        "match_pairs": [
+          {
+            "left": "Men uydaman",
+            "right": "Я дома"
+          },
+          {
+            "left": "Men ishlayman",
+            "right": "Я работаю"
+          },
+          {
+            "left": "Men o‘qiyman",
+            "right": "Я учусь"
+          }
+        ]
+      }
+    ],
+    "outline_ref": {
+      "course": "ru-uz",
+      "module_number": 10,
+      "lesson_number": 1,
+      "source_sha256": "58a33c4a8c89c57886dface7064fff0c5ef413940fc4c0018c8f7acb87b59cf8"
+    },
+    "teaching_note": "Men означает «я». В готовых фразах сравните, как говорится о месте и о действии говорящего."
+  }
+}

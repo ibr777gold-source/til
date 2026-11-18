@@ -1,0 +1,122 @@
+{
+  "status": "draft_unreviewed",
+  "editorial_notes": [
+    "Original demonstration draft. Educator review of wording and progression is required.",
+    "Written practice only; pronunciation and native-speaker audio are not yet reviewed.",
+    "The linked outline may cover more than this short sample."
+  ],
+  "content": {
+    "course": "ru-uz",
+    "title": "Моё и ваше",
+    "objective": "Узнавать готовые выражения принадлежности.",
+    "minutes": 8,
+    "module_number": 4,
+    "lesson_number": 5,
+    "words": [
+      {
+        "target": "Mening kitobim",
+        "meaning": "моя книга"
+      },
+      {
+        "target": "Sizning kitobingiz",
+        "meaning": "ваша книга"
+      },
+      {
+        "target": "Mening uyim",
+        "meaning": "мой дом"
+      },
+      {
+        "target": "Sizning uyingiz",
+        "meaning": "ваш дом"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "q1",
+        "type": "choice",
+        "prompt": "Как по-узбекски: «моя книга»?",
+        "options": [
+          "Mening kitobim",
+          "Sizning kitobingiz",
+          "Mening uyim"
+        ],
+        "answers": [
+          "Mening kitobim"
+        ],
+        "explanation": "Mening kitobim — моя книга"
+      },
+      {
+        "id": "q2",
+        "type": "choice",
+        "prompt": "Что означает «Sizning kitobingiz»?",
+        "options": [
+          "мой дом",
+          "ваша книга",
+          "моя книга"
+        ],
+        "answers": [
+          "ваша книга"
+        ],
+        "explanation": "Sizning kitobingiz — ваша книга"
+      },
+      {
+        "id": "q3",
+        "type": "text",
+        "prompt": "Напишите по-узбекски: «мой дом»",
+        "options": [],
+        "answers": [
+          "Mening uyim"
+        ],
+        "explanation": "Mening uyim — мой дом",
+        "normalization": {
+          "case_sensitive": false,
+          "punctuation_tolerant": true,
+          "apostrophe_variants": true
+        }
+      },
+      {
+        "id": "q4",
+        "type": "choice",
+        "prompt": "Выберите перевод: «ваш дом»",
+        "options": [
+          "Sizning kitobingiz",
+          "Sizning uyingiz",
+          "Mening kitobim"
+        ],
+        "answers": [
+          "Sizning uyingiz"
+        ],
+        "explanation": "Sizning uyingiz — ваш дом"
+      },
+      {
+        "id": "q5",
+        "type": "match",
+        "prompt": "Соедините фразы и их значения.",
+        "options": [],
+        "answers": [],
+        "explanation": "Сопоставьте слова и переводы.",
+        "match_pairs": [
+          {
+            "left": "Mening kitobim",
+            "right": "моя книга"
+          },
+          {
+            "left": "Sizning kitobingiz",
+            "right": "ваша книга"
+          },
+          {
+            "left": "Mening uyim",
+            "right": "мой дом"
+          }
+        ]
+      }
+    ],
+    "outline_ref": {
+      "course": "ru-uz",
+      "module_number": 4,
+      "lesson_number": 5,
+      "source_sha256": "58a33c4a8c89c57886dface7064fff0c5ef413940fc4c0018c8f7acb87b59cf8"
+    },
+    "teaching_note": "В этих примерах принадлежность выражается сочетанием местоимения и окончания: mening kitobim — моя книга, sizning kitobingiz — ваша книга."
+  }
+}

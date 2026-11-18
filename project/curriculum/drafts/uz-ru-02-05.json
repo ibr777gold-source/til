@@ -1,0 +1,122 @@
+{
+  "status": "draft_unreviewed",
+  "editorial_notes": [
+    "Original demonstration draft. Educator review of wording and progression is required.",
+    "Written practice only; pronunciation and native-speaker audio are not yet reviewed.",
+    "The linked outline may cover more than this short sample."
+  ],
+  "content": {
+    "course": "uz-ru",
+    "title": "Oddiy so‘zlarni o‘qish",
+    "objective": "Qisqa kirill so‘zlarini yozuvda tanish.",
+    "minutes": 8,
+    "module_number": 2,
+    "lesson_number": 5,
+    "words": [
+      {
+        "target": "суп",
+        "meaning": "sho‘rva"
+      },
+      {
+        "target": "сок",
+        "meaning": "sharbat"
+      },
+      {
+        "target": "кот",
+        "meaning": "erkak mushuk"
+      },
+      {
+        "target": "дом",
+        "meaning": "uy"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "q1",
+        "type": "choice",
+        "prompt": "«sho‘rva» rus tilida qanday?",
+        "options": [
+          "суп",
+          "сок",
+          "кот"
+        ],
+        "answers": [
+          "суп"
+        ],
+        "explanation": "суп — sho‘rva"
+      },
+      {
+        "id": "q2",
+        "type": "choice",
+        "prompt": "«сок» nimani bildiradi?",
+        "options": [
+          "erkak mushuk",
+          "sharbat",
+          "sho‘rva"
+        ],
+        "answers": [
+          "sharbat"
+        ],
+        "explanation": "сок — sharbat"
+      },
+      {
+        "id": "q3",
+        "type": "text",
+        "prompt": "«erkak mushuk» iborasini ruscha yozing.",
+        "options": [],
+        "answers": [
+          "кот"
+        ],
+        "explanation": "кот — erkak mushuk",
+        "normalization": {
+          "case_sensitive": false,
+          "punctuation_tolerant": true,
+          "apostrophe_variants": true
+        }
+      },
+      {
+        "id": "q4",
+        "type": "choice",
+        "prompt": "«uy» tarjimasini tanlang.",
+        "options": [
+          "сок",
+          "дом",
+          "суп"
+        ],
+        "answers": [
+          "дом"
+        ],
+        "explanation": "дом — uy"
+      },
+      {
+        "id": "q5",
+        "type": "match",
+        "prompt": "Iboralarni ma’nosi bilan moslang.",
+        "options": [],
+        "answers": [],
+        "explanation": "Iboralarni tarjimalari bilan bog‘lang.",
+        "match_pairs": [
+          {
+            "left": "суп",
+            "right": "sho‘rva"
+          },
+          {
+            "left": "сок",
+            "right": "sharbat"
+          },
+          {
+            "left": "кот",
+            "right": "erkak mushuk"
+          }
+        ]
+      }
+    ],
+    "outline_ref": {
+      "course": "uz-ru",
+      "module_number": 2,
+      "lesson_number": 5,
+      "source_sha256": "4de4fd39956b36c650185ec93ce419b83d8659632dc690d21003a2748eeeee09"
+    },
+    "teaching_note": "Bu qisqa so‘zlarni harflarini birlashtirib o‘qishga urinib ko‘ring, so‘ng ma’nosini tekshiring."
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "status": "draft_unreviewed",
+  "editorial_notes": [
+    "Original demonstration draft. Educator review of wording and progression is required.",
+    "Written practice only; pronunciation and native-speaker audio are not yet reviewed.",
+    "The linked outline may cover more than this short sample."
+  ],
+  "content": {
+    "course": "ru-uz",
+    "title": "Где вы?",
+    "objective": "Узнавать короткие ответы о местонахождении.",
+    "minutes": 8,
+    "module_number": 9,
+    "lesson_number": 2,
+    "words": [
+      {
+        "target": "Siz qayerdasiz?",
+        "meaning": "Где вы?"
+      },
+      {
+        "target": "Men maktabdaman.",
+        "meaning": "Я в школе."
+      },
+      {
+        "target": "Men do‘kondaman.",
+        "meaning": "Я в магазине."
+      },
+      {
+        "target": "Men uydaman.",
+        "meaning": "Я дома."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "q1",
+        "type": "choice",
+        "prompt": "Как по-узбекски: «Где вы?»?",
+        "options": [
+          "Siz qayerdasiz?",
+          "Men maktabdaman.",
+          "Men do‘kondaman."
+        ],
+        "answers": [
+          "Siz qayerdasiz?"
+        ],
+        "explanation": "Siz qayerdasiz? — Где вы?"
+      },
+      {
+        "id": "q2",
+        "type": "choice",
+        "prompt": "Что означает «Men maktabdaman.»?",
+        "options": [
+          "Я в магазине.",
+          "Я в школе.",
+          "Где вы?"
+        ],
+        "answers": [
+          "Я в школе."
+        ],
+        "explanation": "Men maktabdaman. — Я в школе."
+      },
+      {
+        "id": "q3",
+        "type": "text",
+        "prompt": "Напишите по-узбекски: «Я в магазине.»",
+        "options": [],
+        "answers": [
+          "Men do‘kondaman."
+        ],
+        "explanation": "Men do‘kondaman. — Я в магазине.",
+        "normalization": {
+          "case_sensitive": false,
+          "punctuation_tolerant": true,
+          "apostrophe_variants": true
+        }
+      },
+      {
+        "id": "q4",
+        "type": "choice",
+        "prompt": "Выберите перевод: «Я дома.»",
+        "options": [
+          "Men maktabdaman.",
+          "Men uydaman.",
+          "Siz qayerdasiz?"
+        ],
+        "answers": [
+          "Men uydaman."
+        ],
+        "explanation": "Men uydaman. — Я дома."
+      },
+      {
+        "id": "q5",
+        "type": "match",
+        "prompt": "Соедините фразы и их значения.",
+        "options": [],
+        "answers": [],
+        "explanation": "Сопоставьте слова и переводы.",
+        "match_pairs": [
+          {
+            "left": "Siz qayerdasiz?",
+            "right": "Где вы?"
+          },
+          {
+            "left": "Men maktabdaman.",
+            "right": "Я в школе."
+          },
+          {
+            "left": "Men do‘kondaman.",
+            "right": "Я в магазине."
+          }
+        ]
+      }
+    ],
+    "outline_ref": {
+      "course": "ru-uz",
+      "module_number": 9,
+      "lesson_number": 2,
+      "source_sha256": "58a33c4a8c89c57886dface7064fff0c5ef413940fc4c0018c8f7acb87b59cf8"
+    },
+    "teaching_note": "В примерах на вопрос «где?» место выражается окончанием: maktabda — в школе. В полной фразе Men maktabdaman добавлена форма для «я»."
+  }
+}
